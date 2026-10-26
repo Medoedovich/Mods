@@ -1,0 +1,30 @@
+[h1]Test Range[/h1]
+A minimal terrain for testing mods and gameplay mechanics.
+
+[list]
+[*]1024 × 1024 metre world.
+[*]Flat concrete interior at absolute elevation +1 m, X/Z=4…1016 (1012 × 1012 m between flat height samples), with a narrow coastal edge and surrounding ocean.
+[*]No buildings, roads, vegetation or placed objects.
+[*]New player spawn at X=512, Z=512 with the included mission.
+[*]No automatic infected, animals, vehicles or loot with the included mission.
+[*]Vanilla game resources only; no third-party mod dependencies.
+[/list]
+
+The central 250 × 250 metre test area is X/Z=387…637. It is a logical area on the same uniform surface, without markings or barriers.
+
+[h2]Offline use[/h2]
+Start Steam, open this mod's folder and double-click Start-Offline.cmd. The diagnostic client is selected by default; -Retail selects the regular client. No separate server or Community Offline Mode is needed. See README-SETUP.md for game path overrides and additional mods.
+
+The included mission does not initialize the automatic economy. Other missions or mods can change spawning behavior. Normal survival mechanics remain enabled. The PBOs are intentionally unsigned for offline use.
+
+[h2]Scope[/h2]
+Tested on Windows with game version 1.30.164200.56. Intended for local offline mod development. Some mods need a server context. AI navmesh, admin tools, item spawners and a free camera are not included. Ordinary dedicated server compatibility is not claimed as tested.
+
+The cover is generated promotional artwork. The four gallery images are actual in-game screenshots.
+
+Based on the official Bohemia Interactive Terrain Sample. Sample-derived material is distributed under ADPL-SA; see LICENSE.md. This is a community mod.
+
+[h2]Contact[/h2]
+Discord: [b]medoedovich[/b]
+
+For bug reports and general questions, please use the Workshop comments. For direct contact, feel free to message me on Discord.

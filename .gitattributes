@@ -1,0 +1,15 @@
+# Preserve the tested launchers, mission bytes and official tool outputs.
+* -text
+*.md text eol=lf
+*.png binary
+*.jpg binary
+*.paa binary
+*.pbo binary
+*.wrp binary
+*.tv4p binary
+*.tv4l binary
+*.tv4s binary
+*.v4d binary
+*.v4w binary
+*.vdat binary
+*.cache binary

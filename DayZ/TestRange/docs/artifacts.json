@@ -1,0 +1,24 @@
+{
+  "worldClass": "dayztestrange",
+  "gameVersion": "1.30.164200.56",
+  "workshopItemId": "3826868718",
+  "pboFiles": [
+    {
+      "file": "dtr_test_range_ce.pbo",
+      "bytes": 10689,
+      "sha256": "CC2C2BA3A9A36D1758F76A160A79F37B6203B4CD911E994588861338EA8B587A"
+    },
+    {
+      "file": "dtr_test_range_data.pbo",
+      "bytes": 67619,
+      "sha256": "8F5669DBF231A333AE4B636B2130D11B4B24DE486166CAE16B5E4F620277B0FB"
+    },
+    {
+      "file": "dtr_test_range_world.pbo",
+      "bytes": 27384,
+      "sha256": "1E96690D98C766B9C284BF6F4E5A38A94AEAC224654FB41044C4139FA6CF7A8D"
+    }
+  ],
+  "sourceWrpSha256": "18C4EEABEB82509458568A1E0EFA67F413F3C0E409C25442A335096D2400ED40",
+  "sourceHeightmapSha256": "78B474534C5B32D1277E509F097C16E87CC08A76CDD5A4109E935DE601D381A9"
+}

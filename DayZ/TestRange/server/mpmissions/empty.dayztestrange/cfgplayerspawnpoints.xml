@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playerspawnpoints>
+    <fresh>
+        <spawn_params>
+            <min_dist_infected>0</min_dist_infected><max_dist_infected>0</max_dist_infected>
+            <min_dist_player>0</min_dist_player><max_dist_player>0</max_dist_player>
+            <min_dist_static>0</min_dist_static><max_dist_static>0</max_dist_static>
+        </spawn_params>
+        <generator_params>
+            <grid_density>2</grid_density><grid_width>2</grid_width><grid_height>2</grid_height>
+            <min_dist_static>0</min_dist_static><max_dist_static>0</max_dist_static>
+            <min_steepness>-1</min_steepness><max_steepness>1</max_steepness>
+        </generator_params>
+        <generator_posbubbles><pos x="512" z="512"/></generator_posbubbles>
+    </fresh>
+    <hop>
+        <spawn_params>
+            <min_dist_infected>0</min_dist_infected><max_dist_infected>0</max_dist_infected>
+            <min_dist_player>0</min_dist_player><max_dist_player>0</max_dist_player>
+            <min_dist_static>0</min_dist_static><max_dist_static>0</max_dist_static>
+        </spawn_params>
+        <generator_params>
+            <grid_density>2</grid_density><grid_width>2</grid_width><grid_height>2</grid_height>
+            <min_dist_static>0</min_dist_static><max_dist_static>0</max_dist_static>
+            <min_steepness>-1</min_steepness><max_steepness>1</max_steepness>
+        </generator_params>
+        <generator_posbubbles><pos x="512" z="512"/></generator_posbubbles>
+    </hop>
+    <travel>
+        <spawn_params>
+            <min_dist_infected>0</min_dist_infected><max_dist_infected>0</max_dist_infected>
+            <min_dist_player>0</min_dist_player><max_dist_player>0</max_dist_player>
+            <min_dist_static>0</min_dist_static><max_dist_static>0</max_dist_static>
+        </spawn_params>
+        <generator_params>
+            <grid_density>2</grid_density><grid_width>2</grid_width><grid_height>2</grid_height>
+            <min_dist_static>0</min_dist_static><max_dist_static>0</max_dist_static>
+            <min_steepness>-1</min_steepness><max_steepness>1</max_steepness>
+        </generator_params>
+        <generator_posbubbles><pos x="512" z="512"/></generator_posbubbles>
+    </travel>
+</playerspawnpoints>

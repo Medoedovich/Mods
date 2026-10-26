@@ -1,0 +1,17 @@
+**/build/
+**/runtime/
+**/logs/
+**/.vs/
+**/__pycache__/
+*.tmp
+*.bak
+*.log
+*.RPT
+*.mdmp
+*.pid
+*.biprivatekey
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
