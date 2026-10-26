@@ -20,14 +20,17 @@ The included mission does not initialize the automatic economy. Other missions o
 [h2]Scope[/h2]
 Tested on Windows with game version 1.30.164200.56. Intended for local offline mod development. Some mods need a server context. AI navmesh, admin tools, item spawners and a free camera are not included. Ordinary dedicated server compatibility is not claimed as tested.
 
-The cover is generated promotional artwork. The four gallery images are actual in-game screenshots.
-
-Based on the official Bohemia Interactive Terrain Sample. Sample-derived material is distributed under ADPL-SA; see LICENSE.md. This is a community mod.
+[h2]Source code[/h2]
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/TestRange]GitHub — project sources and build instructions[/url]
 
 [h2]Contact[/h2]
 Discord: [b]medoedovich[/b]
 
 For bug reports and general questions, please use the Workshop comments. For direct contact, feel free to message me on Discord.
+
+The cover is generated promotional artwork. The four gallery images are actual in-game screenshots.
+
+Based on the official Bohemia Interactive Terrain Sample. Sample-derived material is distributed under ADPL-SA; see LICENSE.md. This is a community mod.
 
 [h2]Русский[/h2]
 [h1]Test Range[/h1]
@@ -52,11 +55,14 @@ For bug reports and general questions, please use the Workshop comments. For dir
 [h2]Область применения[/h2]
 Проверено под Windows на версии игры 1.30.164200.56. Назначение — локальная разработка модов в offline. Некоторым модам необходим серверный контекст. Navmesh, инструменты администратора, спавнер предметов и свободная камера не включены. Совместимость с обычным выделенным сервером не заявляется как проверенная.
 
-Обложка — сгенерированная иллюстрация. Четыре изображения галереи — реальные кадры из игры.
-
-Проект основан на официальном Terrain Sample Bohemia Interactive. Материалы на основе примера распространяются по ADPL-SA; подробности в LICENSE.md. Пользовательский мод сообщества.
+[h2]Исходный код[/h2]
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/TestRange]GitHub — исходники проекта и инструкции по сборке[/url]
 
 [h2]Связь[/h2]
 Discord: [b]medoedovich[/b]
 
 Сообщения об ошибках и общие вопросы оставляйте в комментариях Workshop. Для личной связи пишите в Discord.
+
+Обложка — сгенерированная иллюстрация. Четыре изображения галереи — реальные кадры из игры.
+
+Проект основан на официальном Terrain Sample Bohemia Interactive. Материалы на основе примера распространяются по ADPL-SA; подробности в LICENSE.md. Пользовательский мод сообщества.

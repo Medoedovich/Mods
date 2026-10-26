@@ -20,11 +20,14 @@ The included mission does not initialize the automatic economy. Other missions o
 [h2]Scope[/h2]
 Tested on Windows with game version 1.30.164200.56. Intended for local offline mod development. Some mods need a server context. AI navmesh, admin tools, item spawners and a free camera are not included. Ordinary dedicated server compatibility is not claimed as tested.
 
-The cover is generated promotional artwork. The four gallery images are actual in-game screenshots.
-
-Based on the official Bohemia Interactive Terrain Sample. Sample-derived material is distributed under ADPL-SA; see LICENSE.md. This is a community mod.
+[h2]Source code[/h2]
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/TestRange]GitHub — project sources and build instructions[/url]
 
 [h2]Contact[/h2]
 Discord: [b]medoedovich[/b]
 
 For bug reports and general questions, please use the Workshop comments. For direct contact, feel free to message me on Discord.
+
+The cover is generated promotional artwork. The four gallery images are actual in-game screenshots.
+
+Based on the official Bohemia Interactive Terrain Sample. Sample-derived material is distributed under ADPL-SA; see LICENSE.md. This is a community mod.
