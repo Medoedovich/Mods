@@ -1,5 +1,5 @@
 {
-  "catalog_version": "0.3",
+  "catalog_version": "0.4",
   "schema_version": 1,
   "status": "planned",
   "description_ru": "Проект категорий и событий. Не является конфигурацией работающего мода.",
@@ -378,9 +378,16 @@
   ],
   "views": [
     {
+      "id": "online_overview",
+      "label_ru": "Онлайн: подключения и сбор",
+      "description_ru": "Планируемая общая численность подключений и состояние/свежесть сбора без индивидуальных игровых сведений; требования ONLINE.md.",
+      "documentation": "dashboards/ONLINE.md"
+    },
+    {
       "id": "balance_overview",
       "label_ru": "Баланс и игровой опыт",
-      "description_ru": "Основное планируемое представление: агрегаты доступности вещей, выживания и прохождения этапов, сравнение периодов, размер выборки и ограничения данных по GOALS.md."
+      "description_ru": "Планируемая аналитика завершённого периода: доступность вещей, выживание, питание/лечение и качество данных; только показатели с подтверждёнными источниками P0 по требованиям дашбордов.",
+      "documentation": "dashboards/HISTORY.md"
     },
     {
       "id": "player_timeline",
@@ -405,8 +412,10 @@
     {
       "id": "collector_health",
       "label_ru": "Состояние сборщика",
-      "description_ru": "Служебные события, ошибки, очередь и обнаруженные потери."
+      "description_ru": "Служебные события, ошибки, очередь и обнаруженные потери.",
+      "documentation": "dashboards/ONLINE.md"
     }
   ],
-  "goals_documentation": "GOALS.md"
+  "goals_documentation": "GOALS.md",
+  "dashboard_documentation": "dashboards/README.md"
 }
