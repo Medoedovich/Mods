@@ -1,0 +1,22 @@
+# Runtime output and local server state
+/logs/
+/profiles/
+/storage_*/
+/runtime/
+
+# Build output
+/build/
+/dist/
+*.pbo
+
+# Local editor and OS files
+/.idea/
+/.vs/
+Thumbs.db
+Desktop.ini
+
+# Local credentials and deployment overrides
+.env
+.env.*
+!.env.example
+*.local.json
