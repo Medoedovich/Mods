@@ -1,0 +1,7 @@
+{
+  "version": 130,
+  "WorldsData":
+  {
+    "objectSpawnersArr": ["objects.json"]
+  }
+}

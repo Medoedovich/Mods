@@ -1,0 +1,11 @@
+{
+  "Objects": [
+    {
+      "name": "Land_Store_Street1",
+      "pos": [512, 2, 512],
+      "ypr": [0, 0, 0],
+      "scale": 1,
+      "enableCEPersistency": false
+    }
+  ]
+}

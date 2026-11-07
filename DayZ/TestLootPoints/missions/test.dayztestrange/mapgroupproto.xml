@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prototype>
+		<defaults>
+				<default name="group" lootmax="6" />
+				<default name="container" lootmax="4" />
+		</defaults>
+		
+		<group name="Land_Store_Street1" lootmax="7">
+				<usage name="Industrial" />
+				<usage name="Town" />
+				<usage name="Village" />
+				<container name="lootFloor" lootmax="4">
+						<category name="clothes" />
+						<tag name="floor" />
+						<point pos="2.137043 0.039993 -6.481064" range="1.199951" height="2.000000" />
+						<point pos="2.253559 0.040009 -9.368476" range="1.199951" height="2.000000" />
+						<point pos="-1.205788 0.038620 -7.005299" range="1.199951" height="2.000000" />
+				</container>
+				<container name="lootweapons" lootmax="3">
+						<category name="clothes" />
+						<point pos="-1.001137 0.055191 2.298758" range="1.199951" height="1.771648" />
+				</container>
+		</group>
+</prototype>
