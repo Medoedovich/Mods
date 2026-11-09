@@ -5,6 +5,7 @@
 - [План работ](TODO.md)
 - [Результаты анализа и архив снимков](snapshots/README.md)
 - [Проверки и ограничения](docs/VALIDATION.md)
+- [Запуск анализа вместе с проектом](docs/STARTUP_ANALYSIS.md)
 - [Запуск диагностики мира](docs/SOURCE_DIAGNOSTICS.md)
 - [Группы ИИ](docs/AI_GROUPS.md)
 - [Базы-источники припасов](docs/SUPPLY_SOURCES.md)
