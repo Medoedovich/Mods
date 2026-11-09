@@ -1,0 +1,1221 @@
+{
+  "schemaVersion": 1,
+  "kind": "conflict-world-snapshot",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0001",
+  "status": "partial",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "revisionId": "r0001",
+  "capturedAtUTC": "2026-10-05T11:18:05Z",
+  "diagnosticAnalyzerVersion": "source-diagnostics-0.1",
+  "normalizerVersion": "supply-sources-0.1",
+  "inputSha256": "EB33930D60A912D9FF2AACDBD32218D421911665C0E23FEE3B07229074D52233",
+  "aiGroups": {
+    "status": "not_analyzed",
+    "records": null
+  },
+  "supplies": {
+    "status": "partial",
+    "sourceBases": {
+      "status": "extracted",
+      "selection": "entities with SCR_CampaignSourceBaseComponent",
+      "count": 18,
+      "units": {
+        "supplyIncomePerCycle": "supplies",
+        "arrivalIntervalSeconds": "seconds",
+        "arrivalIntervalMinutes": "minutes"
+      },
+      "records": [
+        {
+          "id": "1/default/0x2000000000000ECE {}",
+          "source": {
+            "sourceId": "0x2000000000000ECE {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{1739B43A3702BB84}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Airfield.et",
+            "worldPositionMeters": [
+              4943.125,
+              28.593999,
+              11793.298828
+            ]
+          },
+          "name": "SP_A_EveronAirport",
+          "baseNameLocalizationKey": "#AR-Campaign_Arland_MapLocation_Airport",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 2000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000003122 {}",
+          "source": {
+            "sourceId": "0x2000000000003122 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T1Harbor.et",
+            "worldPositionMeters": [
+              4394.425781,
+              1.6,
+              11068.055664
+            ]
+          },
+          "name": "SP_T1H_StPhillipe",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_StPhillipe",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 3000,
+          "arrivalIntervalSeconds": 900,
+          "arrivalIntervalMinutes": 15.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000003115 {}",
+          "source": {
+            "sourceId": "0x2000000000003115 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T1Harbor.et",
+            "worldPositionMeters": [
+              9963.828125,
+              2.838,
+              1523.41394
+            ]
+          },
+          "name": "SP_T1H_StPierre",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_StPierre",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 3000,
+          "arrivalIntervalSeconds": 900,
+          "arrivalIntervalMinutes": 15.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000004E0B {}",
+          "source": {
+            "sourceId": "0x2000000000004E0B {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T2Harbor.et",
+            "worldPositionMeters": [
+              7531.005859,
+              2.440999,
+              6689.541015
+            ]
+          },
+          "name": "SP_T2H_FishermansBay",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_FishermansBay",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 2000,
+          "arrivalIntervalSeconds": 900,
+          "arrivalIntervalMinutes": 15.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000004DD7 {}",
+          "source": {
+            "sourceId": "0x2000000000004DD7 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T2Harbor.et",
+            "worldPositionMeters": [
+              1052.508056,
+              3.503999,
+              6049.771972
+            ]
+          },
+          "name": "SP_T2H_Lamentin",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_Lamentin",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 2000,
+          "arrivalIntervalSeconds": 900,
+          "arrivalIntervalMinutes": 15.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000004E04 {}",
+          "source": {
+            "sourceId": "0x2000000000004E04 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T2Harbor.et",
+            "worldPositionMeters": [
+              4316.275878,
+              1.125,
+              9516.908203
+            ]
+          },
+          "name": "SP_T2H_Meaux",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_Meaux",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 2000,
+          "arrivalIntervalSeconds": 900,
+          "arrivalIntervalMinutes": 15.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000004DDD {}",
+          "source": {
+            "sourceId": "0x2000000000004DDD {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T2Harbor.et",
+            "worldPositionMeters": [
+              3737.437988,
+              1.246999,
+              8529.839843
+            ]
+          },
+          "name": "SP_T2H_MilitaryHospital",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_Hospital",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 2000,
+          "arrivalIntervalSeconds": 900,
+          "arrivalIntervalMinutes": 15.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000004D93 {}",
+          "source": {
+            "sourceId": "0x2000000000004D93 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T2Harbor.et",
+            "worldPositionMeters": [
+              4947.416992,
+              2.605999,
+              3870.59497
+            ]
+          },
+          "name": "SP_T2H_Morton",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_Morton",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 2000,
+          "arrivalIntervalSeconds": 900,
+          "arrivalIntervalMinutes": 15.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x20000000000000DE {}",
+          "source": {
+            "sourceId": "0x20000000000000DE {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              5803.098144,
+              2.961999,
+              3533.062011
+            ]
+          },
+          "name": "SP_T3H_GoatBay",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_GoatBay",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000000144 {}",
+          "source": {
+            "sourceId": "0x2000000000000144 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              3817.627929,
+              5.025,
+              7733.58789
+            ]
+          },
+          "name": "SP_T3H_Gravette",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Harbour_Gravette",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000000111 {}",
+          "source": {
+            "sourceId": "0x2000000000000111 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              3271.833984,
+              2.394999,
+              3547.009033
+            ]
+          },
+          "name": "SP_T3H_HalcyonStrait",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Wharf_HalcyonStrait",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x200000000000015D {}",
+          "source": {
+            "sourceId": "0x200000000000015D {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              6277.401855,
+              2.145999,
+              9643.742187
+            ]
+          },
+          "name": "SP_T3H_Kermovan",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Pier_Kermovan",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x20000000000000C2 {}",
+          "source": {
+            "sourceId": "0x20000000000000C2 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              11658.808593,
+              7.841,
+              2176.576904
+            ]
+          },
+          "name": "SP_T3H_Lancre",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Dock_Lancre",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x2000000000000191 {}",
+          "source": {
+            "sourceId": "0x2000000000000191 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              7782.555175,
+              2.344,
+              5875.38916
+            ]
+          },
+          "name": "SP_T3H_Laruns",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Pier_Laruns",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x20000000000000A9 {}",
+          "source": {
+            "sourceId": "0x20000000000000A9 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              7941.068847,
+              12.805999,
+              1469.953979
+            ]
+          },
+          "name": "SP_T3H_LeBosc",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Dock_LeBosc",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x20000000000001C0 {}",
+          "source": {
+            "sourceId": "0x20000000000001C0 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              9328.079101,
+              3.74,
+              5065.999023
+            ]
+          },
+          "name": "SP_T3H_Perelle",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Pier_Perelle",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x200000000000012B {}",
+          "source": {
+            "sourceId": "0x200000000000012B {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              3375.760009,
+              1.093999,
+              7211.186035
+            ]
+          },
+          "name": "SP_T3H_SpaniardsBay",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Pier_SpaniardsBay",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        },
+        {
+          "id": "1/default/0x20000000000001A8 {}",
+          "source": {
+            "sourceId": "0x20000000000001A8 {}",
+            "parentSourceId": "",
+            "parentSourceIds": [],
+            "subscene": 1,
+            "layer": "default",
+            "className": "GenericEntity",
+            "nearestPrefab": "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et",
+            "worldPositionMeters": [
+              3145.990966,
+              3.884999,
+              2141.905029
+            ]
+          },
+          "name": "SP_T3H_Thollevast",
+          "baseNameLocalizationKey": "#AR-Campaign_MapLocation_Wharf_Thollevast",
+          "location": {
+            "status": "not_analyzed",
+            "name": null
+          },
+          "supplyIncomePerCycle": 1000,
+          "arrivalIntervalSeconds": 600,
+          "arrivalIntervalMinutes": 10.0,
+          "provenance": {
+            "name": {
+              "field": "entity.name",
+              "method": "IEntitySource.GetName",
+              "resolution": "source"
+            },
+            "baseNameLocalizationKey": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_sBaseName",
+              "method": "BaseContainer.Get",
+              "directOverride": true,
+              "resolution": "override",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "supplyIncomePerCycle": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iRegularSuppliesIncomeBase",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalSeconds": {
+              "component": "SCR_CampaignSourceBaseComponent",
+              "field": "m_iSuppliesArrivalInterval",
+              "method": "BaseContainer.Get",
+              "directOverride": false,
+              "resolution": "inherited_or_default",
+              "definingResource": null,
+              "definingResourceStatus": "unknown"
+            },
+            "arrivalIntervalMinutes": {
+              "method": "calculated",
+              "expression": "arrivalIntervalSeconds / 60",
+              "unit": "minutes"
+            }
+          }
+        }
+      ]
+    },
+    "storagePoints": {
+      "status": "not_analyzed",
+      "records": null
+    }
+  },
+  "startingBases": {
+    "status": "not_analyzed",
+    "records": null
+  },
+  "vehicleSpawns": {
+    "status": "not_analyzed",
+    "records": null
+  },
+  "warnings": [
+    "Only configured source-base income and intervals have been normalized; this is a partial snapshot.",
+    "Source IDs are provisional editor identifiers, not verified keys across game versions.",
+    "Nearest prefab is an owner reference; the exact resource defining each inherited field is unknown.",
+    "Storage capacity, localized location names and runtime supply-generation conditions have not been analyzed.",
+    "World resource GUID, release channel and complete loaded-addon inventory are unknown."
+  ]
+}

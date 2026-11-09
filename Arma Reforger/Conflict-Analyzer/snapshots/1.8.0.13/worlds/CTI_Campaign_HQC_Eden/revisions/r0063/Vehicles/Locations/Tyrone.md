@@ -1,0 +1,23 @@
+# Tyrone
+
+[Сводка](../Summary.md)
+
+## Summary
+
+Всего точек: **4**. Это количество позиций появления, не фактически созданных машин.
+
+| Фракция | Точек появления |
+| --- | ---: |
+| CIV | 2 |
+| FIA | 2 |
+
+## Точки
+
+| Фракция | Координаты X Y Z, м | Повторное появление, мин | Включённые метки | Режим | Исключённые метки |
+| --- | --- | ---: | --- | --- | --- |
+| CIV | 4926.187 36.156 9125.690 | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| CIV | 4955.641 37.196 9085.498 | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| FIA | 5033.653 43.993 8971.769 | Нет |  | Любая | TRAIT_ARMED |
+| FIA | 4925.265 36.167 9166.153 | Нет | VEHICLE_CAR | Любая | TRAIT_ARMED |
+
+[Полные поля и источники](../SpawnPoints.json).

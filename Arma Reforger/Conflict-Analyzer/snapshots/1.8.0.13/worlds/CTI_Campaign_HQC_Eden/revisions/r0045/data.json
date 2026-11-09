@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0045",
+  "status": "partial",
+  "kind": "starting-base-candidates-index",
+  "sections": {
+    "startingBases": {
+      "pages": [
+        "Supplies/StartingBases/StartingPos05.md",
+        "Supplies/StartingBases/StartingPos07.md",
+        "Supplies/StartingBases/StartingPos09.md",
+        "Supplies/StartingBases/StartingPos12.md",
+        "Supplies/StartingBases/StartingPos14.md",
+        "Supplies/StartingBases/StartingPos15.md",
+        "Supplies/StartingBases/StartingPos19.md",
+        "Supplies/StartingBases/StartingPos21.md"
+      ],
+      "data": "Supplies/StartingBases.json",
+      "summary": "Supplies/StartingBases/Summary.md",
+      "status": "partial"
+    },
+    "supplies": {
+      "accountingData": "../r0044/Supplies/Summary.json",
+      "note": "Existing physical stock accounting unchanged; candidates are not additive."
+    }
+  }
+}

@@ -1,0 +1,1964 @@
+{
+  "schemaVersion": 1,
+  "kind": "ambient-ai-character-weapons",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0053",
+  "gameVersion": "1.8.0.13",
+  "normalizerVersion": "ambient-ai-weapons-0.1",
+  "captureLogSha256": "34C7A7CF3528AC9F08789713EB3731F21BDA3B7219F141B493C3A06F02B85A26",
+  "captureLogLastWriteTimeUTC": "2026-10-13T21:03:37.4619807Z",
+  "scope": "resolved_character_weapon_and_grenade_slots_and_initial_weapon_inventory",
+  "runtimeMeasured": false,
+  "countingRule": "one_weapon_per_nonempty_CharacterWeaponSlotComponent_per_unit_slot; grenade_templates_not_counted",
+  "characters": [
+    {
+      "prefab": "{1FDA92972C1B771B}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_Rebel_Sharpshooter.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "name": "СВД (ПСО)"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{244E2E8B42B42490}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_MG_Elite.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "name": "РДГ-2 (дым)"
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "name": "UK vz. 59 (4×8)"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{254F12535581E4C2}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{273F0239FE94FDA5}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan_Grenadier.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+        },
+        {
+          "entryIndex": 1,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 1,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "name": "РДГ-2 (дым)"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{4E29194BA809DF32}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Medic.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "name": "РДГ-2 (дым)"
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "name": "UK vz. 59 (4×8)"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{B4977616CD19191A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Scout.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et",
+          "name": "RPG-75"
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "name": "СВД (ПСО)"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ"
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et",
+          "name": "RPG-7"
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+        }
+      ]
+    },
+    {
+      "prefab": "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et",
+      "slots": [
+        {
+          "componentIndex": 37,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "name": "РГД-5"
+        },
+        {
+          "componentIndex": 38,
+          "componentClass": "CharacterGrenadeSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 40,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P"
+        },
+        {
+          "componentIndex": 41,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        },
+        {
+          "componentIndex": 42,
+          "componentClass": "CharacterWeaponSlotComponent",
+          "field": "WeaponTemplate",
+          "prefab": "",
+          "name": null
+        }
+      ],
+      "initialWeaponInventory": [
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 0,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+        },
+        {
+          "entryIndex": 2,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+        },
+        {
+          "entryIndex": 3,
+          "field": "InitialInventoryItems[].PrefabsToSpawn[]",
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": 0,
+      "type": "FIRETEAM",
+      "unitCount": 5,
+      "members": [
+        {
+          "prefab": "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et",
+          "count": 1,
+          "weapons": [
+            "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РДГ-2 (дым)"
+          ]
+        },
+        {
+          "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+          "count": 1,
+          "weapons": [
+            "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "count": 2,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+            "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P",
+          "count": 3
+        },
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V",
+          "count": 2
+        },
+        {
+          "prefab": "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et",
+          "name": "RPG-75",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "catalogId": 1,
+      "type": "PARTISAN_TEAM",
+      "unitCount": 5,
+      "members": [
+        {
+          "prefab": "{254F12535581E4C2}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan.et",
+          "count": 2,
+          "weapons": [
+            "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": []
+        },
+        {
+          "prefab": "{273F0239FE94FDA5}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan_Grenadier.et",
+          "count": 1,
+          "weapons": [
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{4E29194BA809DF32}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Medic.et",
+          "count": 1,
+          "weapons": [
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": []
+        },
+        {
+          "prefab": "{B4977616CD19191A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Scout.et",
+          "count": 1,
+          "weapons": [
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": []
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ",
+          "count": 5
+        },
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "catalogId": 2,
+      "type": "PARTISAN_SNIPER",
+      "unitCount": 1,
+      "members": [
+        {
+          "prefab": "{1FDA92972C1B771B}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_Rebel_Sharpshooter.et",
+          "count": 1,
+          "weapons": [
+            "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ",
+          "count": 1
+        },
+        {
+          "prefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "name": "СВД (ПСО)",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "catalogId": 3,
+      "type": "TEAM_MG",
+      "unitCount": 2,
+      "members": [
+        {
+          "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+          "count": 1,
+          "weapons": [
+            "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РДГ-2 (дым)"
+          ]
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ",
+          "count": 1
+        },
+        {
+          "prefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "name": "UK vz. 59 (4×8)",
+          "count": 1
+        },
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "catalogId": 4,
+      "type": "TEAM_MG_ELITE",
+      "unitCount": 2,
+      "members": [
+        {
+          "prefab": "{244E2E8B42B42490}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_MG_Elite.et",
+          "count": 1,
+          "weapons": [
+            "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РДГ-2 (дым)"
+          ]
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ",
+          "count": 1
+        },
+        {
+          "prefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "name": "UK vz. 59 (4×8)",
+          "count": 1
+        },
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "catalogId": 5,
+      "type": "TEAM_SENTRY",
+      "unitCount": 2,
+      "members": [
+        {
+          "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+          "count": 1,
+          "weapons": [
+            "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P",
+          "count": 1
+        },
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "catalogId": 6,
+      "type": "SQUAD_RIFLE",
+      "unitCount": 7,
+      "members": [
+        {
+          "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+          "count": 1,
+          "weapons": [
+            "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РДГ-2 (дым)"
+          ]
+        },
+        {
+          "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+          "count": 1,
+          "weapons": [
+            "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+          "count": 2,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+            "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P",
+          "count": 5
+        },
+        {
+          "prefab": "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et",
+          "name": "RPG-75",
+          "count": 2
+        },
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ",
+          "count": 1
+        },
+        {
+          "prefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "name": "UK vz. 59 (4×8)",
+          "count": 1
+        },
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "catalogId": 7,
+      "type": "TEAM_AT",
+      "unitCount": 4,
+      "members": [
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et",
+          "count": 2,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+            "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et",
+          "count": 1,
+          "weapons": [
+            "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "name": "Vz. 58 P",
+          "count": 4
+        },
+        {
+          "prefab": "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et",
+          "name": "RPG-7",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "catalogId": 8,
+      "type": "TEAM_SNIPER",
+      "unitCount": 2,
+      "members": [
+        {
+          "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+          "count": 1,
+          "weapons": [
+            "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        },
+        {
+          "prefab": "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et",
+          "count": 1,
+          "weapons": [
+            "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+            "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+          ],
+          "grenadeSlotTemplates": [
+            "РГД-5"
+          ]
+        }
+      ],
+      "weaponTotals": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "name": "ПМ",
+          "count": 1
+        },
+        {
+          "prefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "name": "СВД (ПСО)",
+          "count": 1
+        },
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "name": "Vz. 58 V",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

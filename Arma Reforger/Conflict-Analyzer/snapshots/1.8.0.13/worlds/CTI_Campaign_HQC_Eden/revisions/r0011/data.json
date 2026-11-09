@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "kind": "conflict-world-index",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0011",
+  "status": "partial",
+  "worldMetadata": "world.json",
+  "sections": {
+    "locations": {
+      "status": "partial",
+      "path": "Locations.json",
+      "table": "Locations.md",
+      "ungroupedTable": "UngroupedObjects.md",
+      "locationCount": 170,
+      "eligibleLocationCount": 34,
+      "excludedLocationCount": 136,
+      "objectCount": 142,
+      "ungroupedObjectCount": 95,
+      "radiusMeters": 300.0,
+      "matchingPolicy": "all_settlements_within_radius_then_ungrouped"
+    },
+    "supplies": {
+      "status": "previous_verified_revisions",
+      "otherContainers": "../r0006/Supplies/OtherContainers.json",
+      "harbors": "../r0004/Supplies/Harbors.json"
+    },
+    "aiGroups": {
+      "status": "not_analyzed"
+    },
+    "startingBases": {
+      "status": "not_analyzed"
+    },
+    "vehicleSpawns": {
+      "status": "not_analyzed"
+    }
+  }
+}

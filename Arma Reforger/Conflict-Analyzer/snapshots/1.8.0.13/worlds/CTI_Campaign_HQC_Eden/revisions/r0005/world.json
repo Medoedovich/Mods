@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0005",
+  "revisionId": "r0005",
+  "revisionReason": "Inventory other configured supplies containers excluding verified base storage",
+  "status": "partial",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "capturedAtUTC": "2026-10-05T17:55:53Z",
+  "worldResourceGuid": null,
+  "worldResourceGuidStatus": "unknown",
+  "gameChannel": null,
+  "workbenchVersion": "1.8.0.13",
+  "workbenchVersionStatus": "provided_by_operator",
+  "analyzerVersion": "world-supply-containers-0.1",
+  "normalizerVersion": "other-supply-containers-0.1",
+  "identityStatus": "provisional_editor_ids",
+  "subscenes": [
+    {
+      "index": 0,
+      "name": "worlds/Eden/Eden.ent"
+    },
+    {
+      "index": 1,
+      "name": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent"
+    }
+  ],
+  "editorEntityCountUnchanged": true,
+  "addons": {
+    "inventoryStatus": "unknown",
+    "completeLoadedInventory": null
+  },
+  "inputs": {
+    "inventory": {
+      "sha256": "4232E31BDA39A525608A018DCB1BA8985408482974C20DC99464DCB01360D6F9",
+      "capturedAtUTC": "2026-10-05T17:55:53Z"
+    },
+    "previousStorage": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+      "reportSha256": "355D70AD0353901063F759BC3CFF0F7A73B5D9371FDF5E0D1B5F38CE9E17B193",
+      "capturedAtUTC": "2026-10-05T17:35:25Z",
+      "excludedPhysicalSlotCount": 49,
+      "excludedVirtualSlotCount": 22
+    }
+  },
+  "warnings": [
+    "Configured editor containers only; runtime spawns, grid membership and dynamic construction are not analyzed.",
+    "Physical SUPPLIES slots and virtual views are separate; previously reported slots must be excluded by verified identity.",
+    "Unknown resource types and unknown lists are retained for completeness; source IDs are provisional editor identifiers."
+  ]
+}

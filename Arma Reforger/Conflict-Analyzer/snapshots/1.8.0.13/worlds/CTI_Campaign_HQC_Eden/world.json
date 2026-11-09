@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0001",
+  "revisionId": "r0001",
+  "revisionReason": "Initial partial source-base snapshot",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "worldResourceGuid": null,
+  "worldResourceGuidStatus": "unknown",
+  "gameVersion": "1.8.0.13",
+  "gameChannel": null,
+  "workbenchVersion": "1.8.0.13",
+  "workbenchVersionStatus": "provided_by_operator",
+  "capturedAtUTC": "2026-10-05T11:18:05Z",
+  "mode": "editor-source-diagnostics-log",
+  "status": "partial",
+  "diagnosticAnalyzerVersion": "source-diagnostics-0.1",
+  "normalizerVersion": "supply-sources-0.1",
+  "input": {
+    "fileName": "HQC_Eden_Diagnostics_1.8.0.13.json",
+    "sha256": "EB33930D60A912D9FF2AACDBD32218D421911665C0E23FEE3B07229074D52233",
+    "schemaVersion": 1
+  },
+  "subsceneCount": 2,
+  "editorEntityCountUnchanged": true,
+  "diagnosticWarnings": [
+    "This is a diagnostic inventory, not a complete gameplay report.",
+    "Source IDs are editor identifiers; cross-session stability must be checked before using them as comparison keys.",
+    "Object-valued fields are listed but not recursively exported in this prototype."
+  ],
+  "warnings": [
+    "Only configured source-base income and intervals have been normalized; this is a partial snapshot.",
+    "Source IDs are provisional editor identifiers, not verified keys across game versions.",
+    "Nearest prefab is an owner reference; the exact resource defining each inherited field is unknown.",
+    "Storage capacity, localized location names and runtime supply-generation conditions have not been analyzed.",
+    "World resource GUID, release channel and complete loaded-addon inventory are unknown."
+  ]
+}

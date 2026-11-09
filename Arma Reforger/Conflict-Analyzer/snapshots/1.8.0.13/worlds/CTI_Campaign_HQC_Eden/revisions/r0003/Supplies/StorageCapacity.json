@@ -1,0 +1,784 @@
+{
+  "schemaVersion": 2,
+  "kind": "source-base-storage-capacity-report",
+  "status": "partial",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0003",
+  "baseName": "SP_A_EveronAirport",
+  "baseSourceId": "0x2000000000000ECE {}",
+  "scope": "configured_physical_supplies_containers_below_selected_base",
+  "unit": "supplies",
+  "sourceReportSha256": "1CD08ADBC31CEA8866825C3DCD381F2AEDD5468928B16E5826B9551F91A79629",
+  "summary": {
+    "storageGroupCount": 2,
+    "physicalContainerCount": 5,
+    "virtualViewCount": 2,
+    "inspectedResourceComponentCount": 10,
+    "capacitySupplies": 4000.0,
+    "knownCapacitySubtotalSupplies": 4000.0,
+    "capacityStatus": "resolved"
+  },
+  "storageGroups": [
+    {
+      "sourceId": "0x2000000000000ECF {}",
+      "parentSourceId": "0x2000000000000ECE {}",
+      "sourceName": "",
+      "label": "SupplyCache_S_FIA_03",
+      "prefab": "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et",
+      "physicalContainerCount": 3,
+      "capacitySupplies": 3000.0,
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "containerIds": [
+        "0x2000000000000F04 {}/4/0",
+        "0x2000000000000F05 {}/4/0",
+        "0x2000000000000F06 {}/4/0"
+      ]
+    },
+    {
+      "sourceId": "0x2000000000000EE7 {}",
+      "parentSourceId": "0x2000000000000ECE {}",
+      "sourceName": "",
+      "label": "SupplyCache_S_FIA_06",
+      "prefab": "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et",
+      "physicalContainerCount": 2,
+      "capacitySupplies": 1000.0,
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "containerIds": [
+        "0x2000000000000F0D {}/4/0",
+        "0x2000000000000F0E {}/4/0"
+      ]
+    }
+  ],
+  "containers": [
+    {
+      "id": "0x2000000000000F04 {}/4/0",
+      "groupSourceId": "0x2000000000000ECF {}",
+      "sourceId": "0x2000000000000F04 {}",
+      "parentSourceId": "0x2000000000000F03 {}",
+      "sourceName": "",
+      "label": "SupplyShippingContainers_01_20ft",
+      "labelMethod": "prefab_filename_or_id",
+      "prefab": "{13A99500A14FA14C}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft.et",
+      "subscene": 1,
+      "layer": "default",
+      "positionStatus": "resolved",
+      "worldPositionMeters": [
+        4936.529785,
+        28.593999,
+        11774.916992
+      ],
+      "componentIndex": 4,
+      "containerIndex": 0,
+      "containerClass": "SCR_ResourceContainer",
+      "resourceType": "SUPPLIES",
+      "storageType": "STORED",
+      "componentEnabled": true,
+      "suppliesEnabled": true,
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "configuredInitialSupplies": 1000.0,
+      "hierarchySourceIds": [
+        "0x2000000000000ECE {}",
+        "0x2000000000000ECF {}",
+        "0x2000000000000F03 {}",
+        "0x2000000000000F04 {}"
+      ],
+      "provenance": {
+        "capacity": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueMax",
+          "field": "m_fResourceValueMax",
+          "method": "BaseContainer.Get",
+          "rawValue": "1000",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "configuredInitial": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueCurrent",
+          "field": "m_fResourceValueCurrent",
+          "method": "BaseContainer.Get",
+          "rawValue": "1000",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "resourceType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eResourceType",
+          "field": "m_eResourceType",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "storageType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eStorageType",
+          "field": "m_eStorageType",
+          "method": "BaseContainer.Get",
+          "rawValue": "1",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "componentEnabled": {
+          "fieldPath": "SCR_ResourceComponent.Enabled",
+          "field": "Enabled",
+          "method": "BaseContainer.Get",
+          "rawValue": "true",
+          "rawType": "BOOLEAN",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "disabledTypes": {
+          "field": "m_aDisabledResourceTypes",
+          "values": [],
+          "fieldStatus": "resolved",
+          "directOverride": false
+        },
+        "containersDirectOverride": true
+      }
+    },
+    {
+      "id": "0x2000000000000F05 {}/4/0",
+      "groupSourceId": "0x2000000000000ECF {}",
+      "sourceId": "0x2000000000000F05 {}",
+      "parentSourceId": "0x2000000000000F03 {}",
+      "sourceName": "",
+      "label": "SupplyShippingContainers_01_20ft",
+      "labelMethod": "prefab_filename_or_id",
+      "prefab": "{13A99500A14FA14C}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft.et",
+      "subscene": 1,
+      "layer": "default",
+      "positionStatus": "resolved",
+      "worldPositionMeters": [
+        4934.341308,
+        28.593999,
+        11770.34375
+      ],
+      "componentIndex": 4,
+      "containerIndex": 0,
+      "containerClass": "SCR_ResourceContainer",
+      "resourceType": "SUPPLIES",
+      "storageType": "STORED",
+      "componentEnabled": true,
+      "suppliesEnabled": true,
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "configuredInitialSupplies": 1000.0,
+      "hierarchySourceIds": [
+        "0x2000000000000ECE {}",
+        "0x2000000000000ECF {}",
+        "0x2000000000000F03 {}",
+        "0x2000000000000F05 {}"
+      ],
+      "provenance": {
+        "capacity": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueMax",
+          "field": "m_fResourceValueMax",
+          "method": "BaseContainer.Get",
+          "rawValue": "1000",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "configuredInitial": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueCurrent",
+          "field": "m_fResourceValueCurrent",
+          "method": "BaseContainer.Get",
+          "rawValue": "1000",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "resourceType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eResourceType",
+          "field": "m_eResourceType",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "storageType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eStorageType",
+          "field": "m_eStorageType",
+          "method": "BaseContainer.Get",
+          "rawValue": "1",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "componentEnabled": {
+          "fieldPath": "SCR_ResourceComponent.Enabled",
+          "field": "Enabled",
+          "method": "BaseContainer.Get",
+          "rawValue": "true",
+          "rawType": "BOOLEAN",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "disabledTypes": {
+          "field": "m_aDisabledResourceTypes",
+          "values": [],
+          "fieldStatus": "resolved",
+          "directOverride": false
+        },
+        "containersDirectOverride": true
+      }
+    },
+    {
+      "id": "0x2000000000000F06 {}/4/0",
+      "groupSourceId": "0x2000000000000ECF {}",
+      "sourceId": "0x2000000000000F06 {}",
+      "parentSourceId": "0x2000000000000F03 {}",
+      "sourceName": "",
+      "label": "SupplyShippingContainers_01_20ft",
+      "labelMethod": "prefab_filename_or_id",
+      "prefab": "{13A99500A14FA14C}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft.et",
+      "subscene": 1,
+      "layer": "default",
+      "positionStatus": "resolved",
+      "worldPositionMeters": [
+        4933.867187,
+        28.593999,
+        11774.996093
+      ],
+      "componentIndex": 4,
+      "containerIndex": 0,
+      "containerClass": "SCR_ResourceContainer",
+      "resourceType": "SUPPLIES",
+      "storageType": "STORED",
+      "componentEnabled": true,
+      "suppliesEnabled": true,
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "configuredInitialSupplies": 1000.0,
+      "hierarchySourceIds": [
+        "0x2000000000000ECE {}",
+        "0x2000000000000ECF {}",
+        "0x2000000000000F03 {}",
+        "0x2000000000000F06 {}"
+      ],
+      "provenance": {
+        "capacity": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueMax",
+          "field": "m_fResourceValueMax",
+          "method": "BaseContainer.Get",
+          "rawValue": "1000",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "configuredInitial": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueCurrent",
+          "field": "m_fResourceValueCurrent",
+          "method": "BaseContainer.Get",
+          "rawValue": "1000",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "resourceType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eResourceType",
+          "field": "m_eResourceType",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "storageType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eStorageType",
+          "field": "m_eStorageType",
+          "method": "BaseContainer.Get",
+          "rawValue": "1",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "componentEnabled": {
+          "fieldPath": "SCR_ResourceComponent.Enabled",
+          "field": "Enabled",
+          "method": "BaseContainer.Get",
+          "rawValue": "true",
+          "rawType": "BOOLEAN",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "disabledTypes": {
+          "field": "m_aDisabledResourceTypes",
+          "values": [],
+          "fieldStatus": "resolved",
+          "directOverride": false
+        },
+        "containersDirectOverride": true
+      }
+    },
+    {
+      "id": "0x2000000000000F0D {}/4/0",
+      "groupSourceId": "0x2000000000000EE7 {}",
+      "sourceId": "0x2000000000000F0D {}",
+      "parentSourceId": "0x2000000000000F0C {}",
+      "sourceName": "",
+      "label": "SupplyShippingContainers_01_10ft",
+      "labelMethod": "prefab_filename_or_id",
+      "prefab": "{190CC54D175F52CB}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_10ft.et",
+      "subscene": 1,
+      "layer": "default",
+      "positionStatus": "resolved",
+      "worldPositionMeters": [
+        4939.816406,
+        28.774999,
+        11764.05664
+      ],
+      "componentIndex": 4,
+      "containerIndex": 0,
+      "containerClass": "SCR_ResourceContainer",
+      "resourceType": "SUPPLIES",
+      "storageType": "STORED",
+      "componentEnabled": true,
+      "suppliesEnabled": true,
+      "capacitySupplies": 500.0,
+      "capacityStatus": "resolved",
+      "configuredInitialSupplies": 500.0,
+      "hierarchySourceIds": [
+        "0x2000000000000ECE {}",
+        "0x2000000000000EE7 {}",
+        "0x2000000000000F0C {}",
+        "0x2000000000000F0D {}"
+      ],
+      "provenance": {
+        "capacity": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueMax",
+          "field": "m_fResourceValueMax",
+          "method": "BaseContainer.Get",
+          "rawValue": "500",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "configuredInitial": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueCurrent",
+          "field": "m_fResourceValueCurrent",
+          "method": "BaseContainer.Get",
+          "rawValue": "500",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "resourceType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eResourceType",
+          "field": "m_eResourceType",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "storageType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eStorageType",
+          "field": "m_eStorageType",
+          "method": "BaseContainer.Get",
+          "rawValue": "1",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "componentEnabled": {
+          "fieldPath": "SCR_ResourceComponent.Enabled",
+          "field": "Enabled",
+          "method": "BaseContainer.Get",
+          "rawValue": "true",
+          "rawType": "BOOLEAN",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "disabledTypes": {
+          "field": "m_aDisabledResourceTypes",
+          "values": [],
+          "fieldStatus": "resolved",
+          "directOverride": false
+        },
+        "containersDirectOverride": true
+      }
+    },
+    {
+      "id": "0x2000000000000F0E {}/4/0",
+      "groupSourceId": "0x2000000000000EE7 {}",
+      "sourceId": "0x2000000000000F0E {}",
+      "parentSourceId": "0x2000000000000F0C {}",
+      "sourceName": "",
+      "label": "SupplyShippingContainers_01_10ft",
+      "labelMethod": "prefab_filename_or_id",
+      "prefab": "{190CC54D175F52CB}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_10ft.et",
+      "subscene": 1,
+      "layer": "default",
+      "positionStatus": "resolved",
+      "worldPositionMeters": [
+        4939.850585,
+        28.774999,
+        11761.430664
+      ],
+      "componentIndex": 4,
+      "containerIndex": 0,
+      "containerClass": "SCR_ResourceContainer",
+      "resourceType": "SUPPLIES",
+      "storageType": "STORED",
+      "componentEnabled": true,
+      "suppliesEnabled": true,
+      "capacitySupplies": 500.0,
+      "capacityStatus": "resolved",
+      "configuredInitialSupplies": 500.0,
+      "hierarchySourceIds": [
+        "0x2000000000000ECE {}",
+        "0x2000000000000EE7 {}",
+        "0x2000000000000F0C {}",
+        "0x2000000000000F0E {}"
+      ],
+      "provenance": {
+        "capacity": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueMax",
+          "field": "m_fResourceValueMax",
+          "method": "BaseContainer.Get",
+          "rawValue": "500",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "configuredInitial": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueCurrent",
+          "field": "m_fResourceValueCurrent",
+          "method": "BaseContainer.Get",
+          "rawValue": "500",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "resourceType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eResourceType",
+          "field": "m_eResourceType",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "storageType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eStorageType",
+          "field": "m_eStorageType",
+          "method": "BaseContainer.Get",
+          "rawValue": "1",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "componentEnabled": {
+          "fieldPath": "SCR_ResourceComponent.Enabled",
+          "field": "Enabled",
+          "method": "BaseContainer.Get",
+          "rawValue": "true",
+          "rawType": "BOOLEAN",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "disabledTypes": {
+          "field": "m_aDisabledResourceTypes",
+          "values": [],
+          "fieldStatus": "resolved",
+          "directOverride": false
+        },
+        "containersDirectOverride": true
+      }
+    }
+  ],
+  "virtualViews": [
+    {
+      "id": "0x2000000000000F03 {}/1/0",
+      "groupSourceId": "0x2000000000000ECF {}",
+      "sourceId": "0x2000000000000F03 {}",
+      "parentSourceId": "0x2000000000000ECF {}",
+      "sourceName": "",
+      "label": "Storage_Supplies_Containers_FIA_04",
+      "labelMethod": "prefab_filename_or_id",
+      "prefab": "{F382B497C101F59C}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_FIA_04.et",
+      "subscene": 1,
+      "layer": "default",
+      "positionStatus": "resolved",
+      "worldPositionMeters": [
+        4934.473144,
+        28.594999,
+        11772.30957
+      ],
+      "componentIndex": 1,
+      "containerIndex": 0,
+      "containerClass": "SCR_ResourceContainerVirtual",
+      "resourceType": "SUPPLIES",
+      "storageType": "STORED",
+      "componentEnabled": true,
+      "suppliesEnabled": true,
+      "capacitySupplies": 0.0,
+      "capacityStatus": "resolved",
+      "configuredInitialSupplies": 0.0,
+      "hierarchySourceIds": [
+        "0x2000000000000ECE {}",
+        "0x2000000000000ECF {}",
+        "0x2000000000000F03 {}"
+      ],
+      "provenance": {
+        "capacity": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueMax",
+          "field": "m_fResourceValueMax",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "configuredInitial": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueCurrent",
+          "field": "m_fResourceValueCurrent",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "resourceType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eResourceType",
+          "field": "m_eResourceType",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "storageType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eStorageType",
+          "field": "m_eStorageType",
+          "method": "BaseContainer.Get",
+          "rawValue": "1",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "componentEnabled": {
+          "fieldPath": "SCR_ResourceComponent.Enabled",
+          "field": "Enabled",
+          "method": "BaseContainer.Get",
+          "rawValue": "true",
+          "rawType": "BOOLEAN",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "disabledTypes": {
+          "field": "m_aDisabledResourceTypes",
+          "values": [],
+          "fieldStatus": "resolved",
+          "directOverride": false
+        },
+        "containersDirectOverride": true
+      },
+      "excludedReason": "virtual_view_of_physical_storage"
+    },
+    {
+      "id": "0x2000000000000F0C {}/1/0",
+      "groupSourceId": "0x2000000000000EE7 {}",
+      "sourceId": "0x2000000000000F0C {}",
+      "parentSourceId": "0x2000000000000EE7 {}",
+      "sourceName": "",
+      "label": "Storage_Supplies_Containers_FIA_01",
+      "labelMethod": "prefab_filename_or_id",
+      "prefab": "{477EE9B6044C64EE}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_FIA_01.et",
+      "subscene": 1,
+      "layer": "default",
+      "positionStatus": "resolved",
+      "worldPositionMeters": [
+        4939.964843,
+        28.775999,
+        11762.689453
+      ],
+      "componentIndex": 1,
+      "containerIndex": 0,
+      "containerClass": "SCR_ResourceContainerVirtual",
+      "resourceType": "SUPPLIES",
+      "storageType": "STORED",
+      "componentEnabled": true,
+      "suppliesEnabled": true,
+      "capacitySupplies": 0.0,
+      "capacityStatus": "resolved",
+      "configuredInitialSupplies": 0.0,
+      "hierarchySourceIds": [
+        "0x2000000000000ECE {}",
+        "0x2000000000000EE7 {}",
+        "0x2000000000000F0C {}"
+      ],
+      "provenance": {
+        "capacity": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueMax",
+          "field": "m_fResourceValueMax",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "configuredInitial": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_fResourceValueCurrent",
+          "field": "m_fResourceValueCurrent",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "SCALAR",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "resourceType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eResourceType",
+          "field": "m_eResourceType",
+          "method": "BaseContainer.Get",
+          "rawValue": "0",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "storageType": {
+          "fieldPath": "SCR_ResourceComponent.m_aContainers[0].m_eStorageType",
+          "field": "m_eStorageType",
+          "method": "BaseContainer.Get",
+          "rawValue": "1",
+          "rawType": "INTEGER",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "componentEnabled": {
+          "fieldPath": "SCR_ResourceComponent.Enabled",
+          "field": "Enabled",
+          "method": "BaseContainer.Get",
+          "rawValue": "true",
+          "rawType": "BOOLEAN",
+          "fieldStatus": "resolved",
+          "directOverride": false,
+          "resolution": "inherited_or_default",
+          "definingResource": null,
+          "definingResourceStatus": "unknown"
+        },
+        "disabledTypes": {
+          "field": "m_aDisabledResourceTypes",
+          "values": [],
+          "fieldStatus": "resolved",
+          "directOverride": false
+        },
+        "containersDirectOverride": true
+      },
+      "excludedReason": "virtual_view_of_physical_storage"
+    }
+  ],
+  "excludedContainers": [],
+  "warnings": [
+    "Configured physical descendant capacity only; runtime grid membership and dynamically built storage are not analyzed.",
+    "Virtual container views must not be added to physical capacity a second time.",
+    "Prefab references identify owners, not exact inherited field definitions; editor IDs are provisional."
+  ]
+}

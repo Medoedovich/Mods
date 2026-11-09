@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "kind": "conflict-world-index",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0006",
+  "status": "partial",
+  "worldMetadata": "world.json",
+  "sections": {
+    "supplies": {
+      "status": "partial",
+      "otherContainers": {
+        "count": 568,
+        "rowCount": 124,
+        "grouping": "root_source_ancestor",
+        "path": "Supplies/OtherContainers.json",
+        "table": "Supplies/OtherContainers.md"
+      },
+      "knownBaseStorage": {
+        "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+        "status": "previous_verified_revision"
+      }
+    },
+    "aiGroups": {
+      "status": "not_analyzed"
+    },
+    "startingBases": {
+      "status": "not_analyzed"
+    },
+    "vehicleSpawns": {
+      "status": "not_analyzed"
+    },
+    "locations": {
+      "status": "not_analyzed"
+    }
+  }
+}

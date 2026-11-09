@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0047",
+  "status": "partial",
+  "sections": {
+    "ai": {
+      "summary": "AI/Summary.md",
+      "status": "partial",
+      "data": "AI/Groups.json"
+    },
+    "supplies": {
+      "data": "../r0046/data.json",
+      "status": "unchanged"
+    }
+  }
+}

@@ -1,0 +1,2132 @@
+{
+  "schemaVersion": 2,
+  "kind": "control-point-runtime-supplies",
+  "analyzerVersion": "command-post-runtime-supplies-0.1",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "status": "partial",
+  "runtimeMeasured": true,
+  "probeAddonGuid": "B8F6E397105D4C2A",
+  "probeSourceSha256": "343C1D6127C981BF3C51AF69F68A821E0D09F11C1FBC9CB2B5836F363DC4A7A2",
+  "probeSourceSha256Scope": "selected_run03_only",
+  "scope": "observed_control_point_command_post_storage_and_base_grid_after_native_SetInitialSupplies",
+  "selectedRunId": "run03",
+  "runs": [
+    {
+      "runId": "run01",
+      "gameVersion": "1.8.0.13",
+      "processId": 6340,
+      "executionMode": "direct_world_local_game",
+      "missionHeaderLoaded": false,
+      "missionHeader": null,
+      "world": "{9DF143A76F5C6461}worlds/MP/CTI_Campaign_HQC_Eden.ent",
+      "systemsConfig": "{7C9E720397CC6ACD}Configs/Systems/ConflictSystems.conf",
+      "startedAtUTC": "2026-10-07T18:08:57.2901771Z",
+      "measurementStartedAtUTC": "2026-10-07T18:09:23.974Z",
+      "measurementComplete": true,
+      "lastMeasuredAtUTC": "2026-10-07T18:09:41.424Z",
+      "isolatedProfile": true,
+      "readOnlyProbe": true,
+      "recordCount": 7,
+      "sampleTimesAfterAllControlPointInitializationSeconds": [
+        3,
+        8,
+        15
+      ],
+      "logFileName": "logs_2026-10-07_21-08-57/console.log",
+      "logSha256": "3FCA6C717398FA622048C5FFBE34CCA0BDA116E840D1F92901726A11A9E9890E",
+      "records": [
+        {
+          "sourceId": "0x200000000000161A {}",
+          "sourceName": "CP_CalvaryHill",
+          "name": "Calvary Hill",
+          "worldPositionMeters": [
+            3505.950927,
+            181.910003,
+            5817.966796
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 125.0,
+            "beforeCurrentSupplies": 2500.0,
+            "afterCurrentSupplies": 2500.0,
+            "baseGridCapacitySupplies": 9800.0,
+            "capturedAtUTC": "2026-10-07T18:09:26.37Z"
+          },
+          "stableAcrossSamples": true,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:09:29.357Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                3505.95,
+                181.91,
+                5817.97
+              ],
+              "requestedBaseStartingSupplies": 125.0,
+              "baseResourceGrid": {
+                "currentSupplies": 2500.0,
+                "capacitySupplies": 9800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6446",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6445",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6443",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6442",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6440",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 8,
+              "capturedAtUTC": "2026-10-07T18:09:34.39Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                3505.95,
+                181.91,
+                5817.97
+              ],
+              "requestedBaseStartingSupplies": 125.0,
+              "baseResourceGrid": {
+                "currentSupplies": 2500.0,
+                "capacitySupplies": 9800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6446",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6445",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6443",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6442",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6440",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 15,
+              "capturedAtUTC": "2026-10-07T18:09:41.423Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                3505.95,
+                181.91,
+                5817.97
+              ],
+              "requestedBaseStartingSupplies": 125.0,
+              "baseResourceGrid": {
+                "currentSupplies": 2500.0,
+                "capacitySupplies": 9800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6446",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6445",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6443",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6442",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6440",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001627 {}",
+          "sourceName": "CP_SaulesIsland",
+          "name": "Île-aux-Saules",
+          "worldPositionMeters": [
+            2843.543945,
+            7.876999,
+            2238.298095
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 150.0,
+            "beforeCurrentSupplies": 5500.0,
+            "afterCurrentSupplies": 5500.0,
+            "baseGridCapacitySupplies": 7400.0,
+            "capturedAtUTC": "2026-10-07T18:09:26.37Z"
+          },
+          "stableAcrossSamples": true,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:09:29.357Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                2843.54,
+                7.877,
+                2238.3
+              ],
+              "requestedBaseStartingSupplies": 150.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5500.0,
+                "capacitySupplies": 7400.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7400",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7399",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7397",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7396",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7394",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 8,
+              "capturedAtUTC": "2026-10-07T18:09:34.391Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                2843.54,
+                7.877,
+                2238.3
+              ],
+              "requestedBaseStartingSupplies": 150.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5500.0,
+                "capacitySupplies": 7400.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7400",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7399",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7397",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7396",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7394",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 15,
+              "capturedAtUTC": "2026-10-07T18:09:41.424Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                2843.54,
+                7.877,
+                2238.3
+              ],
+              "requestedBaseStartingSupplies": 150.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5500.0,
+                "capacitySupplies": 7400.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7400",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7399",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7397",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7396",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7394",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x200000000000160D {}",
+          "sourceName": "CP_LevieMilitaryBase",
+          "name": "Military Base Levie",
+          "worldPositionMeters": [
+            7500.099121,
+            165.496002,
+            4302.559082
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 150.0,
+            "beforeCurrentSupplies": 8500.0,
+            "afterCurrentSupplies": 8500.0,
+            "baseGridCapacitySupplies": 10800.0,
+            "capturedAtUTC": "2026-10-07T18:09:26.369Z"
+          },
+          "stableAcrossSamples": true,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:09:29.356Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7500.1,
+                165.496,
+                4302.56
+              ],
+              "requestedBaseStartingSupplies": 150.0,
+              "baseResourceGrid": {
+                "currentSupplies": 8500.0,
+                "capacitySupplies": 10800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5492",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5491",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5489",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5488",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5486",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 8,
+              "capturedAtUTC": "2026-10-07T18:09:34.39Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7500.1,
+                165.496,
+                4302.56
+              ],
+              "requestedBaseStartingSupplies": 150.0,
+              "baseResourceGrid": {
+                "currentSupplies": 8500.0,
+                "capacitySupplies": 10800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5492",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5491",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5489",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5488",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5486",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 15,
+              "capturedAtUTC": "2026-10-07T18:09:41.423Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7500.1,
+                165.496,
+                4302.56
+              ],
+              "requestedBaseStartingSupplies": 150.0,
+              "baseResourceGrid": {
+                "currentSupplies": 8500.0,
+                "capacitySupplies": 10800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5492",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5491",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5489",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5488",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5486",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001616 {}",
+          "sourceName": "CP_MontignacTown",
+          "name": "Montignac",
+          "worldPositionMeters": [
+            4825.608886,
+            166.811996,
+            7094.842773
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 75.0,
+            "beforeCurrentSupplies": 4000.0,
+            "afterCurrentSupplies": 4000.0,
+            "baseGridCapacitySupplies": 8300.0,
+            "capturedAtUTC": "2026-10-07T18:09:26.369Z"
+          },
+          "stableAcrossSamples": true,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:09:29.357Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                4825.61,
+                166.812,
+                7094.84
+              ],
+              "requestedBaseStartingSupplies": 75.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 8300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6128",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6127",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6125",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6124",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6122",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 8,
+              "capturedAtUTC": "2026-10-07T18:09:34.39Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                4825.61,
+                166.812,
+                7094.84
+              ],
+              "requestedBaseStartingSupplies": 75.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 8300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6128",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6127",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6125",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6124",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6122",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 15,
+              "capturedAtUTC": "2026-10-07T18:09:41.423Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                4825.61,
+                166.812,
+                7094.84
+              ],
+              "requestedBaseStartingSupplies": 75.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 8300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6128",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6127",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6125",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6124",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6122",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x200000000000161E {}",
+          "sourceName": "CP_PowerPlant",
+          "name": "Power Plant",
+          "worldPositionMeters": [
+            5784.080078,
+            7.385,
+            9767.163085
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 100.0,
+            "beforeCurrentSupplies": 5100.0,
+            "afterCurrentSupplies": 5100.0,
+            "baseGridCapacitySupplies": 7000.0,
+            "capturedAtUTC": "2026-10-07T18:09:26.37Z"
+          },
+          "stableAcrossSamples": true,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:09:29.357Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5784.08,
+                7.385,
+                9767.16
+              ],
+              "requestedBaseStartingSupplies": 100.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5100.0,
+                "capacitySupplies": 7000.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6764",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6763",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6761",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6760",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6758",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 8,
+              "capturedAtUTC": "2026-10-07T18:09:34.391Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5784.08,
+                7.385,
+                9767.16
+              ],
+              "requestedBaseStartingSupplies": 100.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5100.0,
+                "capacitySupplies": 7000.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6764",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6763",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6761",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6760",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6758",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 15,
+              "capturedAtUTC": "2026-10-07T18:09:41.423Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5784.08,
+                7.385,
+                9767.16
+              ],
+              "requestedBaseStartingSupplies": 100.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5100.0,
+                "capacitySupplies": 7000.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6764",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6763",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6761",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6760",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6758",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001622 {}",
+          "sourceName": "CP_Regina",
+          "name": "Régina",
+          "worldPositionMeters": [
+            7193.323242,
+            137.781997,
+            2274.59497
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 250.0,
+            "beforeCurrentSupplies": 400.0,
+            "afterCurrentSupplies": 400.0,
+            "baseGridCapacitySupplies": 5300.0,
+            "capturedAtUTC": "2026-10-07T18:09:26.37Z"
+          },
+          "stableAcrossSamples": true,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:09:29.357Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7193.32,
+                137.782,
+                2274.59
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 400.0,
+                "capacitySupplies": 5300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7082",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7081",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7079",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7078",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7076",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 8,
+              "capturedAtUTC": "2026-10-07T18:09:34.391Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7193.32,
+                137.782,
+                2274.59
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 400.0,
+                "capacitySupplies": 5300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7082",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7081",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7079",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7078",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7076",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 15,
+              "capturedAtUTC": "2026-10-07T18:09:41.423Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7193.32,
+                137.782,
+                2274.59
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 400.0,
+                "capacitySupplies": 5300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7082",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7081",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7079",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7078",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7076",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001611 {}",
+          "sourceName": "CP_ProvinsTransformerStation",
+          "name": "Transformer Station",
+          "worldPositionMeters": [
+            5610.476074,
+            90.375,
+            5892.061035
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 250.0,
+            "beforeCurrentSupplies": 4000.0,
+            "afterCurrentSupplies": 4000.0,
+            "baseGridCapacitySupplies": 7300.0,
+            "capturedAtUTC": "2026-10-07T18:09:26.369Z"
+          },
+          "stableAcrossSamples": true,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:09:29.357Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5610.48,
+                90.375,
+                5892.06
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 7300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5810",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5809",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5807",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5806",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5804",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 8,
+              "capturedAtUTC": "2026-10-07T18:09:34.39Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5610.48,
+                90.375,
+                5892.06
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 7300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5810",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5809",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5807",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5806",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5804",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            },
+            {
+              "elapsedAfterInitializationSeconds": 15,
+              "capturedAtUTC": "2026-10-07T18:09:41.423Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5610.48,
+                90.375,
+                5892.06
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 7300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5810",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5809",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5807",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5806",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5804",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "runId": "run03",
+      "gameVersion": "1.8.0.13",
+      "processId": 11860,
+      "executionMode": "native_mission_header_via_PlayGameConfig",
+      "missionHeaderLoaded": true,
+      "missionHeader": "{0220741028718E7F}Missions/23_Campaign_HQC_Everon.conf",
+      "world": "{9DF143A76F5C6461}worlds/MP/CTI_Campaign_HQC_Eden.ent",
+      "systemsConfig": "{7C9E720397CC6ACD}Configs/Systems/ConflictSystems.conf",
+      "startedAtUTC": "2026-10-07T18:14:40.5663561Z",
+      "measurementStartedAtUTC": "2026-10-07T18:15:23.88Z",
+      "measurementComplete": false,
+      "lastMeasuredAtUTC": "2026-10-07T18:15:28.98Z",
+      "isolatedProfile": true,
+      "readOnlyProbe": true,
+      "recordCount": 7,
+      "sampleTimesAfterAllControlPointInitializationSeconds": [
+        3
+      ],
+      "logFileName": "logs_2026-10-07_21-14-40/console.log",
+      "logSha256": "F7BD2036412C36E50FCF16390F10FF63C59E93D3E9B072E5339C291C67F08DA0",
+      "records": [
+        {
+          "sourceId": "0x200000000000161A {}",
+          "sourceName": "CP_CalvaryHill",
+          "name": "Calvary Hill",
+          "worldPositionMeters": [
+            3505.950927,
+            181.910003,
+            5817.966796
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 225.0,
+            "beforeCurrentSupplies": 2500.0,
+            "afterCurrentSupplies": 2500.0,
+            "baseGridCapacitySupplies": 9800.0,
+            "capturedAtUTC": "2026-10-07T18:15:25.993Z"
+          },
+          "stableAcrossSamples": null,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:15:28.98Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                3505.95,
+                181.91,
+                5817.97
+              ],
+              "requestedBaseStartingSupplies": 225.0,
+              "baseResourceGrid": {
+                "currentSupplies": 2500.0,
+                "capacitySupplies": 9800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6459",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6458",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6456",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6455",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6453",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001627 {}",
+          "sourceName": "CP_SaulesIsland",
+          "name": "Île-aux-Saules",
+          "worldPositionMeters": [
+            2843.543945,
+            7.876999,
+            2238.298095
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 200.0,
+            "beforeCurrentSupplies": 5500.0,
+            "afterCurrentSupplies": 5500.0,
+            "baseGridCapacitySupplies": 7400.0,
+            "capturedAtUTC": "2026-10-07T18:15:25.993Z"
+          },
+          "stableAcrossSamples": null,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:15:28.98Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                2843.54,
+                7.877,
+                2238.3
+              ],
+              "requestedBaseStartingSupplies": 200.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5500.0,
+                "capacitySupplies": 7400.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7413",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7412",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7410",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7409",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7407",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x200000000000160D {}",
+          "sourceName": "CP_LevieMilitaryBase",
+          "name": "Military Base Levie",
+          "worldPositionMeters": [
+            7500.099121,
+            165.496002,
+            4302.559082
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 200.0,
+            "beforeCurrentSupplies": 8500.0,
+            "afterCurrentSupplies": 8500.0,
+            "baseGridCapacitySupplies": 10800.0,
+            "capturedAtUTC": "2026-10-07T18:15:25.992Z"
+          },
+          "stableAcrossSamples": null,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:15:28.979Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7500.1,
+                165.496,
+                4302.56
+              ],
+              "requestedBaseStartingSupplies": 200.0,
+              "baseResourceGrid": {
+                "currentSupplies": 8500.0,
+                "capacitySupplies": 10800.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5505",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5504",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5502",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5501",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5499",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001616 {}",
+          "sourceName": "CP_MontignacTown",
+          "name": "Montignac",
+          "worldPositionMeters": [
+            4825.608886,
+            166.811996,
+            7094.842773
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 250.0,
+            "beforeCurrentSupplies": 4000.0,
+            "afterCurrentSupplies": 4000.0,
+            "baseGridCapacitySupplies": 8300.0,
+            "capturedAtUTC": "2026-10-07T18:15:25.993Z"
+          },
+          "stableAcrossSamples": null,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:15:28.979Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                4825.61,
+                166.812,
+                7094.84
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 8300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6141",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6140",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6138",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6137",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6135",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x200000000000161E {}",
+          "sourceName": "CP_PowerPlant",
+          "name": "Power Plant",
+          "worldPositionMeters": [
+            5784.080078,
+            7.385,
+            9767.163085
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 250.0,
+            "beforeCurrentSupplies": 5100.0,
+            "afterCurrentSupplies": 5100.0,
+            "baseGridCapacitySupplies": 7000.0,
+            "capturedAtUTC": "2026-10-07T18:15:25.993Z"
+          },
+          "stableAcrossSamples": null,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:15:28.98Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5784.08,
+                7.385,
+                9767.16
+              ],
+              "requestedBaseStartingSupplies": 250.0,
+              "baseResourceGrid": {
+                "currentSupplies": 5100.0,
+                "capacitySupplies": 7000.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "6777",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6776",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6774",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6773",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "6771",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001622 {}",
+          "sourceName": "CP_Regina",
+          "name": "Régina",
+          "worldPositionMeters": [
+            7193.323242,
+            137.781997,
+            2274.59497
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 225.0,
+            "beforeCurrentSupplies": 400.0,
+            "afterCurrentSupplies": 400.0,
+            "baseGridCapacitySupplies": 5300.0,
+            "capturedAtUTC": "2026-10-07T18:15:25.993Z"
+          },
+          "stableAcrossSamples": null,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:15:28.98Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                7193.32,
+                137.782,
+                2274.59
+              ],
+              "requestedBaseStartingSupplies": 225.0,
+              "baseResourceGrid": {
+                "currentSupplies": 400.0,
+                "capacitySupplies": 5300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "7095",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7094",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7092",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7091",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "7089",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        },
+        {
+          "sourceId": "0x2000000000001611 {}",
+          "sourceName": "CP_ProvinsTransformerStation",
+          "name": "Transformer Station",
+          "worldPositionMeters": [
+            5610.476074,
+            90.375,
+            5892.061035
+          ],
+          "correspondenceMethod": "exact_source_name_and_position_within_0.025m_log_precision",
+          "initialization": {
+            "method": "SetInitialSupplies_before_and_after_native_call",
+            "requestedBaseStartingSupplies": 100.0,
+            "beforeCurrentSupplies": 4000.0,
+            "afterCurrentSupplies": 4000.0,
+            "baseGridCapacitySupplies": 7300.0,
+            "capturedAtUTC": "2026-10-07T18:15:25.992Z"
+          },
+          "stableAcrossSamples": null,
+          "observedVariantId": "FIA",
+          "observedCommandPostCurrentSupplies": 0.0,
+          "observedCommandPostCapacitySupplies": 1000.0,
+          "samples": [
+            {
+              "elapsedAfterInitializationSeconds": 3,
+              "capturedAtUTC": "2026-10-07T18:15:28.979Z",
+              "faction": "FIA",
+              "commandPostPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+              "positionReportedInLogMeters": [
+                5610.48,
+                90.375,
+                5892.06
+              ],
+              "requestedBaseStartingSupplies": 100.0,
+              "baseResourceGrid": {
+                "currentSupplies": 4000.0,
+                "capacitySupplies": 7300.0,
+                "method": "SCR_CampaignMilitaryBaseComponent.GetSupplies_GetSuppliesMax"
+              },
+              "commandPostStorage": {
+                "currentSupplies": 0.0,
+                "capacitySupplies": 1000.0,
+                "physicalContainerCount": 5,
+                "virtualContainerCount": 1,
+                "physicalContainers": [
+                  {
+                    "runtimeEntityId": "5823",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5822",
+                    "containerIndex": 0,
+                    "prefab": "{1211960C70739153}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V3_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5820",
+                    "containerIndex": 0,
+                    "prefab": "{C2C3289156D73C4A}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V2_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5819",
+                    "containerIndex": 0,
+                    "prefab": "{AF55CD4ED870874C}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/E_SupplyStack_01_V5_storage.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  },
+                  {
+                    "runtimeEntityId": "5817",
+                    "containerIndex": 0,
+                    "prefab": "{5DE3EC2A1F781254}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/E_SupplyStack_Large_01_storage_FIA_covered.et",
+                    "currentSupplies": 0.0,
+                    "capacitySupplies": 200.0
+                  }
+                ],
+                "method": "live_composition_descendants_resource_containers_excluding_virtual_representatives"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Native scenario run03 ended after its first sample; repeat stability was checked only in direct-world run01.",
+    "Observed initial faction is recorded per run; future faction changes and US/USSR storage have not been measured.",
+    "Random base starting targets are observations of these runs, not constants for later sessions.",
+    "Grid totals are live consumer aggregates, not the sum of map-grouped source objects.",
+    "Profiles, saves, full logs and extracted vanilla scripts are excluded from Git."
+  ]
+}

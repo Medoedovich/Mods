@@ -1,0 +1,25 @@
+# EveronAirport
+
+[Сводка](../Summary.md)
+
+## Summary
+
+Всего точек: **5**. Это количество позиций появления, не фактически созданных машин.
+
+| Фракция | Точек появления |
+| --- | ---: |
+| CIV | 2 |
+| FIA | 2 |
+| US | 1 |
+
+## Точки
+
+| Фракция | Координаты X Y Z, м | Повторное появление, мин | Включённые метки | Режим | Исключённые метки |
+| --- | --- | ---: | --- | --- | --- |
+| CIV | 4931.644 28.568 11666.677 | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| CIV | 4941.960 28.594 11817.605 | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| US | 4880.258 28.594 11914.118 | Нет | VEHICLE_HELICOPTER | Любая | TRAIT_ARMED |
+| FIA | 4905.063 28.594 11962.939 | Нет |  | Любая | TRAIT_ARMED |
+| FIA | 4921.980 28.514 11569.171 | Нет | VEHICLE_TRUCK | Любая | TRAIT_ARMED |
+
+[Полные поля и источники](../SpawnPoints.json).

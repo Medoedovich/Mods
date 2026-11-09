@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0033",
+  "revisionId": "r0033",
+  "revisionReason": "Resolve initial command-post storage supplies after its prefab action separately from campaign base initialization",
+  "status": "partial",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "normalizerVersion": "supply-priority-architecture-0.15",
+  "inputs": {
+    "controlPoints": {
+      "sha256": "141D94D40D76E4ED2806C7B11E18BDBDDD5424767F137C3C6D27D4B44FB1272E",
+      "capturedAtUTC": "2026-10-06 20:14:17",
+      "analyzerVersion": "control-points-0.1"
+    },
+    "locations": {
+      "path": "../r0016/Locations.json",
+      "sha256": "EFCBA9118C21CA0DBD684CCCE120634AC4BF541FF072FE087BB7A4B8F301E5D8",
+      "capturedAtUTC": "2026-10-06T01:23:30Z"
+    },
+    "otherContainers": {
+      "path": "../r0018/Supplies/OtherContainers.json",
+      "sha256": "5C0122695E1D3C61DE815B373FF75DE1BDE225135274438BA542EC0352B7445C",
+      "originalSupplies": {
+        "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0006",
+        "path": "../../r0006/Supplies/OtherContainers.json",
+        "sha256": "98B7453C89A19951E5D98E16750FB5DC48DC9B391696D22BA919D02D58645589",
+        "capturedAtUTC": "2026-10-05T17:55:53Z"
+      }
+    },
+    "harbors": {
+      "path": "../r0018/Supplies/Harbors.json",
+      "sha256": "0B4F9D1D49888BD3EBFCB56C7CBECFEAC459ED6D6D731C383B40364E5E57FB42",
+      "originalSupplies": {
+        "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+        "path": "../../r0004/Supplies/Harbors.json",
+        "sha256": "AF0157C09E6D1818D241434C6BB976F4945C59612BE76A04D88262E133ABE9A1",
+        "capturedAtUTC": "2026-10-05T16:49:34Z",
+        "storageCapturedAtUTC": "2026-10-05T17:35:25Z"
+      }
+    },
+    "worldContainers": {
+      "sha256": "4232E31BDA39A525608A018DCB1BA8985408482974C20DC99464DCB01360D6F9",
+      "capturedAtUTC": "2026-10-05 17:55:53",
+      "originalOtherContainersSnapshot": "1.8.0.13/CTI_Campaign_HQC_Eden/r0006",
+      "originalOtherContainersPath": "../r0006/Supplies/OtherContainers.json",
+      "originalOtherContainersSha256": "98B7453C89A19951E5D98E16750FB5DC48DC9B391696D22BA919D02D58645589"
+    },
+    "controlPointMapLinks": {
+      "kind": "user-confirmed-control-point-map-links",
+      "sha256": "836B21C28DC7D2A8FDDAEA381CBFBDB147175012E5D1B5E9C8B50B2F84B52A45",
+      "rules": [
+        {
+          "id": "HQC_Eden_1.8.0.13_TransformerStation_Provins",
+          "gameVersion": "1.8.0.13",
+          "scenarioKey": "CTI_Campaign_HQC_Eden",
+          "controlPointSourceId": "0x2000000000001611 {}",
+          "controlPointRawName": "#AR-Campaign_MapLocation_TransformerStation",
+          "mapLocationId": "0x0000000000093359 {}/1",
+          "approval": "user_instruction",
+          "reason": "Group nearby Provins and its existing object list under Transformer Station, as requested by the user."
+        }
+      ]
+    },
+    "supplyDepots": {
+      "sha256": "B2C8286BC26DE2549419E8BC289C543BE9B4A044BB392E92898C42FA67CC0C0E",
+      "capturedAtUTC": "2026-10-07 06:30:25",
+      "analyzerVersion": "supply-depots-0.1"
+    },
+    "commandPostStorage": {
+      "sha256": "5CF967734B34523187F0726E5B0FEC51A71D613816FE68AF19FB9DF2D377C904",
+      "capturedAtUTC": "2026-10-07T16:37:13Z",
+      "analyzerVersion": "command-post-storage-comparison-0.2",
+      "initialSuppliesCapturedAtUTC": "2026-10-07T17:55:30Z"
+    }
+  },
+  "controlPointCapture": {
+    "schemaVersion": 2,
+    "kind": "conflict-control-points",
+    "analyzerVersion": "control-points-0.1",
+    "status": "partial",
+    "selection": "ConflictControlPoint-prefab",
+    "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+    "gameVersion": "1.8.0.13",
+    "generatedAtUTC": "2026-10-06 20:14:17",
+    "outputPath": "console-log",
+    "language": "en_us",
+    "subsceneCount": 2,
+    "editorEntityCountBefore": 1240201,
+    "editorEntityCountAfter": 1240201,
+    "visitedSourceCount": 1430800,
+    "recordCount": 7,
+    "coordinateMismatchCount": 0,
+    "editorEntityCountUnchanged": true,
+    "subscenes": [
+      {
+        "index": 0,
+        "name": "worlds/Eden/Eden.ent"
+      },
+      {
+        "index": 1,
+        "name": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent"
+      }
+    ],
+    "warnings": [
+      "Configured SCR_CampaignSuppliesComponent values only; they are not a sum of physical resource containers or a runtime stock measurement.",
+      "Selection uses the nearest ConflictControlPoint prefab reference; unrelated prefab inheritance variants require separate investigation."
+    ],
+    "records": [
+      {
+        "sourceId": "0x200000000000160D {}",
+        "parentSourceId": "",
+        "sourceName": "CP_LevieMilitaryBase",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          7500.099121,
+          165.496002,
+          4302.559082
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Levie_Base",
+        "displayName": "Military Base Levie",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Levie_Base",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001611 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_ProvinsTransformerStation",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          5610.476074,
+          90.375,
+          5892.061035
+        ],
+        "rawName": "#AR-Campaign_MapLocation_TransformerStation",
+        "displayName": "Transformer Station",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "200",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_TransformerStation",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001616 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_MontignacTown",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          4825.608886,
+          166.811996,
+          7094.842773
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Montignac",
+        "displayName": "Montignac",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "200",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Montignac",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x200000000000161A {}",
+        "parentSourceId": "",
+        "sourceName": "CP_CalvaryHill",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          3505.950927,
+          181.910003,
+          5817.966796
+        ],
+        "rawName": "#AR-Campaign_MapLocation_CalvaryHill",
+        "displayName": "Calvary Hill",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_CalvaryHill",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x200000000000161E {}",
+        "parentSourceId": "",
+        "sourceName": "CP_PowerPlant",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          5784.080078,
+          7.385,
+          9767.163085
+        ],
+        "rawName": "#AR-Campaign_MapLocation_PowerPlant",
+        "displayName": "Power Plant",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_PowerPlant",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001622 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_Regina",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          7193.323242,
+          137.781997,
+          2274.59497
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Regina",
+        "displayName": "Régina",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Regina",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001627 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_SaulesIsland",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          2843.543945,
+          7.876999,
+          2238.298095
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Saules",
+        "displayName": "Île-aux-Saules",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Saules",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "matchingPolicy": {
+    "order": [
+      "supply_depots",
+      "control_points",
+      "harbors",
+      "settlements",
+      "other",
+      "unrecognized"
+    ],
+    "radiusMeters": 350.0,
+    "radiusScope": "map_location_matching_control_point_label_correspondence_and_depot_marker_location_matching",
+    "scope": "remaining_other_supply_parents",
+    "sourceAnchorRule": "confirmed_source_parent_hierarchy",
+    "anchorInventoryRule": "all_control_points_and_source_bases_are_shown_once_in_their_own_category",
+    "withinStage": "all_matches",
+    "settlementDescriptorTypes": [
+      "Name City",
+      "Name Town",
+      "Name Village",
+      "Name Settlement"
+    ],
+    "otherDescriptorTypes": [
+      "Name Generic",
+      "Name Island",
+      "Name Hill"
+    ],
+    "otherMapTypes": "excluded",
+    "ownershipEstablished": false,
+    "controlPointMapGroupMerge": {
+      "phase": "after_source_and_map_classification",
+      "correspondenceMethods": [
+        "normalized_display_name",
+        "localization_key_prefab_identity",
+        "user_confirmed_nearby_location"
+      ],
+      "explicitLinkPriority": "before_automatic_identity_matching_for_that_control_point",
+      "explicitLinkScope": "exact_game_version_scenario_and_source_ids",
+      "maximumAnchorDistanceMeters": 350.0,
+      "ambiguousMatch": "reject",
+      "memberRule": "transfer_existing_map_group_members_and_remove_from_lower_categories",
+      "radiusOrigin": "original_map_label",
+      "displayDistanceOrigin": "control_point_source",
+      "sourceParentEstablished": false,
+      "ownershipEstablished": false
+    },
+    "supplyDepotRule": {
+      "selection": "CampaignRemnantsSupplyDepot_prefab",
+      "protectedCategories": [],
+      "phase": "after_depot_location_matching_before_other_classification",
+      "memberRule": "horizontal_radius_proximity",
+      "radiusMeters": 100.0,
+      "distanceOrigin": "supply_depot_marker",
+      "positionOrigin": "other_container_root_parent",
+      "withinStage": "all_matches",
+      "removeAssignedParentsFromLaterStages": true,
+      "ownershipEstablished": false
+    },
+    "supplyDepotLocationRule": {
+      "scope": "supply_depot_markers_only",
+      "radiusMeters": 350.0,
+      "order": [
+        "settlements",
+        "other"
+      ],
+      "settlementDescriptorTypes": [
+        "Name City",
+        "Name Town",
+        "Name Village",
+        "Name Settlement"
+      ],
+      "otherDescriptorTypes": [
+        "Name Generic",
+        "Name Island",
+        "Name Hill"
+      ],
+      "selection": "nearest_in_first_matching_tier",
+      "equalDistanceTieBreak": "map_location_id",
+      "unmatched": "retain_without_location",
+      "sourceParentEstablished": false,
+      "ownershipEstablished": false
+    }
+  },
+  "warnings": [
+    "Control points are selected by prefab, source bases by their previous verified catalog; named map labels are a separate source.",
+    "Control-point component supplies/max are configured fields, not measured physical capacity or runtime stock.",
+    "After hierarchy and map classification, uniquely corresponding map-label groups are merged into their control-point report group. Transferred map neighbors are not confirmed source children.",
+    "Each remaining OtherContainers root parent belongs only to its first matching category; all matches within that category are retained.",
+    "Control-point and Harbor source entities remain inventory anchors in their own category.",
+    "Source parenting and map proximity do not establish runtime resource-grid membership; unknown remains unknown.",
+    "Transferred members retain original map-label proximity evidence; displayed distances use the control-point source position and can exceed the map-label radius.",
+    "Supply depots are located first, then reserve root storage parents within their own radius before control-point, Harbor and map classification. Marker component settings remain separate from physical storage.",
+    "Depot markers use named locations within the map radius: settlements first, then other permitted types, nearest within that tier. Unmatched markers remain separate; proximity does not establish source parenting or runtime ownership."
+  ],
+  "supplyDepotCapture": {
+    "schemaVersion": 2,
+    "kind": "campaign-remnants-supply-depots",
+    "analyzerVersion": "supply-depots-0.1",
+    "status": "partial",
+    "selection": "CampaignRemnantsSupplyDepot-prefab",
+    "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+    "gameVersion": "1.8.0.13",
+    "generatedAtUTC": "2026-10-07 06:30:25",
+    "outputPath": "console-log",
+    "subsceneCount": 2,
+    "editorEntityCountBefore": 1240201,
+    "editorEntityCountAfter": 1240201,
+    "visitedSourceCount": 1430800,
+    "recordCount": 9,
+    "coordinateMismatchCount": 0,
+    "editorEntityCountUnchanged": true,
+    "subscenes": [
+      {
+        "index": 0,
+        "name": "worlds/Eden/Eden.ent"
+      },
+      {
+        "index": 1,
+        "name": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent"
+      }
+    ],
+    "warnings": [
+      "Configured campaign component values are separate from physical container capacity and runtime stock.",
+      "Depot markers are selected by their nearest CampaignRemnantsSupplyDepot prefab; proximity does not establish source parenting or runtime membership."
+    ],
+    "records": [
+      {
+        "sourceId": "0x20000000000012D3 {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          9049.646484,
+          120.189002,
+          2703.245117
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012D7 {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          6912.457031,
+          57.717998,
+          4482.108886
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012DB {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          4814.289062,
+          53.444999,
+          5819.507812
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012DF {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          4995.100097,
+          25.472999,
+          9943.719726
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012E4 {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          4841.86621,
+          112.852996,
+          8100.993164
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012E8 {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          6458.873046,
+          162.266998,
+          6496.986816
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012EC {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          3079.38208,
+          117.505996,
+          5184.798828
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012F0 {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          7085.573242,
+          156.740005,
+          2086.480957
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x20000000000012F4 {}",
+        "parentSourceId": "",
+        "sourceName": "",
+        "prefab": "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          7681.505859,
+          13.687999,
+          8103.35791
+        ],
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "50000",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_fOperationalRadius",
+                "type": "SCALAR",
+                "status": "resolved",
+                "value": "20",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_bIsStandaloneDepot",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_MapDescriptorComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "DisplayName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "MainType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "87",
+                "enumLabel": "Icon (generic)",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "UnitType",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "0",
+                "enumLabel": "Undetermined/ Unknown",
+                "directOverride": false,
+                "values": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "commandPostStorageCapture": {
+    "schemaVersion": 2,
+    "kind": "control-point-command-post-storage",
+    "analyzerVersion": "command-post-storage-comparison-0.2",
+    "status": "partial",
+    "gameVersion": "1.8.0.13",
+    "generatedAtUTC": "2026-10-07T16:37:13Z",
+    "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+    "selection": "verified_vanilla_command_post_variants",
+    "controlPointPrefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+    "recordCount": 3,
+    "runtimeMeasured": false,
+    "prototypeSourceIdsScope": "storage_prefab_not_world_instances",
+    "evidence": {
+      "method": "Workbench_static_prefab_sources_and_installed_code",
+      "countLogSha256": "F7B8039C56DFD039D12AC696D1863037A51832A6595D26205558427CE8E5A208",
+      "readResourceLogSha256": "7D2691DE77099330097AE3B067A59142DD10CB2B4335EF15AA6AB6756956B085",
+      "countProcessId": 20284,
+      "actionScript": "scripts/Game/Sandbox/Resources/ContainerQueue/Encapsulator/Actions/SCR_ResourceEncapsulatorActionBase.c",
+      "actionClassLine": 22,
+      "performActionLine": 33,
+      "initialSupplies": {
+        "method": "Workbench_resolved_prefab_action_fields_and_managed_action_getters",
+        "capturedAtUTC": "2026-10-07T17:55:30Z",
+        "gameVersion": "1.8.0.13",
+        "processId": 23292,
+        "logSha256": "6921A754E11B35C48DF5851CDC2DEDA45E0187CBC763517910FC5BD0C34AC440",
+        "resourceRootCount": 6,
+        "entitiesCreated": false,
+        "worldOpened": false,
+        "runtimeMeasured": false
+      }
+    },
+    "records": [
+      {
+        "variantId": "FIA",
+        "factionConfiguration": "Configs/Factions/FIA_Campaign.conf",
+        "headquartersEditablePrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+        "headquartersPrefab": "{355712A49572A508}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_FIA_01.et",
+        "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+        "physicalContainerCount": 5,
+        "virtualContainerCount": 1,
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "capacityMethod": "encapsulator_target_and_static_container_count",
+        "capacityComposition": [
+          {
+            "containerCount": 5,
+            "capacitySupplies": 200
+          }
+        ],
+        "compositionStatus": "calculated_from_installed_action_code",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "physicalSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095064365",
+            "prefab": "{7D2C0FB3B8ACF2B0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_FIA_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095144891",
+            "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095064353",
+            "prefab": "{EF62478046B376DD}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage_FIA_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095144889",
+            "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095064362",
+            "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          }
+        ],
+        "virtualSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-540519537",
+            "prefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "className": "SCR_ResourceContainerVirtual",
+            "configuredMaximumSuppliesBeforeAction": 0.0,
+            "configuredCurrentSuppliesBeforeAction": 0.0
+          }
+        ],
+        "maximumAction": {
+          "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+          "m_bShouldChangeMaximum": true,
+          "m_fResourceValueMax": 1000,
+          "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "sourceLine": 16,
+          "m_fResourceValueCurrent": 0
+        },
+        "allocationRule": {
+          "ordinarySlotCapacity": "floor(target / physical_count)",
+          "ordinarySlotCount": "physical_count - 1",
+          "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+          "specificRemainderSlot": "runtime_queue_order_not_assigned",
+          "virtualSlotsExcluded": true
+        },
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+        "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+        "initialSuppliesEvidence": [
+          {
+            "rootPrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          },
+          {
+            "rootPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          }
+        ],
+        "runtimeInitialSuppliesStatus": "not_measured"
+      },
+      {
+        "variantId": "US",
+        "factionConfiguration": "Configs/Factions/US_Campaign.conf",
+        "headquartersEditablePrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+        "headquartersPrefab": "{FEFE7B425EA72746}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_US_01.et",
+        "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+        "physicalContainerCount": 6,
+        "virtualContainerCount": 1,
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "capacityMethod": "encapsulator_target_and_static_container_count",
+        "capacityComposition": [
+          {
+            "containerCount": 5,
+            "capacitySupplies": 166
+          },
+          {
+            "containerCount": 1,
+            "capacitySupplies": 170
+          }
+        ],
+        "compositionStatus": "calculated_from_installed_action_code",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "physicalSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673377",
+            "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673391",
+            "prefab": "{52E67D46C7855822}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_US_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673379",
+            "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673383",
+            "prefab": "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673380",
+            "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673389",
+            "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          }
+        ],
+        "virtualSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "-540519537",
+            "prefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "className": "SCR_ResourceContainerVirtual",
+            "configuredMaximumSuppliesBeforeAction": 0.0,
+            "configuredCurrentSuppliesBeforeAction": 0.0
+          }
+        ],
+        "maximumAction": {
+          "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+          "m_bShouldChangeMaximum": true,
+          "m_fResourceValueMax": 1000,
+          "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "sourceLine": 16,
+          "m_fResourceValueCurrent": 0
+        },
+        "allocationRule": {
+          "ordinarySlotCapacity": "floor(target / physical_count)",
+          "ordinarySlotCount": "physical_count - 1",
+          "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+          "specificRemainderSlot": "runtime_queue_order_not_assigned",
+          "virtualSlotsExcluded": true
+        },
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+        "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+        "initialSuppliesEvidence": [
+          {
+            "rootPrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          },
+          {
+            "rootPrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          }
+        ],
+        "runtimeInitialSuppliesStatus": "not_measured"
+      },
+      {
+        "variantId": "USSR",
+        "factionConfiguration": "Configs/Factions/USSR_Campaign.conf",
+        "headquartersEditablePrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+        "headquartersPrefab": "{6B1CAED52B91E267}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_USSR_01.et",
+        "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+        "physicalContainerCount": 6,
+        "virtualContainerCount": 1,
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "capacityMethod": "encapsulator_target_and_static_container_count",
+        "capacityComposition": [
+          {
+            "containerCount": 5,
+            "capacitySupplies": 166
+          },
+          {
+            "containerCount": 1,
+            "capacitySupplies": 170
+          }
+        ],
+        "compositionStatus": "calculated_from_installed_action_code",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "physicalSlotsBeforeAction": [
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789064",
+            "prefab": "{1F7AE3AAD6198021}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_USSR_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789084",
+            "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789085",
+            "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789069",
+            "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789072",
+            "prefab": "{B14D3FBE92E47277}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage_USSR_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789076",
+            "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          }
+        ],
+        "virtualSlotsBeforeAction": [
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "-540519537",
+            "prefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "className": "SCR_ResourceContainerVirtual",
+            "configuredMaximumSuppliesBeforeAction": 0.0,
+            "configuredCurrentSuppliesBeforeAction": 0.0
+          }
+        ],
+        "maximumAction": {
+          "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+          "m_bShouldChangeMaximum": true,
+          "m_fResourceValueMax": 1000,
+          "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "sourceLine": 16,
+          "m_fResourceValueCurrent": 0
+        },
+        "allocationRule": {
+          "ordinarySlotCapacity": "floor(target / physical_count)",
+          "ordinarySlotCount": "physical_count - 1",
+          "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+          "specificRemainderSlot": "runtime_queue_order_not_assigned",
+          "virtualSlotsExcluded": true
+        },
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+        "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+        "initialSuppliesEvidence": [
+          {
+            "rootPrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          },
+          {
+            "rootPrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          }
+        ],
+        "runtimeInitialSuppliesStatus": "not_measured"
+      }
+    ],
+    "warnings": [
+      "Prefab variants are alternatives, not three coexisting buildings at each control point.",
+      "Composition is calculated from the installed encapsulator action; runtime queue membership was not measured.",
+      "Initial stock and total resource-grid capacity of the base remain unverified.",
+      "Original physical slot maxima before encapsulation remain separate from the 1000 target; virtual representatives are not additional physical containers."
+    ],
+    "campaignInitialization": {
+      "scope": "base_resource_grid_after_command_post_spawn",
+      "targetPerStorageStatus": "not_determined",
+      "runtimeMeasured": false,
+      "steps": [
+        {
+          "script": "scripts/Game/Campaign/SCR_CampaignMilitaryBaseManager.c",
+          "method": "AddRandomSupplies",
+          "startingSuppliesSetter": "SetStartingSupplies",
+          "setterLine": 696
+        },
+        {
+          "script": "scripts/Game/Components/Locations/SCR_CampaignMilitaryBaseComponent.c",
+          "method": "SpawnBuilding",
+          "line": 2601,
+          "delayedCall": "SetInitialSupplies"
+        },
+        {
+          "script": "scripts/Game/Components/Locations/SCR_CampaignMilitaryBaseComponent.c",
+          "method": "SetInitialSupplies",
+          "line": 2161,
+          "condition": "only_if_requested_starting_supplies_exceed_aggregated_grid_current"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Régina
+
+[Сводка](../Summary.md)
+
+## Summary
+
+Всего точек: **3**. Это количество позиций появления, не фактически созданных машин.
+
+| Фракция | Точек появления |
+| --- | ---: |
+| CIV | 3 |
+
+## Точки
+
+| Фракция | Координаты X Y Z, м | Повторное появление, мин | Включённые метки | Режим | Исключённые метки |
+| --- | --- | ---: | --- | --- | --- |
+| CIV | 7176.652 138.483 2438.584 | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| CIV | 7228.174 136.625 2321.684 | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| CIV | 7248.583 136.872 2202.720 | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+
+[Полные поля и источники](../SpawnPoints.json).

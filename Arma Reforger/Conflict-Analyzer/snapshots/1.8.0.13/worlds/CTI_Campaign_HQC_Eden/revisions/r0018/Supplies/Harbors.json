@@ -1,0 +1,873 @@
+{
+  "schemaVersion": 2,
+  "kind": "location-grouped-supply-view",
+  "report": "Harbors",
+  "category": "supply_source_base",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0018",
+  "status": "partial",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "normalizerVersion": "location-grouped-supplies-0.2",
+  "worldMetadata": "../world.json",
+  "inputs": {
+    "locations": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0016",
+      "path": "../../r0016/Locations.json",
+      "sha256": "EFCBA9118C21CA0DBD684CCCE120634AC4BF541FF072FE087BB7A4B8F301E5D8",
+      "capturedAtUTC": "2026-10-06T01:23:30Z"
+    },
+    "supplies": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+      "path": "../../r0004/Supplies/Harbors.json",
+      "sha256": "AF0157C09E6D1818D241434C6BB976F4945C59612BE76A04D88262E133ABE9A1",
+      "capturedAtUTC": "2026-10-05T16:49:34Z",
+      "storageCapturedAtUTC": "2026-10-05T17:35:25Z"
+    }
+  },
+  "radiusMeters": 350.0,
+  "distanceMethod": "horizontal_euclidean_XZ",
+  "matchingPolicy": "settlements_islands_and_hills_first_then_generic_within_radius_then_ungrouped",
+  "matchingPriority": {
+    "field": "MainType",
+    "primaryDescriptorTypes": [
+      "Name City",
+      "Name Town",
+      "Name Village",
+      "Name Settlement",
+      "Name Island",
+      "Name Hill"
+    ],
+    "secondaryDescriptorTypes": [
+      "Name Generic"
+    ],
+    "selectionScope": "per_object",
+    "secondaryRule": "only_when_no_primary_location_within_radius",
+    "withinTierRule": "all_matches",
+    "radiusAppliesToBothTiers": true
+  },
+  "summary": {
+    "objectCount": 18,
+    "groupedObjectCount": 14,
+    "ungroupedObjectCount": 4,
+    "locationCount": 15,
+    "associationCount": 15
+  },
+  "sourceSummary": {
+    "sourceBaseCount": 18,
+    "harborCount": 17,
+    "airfieldCount": 1,
+    "resolvedCapacityBaseCount": 15,
+    "unknownCapacityBaseCount": 3,
+    "physicalContainerCount": 49.0,
+    "knownCapacitySubtotalSupplies": 40500.0
+  },
+  "records": [
+    {
+      "objectId": "supply_source_base/0x2000000000000ECE {}",
+      "sourceId": "0x2000000000000ECE {}",
+      "name": "SP_A_EveronAirport",
+      "worldPositionMeters": [
+        4943.125,
+        28.593999,
+        11793.298828
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000ECE {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 4000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 4000.0,
+      "physicalContainerCount": 5,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000003122 {}",
+      "sourceId": "0x2000000000003122 {}",
+      "name": "SP_T1H_StPhillipe",
+      "worldPositionMeters": [
+        4394.425781,
+        1.6,
+        11068.055664
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000003122 {}",
+      "supplyIncomePerCycle": 3000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000003115 {}",
+      "sourceId": "0x2000000000003115 {}",
+      "name": "SP_T1H_StPierre",
+      "worldPositionMeters": [
+        9963.828125,
+        2.838,
+        1523.41394
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000003115 {}",
+      "supplyIncomePerCycle": 3000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": null,
+      "capacityStatus": "unknown",
+      "knownCapacitySubtotalSupplies": 0.0,
+      "physicalContainerCount": 0,
+      "nestedStorageGroupCount": 0
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004E0B {}",
+      "sourceId": "0x2000000000004E0B {}",
+      "name": "SP_T2H_FishermansBay",
+      "worldPositionMeters": [
+        7531.005859,
+        2.440999,
+        6689.541015
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004E0B {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 5000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 5000.0,
+      "physicalContainerCount": 5,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004DD7 {}",
+      "sourceId": "0x2000000000004DD7 {}",
+      "name": "SP_T2H_Lamentin",
+      "worldPositionMeters": [
+        1052.508056,
+        3.503999,
+        6049.771972
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004DD7 {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": null,
+      "capacityStatus": "unknown",
+      "knownCapacitySubtotalSupplies": 0.0,
+      "physicalContainerCount": 0,
+      "nestedStorageGroupCount": 0
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004E04 {}",
+      "sourceId": "0x2000000000004E04 {}",
+      "name": "SP_T2H_Meaux",
+      "worldPositionMeters": [
+        4316.275878,
+        1.125,
+        9516.908203
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004E04 {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": null,
+      "capacityStatus": "unknown",
+      "knownCapacitySubtotalSupplies": 0.0,
+      "physicalContainerCount": 0,
+      "nestedStorageGroupCount": 0
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004DDD {}",
+      "sourceId": "0x2000000000004DDD {}",
+      "name": "SP_T2H_MilitaryHospital",
+      "worldPositionMeters": [
+        3737.437988,
+        1.246999,
+        8529.839843
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004DDD {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "physicalContainerCount": 3,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004D93 {}",
+      "sourceId": "0x2000000000004D93 {}",
+      "name": "SP_T2H_Morton",
+      "worldPositionMeters": [
+        4947.416992,
+        2.605999,
+        3870.59497
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004D93 {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000000DE {}",
+      "sourceId": "0x20000000000000DE {}",
+      "name": "SP_T3H_GoatBay",
+      "worldPositionMeters": [
+        5803.098144,
+        2.961999,
+        3533.062011
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000000DE {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 2500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000144 {}",
+      "sourceId": "0x2000000000000144 {}",
+      "name": "SP_T3H_Gravette",
+      "worldPositionMeters": [
+        3817.627929,
+        5.025,
+        7733.58789
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000144 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000111 {}",
+      "sourceId": "0x2000000000000111 {}",
+      "name": "SP_T3H_HalcyonStrait",
+      "worldPositionMeters": [
+        3271.833984,
+        2.394999,
+        3547.009033
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000111 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x200000000000015D {}",
+      "sourceId": "0x200000000000015D {}",
+      "name": "SP_T3H_Kermovan",
+      "worldPositionMeters": [
+        6277.401855,
+        2.145999,
+        9643.742187
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x200000000000015D {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 2500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000000C2 {}",
+      "sourceId": "0x20000000000000C2 {}",
+      "name": "SP_T3H_Lancre",
+      "worldPositionMeters": [
+        11658.808593,
+        7.841,
+        2176.576904
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000000C2 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000191 {}",
+      "sourceId": "0x2000000000000191 {}",
+      "name": "SP_T3H_Laruns",
+      "worldPositionMeters": [
+        7782.555175,
+        2.344,
+        5875.38916
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000191 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000000A9 {}",
+      "sourceId": "0x20000000000000A9 {}",
+      "name": "SP_T3H_LeBosc",
+      "worldPositionMeters": [
+        7941.068847,
+        12.805999,
+        1469.953979
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000000A9 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "physicalContainerCount": 3,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000001C0 {}",
+      "sourceId": "0x20000000000001C0 {}",
+      "name": "SP_T3H_Perelle",
+      "worldPositionMeters": [
+        9328.079101,
+        3.74,
+        5065.999023
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000001C0 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x200000000000012B {}",
+      "sourceId": "0x200000000000012B {}",
+      "name": "SP_T3H_SpaniardsBay",
+      "worldPositionMeters": [
+        3375.760009,
+        1.093999,
+        7211.186035
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x200000000000012B {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "physicalContainerCount": 3,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000001A8 {}",
+      "sourceId": "0x20000000000001A8 {}",
+      "name": "SP_T3H_Thollevast",
+      "worldPositionMeters": [
+        3145.990966,
+        3.884999,
+        2141.905029
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000001A8 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "0x00000000000F4D49 {}/1",
+      "name": "Airport",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Airport",
+      "worldPositionMeters": [
+        4900.952148,
+        28.594999,
+        11787.412109
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "generic",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000000ECE {}",
+          "distanceMeters": 42.58172033160285,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "generic"
+        }
+      ]
+    },
+    {
+      "locationId": "0x0000000000004B0B {}/1",
+      "name": "Gravette",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Gravette",
+      "worldPositionMeters": [
+        4120.76123,
+        35.405998,
+        7796.203125
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000000144 {}",
+          "distanceMeters": 309.53265712887514,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x000000000005C1FD {}/1",
+      "name": "Île-aux-Saules",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Saules",
+      "worldPositionMeters": [
+        2918.97998,
+        19.531,
+        1931.780029
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x20000000000001A8 {}",
+          "distanceMeters": 309.3323510234455,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x00000000000B06E5 {}/1",
+      "name": "Kermovan",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Kermovan",
+      "worldPositionMeters": [
+        6367.383789,
+        9.46,
+        9664.129882
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x200000000000015D {}",
+          "distanceMeters": 92.26270402385475,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x000000000008BE1C {}/1",
+      "name": "Lamentin",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Lamentin",
+      "worldPositionMeters": [
+        1279.668945,
+        37.386001,
+        5940.502929
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000004DD7 {}",
+          "distanceMeters": 252.07497545255464,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x00000000000C5DA4 {}/1",
+      "name": "Lancre",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Lancre",
+      "worldPositionMeters": [
+        11684.476562,
+        8.440999,
+        2234.580078
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x20000000000000C2 {}",
+          "distanceMeters": 63.42880123933634,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x00000000000D1C92 {}/1",
+      "name": "Le Bosc",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_LeBosc",
+      "worldPositionMeters": [
+        7938.762207,
+        12.809,
+        1469.647949
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x20000000000000A9 {}",
+          "distanceMeters": 2.3268524771671717,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x00000000000884D4 {}/1",
+      "name": "Meaux",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Meaux",
+      "worldPositionMeters": [
+        4520.450195,
+        14.178,
+        9467.976562
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000004E04 {}",
+          "distanceMeters": 209.95584586614743,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x0000000000085611 {}/1",
+      "name": "military site",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Military",
+      "worldPositionMeters": [
+        7447.12207,
+        7.894,
+        6704.909179
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "generic",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000004E0B {}",
+          "distanceMeters": 85.27995380936454,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "generic"
+        }
+      ]
+    },
+    {
+      "locationId": "0x00000000000B0C4D {}/1",
+      "name": "military site",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Military",
+      "worldPositionMeters": [
+        3901.865966,
+        15.248999,
+        8450.660156
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "generic",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000004DDD {}",
+          "distanceMeters": 182.49926789602839,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "generic"
+        }
+      ]
+    },
+    {
+      "locationId": "0x00000000000C3925 {}/1",
+      "name": "military site",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Military",
+      "worldPositionMeters": [
+        4936.765136,
+        28.260999,
+        11921.946289
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "generic",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000000ECE {}",
+          "distanceMeters": 128.804569374866,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "generic"
+        }
+      ]
+    },
+    {
+      "locationId": "0x000000000003A667 {}/1",
+      "name": "Morton",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Morton",
+      "worldPositionMeters": [
+        5135.237792,
+        13.126,
+        4011.780029
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000004D93 {}",
+          "distanceMeters": 234.9678143862969,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x000000000001042F {}/1",
+      "name": "Perelle",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_Perelle",
+      "worldPositionMeters": [
+        9354.210937,
+        5.281,
+        5072.686035
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x20000000000001C0 {}",
+          "distanceMeters": 26.973857384865386,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x00000000000B7C25 {}/1",
+      "name": "Saint-Philippe",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_StPhillipe",
+      "worldPositionMeters": [
+        4502.755859,
+        14.701999,
+        10771.987304
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000003122 {}",
+          "distanceMeters": 315.2647769614856,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    },
+    {
+      "locationId": "0x0000000000056AB6 {}/1",
+      "name": "Saint-Pierre",
+      "nameStatus": "resolved",
+      "rawName": "#AR-MapLocation_StPierre",
+      "worldPositionMeters": [
+        9689.017578,
+        14.024,
+        1558.482055
+      ],
+      "positionStatus": "resolved",
+      "matchingTier": "primary",
+      "nearbyObjects": [
+        {
+          "objectId": "supply_source_base/0x2000000000003115 {}",
+          "distanceMeters": 277.0390034491388,
+          "method": "horizontal_radius_proximity",
+          "ownershipEstablished": false,
+          "selectionTier": "primary"
+        }
+      ]
+    }
+  ],
+  "unassignedObjects": [
+    {
+      "objectId": "supply_source_base/0x20000000000000DE {}",
+      "reason": "no_primary_or_generic_within_radius"
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000111 {}",
+      "reason": "no_primary_or_generic_within_radius"
+    },
+    {
+      "objectId": "supply_source_base/0x200000000000012B {}",
+      "reason": "no_primary_or_generic_within_radius"
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000191 {}",
+      "reason": "no_primary_or_generic_within_radius"
+    }
+  ],
+  "warnings": [
+    "Groups reproduce the verified Locations snapshot without additional matching.",
+    "Proximity to a map label does not establish editor parenting, base ownership or resource-grid membership.",
+    "The same object can appear at multiple locations in its selected tier; supply totals count unique source objects once.",
+    "Physical-container details and field provenance remain in the original supply snapshots.",
+    "Source data retains its original capture times; no new Workbench read was performed."
+  ]
+}

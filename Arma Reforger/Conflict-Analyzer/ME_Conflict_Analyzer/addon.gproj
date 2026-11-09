@@ -1,0 +1,11 @@
+GameProject {
+ ID "ME_Conflict_Analyzer"
+ GUID "7778354B6C3C4B09"
+ TITLE "ME_Conflict_Analyzer"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {}
+ }
+}

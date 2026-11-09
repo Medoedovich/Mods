@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0055",
+  "status": "partial",
+  "sections": {
+    "supplies": {
+      "status": "unchanged",
+      "data": "../r0046/data.json"
+    },
+    "ai": {
+      "summary": "AI/Summary.md",
+      "status": "partial",
+      "data": "AI/Groups.json",
+      "weapons": "AI/Weapons.json",
+      "medical": "AI/Medical.json",
+      "ammunition": "AI/Ammunition.json"
+    }
+  }
+}

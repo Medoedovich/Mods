@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0002",
+  "revisionId": "r0002",
+  "revisionReason": "Targeted source-base export and separate Harbors JSON",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "worldResourceGuid": null,
+  "worldResourceGuidStatus": "unknown",
+  "gameVersion": "1.8.0.13",
+  "gameChannel": null,
+  "workbenchVersion": "1.8.0.13",
+  "workbenchVersionStatus": "provided_by_operator",
+  "capturedAtUTC": "2026-10-05T16:49:34Z",
+  "mode": "targeted-source-bases",
+  "status": "partial",
+  "analyzerVersion": "supply-source-bases-0.1",
+  "normalizerVersion": "supply-sources-0.2",
+  "input": {
+    "fileName": "HQC_Eden_SupplySources_1.8.0.13.json",
+    "sha256": "31D5FC1F3DCC96A5B160266B86B791FC25B143A289303F061DD463F373F15387",
+    "schemaVersion": 2
+  },
+  "subsceneCount": 2,
+  "subscenes": [
+    {
+      "index": 0,
+      "name": "worlds/Eden/Eden.ent"
+    },
+    {
+      "index": 1,
+      "name": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent"
+    }
+  ],
+  "editorEntityCountUnchanged": true,
+  "sourceWarnings": [
+    "Only configured source-base settings are exported; capacity and runtime income conditions are not analyzed.",
+    "Source IDs are provisional editor identifiers; cross-version identity is not verified.",
+    "Nearest prefab is an owner reference; exact defining resources and localized location names are not resolved."
+  ],
+  "warnings": [
+    "Only configured source-base income and intervals have been normalized; this is a partial snapshot.",
+    "Source IDs are provisional editor identifiers, not verified keys across game versions.",
+    "Nearest prefab is an owner reference; the exact resource defining each inherited field is unknown.",
+    "Storage capacity, localized location names and runtime supply-generation conditions have not been analyzed.",
+    "World resource GUID, release channel and complete loaded-addon inventory are unknown."
+  ]
+}

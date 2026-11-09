@@ -1,0 +1,38 @@
+[CmdletBinding()]
+param([Parameter(Mandatory)][string]$WaypointDiagnosticsPath,[Parameter(Mandatory)][string]$OutputDirectory)
+$ErrorActionPreference='Stop';Set-StrictMode -Version Latest
+function Assert($ok,$message){if(!$ok){throw $message}}
+function Save($p,$s){New-Item (Split-Path $p) -ItemType Directory -Force|Out-Null;[IO.File]::WriteAllText($p,$s.TrimEnd()+"`n",[Text.UTF8Encoding]::new($false))}
+function Pos($v){(@($v|ForEach-Object {([double]$_).ToString('0.000',[Globalization.CultureInfo]::InvariantCulture)}) -join ' ')}
+function Num($v){([double]$v).ToString('0.###',[Globalization.CultureInfo]::InvariantCulture)}
+function Range($a,$b){if($a -eq $b){return (Num $a)};return "$(Num $a)–$(Num $b)"}
+$ai=Get-Content "$OutputDirectory/AI/Groups.json" -Raw|ConvertFrom-Json
+$d=Get-Content $WaypointDiagnosticsPath -Raw|ConvertFrom-Json
+Assert ($d.gameVersion -ceq $ai.gameVersion -and $d.editorEntityCountUnchanged -and $d.coordinateMismatchCount -eq 0) 'Invalid waypoint capture'
+Assert ($ai.PSObject.Properties.Name -notcontains 'patrolEvidence') 'Patrols already applied'
+$ids=@{};foreach($p in $ai.records){$ids[$p.id]=$p}
+$captured=@($d.entities|Where-Object {@($_.components|Where-Object className -ceq 'SCR_AmbientPatrolSpawnPointComponent').Count})
+Assert ($captured.Count -eq $ids.Count) 'Different spawn point inventory'
+foreach($p in $captured){Assert ($ids.ContainsKey($p.sourceId)) 'Unknown point';Assert ((Pos $p.worldPosition) -ceq (Pos $ids[$p.sourceId].worldPositionMeters)) 'Point position changed'}
+$waypoints=@($d.entities|Where-Object className -match 'Waypoint');$byPoint=@{}
+foreach($w in $waypoints){foreach($id in $w.parentSourceIds){if($ids.ContainsKey($id)){if(!$byPoint.ContainsKey($id)){$byPoint[$id]=@()};$byPoint[$id]+=[pscustomobject]@{sourceId=$w.sourceId;parentSourceId=$w.parentSourceId;parentSourceIds=$w.parentSourceIds;className=$w.className;prefab=$w.prefab;worldPositionMeters=$w.worldPosition};break}}}
+$oldPaths=@($ai.records|ForEach-Object {if($_.location){$_.location.path}else{'Ungrouped/Ungrouped.md'}}|Sort-Object -Unique)
+foreach($p in $ai.records){if(!$byPoint.ContainsKey($p.id)){continue};$p|Add-Member previousLocation $p.location;$p|Add-Member nestedWaypoints $byPoint[$p.id];$p.location=[pscustomobject]@{locationId='patrols';name='Patrols';category='patrols';path='Patrols/Patrols.md';method='nested_source_waypoint';sourceParentEstablished=$true}}
+$ai|Add-Member patrolEvidence ([ordered]@{diagnosticsSha256=(Get-FileHash $WaypointDiagnosticsPath).Hash;sourceCapturedAtUTC=$d.generatedAtUTC;worldPath=$d.worldPath;selector='descendant source class containing Waypoint, including DefendWaypoint';pointCount=$byPoint.Count;waypointCount=@($byPoint.Values|ForEach-Object {$_}).Count;unattachedWaypointIds=@($waypoints|Where-Object {$w=$_;!@($w.parentSourceIds|Where-Object {$ids.ContainsKey($_)}).Count}|ForEach-Object sourceId);note='Category overrides location grouping; previousLocation and locationCandidates retained. Not a measurement of movement or active AI.'})
+$ai.normalizerVersion='ambient-ai-groups-0.5';$ai.matchingRule+='; nested_source_Waypoint_overrides_category_to_Patrols'
+Save "$OutputDirectory/AI/Groups.json" ($ai|ConvertTo-Json -Depth 70)
+$labels=[ordered]@{control_points='Контрольные точки';harbors='Доки';supply_depots='Склады припасов';settlements='Города и деревни';starting_bases='Стартовые базы';other='Другое';checkpoints='Checkpoint';patrols='Patrols';unassigned='Без локации'}
+$section=[Collections.Generic.List[string]]::new();$section.Add('## Объекты по локациям');$section.Add('');$section.Add('«Всего бойцов» — суммарная численность при одной группе на каждую точку; диапазон учитывает случайный состав. Это не число одновременно активных бойцов.');$section.Add('');$section.Add('Точки с вложенными source-сущностями Waypoint (включая DefendWaypoint) выделены в Patrols независимо от прежней локации. Прежняя привязка сохранена в JSON и таблице Patrols. Наличие оборонительного Waypoint не означает движение по маршруту. Остальные назначения: подтверждённый предок CampaignRemnantsSupplyDepot, затем категории справочника припасов по прежним радиусам (склады 200 м, остальные 350 м по X/Z); для остатка — ближайший Checkpoint в 50 м. Каждая точка учитывается один раз.');$section.Add('')
+$newPaths=@()
+foreach($category in $labels.Keys){$groups=@($ai.records|Where-Object {if($category -eq 'unassigned'){!$_.location}else{$_.location -and $_.location.category -eq $category}}|Group-Object {if($_.location){$_.location.locationId}else{'unassigned'}}|Sort-Object Name);if(!$groups.Count){continue};$section.Add("### $($labels[$category])");$section.Add('');$section.Add('| Локация | Точек | Всего бойцов |');$section.Add('| --- | ---: | ---: |')
+foreach($g in $groups){$loc=$g.Group[0].location;$name='Без локации';$path='Ungrouped/Ungrouped.md';if($loc){$name=$loc.name;$path=$loc.path};$newPaths+=$path;$min=($g.Group|Measure-Object unitCountMin -Sum).Sum;$max=($g.Group|Measure-Object unitCountMax -Sum).Sum;$section.Add("| [$name](Locations/$path) | $($g.Count) | $(Range $min $max) |")
+$page=[Collections.Generic.List[string]]::new();$title=$name;if($loc -and $category -ne 'patrols'){$title+=' — '+(Pos $loc.worldPositionMeters)};$page.Add("# $title");$page.Add('');$page.Add('[Группы ИИ — сводка](../../Summary.md)');$page.Add('')
+if($category -eq 'patrols'){$page.Add('Точки с подтверждёнными вложенными Waypoint, включая оборонительные. Прежняя локация показана для ориентира; в её итогах эти точки больше не учитываются. Координаты всех Waypoint и цепочки родителей сохранены в JSON.');$page.Add('');$page.Add('| Точка | Выбор / тип | Бойцов | Координаты X Y Z, м | Прежняя локация | Вложенные Waypoint |');$page.Add('| --- | --- | ---: | --- | --- | --- |')}else{$page.Add('Привязка и выбранный якорь сохранены из распределения по справочнику припасов / Checkpoint. Точки с вложенными Waypoint перенесены в Patrols. Численность условная, при одной группе на точку.');$page.Add('');$page.Add('| Точка | Выбор / тип | Бойцов | Координаты X Y Z, м | Якорь X Y Z, м | До якоря, м |');$page.Add('| --- | --- | ---: | --- | --- | ---: |')}
+foreach($p in $g.Group|Sort-Object id){$type=if($p.selectionMode -eq 'random'){'Случайный тип'}else{$p.configuredType};$tail='— | —';if($category -eq 'patrols'){$previous=if($p.previousLocation){$p.previousLocation.name}else{'Без локации'};$types=(@($p.nestedWaypoints|Group-Object className|Sort-Object Name|ForEach-Object {"$($_.Count) × $($_.Name)"}) -join '; ');$tail="$previous | $types"}elseif($p.location){$tail="$(Pos $p.location.distanceOriginPosition) | $(Num $p.location.distanceMeters)"};$page.Add("| $($p.name) | $type | $(Range $p.unitCountMin $p.unitCountMax) | $(Pos $p.worldPositionMeters) | $tail |")}
+$page.Add('');$page.Add('[Исходные данные и привязки](../../Groups.json).');Save "$OutputDirectory/AI/Locations/$path" ($page -join "`n")
+};$section.Add('')}
+$root=[IO.Path]::GetFullPath("$OutputDirectory/AI/Locations")
+foreach($path in $oldPaths|Where-Object {$_ -notin $newPaths}){$full=[IO.Path]::GetFullPath((Join-Path $root $path));Assert ($full.StartsWith($root+[IO.Path]::DirectorySeparatorChar)) 'Invalid deletion path';Remove-Item -LiteralPath $full}
+$path="$OutputDirectory/AI/Summary.md";$text=Get-Content $path -Raw;$text=[regex]::Replace($text,'(?s)## Объекты по локациям.*?(?=## Выбор и активация)',[Text.RegularExpressions.MatchEvaluator]{param($m)($section -join "`n")+"`n"});Save $path $text
+$world=Get-Content "$OutputDirectory/world.json" -Raw|ConvertFrom-Json;$world.normalizerVersion=$ai.normalizerVersion;Save "$OutputDirectory/world.json" ($world|ConvertTo-Json -Depth 30)
+"Patrols: $($byPoint.Count) points"

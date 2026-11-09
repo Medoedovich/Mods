@@ -1,0 +1,1249 @@
+{
+  "schemaVersion": 1,
+  "kind": "starting-base-candidates",
+  "normalizerVersion": "starting-bases-0.1",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0045",
+  "gameVersion": "1.8.0.13",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "status": "partial",
+  "runtimeMeasured": false,
+  "capturedAtUTC": "2026-10-05 11:18:05",
+  "generatedAtUTC": "2026-10-09T20:18:47.9143388Z",
+  "candidateCount": 8,
+  "accounting": "non_additive_candidate_catalog_existing_static_slots_remain_in_original_supply_accounting",
+  "sources": {
+    "diagnosticsSha256": "EB33930D60A912D9FF2AACDBD32218D421911665C0E23FEE3B07229074D52233",
+    "containerDetailsSha256": "371BA892C9A4F6E66D6BF4DF4151B3A3430EA1F4C80D93853C0488EA684B8BE5",
+    "containerSnapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0044",
+    "commandPostStorageSha256": "5CF967734B34523187F0726E5B0FEC51A71D613816FE68AF19FB9DF2D377C904"
+  },
+  "codeEvidence": [
+    {
+      "sha256": "15E3BA73A5DC53162FBFC211C46CD42E899652F9858B8259FBB54EFEF6CDFACE",
+      "resource": "scripts/Game/GameMode/SCR_GameModeCampaign.c"
+    },
+    {
+      "sha256": "096F0E0921BA034483D357D32F8AB332654AD45F1467496769C71F0DAD3DC259",
+      "resource": "scripts/Game/Components/Locations/SCR_CampaignMilitaryBaseComponent.c"
+    },
+    {
+      "sha256": "9E3309D4972146521CDCCFC5112656CD5D7E7AA39BBEB0CB0EA8F17C578D58C1",
+      "resource": "Configs/Factions/US_Campaign.conf"
+    },
+    {
+      "sha256": "D05080D96D5C847041272EB942107E41BBA31E4A64B18057E23EE0F26A60C02D",
+      "resource": "Configs/Factions/USSR_Campaign.conf"
+    },
+    {
+      "sha256": "7B384E3B442F451FEC8D12EBE4C6C703EF7DE2E7BB4BC1A14CDDEE57D3EF1285",
+      "resource": "Missions/23_Campaign_HQC_Everon.conf"
+    }
+  ],
+  "gameModeFields": {
+    "m_bSuppliesAutoRegenerationEnabled": {
+      "name": "m_bSuppliesAutoRegenerationEnabled",
+      "type": "BOOLEAN",
+      "status": "resolved",
+      "value": "false",
+      "enumLabel": "",
+      "directOverride": false,
+      "values": []
+    },
+    "m_iHQStartingSupplies": {
+      "name": "m_iHQStartingSupplies",
+      "type": "INTEGER",
+      "status": "resolved",
+      "value": "1000",
+      "enumLabel": "",
+      "directOverride": false,
+      "values": []
+    },
+    "m_iQuickSuppliesReplenishThreshold": {
+      "name": "m_iQuickSuppliesReplenishThreshold",
+      "type": "INTEGER",
+      "status": "resolved",
+      "value": "100",
+      "enumLabel": "",
+      "directOverride": false,
+      "values": []
+    },
+    "m_fQuickSuppliesReplenishMultiplier": {
+      "name": "m_fQuickSuppliesReplenishMultiplier",
+      "type": "SCALAR",
+      "status": "resolved",
+      "value": "2",
+      "enumLabel": "",
+      "directOverride": false,
+      "values": []
+    },
+    "m_iRegularSuppliesIncome": {
+      "name": "m_iRegularSuppliesIncome",
+      "type": "INTEGER",
+      "status": "resolved",
+      "value": "10",
+      "enumLabel": "",
+      "directOverride": false,
+      "values": []
+    },
+    "m_iSuppliesArrivalInterval": {
+      "name": "m_iSuppliesArrivalInterval",
+      "type": "INTEGER",
+      "status": "resolved",
+      "value": "5",
+      "enumLabel": "",
+      "directOverride": false,
+      "values": []
+    }
+  },
+  "commandPostVariants": [
+    {
+      "variantId": "US",
+      "factionConfiguration": "Configs/Factions/US_Campaign.conf",
+      "headquartersEditablePrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+      "headquartersPrefab": "{FEFE7B425EA72746}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_US_01.et",
+      "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+      "physicalContainerCount": 6,
+      "virtualContainerCount": 1,
+      "capacitySupplies": 1000,
+      "capacityStatus": "resolved",
+      "capacityScope": "command_post_storage_composition",
+      "capacityMethod": "encapsulator_target_and_static_container_count",
+      "capacityComposition": [
+        {
+          "containerCount": 5,
+          "capacitySupplies": 166
+        },
+        {
+          "containerCount": 1,
+          "capacitySupplies": 170
+        }
+      ],
+      "compositionStatus": "calculated_from_installed_action_code",
+      "configuredInitialSupplies": 0,
+      "configuredInitialStatus": "resolved",
+      "physicalSlotsBeforeAction": [
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673377",
+          "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673391",
+          "prefab": "{52E67D46C7855822}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_US_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673379",
+          "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673383",
+          "prefab": "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673380",
+          "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673389",
+          "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        }
+      ],
+      "virtualSlotsBeforeAction": [
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "-540519537",
+          "prefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "className": "SCR_ResourceContainerVirtual",
+          "configuredMaximumSuppliesBeforeAction": 0.0,
+          "configuredCurrentSuppliesBeforeAction": 0.0
+        }
+      ],
+      "maximumAction": {
+        "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+        "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+        "m_bShouldChangeMaximum": true,
+        "m_fResourceValueMax": 1000,
+        "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+        "sourceLine": 16,
+        "m_fResourceValueCurrent": 0
+      },
+      "allocationRule": {
+        "ordinarySlotCapacity": "floor(target / physical_count)",
+        "ordinarySlotCount": "physical_count - 1",
+        "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+        "specificRemainderSlot": "runtime_queue_order_not_assigned",
+        "virtualSlotsExcluded": true
+      },
+      "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+      "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+      "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+      "initialSuppliesEvidence": [
+        {
+          "rootPrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        },
+        {
+          "rootPrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        }
+      ],
+      "runtimeInitialSuppliesStatus": "not_measured"
+    },
+    {
+      "variantId": "USSR",
+      "factionConfiguration": "Configs/Factions/USSR_Campaign.conf",
+      "headquartersEditablePrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+      "headquartersPrefab": "{6B1CAED52B91E267}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_USSR_01.et",
+      "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+      "physicalContainerCount": 6,
+      "virtualContainerCount": 1,
+      "capacitySupplies": 1000,
+      "capacityStatus": "resolved",
+      "capacityScope": "command_post_storage_composition",
+      "capacityMethod": "encapsulator_target_and_static_container_count",
+      "capacityComposition": [
+        {
+          "containerCount": 5,
+          "capacitySupplies": 166
+        },
+        {
+          "containerCount": 1,
+          "capacitySupplies": 170
+        }
+      ],
+      "compositionStatus": "calculated_from_installed_action_code",
+      "configuredInitialSupplies": 0,
+      "configuredInitialStatus": "resolved",
+      "physicalSlotsBeforeAction": [
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789064",
+          "prefab": "{1F7AE3AAD6198021}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_USSR_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789084",
+          "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789085",
+          "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789069",
+          "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789072",
+          "prefab": "{B14D3FBE92E47277}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage_USSR_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789076",
+          "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        }
+      ],
+      "virtualSlotsBeforeAction": [
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "-540519537",
+          "prefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "className": "SCR_ResourceContainerVirtual",
+          "configuredMaximumSuppliesBeforeAction": 0.0,
+          "configuredCurrentSuppliesBeforeAction": 0.0
+        }
+      ],
+      "maximumAction": {
+        "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+        "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+        "m_bShouldChangeMaximum": true,
+        "m_fResourceValueMax": 1000,
+        "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+        "sourceLine": 16,
+        "m_fResourceValueCurrent": 0
+      },
+      "allocationRule": {
+        "ordinarySlotCapacity": "floor(target / physical_count)",
+        "ordinarySlotCount": "physical_count - 1",
+        "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+        "specificRemainderSlot": "runtime_queue_order_not_assigned",
+        "virtualSlotsExcluded": true
+      },
+      "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+      "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+      "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+      "initialSuppliesEvidence": [
+        {
+          "rootPrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        },
+        {
+          "rootPrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        }
+      ],
+      "runtimeInitialSuppliesStatus": "not_measured"
+    }
+  ],
+  "records": [
+    {
+      "sourceId": "0x20000000000016B9 {}",
+      "name": "StartingPos05",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        11623.614257,
+        16.694999,
+        1499.45996
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 400.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 0.0,
+      "staticDescendantInitialSupplies": 0.0,
+      "physicalSlots": [],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "400",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    },
+    {
+      "sourceId": "0x20000000000016BB {}",
+      "name": "StartingPos07",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        8215.480468,
+        223.703002,
+        2181.153076
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 350.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 0.0,
+      "staticDescendantInitialSupplies": 0.0,
+      "physicalSlots": [],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "350",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    },
+    {
+      "sourceId": "0x20000000000016BD {}",
+      "name": "StartingPos09",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        7535.541015,
+        6.252999,
+        6058.446777
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 200.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 0.0,
+      "staticDescendantInitialSupplies": 0.0,
+      "physicalSlots": [],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "200",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    },
+    {
+      "sourceId": "0x20000000000016BF {}",
+      "name": "StartingPos12",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        5375.400878,
+        42.451999,
+        11056.790039
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 300.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 0.0,
+      "staticDescendantInitialSupplies": 0.0,
+      "physicalSlots": [],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    },
+    {
+      "sourceId": "0x20000000000016C1 {}",
+      "name": "StartingPos14",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        4172.319824,
+        25.159999,
+        9063.661132
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 200.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 0.0,
+      "staticDescendantInitialSupplies": 0.0,
+      "physicalSlots": [],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "200",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    },
+    {
+      "sourceId": "0x20000000000016C3 {}",
+      "name": "StartingPos15",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        2539.376953,
+        50.217998,
+        7303.733886
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 250.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 0.0,
+      "staticDescendantInitialSupplies": 0.0,
+      "physicalSlots": [],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "250",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    },
+    {
+      "sourceId": "0x20000000000016C5 {}",
+      "name": "StartingPos19",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        2745.402099,
+        11.616,
+        4032.815917
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 250.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 0.0,
+      "staticDescendantInitialSupplies": 0.0,
+      "physicalSlots": [],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "250",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    },
+    {
+      "sourceId": "0x20000000000016C7 {}",
+      "name": "StartingPos21",
+      "prefab": "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et",
+      "worldPositionMeters": [
+        7583.85205,
+        6.816999,
+        8874.552734
+      ],
+      "subscene": 1,
+      "layer": "default",
+      "selectionStatus": "candidate_not_runtime_selected",
+      "factionStatus": "assigned_at_runtime",
+      "canBeHQ": true,
+      "disableWhenUnusedAsHQ": true,
+      "commandPostCapacitySupplies": 1000,
+      "commandPostCapacityScope": "spawned_SERVICE_HQ_composition_US_or_USSR",
+      "runtimeNetworkCapacitySupplies": null,
+      "runtimeNetworkCapacityStatus": "not_measured",
+      "configuredHQStartingTarget": 1000.0,
+      "startingTargetScope": "gamemode_default_subject_to_mission_header_override_not_measured_stock",
+      "incomePerCycle": 750.0,
+      "arrivalIntervalSeconds": 300.0,
+      "arrivalIntervalMinutes": 5.0,
+      "incomeScope": "base_income_when_selected_HQ_and_auto_regeneration_disabled_before_quick_replenishment_and_free_capacity",
+      "staticDescendantCapacity": 1000.0,
+      "staticDescendantInitialSupplies": 1000.0,
+      "physicalSlots": [
+        {
+          "id": "0x20000000000016D3 {}/4/0",
+          "sourceId": "0x20000000000016D3 {}",
+          "name": "SupplyShippingContainers_01_10ft",
+          "prefab": "{190CC54D175F52CB}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_10ft.et",
+          "parentSourceId": "0x20000000000016D2 {}",
+          "ancestorSourceIds": [
+            "0x20000000000016D3 {}",
+            "0x20000000000016D2 {}",
+            "0x20000000000016CC {}",
+            "0x20000000000016C7 {}"
+          ],
+          "worldPositionMeters": [
+            7617.379882,
+            3.339999,
+            8876.440429
+          ],
+          "positionStatus": "resolved",
+          "capacitySupplies": 500.0,
+          "capacityStatus": "resolved",
+          "configuredInitialSupplies": 500.0,
+          "configuredInitialStatus": "resolved",
+          "componentIndex": 4,
+          "containerIndex": 0,
+          "fields": [
+            {
+              "name": "m_eResourceType",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "0",
+              "enumLabel": "SUPPLIES",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_eStorageType",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "1",
+              "enumLabel": "STORED",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_fResourceValueCurrent",
+              "type": "SCALAR",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_fResourceValueMax",
+              "type": "SCALAR",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "0x20000000000016D4 {}/4/0",
+          "sourceId": "0x20000000000016D4 {}",
+          "name": "SupplyShippingContainers_01_10ft",
+          "prefab": "{190CC54D175F52CB}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_10ft.et",
+          "parentSourceId": "0x20000000000016D2 {}",
+          "ancestorSourceIds": [
+            "0x20000000000016D4 {}",
+            "0x20000000000016D2 {}",
+            "0x20000000000016CC {}",
+            "0x20000000000016C7 {}"
+          ],
+          "worldPositionMeters": [
+            7614.753906,
+            3.356999,
+            8876.375
+          ],
+          "positionStatus": "resolved",
+          "capacitySupplies": 500.0,
+          "capacityStatus": "resolved",
+          "configuredInitialSupplies": 500.0,
+          "configuredInitialStatus": "resolved",
+          "componentIndex": 4,
+          "containerIndex": 0,
+          "fields": [
+            {
+              "name": "m_eResourceType",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "0",
+              "enumLabel": "SUPPLIES",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_eStorageType",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "1",
+              "enumLabel": "STORED",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_fResourceValueCurrent",
+              "type": "SCALAR",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_fResourceValueMax",
+              "type": "SCALAR",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "fieldEvidence": [
+        {
+          "name": "m_bCanBeHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_bDisableWhenUnusedAsHQ",
+          "type": "BOOLEAN",
+          "status": "resolved",
+          "value": "true",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_eType",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "0",
+          "enumLabel": "BASE",
+          "directOverride": false,
+          "values": []
+        },
+        {
+          "name": "m_iRegularSuppliesIncomeBase",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "750",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesArrivalInterval",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "300",
+          "enumLabel": "",
+          "directOverride": false,
+          "values": []
+        }
+      ],
+      "legacyComponentEvidence": [
+        {
+          "name": "m_iSupplies",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        },
+        {
+          "name": "m_iSuppliesMax",
+          "type": "INTEGER",
+          "status": "resolved",
+          "value": "3000",
+          "enumLabel": "",
+          "directOverride": true,
+          "values": []
+        }
+      ]
+    }
+  ]
+}

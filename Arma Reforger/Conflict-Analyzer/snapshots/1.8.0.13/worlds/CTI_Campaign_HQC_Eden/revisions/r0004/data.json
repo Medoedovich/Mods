@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "kind": "conflict-world-index",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+  "status": "partial",
+  "worldMetadata": "world.json",
+  "sections": {
+    "supplies": {
+      "status": "partial",
+      "sourceBases": {
+        "count": 18,
+        "path": "Supplies/Harbors.json",
+        "table": "Supplies/Harbors.md"
+      },
+      "storageCapacity": {
+        "path": "Supplies/StorageCapacity.json",
+        "table": "Supplies/StorageCapacity.md",
+        "analyzedBaseCount": 18
+      }
+    },
+    "aiGroups": {
+      "status": "not_analyzed",
+      "path": null
+    },
+    "startingBases": {
+      "status": "not_analyzed",
+      "path": null
+    },
+    "vehicleSpawns": {
+      "status": "not_analyzed",
+      "path": null
+    },
+    "locations": {
+      "status": "not_analyzed",
+      "path": null
+    }
+  }
+}

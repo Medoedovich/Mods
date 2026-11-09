@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "kind": "conflict-world-index",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0017",
+  "status": "partial",
+  "worldMetadata": "world.json",
+  "sections": {
+    "supplies": {
+      "status": "partial",
+      "sourceBases": {
+        "path": "Supplies/Harbors.json",
+        "table": "Supplies/Harbors.md",
+        "ungroupedSection": "Supplies/Harbors.md#объекты-без-группы",
+        "summary": {
+          "objectCount": 18,
+          "groupedObjectCount": 14,
+          "ungroupedObjectCount": 4,
+          "locationCount": 15,
+          "associationCount": 15
+        }
+      },
+      "otherContainers": {
+        "path": "Supplies/OtherContainers.json",
+        "table": "Supplies/OtherContainers.md",
+        "ungroupedSection": "Supplies/OtherContainers.md#объекты-без-группы",
+        "summary": {
+          "objectCount": 124,
+          "groupedObjectCount": 109,
+          "ungroupedObjectCount": 15,
+          "locationCount": 25,
+          "associationCount": 119
+        }
+      }
+    },
+    "locations": {
+      "status": "previous_verified_revision",
+      "path": "../r0016/Locations.json",
+      "table": "../r0016/Locations.md"
+    },
+    "aiGroups": {
+      "status": "not_analyzed"
+    },
+    "startingBases": {
+      "status": "not_analyzed"
+    },
+    "vehicleSpawns": {
+      "status": "not_analyzed"
+    }
+  }
+}

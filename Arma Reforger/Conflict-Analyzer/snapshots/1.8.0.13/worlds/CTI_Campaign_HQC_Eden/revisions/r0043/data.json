@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 3,
+  "kind": "conflict-world-index",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0043",
+  "status": "partial",
+  "worldMetadata": "world.json",
+  "sections": {
+    "locations": {
+      "path": "Locations.json",
+      "table": "Locations.md"
+    },
+    "supplies": {
+      "catalog": "Locations.json",
+      "table": "Supplies/OtherContainers.md",
+      "controlPoints": "Supplies/ControlPoints.json",
+      "otherContainers": "Supplies/OtherContainers.json",
+      "harbors": "Supplies/Harbors.json",
+      "order": [
+        "supply_depots",
+        "control_points",
+        "harbors",
+        "settlements",
+        "other",
+        "unrecognized"
+      ],
+      "supplyDepots": "Supplies/SupplyDepots.json",
+      "controlPointStorage": "Supplies/ControlPointStorage.json",
+      "summary": "Supplies/Summary.json",
+      "containerDetails": "Supplies/ContainerDetails.json",
+      "harborNeighbors": "Supplies/HarborNeighbors.json",
+      "summaryTable": "Supplies/Summary.md",
+      "hierarchy": {
+        "categories": [
+          {
+            "category": "control_points",
+            "summary": "Supplies/ControlPoints/Summary.md"
+          },
+          {
+            "category": "harbors",
+            "summary": "Supplies/Harbors/Summary.md"
+          },
+          {
+            "category": "supply_depots",
+            "summary": "Supplies/SupplyDepots/Summary.md"
+          },
+          {
+            "category": "settlements",
+            "summary": "Supplies/Settlements/Summary.md"
+          },
+          {
+            "category": "other",
+            "summary": "Supplies/Other/Summary.md"
+          }
+        ],
+        "pages": [
+          "Supplies/ControlPoints/Calvary-Hill.md",
+          "Supplies/ControlPoints/Ile-aux-Saules.md",
+          "Supplies/ControlPoints/Military-Base-Levie.md",
+          "Supplies/ControlPoints/Montignac.md",
+          "Supplies/ControlPoints/Power-Plant.md",
+          "Supplies/ControlPoints/Regina.md",
+          "Supplies/ControlPoints/Transformer-Station.md",
+          "Supplies/Harbors/EveronAirport.md",
+          "Supplies/Harbors/FishermansBay.md",
+          "Supplies/Harbors/GoatBay.md",
+          "Supplies/Harbors/Gravette.md",
+          "Supplies/Harbors/HalcyonStrait.md",
+          "Supplies/Harbors/Kermovan.md",
+          "Supplies/Harbors/Lamentin.md",
+          "Supplies/Harbors/Lancre.md",
+          "Supplies/Harbors/Laruns.md",
+          "Supplies/Harbors/LeBosc.md",
+          "Supplies/Harbors/Meaux.md",
+          "Supplies/Harbors/MilitaryHospital.md",
+          "Supplies/Harbors/Morton.md",
+          "Supplies/Harbors/Perelle.md",
+          "Supplies/Harbors/SpaniardsBay.md",
+          "Supplies/Harbors/StPhillipe.md",
+          "Supplies/Harbors/StPierre.md",
+          "Supplies/Harbors/Thollevast.md",
+          "Supplies/Other/Saint-Pierre-s-Pass.md",
+          "Supplies/Other/StartingPos21.md",
+          "Supplies/SupplyDepots/Склад---4814-289-53-445-5819-508.md",
+          "Supplies/SupplyDepots/Склад---6912-457-57-718-4482-109.md",
+          "Supplies/SupplyDepots/Durras.md",
+          "Supplies/SupplyDepots/farm.md",
+          "Supplies/SupplyDepots/Gorey.md",
+          "Supplies/SupplyDepots/industrial-compound.md",
+          "Supplies/SupplyDepots/military-site.md",
+          "Supplies/SupplyDepots/Regina.md",
+          "Supplies/SupplyDepots/sawmill.md"
+        ]
+      }
+    },
+    "aiGroups": {
+      "status": "not_analyzed"
+    },
+    "startingBases": {
+      "status": "not_analyzed"
+    },
+    "vehicleSpawns": {
+      "status": "not_analyzed"
+    }
+  }
+}

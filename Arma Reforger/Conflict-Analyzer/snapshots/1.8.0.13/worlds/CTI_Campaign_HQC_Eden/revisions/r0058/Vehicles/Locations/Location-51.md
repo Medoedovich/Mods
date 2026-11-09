@@ -1,0 +1,10 @@
+# sawmill
+
+[Сводка](../Summary.md)
+
+| Точка | Фракция | Координаты X Y Z, м | Локация | Повторное появление, мин | Включённые метки | Режим | Исключённые метки |
+| --- | --- | --- | --- | ---: | --- | --- | --- |
+| Vehicle_020000000000006D7 | CIV | 3112.394 118.793 5220.697 | sawmill | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| Vehicle_020000000000049C4 | FIA | 3036.828 113.926 5184.011 | sawmill | Нет |  | Любая | TRAIT_ARMED |
+
+[Полные поля и источники](../SpawnPoints.json).

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0070",
+  "status": "partial",
+  "sections": {
+    "ai": {
+      "status": "unchanged",
+      "data": "../r0057/AI/Groups.json"
+    },
+    "supplies": {
+      "status": "unchanged",
+      "data": "../r0046/data.json"
+    },
+    "vehicles": {
+      "status": "partial",
+      "summary": "Vehicles/Summary.md",
+      "data": "Vehicles/SpawnPoints.json"
+    }
+  }
+}

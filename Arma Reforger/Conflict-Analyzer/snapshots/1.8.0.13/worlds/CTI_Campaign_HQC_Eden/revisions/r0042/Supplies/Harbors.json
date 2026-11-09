@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 3,
+  "kind": "supply-settings-view",
+  "report": "Harbors",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0042",
+  "normalizerVersion": "supply-priority-architecture-0.24",
+  "sourceInputs": {
+    "locations": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0016",
+      "path": "../../r0016/Locations.json",
+      "sha256": "EFCBA9118C21CA0DBD684CCCE120634AC4BF541FF072FE087BB7A4B8F301E5D8",
+      "capturedAtUTC": "2026-10-06T01:23:30Z"
+    },
+    "supplies": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+      "path": "../../r0004/Supplies/Harbors.json",
+      "sha256": "AF0157C09E6D1818D241434C6BB976F4945C59612BE76A04D88262E133ABE9A1",
+      "capturedAtUTC": "2026-10-05T16:49:34Z",
+      "storageCapturedAtUTC": "2026-10-05T17:35:25Z"
+    }
+  },
+  "sourceSummary": {
+    "sourceBaseCount": 18,
+    "harborCount": 17,
+    "airfieldCount": 1,
+    "resolvedCapacityBaseCount": 15,
+    "unknownCapacityBaseCount": 3,
+    "physicalContainerCount": 49.0,
+    "knownCapacitySubtotalSupplies": 40500.0
+  },
+  "records": [
+    {
+      "objectId": "supply_source_base/0x2000000000000ECE {}",
+      "sourceId": "0x2000000000000ECE {}",
+      "name": "SP_A_EveronAirport",
+      "worldPositionMeters": [
+        4943.125,
+        28.593999,
+        11793.298828
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000ECE {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 4000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 4000.0,
+      "physicalContainerCount": 5,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000003122 {}",
+      "sourceId": "0x2000000000003122 {}",
+      "name": "SP_T1H_StPhillipe",
+      "worldPositionMeters": [
+        4394.425781,
+        1.6,
+        11068.055664
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000003122 {}",
+      "supplyIncomePerCycle": 3000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000003115 {}",
+      "sourceId": "0x2000000000003115 {}",
+      "name": "SP_T1H_StPierre",
+      "worldPositionMeters": [
+        9963.828125,
+        2.838,
+        1523.41394
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000003115 {}",
+      "supplyIncomePerCycle": 3000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": null,
+      "capacityStatus": "unknown",
+      "knownCapacitySubtotalSupplies": 0.0,
+      "physicalContainerCount": 0,
+      "nestedStorageGroupCount": 0
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004E0B {}",
+      "sourceId": "0x2000000000004E0B {}",
+      "name": "SP_T2H_FishermansBay",
+      "worldPositionMeters": [
+        7531.005859,
+        2.440999,
+        6689.541015
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004E0B {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 5000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 5000.0,
+      "physicalContainerCount": 5,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004DD7 {}",
+      "sourceId": "0x2000000000004DD7 {}",
+      "name": "SP_T2H_Lamentin",
+      "worldPositionMeters": [
+        1052.508056,
+        3.503999,
+        6049.771972
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004DD7 {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": null,
+      "capacityStatus": "unknown",
+      "knownCapacitySubtotalSupplies": 0.0,
+      "physicalContainerCount": 0,
+      "nestedStorageGroupCount": 0
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004E04 {}",
+      "sourceId": "0x2000000000004E04 {}",
+      "name": "SP_T2H_Meaux",
+      "worldPositionMeters": [
+        4316.275878,
+        1.125,
+        9516.908203
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004E04 {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": null,
+      "capacityStatus": "unknown",
+      "knownCapacitySubtotalSupplies": 0.0,
+      "physicalContainerCount": 0,
+      "nestedStorageGroupCount": 0
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004DDD {}",
+      "sourceId": "0x2000000000004DDD {}",
+      "name": "SP_T2H_MilitaryHospital",
+      "worldPositionMeters": [
+        3737.437988,
+        1.246999,
+        8529.839843
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004DDD {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "physicalContainerCount": 3,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000004D93 {}",
+      "sourceId": "0x2000000000004D93 {}",
+      "name": "SP_T2H_Morton",
+      "worldPositionMeters": [
+        4947.416992,
+        2.605999,
+        3870.59497
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000004D93 {}",
+      "supplyIncomePerCycle": 2000,
+      "arrivalIntervalSeconds": 900,
+      "arrivalIntervalMinutes": 15.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000000DE {}",
+      "sourceId": "0x20000000000000DE {}",
+      "name": "SP_T3H_GoatBay",
+      "worldPositionMeters": [
+        5803.098144,
+        2.961999,
+        3533.062011
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000000DE {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 2500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000144 {}",
+      "sourceId": "0x2000000000000144 {}",
+      "name": "SP_T3H_Gravette",
+      "worldPositionMeters": [
+        3817.627929,
+        5.025,
+        7733.58789
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000144 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000111 {}",
+      "sourceId": "0x2000000000000111 {}",
+      "name": "SP_T3H_HalcyonStrait",
+      "worldPositionMeters": [
+        3271.833984,
+        2.394999,
+        3547.009033
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000111 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x200000000000015D {}",
+      "sourceId": "0x200000000000015D {}",
+      "name": "SP_T3H_Kermovan",
+      "worldPositionMeters": [
+        6277.401855,
+        2.145999,
+        9643.742187
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x200000000000015D {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 2500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000000C2 {}",
+      "sourceId": "0x20000000000000C2 {}",
+      "name": "SP_T3H_Lancre",
+      "worldPositionMeters": [
+        11658.808593,
+        7.841,
+        2176.576904
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000000C2 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x2000000000000191 {}",
+      "sourceId": "0x2000000000000191 {}",
+      "name": "SP_T3H_Laruns",
+      "worldPositionMeters": [
+        7782.555175,
+        2.344,
+        5875.38916
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x2000000000000191 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000000A9 {}",
+      "sourceId": "0x20000000000000A9 {}",
+      "name": "SP_T3H_LeBosc",
+      "worldPositionMeters": [
+        7941.068847,
+        12.805999,
+        1469.953979
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000000A9 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "physicalContainerCount": 3,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000001C0 {}",
+      "sourceId": "0x20000000000001C0 {}",
+      "name": "SP_T3H_Perelle",
+      "worldPositionMeters": [
+        9328.079101,
+        3.74,
+        5065.999023
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000001C0 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3500.0,
+      "physicalContainerCount": 4,
+      "nestedStorageGroupCount": 2
+    },
+    {
+      "objectId": "supply_source_base/0x200000000000012B {}",
+      "sourceId": "0x200000000000012B {}",
+      "name": "SP_T3H_SpaniardsBay",
+      "worldPositionMeters": [
+        3375.760009,
+        1.093999,
+        7211.186035
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x200000000000012B {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "physicalContainerCount": 3,
+      "nestedStorageGroupCount": 1
+    },
+    {
+      "objectId": "supply_source_base/0x20000000000001A8 {}",
+      "sourceId": "0x20000000000001A8 {}",
+      "name": "SP_T3H_Thollevast",
+      "worldPositionMeters": [
+        3145.990966,
+        3.884999,
+        2141.905029
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0004/Supplies/Harbors.json",
+      "sourceRecordId": "0x20000000000001A8 {}",
+      "supplyIncomePerCycle": 1000,
+      "arrivalIntervalSeconds": 600,
+      "arrivalIntervalMinutes": 10.0,
+      "valueStatus": {
+        "supplyIncomePerCycle": "resolved",
+        "arrivalInterval": "resolved"
+      },
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "physicalContainerCount": 2,
+      "nestedStorageGroupCount": 1
+    }
+  ],
+  "classificationCatalog": "../Locations.json",
+  "warnings": [
+    "Control points are selected by prefab, source bases by their previous verified catalog; named map labels are a separate source.",
+    "Control-point component supplies/max are configured fields, not measured physical capacity or runtime stock.",
+    "After hierarchy and map classification, uniquely corresponding map-label groups are merged into their control-point report group. Transferred map neighbors are not confirmed source children.",
+    "Each remaining OtherContainers root parent belongs only to its first matching category; all matches within that category are retained.",
+    "Control-point and Harbor source entities remain inventory anchors in their own category.",
+    "Source parenting and map proximity do not establish runtime resource-grid membership; unknown remains unknown.",
+    "Transferred members retain original map-label proximity evidence; displayed distances use the control-point source position and can exceed the map-label radius.",
+    "Supply depots are located first, then reserve root storage parents within their own radius before control-point, Harbor and map classification. Marker component settings remain separate from physical storage.",
+    "Depot markers use named locations within the map radius: settlements first, then other permitted types, nearest within that tier. Unmatched markers remain separate; proximity does not establish source parenting or runtime ownership."
+  ]
+}

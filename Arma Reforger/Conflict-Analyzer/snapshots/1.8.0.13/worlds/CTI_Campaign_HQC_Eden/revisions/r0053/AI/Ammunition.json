@@ -1,0 +1,3700 @@
+{
+  "schemaVersion": 1,
+  "kind": "ai-prototype-ammunition-measurement",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0053",
+  "gameVersion": "1.8.0.13",
+  "normalizerVersion": "ai-ammunition-0.1",
+  "captureLogSha256": "4823D52926A2B3367C788AF3DC2805EED191B77DDED581D6334392A9BC10ECC2",
+  "captureLogLastWriteTimeUTC": "2026-10-13T21:19:37.4968405Z",
+  "runtimeMeasured": true,
+  "scope": "isolated_spawned_character_prototypes_500ms_after_spawn_not_live_patrols",
+  "deduplication": "unique_entity_identity; loaded_magazines_added_only_if_absent",
+  "characters": [
+    {
+      "prefab": "{1FDA92972C1B771B}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_Rebel_Sharpshooter.et",
+      "items": [
+        {
+          "prefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": true,
+          "rounds": 9,
+          "capacity": 10
+        },
+        {
+          "prefab": "{C850A33226B8F9C1}Prefabs/Weapons/Attachments/Optics/Optic_PSO1/Optic_PSO1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "ammoCount": 10,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": true,
+          "rounds": 9,
+          "capacity": 10
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 8,
+      "roundsInMagazines": 73,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+      "items": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{2F4BBE174AFAF5E0}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_fixed.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 5,
+      "roundsInMagazines": 149,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{244E2E8B42B42490}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_MG_Elite.et",
+      "items": [
+        {
+          "prefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": true,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{886A96EF3F14BCD2}Prefabs/Weapons/Attachments/Optics/UK59_4x8/Optic_UK59_4x8.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "ammoCount": 50,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 0,
+      "magazines": [
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": true,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 5,
+      "roundsInMagazines": 208,
+      "chamberedRounds": 0,
+      "grenadeCount": 1
+    },
+    {
+      "prefab": "{254F12535581E4C2}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan.et",
+      "items": [
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{AD045AFAFFC1AB6E}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_folding.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 9,
+      "roundsInMagazines": 181,
+      "chamberedRounds": 1,
+      "grenadeCount": 1
+    },
+    {
+      "prefab": "{273F0239FE94FDA5}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan_Grenadier.et",
+      "items": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 5,
+      "magazines": [
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 7,
+      "roundsInMagazines": 56,
+      "chamberedRounds": 0,
+      "grenadeCount": 6
+    },
+    {
+      "prefab": "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et",
+      "items": [
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{AD045AFAFFC1AB6E}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_folding.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 0,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 5,
+      "roundsInMagazines": 149,
+      "chamberedRounds": 1,
+      "grenadeCount": 1
+    },
+    {
+      "prefab": "{4E29194BA809DF32}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Medic.et",
+      "items": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 0,
+      "magazines": [
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "grenades": [],
+      "magazineCount": 3,
+      "roundsInMagazines": 24,
+      "chamberedRounds": 0,
+      "grenadeCount": 0
+    },
+    {
+      "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+      "items": [
+        {
+          "prefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": true,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{886A96EF3F14BCD2}Prefabs/Weapons/Attachments/Optics/UK59_4x8/Optic_UK59_4x8.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{B5B2CD276A3BDB08}Prefabs/Weapons/MachineGuns/UK59/MG_UK59_4x8.et",
+          "ammoCount": 50,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 0,
+      "magazines": [
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": true,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 7,
+      "roundsInMagazines": 224,
+      "chamberedRounds": 0,
+      "grenadeCount": 1
+    },
+    {
+      "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+      "items": [
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{AD045AFAFFC1AB6E}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_folding.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{F69A3E81F633C73C}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_Green.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{D924100C5EA67F89}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_Red.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 5,
+      "roundsInMagazines": 149,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+      "items": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{2F4BBE174AFAF5E0}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_fixed.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "rounds": 50,
+          "capacity": 50
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 13,
+      "roundsInMagazines": 509,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+      "items": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{2F4BBE174AFAF5E0}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_fixed.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 7,
+      "roundsInMagazines": 209,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{B4977616CD19191A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Scout.et",
+      "items": [
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 0,
+      "magazines": [
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        }
+      ],
+      "grenades": [],
+      "magazineCount": 3,
+      "roundsInMagazines": 24,
+      "chamberedRounds": 0,
+      "grenadeCount": 0
+    },
+    {
+      "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+      "items": [
+        {
+          "prefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{AD045AFAFFC1AB6E}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_folding.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{F69A3E81F633C73C}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_Green.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{D924100C5EA67F89}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_Red.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 7,
+      "roundsInMagazines": 209,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+      "items": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{0CB1A646A51F6E0D}Prefabs/Weapons/Ammo/Ammo_Rocket_RPG75.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{2F4BBE174AFAF5E0}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_fixed.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{7C45EC94C698246B}Prefabs/Weapons/Launchers/RPG75/Launcher_RPG75.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 7,
+      "roundsInMagazines": 209,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et",
+      "items": [
+        {
+          "prefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": true,
+          "rounds": 9,
+          "capacity": 10
+        },
+        {
+          "prefab": "{C850A33226B8F9C1}Prefabs/Weapons/Attachments/Optics/Optic_PSO1/Optic_PSO1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et",
+          "ammoCount": 10,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et",
+          "ammoCount": 8,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "rounds": 10,
+          "capacity": 10
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "rounds": 8,
+          "capacity": 8
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": true,
+          "rounds": 9,
+          "capacity": 10
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 8,
+      "roundsInMagazines": 73,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et",
+      "items": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et",
+          "loaded": false,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et",
+          "loaded": false,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{2F4BBE174AFAF5E0}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_fixed.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et",
+          "ammoCount": 1,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 5,
+      "roundsInMagazines": 149,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    },
+    {
+      "prefab": "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et",
+      "items": [
+        {
+          "prefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et",
+          "loaded": false,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et",
+          "loaded": false,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et",
+          "loaded": false,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        },
+        {
+          "prefab": "{2F4BBE174AFAF5E0}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_fixed.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        },
+        {
+          "prefab": "{3892CBF73CC2A05F}Prefabs/Weapons/Ammo/Ammo_Flare_30mm_RSP30_White.et",
+          "loaded": true,
+          "rounds": 1,
+          "capacity": 1
+        }
+      ],
+      "muzzles": [
+        {
+          "weaponPrefab": "{9C948630078D154D}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58P.et",
+          "ammoCount": 30,
+          "chambered": true
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        },
+        {
+          "weaponPrefab": "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et",
+          "ammoCount": 1,
+          "chambered": false
+        }
+      ],
+      "captured": true,
+      "grenadeApiCount": 1,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "rounds": 30,
+          "capacity": 30
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "rounds": 29,
+          "capacity": 30
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "loaded": false,
+          "rounds": -1,
+          "capacity": -1
+        }
+      ],
+      "magazineCount": 7,
+      "roundsInMagazines": 209,
+      "chamberedRounds": 1,
+      "grenadeCount": 2
+    }
+  ],
+  "variants": [
+    {
+      "type": "FIRETEAM",
+      "magazineCount": 31,
+      "roundsInMagazines": 925,
+      "chamberedRounds": 5,
+      "grenadeCount": 9,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 24,
+          "totalRounds": 720
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 5,
+          "totalRounds": 145
+        },
+        {
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 2,
+          "totalRounds": 60
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 4
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 5
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et",
+          "count": 1,
+          "magazinesPerUnit": 5,
+          "roundsInMagazinesPerUnit": 149,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 1
+        },
+        {
+          "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+          "count": 1,
+          "magazinesPerUnit": 5,
+          "roundsInMagazinesPerUnit": 149,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "count": 2,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    },
+    {
+      "type": "PARTISAN_TEAM",
+      "magazineCount": 31,
+      "roundsInMagazines": 466,
+      "chamberedRounds": 2,
+      "grenadeCount": 8,
+      "magazines": [
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 16,
+          "totalRounds": 128
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 5,
+          "totalRounds": 40
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 8,
+          "totalRounds": 240
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 2,
+          "totalRounds": 58
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 5
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 3
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{254F12535581E4C2}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan.et",
+          "count": 2,
+          "magazinesPerUnit": 9,
+          "roundsInMagazinesPerUnit": 181,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 1
+        },
+        {
+          "prefab": "{273F0239FE94FDA5}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan_Grenadier.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 56,
+          "chamberedRoundsPerUnit": 0,
+          "grenadesPerUnit": 6
+        },
+        {
+          "prefab": "{4E29194BA809DF32}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Medic.et",
+          "count": 1,
+          "magazinesPerUnit": 3,
+          "roundsInMagazinesPerUnit": 24,
+          "chamberedRoundsPerUnit": 0,
+          "grenadesPerUnit": 0
+        },
+        {
+          "prefab": "{B4977616CD19191A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Scout.et",
+          "count": 1,
+          "magazinesPerUnit": 3,
+          "roundsInMagazinesPerUnit": 24,
+          "chamberedRoundsPerUnit": 0,
+          "grenadesPerUnit": 0
+        }
+      ]
+    },
+    {
+      "type": "PARTISAN_SNIPER",
+      "magazineCount": 8,
+      "roundsInMagazines": 73,
+      "chamberedRounds": 1,
+      "grenadeCount": 2,
+      "magazines": [
+        {
+          "prefab": "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et",
+          "loaded": false,
+          "roundsPerMagazine": 10,
+          "capacity": 10,
+          "count": 1,
+          "totalRounds": 10
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 2,
+          "totalRounds": 16
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 1,
+          "totalRounds": 8
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "roundsPerMagazine": 10,
+          "capacity": 10,
+          "count": 3,
+          "totalRounds": 30
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": true,
+          "roundsPerMagazine": 9,
+          "capacity": 10,
+          "count": 1,
+          "totalRounds": 9
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 1
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{1FDA92972C1B771B}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_Rebel_Sharpshooter.et",
+          "count": 1,
+          "magazinesPerUnit": 8,
+          "roundsInMagazinesPerUnit": 73,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    },
+    {
+      "type": "TEAM_MG",
+      "magazineCount": 20,
+      "roundsInMagazines": 733,
+      "chamberedRounds": 1,
+      "grenadeCount": 3,
+      "magazines": [
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 50,
+          "capacity": 50,
+          "count": 9,
+          "totalRounds": 450
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 50,
+          "capacity": 50,
+          "count": 1,
+          "totalRounds": 50
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 2,
+          "totalRounds": 16
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 1,
+          "totalRounds": 8
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 6,
+          "totalRounds": 180
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 1,
+          "totalRounds": 29
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 2
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 224,
+          "chamberedRoundsPerUnit": 0,
+          "grenadesPerUnit": 1
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "count": 1,
+          "magazinesPerUnit": 13,
+          "roundsInMagazinesPerUnit": 509,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    },
+    {
+      "type": "TEAM_MG_ELITE",
+      "magazineCount": 18,
+      "roundsInMagazines": 717,
+      "chamberedRounds": 1,
+      "grenadeCount": 3,
+      "magazines": [
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 50,
+          "capacity": 50,
+          "count": 9,
+          "totalRounds": 450
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 50,
+          "capacity": 50,
+          "count": 1,
+          "totalRounds": 50
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 1,
+          "totalRounds": 8
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 6,
+          "totalRounds": 180
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 1,
+          "totalRounds": 29
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 1
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 2
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{244E2E8B42B42490}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_MG_Elite.et",
+          "count": 1,
+          "magazinesPerUnit": 5,
+          "roundsInMagazinesPerUnit": 208,
+          "chamberedRoundsPerUnit": 0,
+          "grenadesPerUnit": 1
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "count": 1,
+          "magazinesPerUnit": 13,
+          "roundsInMagazinesPerUnit": 509,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    },
+    {
+      "type": "TEAM_SENTRY",
+      "magazineCount": 12,
+      "roundsInMagazines": 358,
+      "chamberedRounds": 2,
+      "grenadeCount": 4,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 10,
+          "totalRounds": 300
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 2,
+          "totalRounds": 58
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 2
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 2
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+          "count": 1,
+          "magazinesPerUnit": 5,
+          "roundsInMagazinesPerUnit": 149,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    },
+    {
+      "type": "SQUAD_RIFLE",
+      "magazineCount": 51,
+      "roundsInMagazines": 1658,
+      "chamberedRounds": 6,
+      "grenadeCount": 13,
+      "magazines": [
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 50,
+          "capacity": 50,
+          "count": 9,
+          "totalRounds": 450
+        },
+        {
+          "prefab": "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 50,
+          "capacity": 50,
+          "count": 1,
+          "totalRounds": 50
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 2,
+          "totalRounds": 16
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 1,
+          "totalRounds": 8
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 30,
+          "totalRounds": 900
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 6,
+          "totalRounds": 174
+        },
+        {
+          "prefab": "{FAFA0D71E75CEBE2}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 2,
+          "totalRounds": 60
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 6
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 7
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+          "count": 1,
+          "magazinesPerUnit": 5,
+          "roundsInMagazinesPerUnit": 149,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 224,
+          "chamberedRoundsPerUnit": 0,
+          "grenadesPerUnit": 1
+        },
+        {
+          "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+          "count": 1,
+          "magazinesPerUnit": 5,
+          "roundsInMagazinesPerUnit": 149,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "count": 1,
+          "magazinesPerUnit": 13,
+          "roundsInMagazinesPerUnit": 509,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+          "count": 2,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    },
+    {
+      "type": "TEAM_AT",
+      "magazineCount": 24,
+      "roundsInMagazines": 716,
+      "chamberedRounds": 4,
+      "grenadeCount": 8,
+      "magazines": [
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 20,
+          "totalRounds": 600
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 4,
+          "totalRounds": 116
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 4
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 4
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et",
+          "count": 2,
+          "magazinesPerUnit": 5,
+          "roundsInMagazinesPerUnit": 149,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    },
+    {
+      "type": "TEAM_SNIPER",
+      "magazineCount": 15,
+      "roundsInMagazines": 282,
+      "chamberedRounds": 2,
+      "grenadeCount": 4,
+      "magazines": [
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": false,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 2,
+          "totalRounds": 16
+        },
+        {
+          "prefab": "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et",
+          "loaded": true,
+          "roundsPerMagazine": 8,
+          "capacity": 8,
+          "count": 1,
+          "totalRounds": 8
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": false,
+          "roundsPerMagazine": 10,
+          "capacity": 10,
+          "count": 4,
+          "totalRounds": 40
+        },
+        {
+          "prefab": "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et",
+          "loaded": true,
+          "roundsPerMagazine": 9,
+          "capacity": 10,
+          "count": 1,
+          "totalRounds": 9
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": false,
+          "roundsPerMagazine": 30,
+          "capacity": 30,
+          "count": 6,
+          "totalRounds": 180
+        },
+        {
+          "prefab": "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et",
+          "loaded": true,
+          "roundsPerMagazine": 29,
+          "capacity": 30,
+          "count": 1,
+          "totalRounds": 29
+        }
+      ],
+      "grenades": [
+        {
+          "prefab": "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et",
+          "count": 2
+        },
+        {
+          "prefab": "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et",
+          "count": 2
+        }
+      ],
+      "members": [
+        {
+          "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+          "count": 1,
+          "magazinesPerUnit": 7,
+          "roundsInMagazinesPerUnit": 209,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        },
+        {
+          "prefab": "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et",
+          "count": 1,
+          "magazinesPerUnit": 8,
+          "roundsInMagazinesPerUnit": 73,
+          "chamberedRoundsPerUnit": 1,
+          "grenadesPerUnit": 2
+        }
+      ]
+    }
+  ]
+}

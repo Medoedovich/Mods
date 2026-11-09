@@ -1,0 +1,1039 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0044",
+  "method": "measured_eligible_physical_or_source_ancestor_virtual",
+  "runtimeRefillConfirmed": false,
+  "evidence": "HarborNeighbors.json",
+  "records": [
+    {
+      "groupId": "harbor/0x2000000000000ECE {}",
+      "name": "SP_A_EveronAirport",
+      "path": "Harbors/EveronAirport.md",
+      "eligibleInitialSupplies": 6500.0,
+      "potentialExpansionInitialSupplies": 4500.0,
+      "totalInitialSupplies": 11000.0,
+      "physicalSlots": [
+        {
+          "id": "0x2000000000000F04 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000F03 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000000F05 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000F03 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000000F06 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000F03 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000000F0D {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000F0C {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000000F0E {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000F0C {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000010D3 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000010D2 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000010D4 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000010D2 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000010E4 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000010E3 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011B6 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011B7 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011B8 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x200000000000379A {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000003799 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000379B {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000003799 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000003122 {}",
+      "name": "SP_T1H_StPhillipe",
+      "path": "Harbors/StPhillipe.md",
+      "eligibleInitialSupplies": 3500.0,
+      "potentialExpansionInitialSupplies": 10000.0,
+      "totalInitialSupplies": 13500.0,
+      "physicalSlots": [
+        {
+          "id": "0x200000000000315F {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000315E {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000003160 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000315E {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000003167 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000003166 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000003168 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000003166 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000010F6 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000010F5 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000001108 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000001107 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011C8 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011C7 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011C9 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000037B3 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000037B2 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000037CB {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000037CA {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004EC6 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004EC5 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000003115 {}",
+      "name": "SP_T1H_StPierre",
+      "path": "Harbors/StPierre.md",
+      "eligibleInitialSupplies": 8500.0,
+      "potentialExpansionInitialSupplies": 1000.0,
+      "totalInitialSupplies": 9500.0,
+      "physicalSlots": [
+        {
+          "id": "0x2000000000001119 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000001118 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000111A {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000001118 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000011D9 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000011D7 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000011DA {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000011D7 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000011D8 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000011D7 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000037E2 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000037E3 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004ED3 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004ED2 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004ED4 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004ED2 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004EE0 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004EDF {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004EE1 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004EDF {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004E0B {}",
+      "name": "SP_T2H_FishermansBay",
+      "path": "Harbors/FishermansBay.md",
+      "eligibleInitialSupplies": 5000.0,
+      "potentialExpansionInitialSupplies": 2000.0,
+      "totalInitialSupplies": 7000.0,
+      "physicalSlots": [
+        {
+          "id": "0x2000000000004E3A {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004E39 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004E3B {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004E39 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004E3C {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004E39 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004E40 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004E3F {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004E41 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004E3F {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004F51 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004F52 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004DD7 {}",
+      "name": "SP_T2H_Lamentin",
+      "path": "Harbors/Lamentin.md",
+      "eligibleInitialSupplies": 5500.0,
+      "potentialExpansionInitialSupplies": 4000.0,
+      "totalInitialSupplies": 9500.0,
+      "physicalSlots": [
+        {
+          "id": "0x200000000000112F {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000112E {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000001130 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000112E {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000011E9 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011EB {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011EA {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000037FA {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000037FB {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004EF0 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004EEE {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004EEF {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004EEE {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004EFD {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004EFC {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004EFE {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004EFC {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004E04 {}",
+      "name": "SP_T2H_Meaux",
+      "path": "Harbors/Meaux.md",
+      "eligibleInitialSupplies": 7500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 7500.0,
+      "physicalSlots": [
+        {
+          "id": "0x2000000000001150 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000114E {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000114F {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000114E {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000121D {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000121B {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000121C {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000121B {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000121E {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000121B {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000385A {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000003859 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000385B {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000003859 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004F43 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004F42 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004F44 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004F42 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004DDD {}",
+      "name": "SP_T2H_MilitaryHospital",
+      "path": "Harbors/MilitaryHospital.md",
+      "eligibleInitialSupplies": 6000.0,
+      "potentialExpansionInitialSupplies": 4500.0,
+      "totalInitialSupplies": 10500.0,
+      "physicalSlots": [
+        {
+          "id": "0x2000000000004DFE {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004DFD {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004DFF {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004DFD {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004E00 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004DFD {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000113E {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x200000000000113D {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x20000000000011FC {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000011F9 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000011FA {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000011F9 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000011FB {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000011F9 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000003812 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000003813 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004F1A {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004F19 {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004D93 {}",
+      "name": "SP_T2H_Morton",
+      "path": "Harbors/Morton.md",
+      "eligibleInitialSupplies": 3500.0,
+      "potentialExpansionInitialSupplies": 2000.0,
+      "totalInitialSupplies": 5500.0,
+      "physicalSlots": [
+        {
+          "id": "0x2000000000004DBF {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004DBE {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004DC0 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004DBE {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004DCA {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004DC9 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004DCB {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000004DC9 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000004F0E {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        },
+        {
+          "id": "0x2000000000004F0D {}/4/0",
+          "group": "potential_expansion",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": []
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x20000000000000DE {}",
+      "name": "SP_T3H_GoatBay",
+      "path": "Harbors/GoatBay.md",
+      "eligibleInitialSupplies": 2500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 2500.0,
+      "physicalSlots": [
+        {
+          "id": "0x20000000000000E6 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000E5 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000000E7 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000E5 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000000F9 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000F8 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000000FA {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000F8 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000000144 {}",
+      "name": "SP_T3H_Gravette",
+      "path": "Harbors/Gravette.md",
+      "eligibleInitialSupplies": 1500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 1500.0,
+      "physicalSlots": [
+        {
+          "id": "0x200000000000014A {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000149 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000014B {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000149 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000000111 {}",
+      "name": "SP_T3H_HalcyonStrait",
+      "path": "Harbors/HalcyonStrait.md",
+      "eligibleInitialSupplies": 1500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 1500.0,
+      "physicalSlots": [
+        {
+          "id": "0x200000000000011A {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000119 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000011B {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x2000000000000119 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x200000000000015D {}",
+      "name": "SP_T3H_Kermovan",
+      "path": "Harbors/Kermovan.md",
+      "eligibleInitialSupplies": 2500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 2500.0,
+      "physicalSlots": [
+        {
+          "id": "0x200000000000016C {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000016B {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000016D {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000016B {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000017C {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000017B {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000017D {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000017B {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x20000000000000C2 {}",
+      "name": "SP_T3H_Lancre",
+      "path": "Harbors/Lancre.md",
+      "eligibleInitialSupplies": 1000.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 1000.0,
+      "physicalSlots": [
+        {
+          "id": "0x20000000000000CB {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000CA {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000000CC {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000CA {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000000191 {}",
+      "name": "SP_T3H_Laruns",
+      "path": "Harbors/Laruns.md",
+      "eligibleInitialSupplies": 1500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 1500.0,
+      "physicalSlots": [
+        {
+          "id": "0x20000000000001A1 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001A0 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000001A2 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001A0 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x20000000000000A9 {}",
+      "name": "SP_T3H_LeBosc",
+      "path": "Harbors/LeBosc.md",
+      "eligibleInitialSupplies": 3000.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 3000.0,
+      "physicalSlots": [
+        {
+          "id": "0x20000000000000B3 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000B2 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000000B4 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000B2 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000000B5 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000000B2 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x20000000000001C0 {}",
+      "name": "SP_T3H_Perelle",
+      "path": "Harbors/Perelle.md",
+      "eligibleInitialSupplies": 3500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 3500.0,
+      "physicalSlots": [
+        {
+          "id": "0x20000000000001D0 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001CF {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000001D1 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001CF {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000001D6 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001D5 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000001D7 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001D5 {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x200000000000012B {}",
+      "name": "SP_T3H_SpaniardsBay",
+      "path": "Harbors/SpaniardsBay.md",
+      "eligibleInitialSupplies": 3000.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 3000.0,
+      "physicalSlots": [
+        {
+          "id": "0x2000000000000130 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000012F {}/1/0"
+          ]
+        },
+        {
+          "id": "0x2000000000000131 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000012F {}/1/0"
+          ]
+        },
+        {
+          "id": "0x200000000000013F {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x200000000000012F {}/1/0"
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x20000000000001A8 {}",
+      "name": "SP_T3H_Thollevast",
+      "path": "Harbors/Thollevast.md",
+      "eligibleInitialSupplies": 1500.0,
+      "potentialExpansionInitialSupplies": 0.0,
+      "totalInitialSupplies": 1500.0,
+      "physicalSlots": [
+        {
+          "id": "0x20000000000001B3 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 1000.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001B2 {}/1/0"
+          ]
+        },
+        {
+          "id": "0x20000000000001B4 {}/4/0",
+          "group": "eligible",
+          "configuredInitialSupplies": 500.0,
+          "eligibilityEvidenceIds": [
+            "0x20000000000001B2 {}/1/0"
+          ]
+        }
+      ]
+    }
+  ]
+}

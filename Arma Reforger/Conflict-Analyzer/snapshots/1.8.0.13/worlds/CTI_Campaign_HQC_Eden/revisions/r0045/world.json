@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0045",
+  "revisionId": "r0045",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "status": "partial",
+  "normalizerVersion": "starting-bases-0.1",
+  "scope": "starting_HQ_candidates_only",
+  "sources": {
+    "diagnosticsSha256": "EB33930D60A912D9FF2AACDBD32218D421911665C0E23FEE3B07229074D52233",
+    "containerDetailsSha256": "371BA892C9A4F6E66D6BF4DF4151B3A3430EA1F4C80D93853C0488EA684B8BE5",
+    "containerSnapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0044",
+    "commandPostStorageSha256": "5CF967734B34523187F0726E5B0FEC51A71D613816FE68AF19FB9DF2D377C904"
+  },
+  "codeEvidence": [
+    {
+      "sha256": "15E3BA73A5DC53162FBFC211C46CD42E899652F9858B8259FBB54EFEF6CDFACE",
+      "resource": "scripts/Game/GameMode/SCR_GameModeCampaign.c"
+    },
+    {
+      "sha256": "096F0E0921BA034483D357D32F8AB332654AD45F1467496769C71F0DAD3DC259",
+      "resource": "scripts/Game/Components/Locations/SCR_CampaignMilitaryBaseComponent.c"
+    },
+    {
+      "sha256": "9E3309D4972146521CDCCFC5112656CD5D7E7AA39BBEB0CB0EA8F17C578D58C1",
+      "resource": "Configs/Factions/US_Campaign.conf"
+    },
+    {
+      "sha256": "D05080D96D5C847041272EB942107E41BBA31E4A64B18057E23EE0F26A60C02D",
+      "resource": "Configs/Factions/USSR_Campaign.conf"
+    },
+    {
+      "sha256": "7B384E3B442F451FEC8D12EBE4C6C703EF7DE2E7BB4BC1A14CDDEE57D3EF1285",
+      "resource": "Missions/23_Campaign_HQC_Everon.conf"
+    }
+  ]
+}

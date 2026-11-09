@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 3,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0055",
+  "revisionId": "r0055",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "normalizerVersion": "ambient-ai-groups-0.6",
+  "status": "partial",
+  "summary": {
+    "spawnPointCount": 299,
+    "enabledSpawnPointCount": 299,
+    "fixedTypePointCount": 288,
+    "randomTypePointCount": 11,
+    "catalogVariantCount": 9,
+    "configuredGroupSlots": 299,
+    "conditionalOneGroupPerEnabledPointUnitMin": 1128.0,
+    "conditionalOneGroupPerEnabledPointUnitMax": 1194.0,
+    "runtimeSpawnedGroupCount": null,
+    "runtimeUnitCount": null,
+    "placedGroupsInDiagnostics": 0,
+    "otherSpawnMechanismsStatus": "not_analyzed"
+  },
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "sourceCapturedAtUTC": "2026-10-05 11:18:05"
+}

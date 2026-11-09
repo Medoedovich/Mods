@@ -1,0 +1,14 @@
+# Morton
+
+[Сводка](../Summary.md)
+
+| Точка | Фракция | Координаты X Y Z, м | Локация | Повторное появление, мин | Включённые метки | Режим | Исключённые метки |
+| --- | --- | --- | --- | ---: | --- | --- | --- |
+| Vehicle_020000000000006D1 | CIV | 5035.891 15.392 3969.141 | Morton | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| Vehicle_020000000000006D2 | CIV | 5100.010 14.250 3992.659 | Morton | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| Vehicle_020000000000006D3 | CIV | 5162.402 14.446 4052.728 | Morton | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| Vehicle_020000000000006D4 | CIV | 5213.069 17.429 4024.544 | Morton | 10 | TRAIT_PASSENGERS_SMALL, TRAIT_PASSENGERS_LARGE | Любая | TRAIT_ARMED, VEHICLE_HELICOPTER, VEHICLE_AIRPLANE |
+| Vehicle_02000000000001F1E | US | 4940.065 2.261 3885.688 | Morton | Нет | VEHICLE_HELICOPTER | Любая | TRAIT_ARMED |
+| Vehicle_020000000000049CA | FIA | 4936.062 2.156 3903.763 | Morton | Нет |  | Любая | TRAIT_ARMED |
+
+[Полные поля и источники](../SpawnPoints.json).

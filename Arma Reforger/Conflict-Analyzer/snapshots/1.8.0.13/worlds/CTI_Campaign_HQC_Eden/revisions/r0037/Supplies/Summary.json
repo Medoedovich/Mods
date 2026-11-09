@@ -1,0 +1,2672 @@
+{
+  "schemaVersion": 1,
+  "kind": "initial-supplies-summary",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0037",
+  "scope": "configured_initial_supplies_in_catalogued_storage",
+  "status": "partial",
+  "runtimeWorldTotalMeasured": false,
+  "knownInitialSupplies": 231200.0,
+  "unknownEntryCount": 3,
+  "categories": [
+    {
+      "category": "control_points",
+      "name": "Контрольные точки",
+      "knownInitialSupplies": 48100.0,
+      "status": "resolved",
+      "unknownEntryCount": 0,
+      "uniqueEntryCount": 42
+    },
+    {
+      "category": "harbors",
+      "name": "Доки",
+      "knownInitialSupplies": 40500.0,
+      "status": "partial",
+      "unknownEntryCount": 3,
+      "uniqueEntryCount": 52
+    },
+    {
+      "category": "supply_depots",
+      "name": "Склады",
+      "knownInitialSupplies": 75100.0,
+      "status": "resolved",
+      "unknownEntryCount": 0,
+      "uniqueEntryCount": 52
+    },
+    {
+      "category": "settlements",
+      "name": "Города",
+      "knownInitialSupplies": 24500.0,
+      "status": "resolved",
+      "unknownEntryCount": 0,
+      "uniqueEntryCount": 13
+    },
+    {
+      "category": "other",
+      "name": "Другое",
+      "knownInitialSupplies": 43000.0,
+      "status": "resolved",
+      "unknownEntryCount": 0,
+      "uniqueEntryCount": 24
+    }
+  ],
+  "entries": [
+    {
+      "id": "other_supply_parent/0x20000000000007D2 {}",
+      "category": "control_points",
+      "name": "LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000084E {}",
+      "category": "control_points",
+      "name": "LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000008A9 {}",
+      "category": "control_points",
+      "name": "LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000904 {}",
+      "category": "control_points",
+      "name": "LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000095F {}",
+      "category": "control_points",
+      "name": "LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000F16 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000F34 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000F52 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000F70 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000F8E {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000FAC {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000FCA {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000000FE8 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001006 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001024 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001042 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000010BD {}",
+      "category": "other",
+      "name": "Base_Airport_FIA_01",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000010DA {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000010EC {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000010FE {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001110 {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001122 {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001134 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001146 {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001158 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000116A {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000117C {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000118E {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_04",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000011A9 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000011BA {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000011CB {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000011DC {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000011ED {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000011FE {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000120F {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001220 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001231 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001242 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001253 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_03",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000162B {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000163D {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000164F {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001661 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001673 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001685 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "initialSupplies": 1500.0,
+      "knownInitialSubtotal": 1500.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000016C7 {}",
+      "category": "other",
+      "name": "StartingPos21",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": true
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001A01 {}",
+      "category": "control_points",
+      "name": "VehicleMaintenance_M_USSR_01",
+      "initialSupplies": 3400.0,
+      "knownInitialSubtotal": 3400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001AD5 {}",
+      "category": "control_points",
+      "name": "VehicleMaintenance_M_Conflict_USSR_01",
+      "initialSupplies": 600.0,
+      "knownInitialSubtotal": 600.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001DF9 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E07 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E15 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E23 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E31 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E3F {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E4D {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E5B {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001E73 {}",
+      "category": "control_points",
+      "name": "E_VehicleMaintenance_M_Conflict_USSR_01",
+      "initialSupplies": 600.0,
+      "knownInitialSubtotal": 600.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000001FBB {}",
+      "category": "control_points",
+      "name": "E_LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000002016 {}",
+      "category": "control_points",
+      "name": "E_LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000002071 {}",
+      "category": "control_points",
+      "name": "E_LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000020CC {}",
+      "category": "control_points",
+      "name": "E_LivingArea_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000002721 {}",
+      "category": "control_points",
+      "name": "FieldHospital_M_FIA_01",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000027E0 {}",
+      "category": "control_points",
+      "name": "FieldHospital_M_FIA_01",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000289F {}",
+      "category": "control_points",
+      "name": "FieldHospital_M_FIA_01",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003045 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003056 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003067 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003078 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003089 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000309A {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000030AB {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000030BC {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "initialSupplies": 3000.0,
+      "knownInitialSubtotal": 3000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003793 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000037AB {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000037C3 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000037DB {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000037F3 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000380B {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003823 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000383B {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003853 {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000386B {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003883 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000389B {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000038B3 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000038CB {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_06",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003D79 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_01",
+      "initialSupplies": 900.0,
+      "knownInitialSubtotal": 900.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003ECC {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003EE4 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003EFC {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003F14 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000003F2C {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000041DB {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004205 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000422F {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004259 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004283 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000042AD {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000042D7 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004301 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000432B {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004355 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x200000000000437F {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000043A9 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000043D3 {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x20000000000043FD {}",
+      "category": "supply_depots",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "initialSupplies": 800.0,
+      "knownInitialSubtotal": 800.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004987 {}",
+      "category": "control_points",
+      "name": "Base_PowerPlant_FIA_01",
+      "initialSupplies": 2100.0,
+      "knownInitialSubtotal": 2100.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004AD5 {}",
+      "category": "control_points",
+      "name": "E_VehicleMaintenance_S_FIA_01",
+      "initialSupplies": 400.0,
+      "knownInitialSubtotal": 400.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004EC2 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004ED0 {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004EDE {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004EEC {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004EFA {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F08 {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F16 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F24 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F32 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F40 {}",
+      "category": "settlements",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F4E {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F5C {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F6A {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F78 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F86 {}",
+      "category": "control_points",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "other_supply_parent/0x2000000000004F94 {}",
+      "category": "other",
+      "name": "SupplyCache_S_FIA_05",
+      "initialSupplies": 2000.0,
+      "knownInitialSubtotal": 2000.0,
+      "status": "resolved",
+      "source": "Supplies/OtherContainers.json",
+      "field": "configuredInitialSupplies",
+      "unrecognized": false
+    },
+    {
+      "id": "0x2000000000000F04 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000ECE {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000000F05 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000ECE {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000000F06 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000ECE {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000000F0D {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000ECE {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000000F0E {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000ECE {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000315F {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000003122 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000003160 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000003122 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000003167 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000003122 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000003168 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000003122 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "supply_source_base/0x2000000000003115 {}/unresolved-storage",
+      "category": "harbors",
+      "name": "SP_T1H_StPierre",
+      "initialSupplies": null,
+      "knownInitialSubtotal": 0,
+      "status": "unknown",
+      "source": "Supplies/Harbors.json",
+      "reason": "No confirmed physical descendant storage; initial supplies unknown."
+    },
+    {
+      "id": "0x2000000000004E3A {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004E0B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004E3B {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004E0B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004E3C {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004E0B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004E40 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004E0B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004E41 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004E0B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "supply_source_base/0x2000000000004DD7 {}/unresolved-storage",
+      "category": "harbors",
+      "name": "SP_T2H_Lamentin",
+      "initialSupplies": null,
+      "knownInitialSubtotal": 0,
+      "status": "unknown",
+      "source": "Supplies/Harbors.json",
+      "reason": "No confirmed physical descendant storage; initial supplies unknown."
+    },
+    {
+      "id": "supply_source_base/0x2000000000004E04 {}/unresolved-storage",
+      "category": "harbors",
+      "name": "SP_T2H_Meaux",
+      "initialSupplies": null,
+      "knownInitialSubtotal": 0,
+      "status": "unknown",
+      "source": "Supplies/Harbors.json",
+      "reason": "No confirmed physical descendant storage; initial supplies unknown."
+    },
+    {
+      "id": "0x2000000000004DFE {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004DDD {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004DFF {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004DDD {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004E00 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004DDD {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004DBF {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004D93 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004DC0 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004D93 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004DCA {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004D93 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000004DCB {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000004D93 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000E6 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000DE {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000E7 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000DE {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000F9 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000DE {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000FA {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000DE {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000014A {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000144 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000014B {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000144 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000011A {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000111 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000011B {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000111 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000016C {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x200000000000015D {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000016D {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x200000000000015D {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000017C {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x200000000000015D {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000017D {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x200000000000015D {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000CB {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000C2 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000CC {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000C2 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001A1 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000191 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001A2 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x2000000000000191 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000B3 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000A9 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000B4 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000A9 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000000B5 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000000A9 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001D0 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000001C0 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001D1 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000001C0 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001D6 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000001C0 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001D7 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000001C0 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000000130 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x200000000000012B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x2000000000000131 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x200000000000012B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x200000000000013F {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x200000000000012B {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001B3 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000001A8 {}",
+      "initialSupplies": 1000.0,
+      "knownInitialSubtotal": 1000.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "0x20000000000001B4 {}/4/0",
+      "category": "harbors",
+      "anchorObjectId": "supply_source_base/0x20000000000001A8 {}",
+      "initialSupplies": 500.0,
+      "knownInitialSubtotal": 500.0,
+      "status": "resolved",
+      "source": "Locations.json",
+      "field": "groups.physicalDescendantContainers.fields.m_fResourceValueCurrent"
+    },
+    {
+      "id": "control_point/0x200000000000161A {}/command-post",
+      "category": "control_points",
+      "name": "Calvary Hill",
+      "initialSupplies": 0,
+      "knownInitialSubtotal": 0,
+      "status": "resolved",
+      "source": "Supplies/ControlPoints.json",
+      "field": "commandPostStorage.configuredInitialSupplies",
+      "scope": "command_post_storage_after_encapsulator_action"
+    },
+    {
+      "id": "control_point/0x2000000000001627 {}/command-post",
+      "category": "control_points",
+      "name": "Île-aux-Saules",
+      "initialSupplies": 0,
+      "knownInitialSubtotal": 0,
+      "status": "resolved",
+      "source": "Supplies/ControlPoints.json",
+      "field": "commandPostStorage.configuredInitialSupplies",
+      "scope": "command_post_storage_after_encapsulator_action"
+    },
+    {
+      "id": "control_point/0x200000000000160D {}/command-post",
+      "category": "control_points",
+      "name": "Military Base Levie",
+      "initialSupplies": 0,
+      "knownInitialSubtotal": 0,
+      "status": "resolved",
+      "source": "Supplies/ControlPoints.json",
+      "field": "commandPostStorage.configuredInitialSupplies",
+      "scope": "command_post_storage_after_encapsulator_action"
+    },
+    {
+      "id": "control_point/0x2000000000001616 {}/command-post",
+      "category": "control_points",
+      "name": "Montignac",
+      "initialSupplies": 0,
+      "knownInitialSubtotal": 0,
+      "status": "resolved",
+      "source": "Supplies/ControlPoints.json",
+      "field": "commandPostStorage.configuredInitialSupplies",
+      "scope": "command_post_storage_after_encapsulator_action"
+    },
+    {
+      "id": "control_point/0x200000000000161E {}/command-post",
+      "category": "control_points",
+      "name": "Power Plant",
+      "initialSupplies": 0,
+      "knownInitialSubtotal": 0,
+      "status": "resolved",
+      "source": "Supplies/ControlPoints.json",
+      "field": "commandPostStorage.configuredInitialSupplies",
+      "scope": "command_post_storage_after_encapsulator_action"
+    },
+    {
+      "id": "control_point/0x2000000000001622 {}/command-post",
+      "category": "control_points",
+      "name": "Régina",
+      "initialSupplies": 0,
+      "knownInitialSubtotal": 0,
+      "status": "resolved",
+      "source": "Supplies/ControlPoints.json",
+      "field": "commandPostStorage.configuredInitialSupplies",
+      "scope": "command_post_storage_after_encapsulator_action"
+    },
+    {
+      "id": "control_point/0x2000000000001611 {}/command-post",
+      "category": "control_points",
+      "name": "Transformer Station",
+      "initialSupplies": 0,
+      "knownInitialSubtotal": 0,
+      "status": "resolved",
+      "source": "Supplies/ControlPoints.json",
+      "field": "commandPostStorage.configuredInitialSupplies",
+      "scope": "command_post_storage_after_encapsulator_action"
+    }
+  ],
+  "deduplication": "Unique OtherContainers parent per category and unique harbor physical slot; command-post composition counted once per control point.",
+  "otherIncludesUnrecognized": true,
+  "sources": [
+    "Locations.json",
+    "Supplies/OtherContainers.json",
+    "Supplies/Harbors.json",
+    "Supplies/ControlPoints.json"
+  ],
+  "detailPages": [
+    {
+      "id": "control-point/0x200000000000161A {}",
+      "category": "control_points",
+      "name": "Calvary Hill",
+      "path": "ControlPoints/Calvary-Hill.md",
+      "entryIds": [
+        "other_supply_parent/0x20000000000007D2 {}",
+        "other_supply_parent/0x2000000000001A01 {}",
+        "other_supply_parent/0x2000000000002721 {}",
+        "other_supply_parent/0x200000000000386B {}",
+        "other_supply_parent/0x2000000000004F5C {}",
+        "control_point/0x200000000000161A {}/command-post"
+      ],
+      "knownInitialSupplies": 8800.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "control-point/0x2000000000001627 {}",
+      "category": "control_points",
+      "name": "Île-aux-Saules",
+      "path": "ControlPoints/Ile-aux-Saules.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001231 {}",
+        "other_supply_parent/0x20000000000020CC {}",
+        "other_supply_parent/0x200000000000389B {}",
+        "other_supply_parent/0x2000000000004F86 {}",
+        "control_point/0x2000000000001627 {}/command-post"
+      ],
+      "knownInitialSupplies": 6400.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "control-point/0x200000000000160D {}",
+      "category": "control_points",
+      "name": "Military Base Levie",
+      "path": "ControlPoints/Military-Base-Levie.md",
+      "entryIds": [
+        "other_supply_parent/0x200000000000084E {}",
+        "other_supply_parent/0x20000000000011FE {}",
+        "other_supply_parent/0x2000000000003823 {}",
+        "other_supply_parent/0x200000000000383B {}",
+        "other_supply_parent/0x2000000000004AD5 {}",
+        "other_supply_parent/0x2000000000004F24 {}",
+        "other_supply_parent/0x2000000000004F32 {}",
+        "control_point/0x200000000000160D {}/command-post"
+      ],
+      "knownInitialSupplies": 9800.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "control-point/0x2000000000001616 {}",
+      "category": "control_points",
+      "name": "Montignac",
+      "path": "ControlPoints/Montignac.md",
+      "entryIds": [
+        "other_supply_parent/0x20000000000008A9 {}",
+        "other_supply_parent/0x2000000000000904 {}",
+        "other_supply_parent/0x2000000000001158 {}",
+        "other_supply_parent/0x20000000000027E0 {}",
+        "other_supply_parent/0x2000000000003883 {}",
+        "other_supply_parent/0x2000000000004F6A {}",
+        "control_point/0x2000000000001616 {}/command-post"
+      ],
+      "knownInitialSupplies": 7300.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "control-point/0x200000000000161E {}",
+      "category": "control_points",
+      "name": "Power Plant",
+      "path": "ControlPoints/Power-Plant.md",
+      "entryIds": [
+        "other_supply_parent/0x200000000000116A {}",
+        "other_supply_parent/0x2000000000001FBB {}",
+        "other_supply_parent/0x2000000000004987 {}",
+        "other_supply_parent/0x2000000000004F78 {}",
+        "control_point/0x200000000000161E {}/command-post"
+      ],
+      "knownInitialSupplies": 6000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "control-point/0x2000000000001622 {}",
+      "category": "control_points",
+      "name": "Régina",
+      "path": "ControlPoints/Regina.md",
+      "entryIds": [
+        "other_supply_parent/0x200000000000095F {}",
+        "other_supply_parent/0x2000000000001E73 {}",
+        "other_supply_parent/0x200000000000289F {}",
+        "other_supply_parent/0x2000000000003D79 {}",
+        "control_point/0x2000000000001622 {}/command-post"
+      ],
+      "knownInitialSupplies": 3900.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "control-point/0x2000000000001611 {}",
+      "category": "control_points",
+      "name": "Transformer Station",
+      "path": "ControlPoints/Transformer-Station.md",
+      "entryIds": [
+        "other_supply_parent/0x200000000000117C {}",
+        "other_supply_parent/0x2000000000001220 {}",
+        "other_supply_parent/0x2000000000001AD5 {}",
+        "other_supply_parent/0x2000000000002016 {}",
+        "other_supply_parent/0x2000000000002071 {}",
+        "control_point/0x2000000000001611 {}/command-post"
+      ],
+      "knownInitialSupplies": 5900.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000000ECE {}",
+      "category": "harbors",
+      "name": "SP_A_EveronAirport",
+      "path": "Harbors/SP_A_EveronAirport.md",
+      "entryIds": [
+        "0x2000000000000F04 {}/4/0",
+        "0x2000000000000F05 {}/4/0",
+        "0x2000000000000F06 {}/4/0",
+        "0x2000000000000F0D {}/4/0",
+        "0x2000000000000F0E {}/4/0"
+      ],
+      "knownInitialSupplies": 4000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000003122 {}",
+      "category": "harbors",
+      "name": "SP_T1H_StPhillipe",
+      "path": "Harbors/SP_T1H_StPhillipe.md",
+      "entryIds": [
+        "0x200000000000315F {}/4/0",
+        "0x2000000000003160 {}/4/0",
+        "0x2000000000003167 {}/4/0",
+        "0x2000000000003168 {}/4/0"
+      ],
+      "knownInitialSupplies": 3500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000003115 {}",
+      "category": "harbors",
+      "name": "SP_T1H_StPierre",
+      "path": "Harbors/SP_T1H_StPierre.md",
+      "entryIds": [
+        "supply_source_base/0x2000000000003115 {}/unresolved-storage"
+      ],
+      "knownInitialSupplies": 0.0,
+      "unknownEntryCount": 1
+    },
+    {
+      "id": "harbor/0x2000000000004E0B {}",
+      "category": "harbors",
+      "name": "SP_T2H_FishermansBay",
+      "path": "Harbors/SP_T2H_FishermansBay.md",
+      "entryIds": [
+        "0x2000000000004E3A {}/4/0",
+        "0x2000000000004E3B {}/4/0",
+        "0x2000000000004E3C {}/4/0",
+        "0x2000000000004E40 {}/4/0",
+        "0x2000000000004E41 {}/4/0"
+      ],
+      "knownInitialSupplies": 5000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000004DD7 {}",
+      "category": "harbors",
+      "name": "SP_T2H_Lamentin",
+      "path": "Harbors/SP_T2H_Lamentin.md",
+      "entryIds": [
+        "supply_source_base/0x2000000000004DD7 {}/unresolved-storage"
+      ],
+      "knownInitialSupplies": 0.0,
+      "unknownEntryCount": 1
+    },
+    {
+      "id": "harbor/0x2000000000004E04 {}",
+      "category": "harbors",
+      "name": "SP_T2H_Meaux",
+      "path": "Harbors/SP_T2H_Meaux.md",
+      "entryIds": [
+        "supply_source_base/0x2000000000004E04 {}/unresolved-storage"
+      ],
+      "knownInitialSupplies": 0.0,
+      "unknownEntryCount": 1
+    },
+    {
+      "id": "harbor/0x2000000000004DDD {}",
+      "category": "harbors",
+      "name": "SP_T2H_MilitaryHospital",
+      "path": "Harbors/SP_T2H_MilitaryHospital.md",
+      "entryIds": [
+        "0x2000000000004DFE {}/4/0",
+        "0x2000000000004DFF {}/4/0",
+        "0x2000000000004E00 {}/4/0"
+      ],
+      "knownInitialSupplies": 3000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000004D93 {}",
+      "category": "harbors",
+      "name": "SP_T2H_Morton",
+      "path": "Harbors/SP_T2H_Morton.md",
+      "entryIds": [
+        "0x2000000000004DBF {}/4/0",
+        "0x2000000000004DC0 {}/4/0",
+        "0x2000000000004DCA {}/4/0",
+        "0x2000000000004DCB {}/4/0"
+      ],
+      "knownInitialSupplies": 3500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x20000000000000DE {}",
+      "category": "harbors",
+      "name": "SP_T3H_GoatBay",
+      "path": "Harbors/SP_T3H_GoatBay.md",
+      "entryIds": [
+        "0x20000000000000E6 {}/4/0",
+        "0x20000000000000E7 {}/4/0",
+        "0x20000000000000F9 {}/4/0",
+        "0x20000000000000FA {}/4/0"
+      ],
+      "knownInitialSupplies": 2500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000000144 {}",
+      "category": "harbors",
+      "name": "SP_T3H_Gravette",
+      "path": "Harbors/SP_T3H_Gravette.md",
+      "entryIds": [
+        "0x200000000000014A {}/4/0",
+        "0x200000000000014B {}/4/0"
+      ],
+      "knownInitialSupplies": 1500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000000111 {}",
+      "category": "harbors",
+      "name": "SP_T3H_HalcyonStrait",
+      "path": "Harbors/SP_T3H_HalcyonStrait.md",
+      "entryIds": [
+        "0x200000000000011A {}/4/0",
+        "0x200000000000011B {}/4/0"
+      ],
+      "knownInitialSupplies": 1500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x200000000000015D {}",
+      "category": "harbors",
+      "name": "SP_T3H_Kermovan",
+      "path": "Harbors/SP_T3H_Kermovan.md",
+      "entryIds": [
+        "0x200000000000016C {}/4/0",
+        "0x200000000000016D {}/4/0",
+        "0x200000000000017C {}/4/0",
+        "0x200000000000017D {}/4/0"
+      ],
+      "knownInitialSupplies": 2500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x20000000000000C2 {}",
+      "category": "harbors",
+      "name": "SP_T3H_Lancre",
+      "path": "Harbors/SP_T3H_Lancre.md",
+      "entryIds": [
+        "0x20000000000000CB {}/4/0",
+        "0x20000000000000CC {}/4/0"
+      ],
+      "knownInitialSupplies": 1000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x2000000000000191 {}",
+      "category": "harbors",
+      "name": "SP_T3H_Laruns",
+      "path": "Harbors/SP_T3H_Laruns.md",
+      "entryIds": [
+        "0x20000000000001A1 {}/4/0",
+        "0x20000000000001A2 {}/4/0"
+      ],
+      "knownInitialSupplies": 1500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x20000000000000A9 {}",
+      "category": "harbors",
+      "name": "SP_T3H_LeBosc",
+      "path": "Harbors/SP_T3H_LeBosc.md",
+      "entryIds": [
+        "0x20000000000000B3 {}/4/0",
+        "0x20000000000000B4 {}/4/0",
+        "0x20000000000000B5 {}/4/0"
+      ],
+      "knownInitialSupplies": 3000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x20000000000001C0 {}",
+      "category": "harbors",
+      "name": "SP_T3H_Perelle",
+      "path": "Harbors/SP_T3H_Perelle.md",
+      "entryIds": [
+        "0x20000000000001D0 {}/4/0",
+        "0x20000000000001D1 {}/4/0",
+        "0x20000000000001D6 {}/4/0",
+        "0x20000000000001D7 {}/4/0"
+      ],
+      "knownInitialSupplies": 3500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x200000000000012B {}",
+      "category": "harbors",
+      "name": "SP_T3H_SpaniardsBay",
+      "path": "Harbors/SP_T3H_SpaniardsBay.md",
+      "entryIds": [
+        "0x2000000000000130 {}/4/0",
+        "0x2000000000000131 {}/4/0",
+        "0x200000000000013F {}/4/0"
+      ],
+      "knownInitialSupplies": 3000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "harbor/0x20000000000001A8 {}",
+      "category": "harbors",
+      "name": "SP_T3H_Thollevast",
+      "path": "Harbors/SP_T3H_Thollevast.md",
+      "entryIds": [
+        "0x20000000000001B3 {}/4/0",
+        "0x20000000000001B4 {}/4/0"
+      ],
+      "knownInitialSupplies": 1500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012D3 {}",
+      "category": "supply_depots",
+      "name": "Durras",
+      "path": "SupplyDepots/Durras.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000000F16 {}",
+        "other_supply_parent/0x2000000000003045 {}",
+        "other_supply_parent/0x20000000000041DB {}",
+        "other_supply_parent/0x2000000000004205 {}"
+      ],
+      "knownInitialSupplies": 5500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012D7 {}",
+      "category": "supply_depots",
+      "name": "Склад - 6912.457 57.718 4482.109",
+      "path": "SupplyDepots/Склад---6912-457-57-718-4482-109.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000000F34 {}",
+        "other_supply_parent/0x2000000000000F52 {}",
+        "other_supply_parent/0x2000000000001DF9 {}",
+        "other_supply_parent/0x200000000000422F {}",
+        "other_supply_parent/0x2000000000004259 {}"
+      ],
+      "knownInitialSupplies": 5400.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012DB {}",
+      "category": "supply_depots",
+      "name": "Склад - 4814.289 53.445 5819.508",
+      "path": "SupplyDepots/Склад---4814-289-53-445-5819-508.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000000F70 {}",
+        "other_supply_parent/0x2000000000000F8E {}",
+        "other_supply_parent/0x200000000000162B {}",
+        "other_supply_parent/0x2000000000001E07 {}",
+        "other_supply_parent/0x2000000000003056 {}",
+        "other_supply_parent/0x2000000000003ECC {}",
+        "other_supply_parent/0x2000000000004283 {}",
+        "other_supply_parent/0x20000000000042AD {}",
+        "other_supply_parent/0x20000000000042D7 {}"
+      ],
+      "knownInitialSupplies": 11700.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012DF {}",
+      "category": "supply_depots",
+      "name": "farm",
+      "path": "SupplyDepots/farm.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000000FAC {}",
+        "other_supply_parent/0x200000000000163D {}",
+        "other_supply_parent/0x2000000000001E15 {}",
+        "other_supply_parent/0x2000000000003067 {}",
+        "other_supply_parent/0x2000000000003EE4 {}",
+        "other_supply_parent/0x2000000000003EFC {}",
+        "other_supply_parent/0x2000000000004301 {}",
+        "other_supply_parent/0x200000000000432B {}"
+      ],
+      "knownInitialSupplies": 11000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012E4 {}",
+      "category": "supply_depots",
+      "name": "Gorey",
+      "path": "SupplyDepots/Gorey.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000000FCA {}",
+        "other_supply_parent/0x2000000000000FE8 {}",
+        "other_supply_parent/0x2000000000001E23 {}",
+        "other_supply_parent/0x2000000000004355 {}",
+        "other_supply_parent/0x200000000000437F {}"
+      ],
+      "knownInitialSupplies": 5400.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012E8 {}",
+      "category": "supply_depots",
+      "name": "industrial compound",
+      "path": "SupplyDepots/industrial-compound.md",
+      "entryIds": [
+        "other_supply_parent/0x200000000000164F {}",
+        "other_supply_parent/0x2000000000001E31 {}",
+        "other_supply_parent/0x2000000000001E3F {}",
+        "other_supply_parent/0x2000000000003078 {}",
+        "other_supply_parent/0x2000000000003089 {}",
+        "other_supply_parent/0x2000000000003F14 {}",
+        "other_supply_parent/0x20000000000043A9 {}"
+      ],
+      "knownInitialSupplies": 13300.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012EC {}",
+      "category": "supply_depots",
+      "name": "sawmill",
+      "path": "SupplyDepots/sawmill.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001006 {}",
+        "other_supply_parent/0x2000000000001661 {}",
+        "other_supply_parent/0x2000000000001E4D {}",
+        "other_supply_parent/0x200000000000309A {}",
+        "other_supply_parent/0x2000000000003F2C {}",
+        "other_supply_parent/0x20000000000043D3 {}"
+      ],
+      "knownInitialSupplies": 9200.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012F0 {}",
+      "category": "supply_depots",
+      "name": "Régina",
+      "path": "SupplyDepots/Regina.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001024 {}",
+        "other_supply_parent/0x2000000000001042 {}",
+        "other_supply_parent/0x2000000000001673 {}",
+        "other_supply_parent/0x20000000000030AB {}",
+        "other_supply_parent/0x20000000000043FD {}"
+      ],
+      "knownInitialSupplies": 7100.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "supply-depot/0x20000000000012F4 {}",
+      "category": "supply_depots",
+      "name": "military site",
+      "path": "SupplyDepots/military-site.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001685 {}",
+        "other_supply_parent/0x2000000000001E5B {}",
+        "other_supply_parent/0x20000000000030BC {}"
+      ],
+      "knownInitialSupplies": 6500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x000000000008BE1C {}/1",
+      "category": "settlements",
+      "name": "Lamentin",
+      "path": "Settlements/Lamentin.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001122 {}",
+        "other_supply_parent/0x2000000000004EEC {}",
+        "other_supply_parent/0x2000000000004EFA {}"
+      ],
+      "knownInitialSupplies": 5500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x00000000000884D4 {}/1",
+      "category": "settlements",
+      "name": "Meaux",
+      "path": "Settlements/Meaux.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001146 {}",
+        "other_supply_parent/0x200000000000120F {}",
+        "other_supply_parent/0x2000000000003853 {}",
+        "other_supply_parent/0x2000000000004F40 {}"
+      ],
+      "knownInitialSupplies": 7500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x000000000003A667 {}/1",
+      "category": "settlements",
+      "name": "Morton",
+      "path": "Settlements/Morton.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000004F08 {}"
+      ],
+      "knownInitialSupplies": 2000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x0000000000056AB6 {}/1",
+      "category": "settlements",
+      "name": "Saint-Pierre",
+      "path": "Settlements/Saint-Pierre.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001110 {}",
+        "other_supply_parent/0x20000000000011CB {}",
+        "other_supply_parent/0x20000000000037DB {}",
+        "other_supply_parent/0x2000000000004ED0 {}",
+        "other_supply_parent/0x2000000000004EDE {}"
+      ],
+      "knownInitialSupplies": 9500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x00000000000F4D49 {}/1",
+      "category": "other",
+      "name": "Airport",
+      "path": "Other/Airport.md",
+      "entryIds": [
+        "other_supply_parent/0x20000000000010BD {}",
+        "other_supply_parent/0x20000000000010DA {}",
+        "other_supply_parent/0x20000000000011A9 {}",
+        "other_supply_parent/0x2000000000003793 {}"
+      ],
+      "knownInitialSupplies": 7000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x00000000000C609A {}/1",
+      "category": "other",
+      "name": "harbor - 1024.018 2.849 6043.247",
+      "path": "Other/harbor-3a1f7efd.md",
+      "entryIds": [
+        "other_supply_parent/0x20000000000011DC {}",
+        "other_supply_parent/0x20000000000037F3 {}"
+      ],
+      "knownInitialSupplies": 4000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x0000000000124BAA {}/1",
+      "category": "other",
+      "name": "harbor - 4397.416 1.485 11098.094",
+      "path": "Other/harbor-45cceb20.md",
+      "entryIds": [
+        "other_supply_parent/0x20000000000010EC {}",
+        "other_supply_parent/0x20000000000010FE {}",
+        "other_supply_parent/0x20000000000011BA {}",
+        "other_supply_parent/0x20000000000037AB {}",
+        "other_supply_parent/0x20000000000037C3 {}",
+        "other_supply_parent/0x2000000000004EC2 {}"
+      ],
+      "knownInitialSupplies": 10000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x0000000000085611 {}/1",
+      "category": "other",
+      "name": "military site - 7447.122 7.894 6704.909",
+      "path": "Other/military-site-382919a3.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000004F4E {}"
+      ],
+      "knownInitialSupplies": 2000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x00000000000B0C4D {}/1",
+      "category": "other",
+      "name": "military site - 3901.866 15.249 8450.660",
+      "path": "Other/military-site-1603197e.md",
+      "entryIds": [
+        "other_supply_parent/0x2000000000001134 {}",
+        "other_supply_parent/0x20000000000011ED {}",
+        "other_supply_parent/0x200000000000380B {}",
+        "other_supply_parent/0x2000000000004F16 {}"
+      ],
+      "knownInitialSupplies": 7500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x00000000000C3925 {}/1",
+      "category": "other",
+      "name": "military site - 4936.765 28.261 11921.946",
+      "path": "Other/military-site-dc7d1177.md",
+      "entryIds": [
+        "other_supply_parent/0x20000000000010BD {}",
+        "other_supply_parent/0x20000000000010DA {}",
+        "other_supply_parent/0x20000000000011A9 {}",
+        "other_supply_parent/0x2000000000003793 {}"
+      ],
+      "knownInitialSupplies": 7000.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "map/0x000000000012DD01 {}/1",
+      "category": "other",
+      "name": "Saint-Pierre's Pass",
+      "path": "Other/Saint-Pierre-s-Pass.md",
+      "entryIds": [
+        "other_supply_parent/0x200000000000118E {}",
+        "other_supply_parent/0x2000000000001242 {}",
+        "other_supply_parent/0x2000000000001253 {}",
+        "other_supply_parent/0x20000000000038B3 {}",
+        "other_supply_parent/0x20000000000038CB {}",
+        "other_supply_parent/0x2000000000004F94 {}"
+      ],
+      "knownInitialSupplies": 11500.0,
+      "unknownEntryCount": 0
+    },
+    {
+      "id": "other_supply_parent/0x20000000000016C7 {}",
+      "category": "other",
+      "name": "StartingPos21",
+      "path": "Other/StartingPos21.md",
+      "entryIds": [
+        "other_supply_parent/0x20000000000016C7 {}"
+      ],
+      "knownInitialSupplies": 1000.0,
+      "unknownEntryCount": 0
+    }
+  ]
+}

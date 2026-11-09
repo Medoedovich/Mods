@@ -1,0 +1,114 @@
+# Точки появления машин
+
+Точки фонового появления техники — это позиции спавна, не количество существующих машин. Конкретные модели выбираются из каталога фракции по фильтрам; список моделей пока не разрешён.
+
+## По фракциям
+
+| Фракция | Точек | Без повторного появления | Повторное появление через 10 мин |
+| --- | ---: | ---: | ---: |
+| [CIV](Factions/CIV.md) | 94 | 1 | 93 |
+| [FIA](Factions/FIA.md) | 79 | 79 | 0 |
+| [USSR](Factions/USSR.md) | 5 | 5 | 0 |
+| [US](Factions/US.md) | 3 | 3 | 0 |
+| **Всего** | **181** | **88** | **93** |
+
+## По локациям
+
+Названия и объединения взяты из справочника припасов. Склады — 200 м, остальные категории — 350 м по X/Z; ближайший якорь в первом подходящем приоритете. Это географическая привязка, не принадлежность базе. Привязка к ближайшему префабу Barricade или Checkpoint в 50 м по X/Z имеет приоритет над этими категориями. При равенстве расстояний — ID. Прежние локации и все кандидаты сохранены в JSON. Patrols и огневые точки к машинам не применяются.
+
+
+### Контрольные точки
+
+| Локация | Точек |
+| --- | ---: |
+| [Calvary Hill](Locations/Calvary-Hill.md) | 1 |
+| [Île-aux-Saules](Locations/Île-aux-Saules.md) | 2 |
+| [Military Base Levie](Locations/Military-Base-Levie.md) | 2 |
+| [Montignac](Locations/Montignac.md) | 4 |
+| [Power Plant](Locations/Power-Plant.md) | 1 |
+| [Régina](Locations/Régina-7cba712f.md) | 1 |
+| [Transformer Station](Locations/Transformer-Station.md) | 3 |
+| **Всего** | **14** |
+
+### Доки
+
+| Локация | Точек |
+| --- | ---: |
+| [EveronAirport](Locations/EveronAirport.md) | 4 |
+| [FishermansBay](Locations/FishermansBay.md) | 2 |
+| [Gravette](Locations/Gravette-8ca16d84.md) | 2 |
+| [Kermovan](Locations/Kermovan.md) | 2 |
+| [Lamentin](Locations/Lamentin.md) | 4 |
+| [Meaux](Locations/Meaux.md) | 4 |
+| [MilitaryHospital](Locations/MilitaryHospital.md) | 2 |
+| [Morton](Locations/Morton.md) | 6 |
+| [StPierre](Locations/StPierre.md) | 8 |
+| **Всего** | **34** |
+
+### Склады припасов
+
+| Локация | Точек |
+| --- | ---: |
+| [Склад - 4814.289 53.445 5819.508](Locations/Склад---4814-289-53-445-5819-508.md) | 1 |
+| [Склад - 6912.457 57.718 4482.109](Locations/Склад---6912-457-57-718-4482-109.md) | 1 |
+| [Durras](Locations/Durras-001dec38.md) | 2 |
+| [industrial compound](Locations/industrial-compound.md) | 1 |
+| [Régina](Locations/Régina-e90f1cea.md) | 2 |
+| [sawmill](Locations/sawmill-36739edc.md) | 1 |
+| **Всего** | **8** |
+
+### Города и деревни
+
+| Локация | Точек |
+| --- | ---: |
+| [Bénac](Locations/Bénac.md) | 1 |
+| [Camurac](Locations/Camurac.md) | 2 |
+| [Chotain](Locations/Chotain.md) | 3 |
+| [Durras](Locations/Durras-de1c79e3.md) | 2 |
+| [Entre-Deux](Locations/Entre-Deux.md) | 5 |
+| [Étoupe](Locations/Étoupe.md) | 2 |
+| [Figari](Locations/Figari.md) | 4 |
+| [Gravette](Locations/Gravette-9807aaa0.md) | 2 |
+| [La Valette](Locations/La-Valette.md) | 2 |
+| [Laruns](Locations/Laruns.md) | 3 |
+| [Le Moule](Locations/Le-Moule.md) | 3 |
+| [Levie](Locations/Levie.md) | 4 |
+| [Richemont](Locations/Richemont.md) | 1 |
+| [Saint-Philippe](Locations/Saint-Philippe.md) | 2 |
+| [Tyrone](Locations/Tyrone.md) | 3 |
+| [Vernon](Locations/Vernon.md) | 4 |
+| [Villeneuve](Locations/Villeneuve.md) | 3 |
+| **Всего** | **46** |
+
+### Блокпосты
+
+| Локация | Точек |
+| --- | ---: |
+| [Блокпосты](Locations/Блокпосты.md) | 50 |
+| **Всего** | **50** |
+
+### Другое
+
+| Локация | Точек |
+| --- | ---: |
+| [GALLOW'S HILL](Locations/GALLOW-S-HILL.md) | 1 |
+| [Quarry](Locations/Quarry.md) | 1 |
+| [Saint-Pierre's Pass](Locations/Saint-Pierre-s-Pass.md) | 2 |
+| [sawmill](Locations/sawmill-be6eb1e2.md) | 1 |
+| [SIX BELLS](Locations/SIX-BELLS.md) | 1 |
+| **Всего** | **6** |
+
+### Без локации
+
+| Локация | Точек |
+| --- | ---: |
+| [Без локации](Locations/Без-локации.md) | 23 |
+| **Всего** | **23** |
+
+## Откуда данные и как работает появление
+
+Позиция — worldPosition сущности с SCR_AmbientVehicleSpawnPointComponent; фракция — SCR_FactionAffiliationComponent → faction affiliation. Время — m_iRespawnPeriod, секунды / 60; 0 отключает повторное появление. Фильтры — m_aIncludedEditableEntityLabels, m_aExcludedEditableEntityLabels и m_bRequireAllIncludedLabels. Имена меток прочитаны из EEditableEntityLabel установленной игры 1.8.0.13.
+
+В Update компонент получает VEHICLE-каталог фракции, вызывает GetFullFilteredEntityListWithLabels и выбирает случайный элемент. Таймер повторного появления не означает гарантированный спавн строго каждые 10 минут: система учитывает состояние машины, близость игроков, флаг SpawnVehicles и доступное место. SpawnVehicle дополнительно проверяет свободную позицию. Фактический спавн здесь не измерялся.
+
+[Канонические данные](SpawnPoints.json).

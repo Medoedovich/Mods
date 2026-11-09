@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "kind": "user-confirmed-control-point-map-links",
+  "rules": [
+    {
+      "id": "HQC_Eden_1.8.0.13_TransformerStation_Provins",
+      "gameVersion": "1.8.0.13",
+      "scenarioKey": "CTI_Campaign_HQC_Eden",
+      "controlPointSourceId": "0x2000000000001611 {}",
+      "controlPointRawName": "#AR-Campaign_MapLocation_TransformerStation",
+      "mapLocationId": "0x0000000000093359 {}/1",
+      "approval": "user_instruction",
+      "reason": "Group nearby Provins and its existing object list under Transformer Station, as requested by the user."
+    }
+  ]
+}

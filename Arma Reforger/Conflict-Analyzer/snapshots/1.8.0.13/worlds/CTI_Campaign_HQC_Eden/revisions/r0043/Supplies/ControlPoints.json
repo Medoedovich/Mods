@@ -1,0 +1,1424 @@
+{
+  "schemaVersion": 3,
+  "kind": "control-point-source-settings",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0043",
+  "normalizerVersion": "supply-priority-architecture-0.25",
+  "sourceSha256": "141D94D40D76E4ED2806C7B11E18BDBDDD5424767F137C3C6D27D4B44FB1272E",
+  "capturedAtUTC": "2026-10-06 20:14:17",
+  "records": [
+    {
+      "objectId": "control_point/0x200000000000161A {}",
+      "sourceId": "0x200000000000161A {}",
+      "sourceName": "CP_CalvaryHill",
+      "name": "Calvary Hill",
+      "nameStatus": "resolved",
+      "worldPositionMeters": [
+        3505.950927,
+        181.910003,
+        5817.966796
+      ],
+      "positionStatus": "resolved",
+      "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+      "configuredComponentSupplies": {
+        "value": 250,
+        "status": "resolved"
+      },
+      "configuredComponentSuppliesMax": {
+        "value": 500,
+        "status": "resolved"
+      },
+      "runtimeResourceGridCapacityStatus": "not_analyzed",
+      "rawName": "#AR-Campaign_MapLocation_CalvaryHill",
+      "nameMethod": "WidgetManager.Translate",
+      "language": "en_us",
+      "provenance": [
+        {
+          "className": "SCR_CampaignSuppliesComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iSupplies",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "250",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_iSuppliesMax",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        },
+        {
+          "className": "SCR_CampaignMilitaryBaseComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iRadius",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "150",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_sBaseName",
+              "type": "STRING",
+              "status": "resolved",
+              "value": "#AR-Campaign_MapLocation_CalvaryHill",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "commandPostStorage": {
+        "catalog": "ControlPointStorage.json",
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "runtimeInitialSuppliesStatus": "not_measured",
+        "variantIds": [
+          "FIA",
+          "US",
+          "USSR"
+        ],
+        "selectedVariantStatus": "not_determined",
+        "runtimeMeasured": false
+      }
+    },
+    {
+      "objectId": "control_point/0x2000000000001627 {}",
+      "sourceId": "0x2000000000001627 {}",
+      "sourceName": "CP_SaulesIsland",
+      "name": "Île-aux-Saules",
+      "nameStatus": "resolved",
+      "worldPositionMeters": [
+        2843.543945,
+        7.876999,
+        2238.298095
+      ],
+      "positionStatus": "resolved",
+      "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+      "configuredComponentSupplies": {
+        "value": 250,
+        "status": "resolved"
+      },
+      "configuredComponentSuppliesMax": {
+        "value": 500,
+        "status": "resolved"
+      },
+      "runtimeResourceGridCapacityStatus": "not_analyzed",
+      "rawName": "#AR-Campaign_MapLocation_Saules",
+      "nameMethod": "WidgetManager.Translate",
+      "language": "en_us",
+      "provenance": [
+        {
+          "className": "SCR_CampaignSuppliesComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iSupplies",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "250",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_iSuppliesMax",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        },
+        {
+          "className": "SCR_CampaignMilitaryBaseComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iRadius",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "150",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_sBaseName",
+              "type": "STRING",
+              "status": "resolved",
+              "value": "#AR-Campaign_MapLocation_Saules",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "commandPostStorage": {
+        "catalog": "ControlPointStorage.json",
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "runtimeInitialSuppliesStatus": "not_measured",
+        "variantIds": [
+          "FIA",
+          "US",
+          "USSR"
+        ],
+        "selectedVariantStatus": "not_determined",
+        "runtimeMeasured": false
+      }
+    },
+    {
+      "objectId": "control_point/0x200000000000160D {}",
+      "sourceId": "0x200000000000160D {}",
+      "sourceName": "CP_LevieMilitaryBase",
+      "name": "Military Base Levie",
+      "nameStatus": "resolved",
+      "worldPositionMeters": [
+        7500.099121,
+        165.496002,
+        4302.559082
+      ],
+      "positionStatus": "resolved",
+      "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+      "configuredComponentSupplies": {
+        "value": 250,
+        "status": "resolved"
+      },
+      "configuredComponentSuppliesMax": {
+        "value": 500,
+        "status": "resolved"
+      },
+      "runtimeResourceGridCapacityStatus": "not_analyzed",
+      "rawName": "#AR-Campaign_MapLocation_Levie_Base",
+      "nameMethod": "WidgetManager.Translate",
+      "language": "en_us",
+      "provenance": [
+        {
+          "className": "SCR_CampaignSuppliesComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iSupplies",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "250",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_iSuppliesMax",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        },
+        {
+          "className": "SCR_CampaignMilitaryBaseComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iRadius",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "150",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_sBaseName",
+              "type": "STRING",
+              "status": "resolved",
+              "value": "#AR-Campaign_MapLocation_Levie_Base",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "commandPostStorage": {
+        "catalog": "ControlPointStorage.json",
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "runtimeInitialSuppliesStatus": "not_measured",
+        "variantIds": [
+          "FIA",
+          "US",
+          "USSR"
+        ],
+        "selectedVariantStatus": "not_determined",
+        "runtimeMeasured": false
+      }
+    },
+    {
+      "objectId": "control_point/0x2000000000001616 {}",
+      "sourceId": "0x2000000000001616 {}",
+      "sourceName": "CP_MontignacTown",
+      "name": "Montignac",
+      "nameStatus": "resolved",
+      "worldPositionMeters": [
+        4825.608886,
+        166.811996,
+        7094.842773
+      ],
+      "positionStatus": "resolved",
+      "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+      "configuredComponentSupplies": {
+        "value": 250,
+        "status": "resolved"
+      },
+      "configuredComponentSuppliesMax": {
+        "value": 500,
+        "status": "resolved"
+      },
+      "runtimeResourceGridCapacityStatus": "not_analyzed",
+      "rawName": "#AR-Campaign_MapLocation_Montignac",
+      "nameMethod": "WidgetManager.Translate",
+      "language": "en_us",
+      "provenance": [
+        {
+          "className": "SCR_CampaignSuppliesComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iSupplies",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "250",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_iSuppliesMax",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        },
+        {
+          "className": "SCR_CampaignMilitaryBaseComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iRadius",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "200",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_sBaseName",
+              "type": "STRING",
+              "status": "resolved",
+              "value": "#AR-Campaign_MapLocation_Montignac",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "commandPostStorage": {
+        "catalog": "ControlPointStorage.json",
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "runtimeInitialSuppliesStatus": "not_measured",
+        "variantIds": [
+          "FIA",
+          "US",
+          "USSR"
+        ],
+        "selectedVariantStatus": "not_determined",
+        "runtimeMeasured": false
+      }
+    },
+    {
+      "objectId": "control_point/0x200000000000161E {}",
+      "sourceId": "0x200000000000161E {}",
+      "sourceName": "CP_PowerPlant",
+      "name": "Power Plant",
+      "nameStatus": "resolved",
+      "worldPositionMeters": [
+        5784.080078,
+        7.385,
+        9767.163085
+      ],
+      "positionStatus": "resolved",
+      "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+      "configuredComponentSupplies": {
+        "value": 250,
+        "status": "resolved"
+      },
+      "configuredComponentSuppliesMax": {
+        "value": 500,
+        "status": "resolved"
+      },
+      "runtimeResourceGridCapacityStatus": "not_analyzed",
+      "rawName": "#AR-Campaign_MapLocation_PowerPlant",
+      "nameMethod": "WidgetManager.Translate",
+      "language": "en_us",
+      "provenance": [
+        {
+          "className": "SCR_CampaignSuppliesComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iSupplies",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "250",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_iSuppliesMax",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        },
+        {
+          "className": "SCR_CampaignMilitaryBaseComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iRadius",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "150",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_sBaseName",
+              "type": "STRING",
+              "status": "resolved",
+              "value": "#AR-Campaign_MapLocation_PowerPlant",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "commandPostStorage": {
+        "catalog": "ControlPointStorage.json",
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "runtimeInitialSuppliesStatus": "not_measured",
+        "variantIds": [
+          "FIA",
+          "US",
+          "USSR"
+        ],
+        "selectedVariantStatus": "not_determined",
+        "runtimeMeasured": false
+      }
+    },
+    {
+      "objectId": "control_point/0x2000000000001622 {}",
+      "sourceId": "0x2000000000001622 {}",
+      "sourceName": "CP_Regina",
+      "name": "Régina",
+      "nameStatus": "resolved",
+      "worldPositionMeters": [
+        7193.323242,
+        137.781997,
+        2274.59497
+      ],
+      "positionStatus": "resolved",
+      "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+      "configuredComponentSupplies": {
+        "value": 250,
+        "status": "resolved"
+      },
+      "configuredComponentSuppliesMax": {
+        "value": 500,
+        "status": "resolved"
+      },
+      "runtimeResourceGridCapacityStatus": "not_analyzed",
+      "rawName": "#AR-Campaign_MapLocation_Regina",
+      "nameMethod": "WidgetManager.Translate",
+      "language": "en_us",
+      "provenance": [
+        {
+          "className": "SCR_CampaignSuppliesComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iSupplies",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "250",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_iSuppliesMax",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        },
+        {
+          "className": "SCR_CampaignMilitaryBaseComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iRadius",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "150",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_sBaseName",
+              "type": "STRING",
+              "status": "resolved",
+              "value": "#AR-Campaign_MapLocation_Regina",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "commandPostStorage": {
+        "catalog": "ControlPointStorage.json",
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "runtimeInitialSuppliesStatus": "not_measured",
+        "variantIds": [
+          "FIA",
+          "US",
+          "USSR"
+        ],
+        "selectedVariantStatus": "not_determined",
+        "runtimeMeasured": false
+      }
+    },
+    {
+      "objectId": "control_point/0x2000000000001611 {}",
+      "sourceId": "0x2000000000001611 {}",
+      "sourceName": "CP_ProvinsTransformerStation",
+      "name": "Transformer Station",
+      "nameStatus": "resolved",
+      "worldPositionMeters": [
+        5610.476074,
+        90.375,
+        5892.061035
+      ],
+      "positionStatus": "resolved",
+      "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+      "configuredComponentSupplies": {
+        "value": 250,
+        "status": "resolved"
+      },
+      "configuredComponentSuppliesMax": {
+        "value": 500,
+        "status": "resolved"
+      },
+      "runtimeResourceGridCapacityStatus": "not_analyzed",
+      "rawName": "#AR-Campaign_MapLocation_TransformerStation",
+      "nameMethod": "WidgetManager.Translate",
+      "language": "en_us",
+      "provenance": [
+        {
+          "className": "SCR_CampaignSuppliesComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iSupplies",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "250",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_iSuppliesMax",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "500",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        },
+        {
+          "className": "SCR_CampaignMilitaryBaseComponent",
+          "sourcePrefab": "",
+          "fields": [
+            {
+              "name": "Enabled",
+              "type": "BOOLEAN",
+              "status": "resolved",
+              "value": "true",
+              "enumLabel": "",
+              "directOverride": false,
+              "values": []
+            },
+            {
+              "name": "m_iRadius",
+              "type": "INTEGER",
+              "status": "resolved",
+              "value": "200",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            },
+            {
+              "name": "m_sBaseName",
+              "type": "STRING",
+              "status": "resolved",
+              "value": "#AR-Campaign_MapLocation_TransformerStation",
+              "enumLabel": "",
+              "directOverride": true,
+              "values": []
+            }
+          ]
+        }
+      ],
+      "commandPostStorage": {
+        "catalog": "ControlPointStorage.json",
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "runtimeInitialSuppliesStatus": "not_measured",
+        "variantIds": [
+          "FIA",
+          "US",
+          "USSR"
+        ],
+        "selectedVariantStatus": "not_determined",
+        "runtimeMeasured": false
+      }
+    }
+  ],
+  "nativeInventory": {
+    "schemaVersion": 2,
+    "kind": "conflict-control-points",
+    "analyzerVersion": "control-points-0.1",
+    "status": "partial",
+    "selection": "ConflictControlPoint-prefab",
+    "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+    "gameVersion": "1.8.0.13",
+    "generatedAtUTC": "2026-10-06 20:14:17",
+    "outputPath": "console-log",
+    "language": "en_us",
+    "subsceneCount": 2,
+    "editorEntityCountBefore": 1240201,
+    "editorEntityCountAfter": 1240201,
+    "visitedSourceCount": 1430800,
+    "recordCount": 7,
+    "coordinateMismatchCount": 0,
+    "editorEntityCountUnchanged": true,
+    "subscenes": [
+      {
+        "index": 0,
+        "name": "worlds/Eden/Eden.ent"
+      },
+      {
+        "index": 1,
+        "name": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent"
+      }
+    ],
+    "warnings": [
+      "Configured SCR_CampaignSuppliesComponent values only; they are not a sum of physical resource containers or a runtime stock measurement.",
+      "Selection uses the nearest ConflictControlPoint prefab reference; unrelated prefab inheritance variants require separate investigation."
+    ],
+    "records": [
+      {
+        "sourceId": "0x200000000000160D {}",
+        "parentSourceId": "",
+        "sourceName": "CP_LevieMilitaryBase",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          7500.099121,
+          165.496002,
+          4302.559082
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Levie_Base",
+        "displayName": "Military Base Levie",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Levie_Base",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001611 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_ProvinsTransformerStation",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          5610.476074,
+          90.375,
+          5892.061035
+        ],
+        "rawName": "#AR-Campaign_MapLocation_TransformerStation",
+        "displayName": "Transformer Station",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "200",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_TransformerStation",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001616 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_MontignacTown",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          4825.608886,
+          166.811996,
+          7094.842773
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Montignac",
+        "displayName": "Montignac",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "200",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Montignac",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x200000000000161A {}",
+        "parentSourceId": "",
+        "sourceName": "CP_CalvaryHill",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          3505.950927,
+          181.910003,
+          5817.966796
+        ],
+        "rawName": "#AR-Campaign_MapLocation_CalvaryHill",
+        "displayName": "Calvary Hill",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_CalvaryHill",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x200000000000161E {}",
+        "parentSourceId": "",
+        "sourceName": "CP_PowerPlant",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          5784.080078,
+          7.385,
+          9767.163085
+        ],
+        "rawName": "#AR-Campaign_MapLocation_PowerPlant",
+        "displayName": "Power Plant",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_PowerPlant",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001622 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_Regina",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          7193.323242,
+          137.781997,
+          2274.59497
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Regina",
+        "displayName": "Régina",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Regina",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "0x2000000000001627 {}",
+        "parentSourceId": "",
+        "sourceName": "CP_SaulesIsland",
+        "prefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+        "subscene": 1,
+        "layer": "default",
+        "positionStatus": "resolved",
+        "worldPositionMeters": [
+          2843.543945,
+          7.876999,
+          2238.298095
+        ],
+        "rawName": "#AR-Campaign_MapLocation_Saules",
+        "displayName": "Île-aux-Saules",
+        "nameStatus": "resolved",
+        "nameMethod": "WidgetManager.Translate",
+        "components": [
+          {
+            "className": "SCR_CampaignSuppliesComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iSupplies",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "250",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              },
+              {
+                "name": "m_iSuppliesMax",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "500",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          },
+          {
+            "className": "SCR_CampaignMilitaryBaseComponent",
+            "sourcePrefab": "",
+            "fields": [
+              {
+                "name": "Enabled",
+                "type": "BOOLEAN",
+                "status": "resolved",
+                "value": "true",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_iRadius",
+                "type": "INTEGER",
+                "status": "resolved",
+                "value": "150",
+                "enumLabel": "",
+                "directOverride": false,
+                "values": []
+              },
+              {
+                "name": "m_sBaseName",
+                "type": "STRING",
+                "status": "resolved",
+                "value": "#AR-Campaign_MapLocation_Saules",
+                "enumLabel": "",
+                "directOverride": true,
+                "values": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

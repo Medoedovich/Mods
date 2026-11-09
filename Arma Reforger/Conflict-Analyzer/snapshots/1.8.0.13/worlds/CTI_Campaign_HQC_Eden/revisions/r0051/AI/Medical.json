@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "kind": "ambient-ai-initial-medical-items",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0051",
+  "gameVersion": "1.8.0.13",
+  "normalizerVersion": "ambient-ai-medical-0.1",
+  "captureLogSha256": "34C7A7CF3528AC9F08789713EB3731F21BDA3B7219F141B493C3A06F02B85A26",
+  "captureLogLastWriteTimeUTC": "2026-10-13T21:03:37.4619807Z",
+  "source": "reused_complete_inherited_character_inventory_capture",
+  "scope": "matching_morphine_field_dressing_tourniquet_entries_in_InitialInventoryItems_PrefabsToSpawn",
+  "runtimeMeasured": false,
+  "nestedEquipmentInventoryInspected": false,
+  "countingRule": "one_per_resource_occurrence_in_resolved_array; multiply_by_character_slots_in_group",
+  "characters": [
+    {
+      "prefab": "{1FDA92972C1B771B}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_Rebel_Sharpshooter.et",
+      "morphine": 1,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 3,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{244E2E8B42B42490}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_MG_Elite.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{254F12535581E4C2}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{273F0239FE94FDA5}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan_Grenadier.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 1,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 1,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et",
+      "morphine": 5,
+      "bandages": 5,
+      "tourniquets": 5,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 4,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{4E29194BA809DF32}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Medic.et",
+      "morphine": 2,
+      "bandages": 7,
+      "tourniquets": 3,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+      "morphine": 1,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 2,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+      "morphine": 1,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 3,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{B4977616CD19191A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Scout.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+      "morphine": 1,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 3,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+      "morphine": 1,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et",
+      "morphine": 1,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 3,
+          "kind": "morphine",
+          "prefab": "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    },
+    {
+      "prefab": "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et",
+      "morphine": 0,
+      "bandages": 1,
+      "tourniquets": 1,
+      "items": [
+        {
+          "entryIndex": 0,
+          "kind": "bandages",
+          "prefab": "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        },
+        {
+          "entryIndex": 0,
+          "kind": "tourniquets",
+          "prefab": "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et",
+          "field": "SCR_InventoryStorageManagerComponent.InitialInventoryItems[].PrefabsToSpawn[]"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "type": "FIRETEAM",
+      "catalogId": 0,
+      "totals": {
+        "morphine": 9,
+        "bandages": 9,
+        "tourniquets": 9
+      },
+      "members": [
+        {
+          "prefab": "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et",
+          "unitCount": 1,
+          "morphinePerUnit": 5,
+          "bandagesPerUnit": 5,
+          "tourniquetsPerUnit": 5
+        },
+        {
+          "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "unitCount": 2,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "PARTISAN_TEAM",
+      "catalogId": 1,
+      "totals": {
+        "morphine": 2,
+        "bandages": 11,
+        "tourniquets": 7
+      },
+      "members": [
+        {
+          "prefab": "{254F12535581E4C2}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan.et",
+          "unitCount": 2,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{273F0239FE94FDA5}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_AC_Partisan_Grenadier.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{4E29194BA809DF32}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Medic.et",
+          "unitCount": 1,
+          "morphinePerUnit": 2,
+          "bandagesPerUnit": 7,
+          "tourniquetsPerUnit": 3
+        },
+        {
+          "prefab": "{B4977616CD19191A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Scout.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "PARTISAN_SNIPER",
+      "catalogId": 2,
+      "totals": {
+        "morphine": 1,
+        "bandages": 1,
+        "tourniquets": 1
+      },
+      "members": [
+        {
+          "prefab": "{1FDA92972C1B771B}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_Rebel_Sharpshooter.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "TEAM_MG",
+      "catalogId": 3,
+      "totals": {
+        "morphine": 0,
+        "bandages": 2,
+        "tourniquets": 2
+      },
+      "members": [
+        {
+          "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "TEAM_MG_ELITE",
+      "catalogId": 4,
+      "totals": {
+        "morphine": 0,
+        "bandages": 2,
+        "tourniquets": 2
+      },
+      "members": [
+        {
+          "prefab": "{244E2E8B42B42490}Prefabs/Characters/Factions/INDFOR/FIA/Special Units/Character_FIA_MG_Elite.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "TEAM_SENTRY",
+      "catalogId": 5,
+      "totals": {
+        "morphine": 1,
+        "bandages": 2,
+        "tourniquets": 2
+      },
+      "members": [
+        {
+          "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "SQUAD_RIFLE",
+      "catalogId": 6,
+      "totals": {
+        "morphine": 4,
+        "bandages": 7,
+        "tourniquets": 7
+      },
+      "members": [
+        {
+          "prefab": "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{C77DFB8546B3F2A2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_LAT.et",
+          "unitCount": 2,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "TEAM_AT",
+      "catalogId": 7,
+      "totals": {
+        "morphine": 1,
+        "bandages": 4,
+        "tourniquets": 4
+      },
+      "members": [
+        {
+          "prefab": "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et",
+          "unitCount": 2,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et",
+          "unitCount": 1,
+          "morphinePerUnit": 0,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    },
+    {
+      "type": "TEAM_SNIPER",
+      "catalogId": 8,
+      "totals": {
+        "morphine": 2,
+        "bandages": 2,
+        "tourniquets": 2
+      },
+      "members": [
+        {
+          "prefab": "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        },
+        {
+          "prefab": "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et",
+          "unitCount": 1,
+          "morphinePerUnit": 1,
+          "bandagesPerUnit": 1,
+          "tourniquetsPerUnit": 1
+        }
+      ]
+    }
+  ]
+}

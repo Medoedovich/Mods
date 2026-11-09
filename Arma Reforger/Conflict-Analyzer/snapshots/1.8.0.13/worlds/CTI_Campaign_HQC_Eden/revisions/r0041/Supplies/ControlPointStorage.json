@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 3,
+  "kind": "command-post-storage-variants",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0041",
+  "normalizerVersion": "supply-priority-architecture-0.23",
+  "sourceSha256": "5CF967734B34523187F0726E5B0FEC51A71D613816FE68AF19FB9DF2D377C904",
+  "capturedAtUTC": "2026-10-07T16:37:13Z",
+  "commonCapacitySupplies": 1000,
+  "commonConfiguredInitialSupplies": 0,
+  "configuredInitialStatus": "resolved",
+  "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+  "records": [
+    {
+      "variantId": "FIA",
+      "factionConfiguration": "Configs/Factions/FIA_Campaign.conf",
+      "headquartersEditablePrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+      "headquartersPrefab": "{355712A49572A508}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_FIA_01.et",
+      "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+      "physicalContainerCount": 5,
+      "virtualContainerCount": 1,
+      "capacitySupplies": 1000,
+      "capacityStatus": "resolved",
+      "capacityScope": "command_post_storage_composition",
+      "capacityMethod": "encapsulator_target_and_static_container_count",
+      "capacityComposition": [
+        {
+          "containerCount": 5,
+          "capacitySupplies": 200
+        }
+      ],
+      "compositionStatus": "calculated_from_installed_action_code",
+      "configuredInitialSupplies": 0,
+      "configuredInitialStatus": "resolved",
+      "physicalSlotsBeforeAction": [
+        {
+          "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "prototypeSourceId": "-1095064365",
+          "prefab": "{7D2C0FB3B8ACF2B0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_FIA_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "prototypeSourceId": "-1095144891",
+          "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "prototypeSourceId": "-1095064353",
+          "prefab": "{EF62478046B376DD}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage_FIA_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "prototypeSourceId": "-1095144889",
+          "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "prototypeSourceId": "-1095064362",
+          "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        }
+      ],
+      "virtualSlotsBeforeAction": [
+        {
+          "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "prototypeSourceId": "-540519537",
+          "prefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "className": "SCR_ResourceContainerVirtual",
+          "configuredMaximumSuppliesBeforeAction": 0.0,
+          "configuredCurrentSuppliesBeforeAction": 0.0
+        }
+      ],
+      "maximumAction": {
+        "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+        "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+        "m_bShouldChangeMaximum": true,
+        "m_fResourceValueMax": 1000,
+        "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+        "sourceLine": 16,
+        "m_fResourceValueCurrent": 0
+      },
+      "allocationRule": {
+        "ordinarySlotCapacity": "floor(target / physical_count)",
+        "ordinarySlotCount": "physical_count - 1",
+        "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+        "specificRemainderSlot": "runtime_queue_order_not_assigned",
+        "virtualSlotsExcluded": true
+      },
+      "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+      "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+      "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+      "initialSuppliesEvidence": [
+        {
+          "rootPrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        },
+        {
+          "rootPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        }
+      ],
+      "runtimeInitialSuppliesStatus": "not_measured"
+    },
+    {
+      "variantId": "US",
+      "factionConfiguration": "Configs/Factions/US_Campaign.conf",
+      "headquartersEditablePrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+      "headquartersPrefab": "{FEFE7B425EA72746}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_US_01.et",
+      "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+      "physicalContainerCount": 6,
+      "virtualContainerCount": 1,
+      "capacitySupplies": 1000,
+      "capacityStatus": "resolved",
+      "capacityScope": "command_post_storage_composition",
+      "capacityMethod": "encapsulator_target_and_static_container_count",
+      "capacityComposition": [
+        {
+          "containerCount": 5,
+          "capacitySupplies": 166
+        },
+        {
+          "containerCount": 1,
+          "capacitySupplies": 170
+        }
+      ],
+      "compositionStatus": "calculated_from_installed_action_code",
+      "configuredInitialSupplies": 0,
+      "configuredInitialStatus": "resolved",
+      "physicalSlotsBeforeAction": [
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673377",
+          "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673391",
+          "prefab": "{52E67D46C7855822}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_US_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673379",
+          "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673383",
+          "prefab": "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673380",
+          "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "1685673389",
+          "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        }
+      ],
+      "virtualSlotsBeforeAction": [
+        {
+          "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "prototypeSourceId": "-540519537",
+          "prefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "className": "SCR_ResourceContainerVirtual",
+          "configuredMaximumSuppliesBeforeAction": 0.0,
+          "configuredCurrentSuppliesBeforeAction": 0.0
+        }
+      ],
+      "maximumAction": {
+        "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+        "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+        "m_bShouldChangeMaximum": true,
+        "m_fResourceValueMax": 1000,
+        "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+        "sourceLine": 16,
+        "m_fResourceValueCurrent": 0
+      },
+      "allocationRule": {
+        "ordinarySlotCapacity": "floor(target / physical_count)",
+        "ordinarySlotCount": "physical_count - 1",
+        "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+        "specificRemainderSlot": "runtime_queue_order_not_assigned",
+        "virtualSlotsExcluded": true
+      },
+      "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+      "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+      "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+      "initialSuppliesEvidence": [
+        {
+          "rootPrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        },
+        {
+          "rootPrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        }
+      ],
+      "runtimeInitialSuppliesStatus": "not_measured"
+    },
+    {
+      "variantId": "USSR",
+      "factionConfiguration": "Configs/Factions/USSR_Campaign.conf",
+      "headquartersEditablePrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+      "headquartersPrefab": "{6B1CAED52B91E267}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_USSR_01.et",
+      "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+      "physicalContainerCount": 6,
+      "virtualContainerCount": 1,
+      "capacitySupplies": 1000,
+      "capacityStatus": "resolved",
+      "capacityScope": "command_post_storage_composition",
+      "capacityMethod": "encapsulator_target_and_static_container_count",
+      "capacityComposition": [
+        {
+          "containerCount": 5,
+          "capacitySupplies": 166
+        },
+        {
+          "containerCount": 1,
+          "capacitySupplies": 170
+        }
+      ],
+      "compositionStatus": "calculated_from_installed_action_code",
+      "configuredInitialSupplies": 0,
+      "configuredInitialStatus": "resolved",
+      "physicalSlotsBeforeAction": [
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789064",
+          "prefab": "{1F7AE3AAD6198021}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_USSR_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789084",
+          "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789085",
+          "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789069",
+          "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789072",
+          "prefab": "{B14D3FBE92E47277}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage_USSR_covered.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        },
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "668789076",
+          "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+          "className": "SCR_ResourceContainer",
+          "configuredMaximumSuppliesBeforeAction": 100.0,
+          "configuredCurrentSuppliesBeforeAction": 100.0
+        }
+      ],
+      "virtualSlotsBeforeAction": [
+        {
+          "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "prototypeSourceId": "-540519537",
+          "prefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "className": "SCR_ResourceContainerVirtual",
+          "configuredMaximumSuppliesBeforeAction": 0.0,
+          "configuredCurrentSuppliesBeforeAction": 0.0
+        }
+      ],
+      "maximumAction": {
+        "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+        "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+        "m_bShouldChangeMaximum": true,
+        "m_fResourceValueMax": 1000,
+        "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+        "sourceLine": 16,
+        "m_fResourceValueCurrent": 0
+      },
+      "allocationRule": {
+        "ordinarySlotCapacity": "floor(target / physical_count)",
+        "ordinarySlotCount": "physical_count - 1",
+        "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+        "specificRemainderSlot": "runtime_queue_order_not_assigned",
+        "virtualSlotsExcluded": true
+      },
+      "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+      "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+      "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+      "initialSuppliesEvidence": [
+        {
+          "rootPrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        },
+        {
+          "rootPrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+          "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "property": "m_fResourceValueCurrent",
+          "value": 0,
+          "status": "resolved",
+          "instanceGetter": "GetValueCurrent",
+          "instanceGetterValue": 0
+        }
+      ],
+      "runtimeInitialSuppliesStatus": "not_measured"
+    }
+  ],
+  "nativeInventory": {
+    "schemaVersion": 2,
+    "kind": "control-point-command-post-storage",
+    "analyzerVersion": "command-post-storage-comparison-0.2",
+    "status": "partial",
+    "gameVersion": "1.8.0.13",
+    "generatedAtUTC": "2026-10-07T16:37:13Z",
+    "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+    "selection": "verified_vanilla_command_post_variants",
+    "controlPointPrefab": "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et",
+    "recordCount": 3,
+    "runtimeMeasured": false,
+    "prototypeSourceIdsScope": "storage_prefab_not_world_instances",
+    "evidence": {
+      "method": "Workbench_static_prefab_sources_and_installed_code",
+      "countLogSha256": "F7B8039C56DFD039D12AC696D1863037A51832A6595D26205558427CE8E5A208",
+      "readResourceLogSha256": "7D2691DE77099330097AE3B067A59142DD10CB2B4335EF15AA6AB6756956B085",
+      "countProcessId": 20284,
+      "actionScript": "scripts/Game/Sandbox/Resources/ContainerQueue/Encapsulator/Actions/SCR_ResourceEncapsulatorActionBase.c",
+      "actionClassLine": 22,
+      "performActionLine": 33,
+      "initialSupplies": {
+        "method": "Workbench_resolved_prefab_action_fields_and_managed_action_getters",
+        "capturedAtUTC": "2026-10-07T17:55:30Z",
+        "gameVersion": "1.8.0.13",
+        "processId": 23292,
+        "logSha256": "6921A754E11B35C48DF5851CDC2DEDA45E0187CBC763517910FC5BD0C34AC440",
+        "resourceRootCount": 6,
+        "entitiesCreated": false,
+        "worldOpened": false,
+        "runtimeMeasured": false
+      }
+    },
+    "records": [
+      {
+        "variantId": "FIA",
+        "factionConfiguration": "Configs/Factions/FIA_Campaign.conf",
+        "headquartersEditablePrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+        "headquartersPrefab": "{355712A49572A508}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_FIA_01.et",
+        "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+        "physicalContainerCount": 5,
+        "virtualContainerCount": 1,
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "capacityMethod": "encapsulator_target_and_static_container_count",
+        "capacityComposition": [
+          {
+            "containerCount": 5,
+            "capacitySupplies": 200
+          }
+        ],
+        "compositionStatus": "calculated_from_installed_action_code",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "physicalSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095064365",
+            "prefab": "{7D2C0FB3B8ACF2B0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_FIA_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095144891",
+            "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095064353",
+            "prefab": "{EF62478046B376DD}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage_FIA_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095144889",
+            "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-1095064362",
+            "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          }
+        ],
+        "virtualSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "prototypeSourceId": "-540519537",
+            "prefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "className": "SCR_ResourceContainerVirtual",
+            "configuredMaximumSuppliesBeforeAction": 0.0,
+            "configuredCurrentSuppliesBeforeAction": 0.0
+          }
+        ],
+        "maximumAction": {
+          "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+          "m_bShouldChangeMaximum": true,
+          "m_fResourceValueMax": 1000,
+          "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+          "sourceLine": 16,
+          "m_fResourceValueCurrent": 0
+        },
+        "allocationRule": {
+          "ordinarySlotCapacity": "floor(target / physical_count)",
+          "ordinarySlotCount": "physical_count - 1",
+          "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+          "specificRemainderSlot": "runtime_queue_order_not_assigned",
+          "virtualSlotsExcluded": true
+        },
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+        "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+        "initialSuppliesEvidence": [
+          {
+            "rootPrefab": "{A7D631AA57965094}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_FIA_04.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          },
+          {
+            "rootPrefab": "{16E06E20F4641F8A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_FIA_01.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          }
+        ],
+        "runtimeInitialSuppliesStatus": "not_measured"
+      },
+      {
+        "variantId": "US",
+        "factionConfiguration": "Configs/Factions/US_Campaign.conf",
+        "headquartersEditablePrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+        "headquartersPrefab": "{FEFE7B425EA72746}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_US_01.et",
+        "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+        "physicalContainerCount": 6,
+        "virtualContainerCount": 1,
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "capacityMethod": "encapsulator_target_and_static_container_count",
+        "capacityComposition": [
+          {
+            "containerCount": 5,
+            "capacitySupplies": 166
+          },
+          {
+            "containerCount": 1,
+            "capacitySupplies": 170
+          }
+        ],
+        "compositionStatus": "calculated_from_installed_action_code",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "physicalSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673377",
+            "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673391",
+            "prefab": "{52E67D46C7855822}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_US_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673379",
+            "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673383",
+            "prefab": "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673380",
+            "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "1685673389",
+            "prefab": "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          }
+        ],
+        "virtualSlotsBeforeAction": [
+          {
+            "storagePrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "prototypeSourceId": "-540519537",
+            "prefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "className": "SCR_ResourceContainerVirtual",
+            "configuredMaximumSuppliesBeforeAction": 0.0,
+            "configuredCurrentSuppliesBeforeAction": 0.0
+          }
+        ],
+        "maximumAction": {
+          "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+          "m_bShouldChangeMaximum": true,
+          "m_fResourceValueMax": 1000,
+          "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+          "sourceLine": 16,
+          "m_fResourceValueCurrent": 0
+        },
+        "allocationRule": {
+          "ordinarySlotCapacity": "floor(target / physical_count)",
+          "ordinarySlotCount": "physical_count - 1",
+          "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+          "specificRemainderSlot": "runtime_queue_order_not_assigned",
+          "virtualSlotsExcluded": true
+        },
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+        "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+        "initialSuppliesEvidence": [
+          {
+            "rootPrefab": "{A66F463388DB616E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_US_02.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          },
+          {
+            "rootPrefab": "{16AF2FE47A6C297B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_US_01.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          }
+        ],
+        "runtimeInitialSuppliesStatus": "not_measured"
+      },
+      {
+        "variantId": "USSR",
+        "factionConfiguration": "Configs/Factions/USSR_Campaign.conf",
+        "headquartersEditablePrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+        "headquartersPrefab": "{6B1CAED52B91E267}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_Conflict_USSR_01.et",
+        "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+        "physicalContainerCount": 6,
+        "virtualContainerCount": 1,
+        "capacitySupplies": 1000,
+        "capacityStatus": "resolved",
+        "capacityScope": "command_post_storage_composition",
+        "capacityMethod": "encapsulator_target_and_static_container_count",
+        "capacityComposition": [
+          {
+            "containerCount": 5,
+            "capacitySupplies": 166
+          },
+          {
+            "containerCount": 1,
+            "capacitySupplies": 170
+          }
+        ],
+        "compositionStatus": "calculated_from_installed_action_code",
+        "configuredInitialSupplies": 0,
+        "configuredInitialStatus": "resolved",
+        "physicalSlotsBeforeAction": [
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789064",
+            "prefab": "{1F7AE3AAD6198021}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_USSR_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789084",
+            "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789085",
+            "prefab": "{3FD3F403025BBDF5}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789069",
+            "prefab": "{677917B581F03974}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789072",
+            "prefab": "{B14D3FBE92E47277}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage_USSR_covered.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          },
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "668789076",
+            "prefab": "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et",
+            "className": "SCR_ResourceContainer",
+            "configuredMaximumSuppliesBeforeAction": 100.0,
+            "configuredCurrentSuppliesBeforeAction": 100.0
+          }
+        ],
+        "virtualSlotsBeforeAction": [
+          {
+            "storagePrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "prototypeSourceId": "-540519537",
+            "prefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "className": "SCR_ResourceContainerVirtual",
+            "configuredMaximumSuppliesBeforeAction": 0.0,
+            "configuredCurrentSuppliesBeforeAction": 0.0
+          }
+        ],
+        "maximumAction": {
+          "className": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+          "containerPath": "SCR_ResourceComponent.m_aEncapsulators[].m_aActions[]",
+          "m_bShouldChangeMaximum": true,
+          "m_fResourceValueMax": 1000,
+          "sourcePath": "Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+          "sourceLine": 16,
+          "m_fResourceValueCurrent": 0
+        },
+        "allocationRule": {
+          "ordinarySlotCapacity": "floor(target / physical_count)",
+          "ordinarySlotCount": "physical_count - 1",
+          "remainderSlotCapacity": "target - ordinary_capacity * (physical_count - 1)",
+          "specificRemainderSlot": "runtime_queue_order_not_assigned",
+          "virtualSlotsExcluded": true
+        },
+        "configuredInitialScope": "command_post_storage_after_encapsulator_action",
+        "configuredInitialMethod": "resolved_action_current_value_and_installed_consumption_generation_code",
+        "configuredInitialCapturedAtUTC": "2026-10-07T17:55:30Z",
+        "initialSuppliesEvidence": [
+          {
+            "rootPrefab": "{7A9EE15F4264096E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_USSR_02.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          },
+          {
+            "rootPrefab": "{D70BF977E6D6300C}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_Conflict_USSR_01.et",
+            "actionClass": "SCR_ResourceEncapsulatorActionChangeResourceValue",
+            "property": "m_fResourceValueCurrent",
+            "value": 0,
+            "status": "resolved",
+            "instanceGetter": "GetValueCurrent",
+            "instanceGetterValue": 0
+          }
+        ],
+        "runtimeInitialSuppliesStatus": "not_measured"
+      }
+    ],
+    "warnings": [
+      "Prefab variants are alternatives, not three coexisting buildings at each control point.",
+      "Composition is calculated from the installed encapsulator action; runtime queue membership was not measured.",
+      "Initial stock and total resource-grid capacity of the base remain unverified.",
+      "Original physical slot maxima before encapsulation remain separate from the 1000 target; virtual representatives are not additional physical containers."
+    ],
+    "campaignInitialization": {
+      "scope": "base_resource_grid_after_command_post_spawn",
+      "targetPerStorageStatus": "not_determined",
+      "runtimeMeasured": false,
+      "steps": [
+        {
+          "script": "scripts/Game/Campaign/SCR_CampaignMilitaryBaseManager.c",
+          "method": "AddRandomSupplies",
+          "startingSuppliesSetter": "SetStartingSupplies",
+          "setterLine": 696
+        },
+        {
+          "script": "scripts/Game/Components/Locations/SCR_CampaignMilitaryBaseComponent.c",
+          "method": "SpawnBuilding",
+          "line": 2601,
+          "delayedCall": "SetInitialSupplies"
+        },
+        {
+          "script": "scripts/Game/Components/Locations/SCR_CampaignMilitaryBaseComponent.c",
+          "method": "SetInitialSupplies",
+          "line": 2161,
+          "condition": "only_if_requested_starting_supplies_exceed_aggregated_grid_current"
+        }
+      ]
+    }
+  },
+  "status": "partial",
+  "runtimeMeasured": false
+}

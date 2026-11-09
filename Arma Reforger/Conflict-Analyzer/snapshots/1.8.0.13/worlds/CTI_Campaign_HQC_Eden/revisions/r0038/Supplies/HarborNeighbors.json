@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "kind": "harbor-neighbor-inspection",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0038",
+  "scope": "detached_other_container_root_parents_near_harbor_sources",
+  "method": "three_dimensional_root_position_distance",
+  "innerRadiusMeters": 100,
+  "outerRadiusMeters": 200,
+  "boundary": "inclusive_before_rounding",
+  "classificationChanged": false,
+  "runtimeConnectionMeasured": false,
+  "radiusMeaning": "Inspection bands; 100m matches the storage range configured in the inspected ConflictSourceBase prefab, not verified per-world runtime container membership.",
+  "inputs": {
+    "controlPoints": {
+      "sha256": "141D94D40D76E4ED2806C7B11E18BDBDDD5424767F137C3C6D27D4B44FB1272E",
+      "capturedAtUTC": "2026-10-06 20:14:17",
+      "analyzerVersion": "control-points-0.1"
+    },
+    "locations": {
+      "path": "../r0016/Locations.json",
+      "sha256": "EFCBA9118C21CA0DBD684CCCE120634AC4BF541FF072FE087BB7A4B8F301E5D8",
+      "capturedAtUTC": "2026-10-06T01:23:30Z"
+    },
+    "otherContainers": {
+      "path": "../r0018/Supplies/OtherContainers.json",
+      "sha256": "5C0122695E1D3C61DE815B373FF75DE1BDE225135274438BA542EC0352B7445C",
+      "originalSupplies": {
+        "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0006",
+        "path": "../../r0006/Supplies/OtherContainers.json",
+        "sha256": "98B7453C89A19951E5D98E16750FB5DC48DC9B391696D22BA919D02D58645589",
+        "capturedAtUTC": "2026-10-05T17:55:53Z"
+      }
+    },
+    "harbors": {
+      "path": "../r0018/Supplies/Harbors.json",
+      "sha256": "0B4F9D1D49888BD3EBFCB56C7CBECFEAC459ED6D6D731C383B40364E5E57FB42",
+      "originalSupplies": {
+        "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+        "path": "../../r0004/Supplies/Harbors.json",
+        "sha256": "AF0157C09E6D1818D241434C6BB976F4945C59612BE76A04D88262E133ABE9A1",
+        "capturedAtUTC": "2026-10-05T16:49:34Z",
+        "storageCapturedAtUTC": "2026-10-05T17:35:25Z"
+      }
+    },
+    "worldContainers": {
+      "sha256": "4232E31BDA39A525608A018DCB1BA8985408482974C20DC99464DCB01360D6F9",
+      "capturedAtUTC": "2026-10-05 17:55:53",
+      "originalOtherContainersSnapshot": "1.8.0.13/CTI_Campaign_HQC_Eden/r0006",
+      "originalOtherContainersPath": "../r0006/Supplies/OtherContainers.json",
+      "originalOtherContainersSha256": "98B7453C89A19951E5D98E16750FB5DC48DC9B391696D22BA919D02D58645589"
+    },
+    "controlPointMapLinks": {
+      "kind": "user-confirmed-control-point-map-links",
+      "sha256": "836B21C28DC7D2A8FDDAEA381CBFBDB147175012E5D1B5E9C8B50B2F84B52A45",
+      "rules": [
+        {
+          "id": "HQC_Eden_1.8.0.13_TransformerStation_Provins",
+          "gameVersion": "1.8.0.13",
+          "scenarioKey": "CTI_Campaign_HQC_Eden",
+          "controlPointSourceId": "0x2000000000001611 {}",
+          "controlPointRawName": "#AR-Campaign_MapLocation_TransformerStation",
+          "mapLocationId": "0x0000000000093359 {}/1",
+          "approval": "user_instruction",
+          "reason": "Group nearby Provins and its existing object list under Transformer Station, as requested by the user."
+        }
+      ]
+    },
+    "supplyDepots": {
+      "sha256": "B2C8286BC26DE2549419E8BC289C543BE9B4A044BB392E92898C42FA67CC0C0E",
+      "capturedAtUTC": "2026-10-07 06:30:25",
+      "analyzerVersion": "supply-depots-0.1"
+    },
+    "commandPostStorage": {
+      "sha256": "5CF967734B34523187F0726E5B0FEC51A71D613816FE68AF19FB9DF2D377C904",
+      "capturedAtUTC": "2026-10-07T16:37:13Z",
+      "analyzerVersion": "command-post-storage-comparison-0.2",
+      "initialSuppliesCapturedAtUTC": "2026-10-07T17:55:30Z"
+    }
+  },
+  "records": [
+    {
+      "groupId": "harbor/0x2000000000000ECE {}",
+      "anchorObjectId": "supply_source_base/0x2000000000000ECE {}",
+      "name": "SP_A_EveronAirport",
+      "worldPositionMeters": [
+        4943.125,
+        28.593999,
+        11793.298828
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x20000000000010BD {}",
+          "sourceId": "0x20000000000010BD {}",
+          "name": "Base_Airport_FIA_01",
+          "worldPositionMeters": [
+            4900.952148,
+            28.594999,
+            11787.412109
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 42.58172034334498,
+          "band": "within_100m",
+          "configuredInitialSupplies": 1500.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1500.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000F4D49 {}/1",
+            "map/0x00000000000C3925 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000003793 {}",
+          "sourceId": "0x2000000000003793 {}",
+          "name": "SupplyCache_S_FIA_06",
+          "worldPositionMeters": [
+            4944.240234,
+            28.416,
+            11863.355468
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 70.0657422611664,
+          "band": "within_100m",
+          "configuredInitialSupplies": 1000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000F4D49 {}/1",
+            "map/0x00000000000C3925 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000011A9 {}",
+          "sourceId": "0x20000000000011A9 {}",
+          "name": "SupplyCache_S_FIA_03",
+          "worldPositionMeters": [
+            4938.752929,
+            28.5,
+            11983.813476
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 190.56483133885007,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 3000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 3000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000F4D49 {}/1",
+            "map/0x00000000000C3925 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000010DA {}",
+          "sourceId": "0x20000000000010DA {}",
+          "name": "SupplyCache_S_FIA_04",
+          "worldPositionMeters": [
+            4931.402832,
+            28.468999,
+            11986.46875
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 193.52530483920177,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1500.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1500.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000F4D49 {}/1",
+            "map/0x00000000000C3925 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000003122 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000003122 {}",
+      "name": "SP_T1H_StPhillipe",
+      "worldPositionMeters": [
+        4394.425781,
+        1.6,
+        11068.055664
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x20000000000010FE {}",
+          "sourceId": "0x20000000000010FE {}",
+          "name": "SupplyCache_S_FIA_04",
+          "worldPositionMeters": [
+            4474.851074,
+            1.531,
+            11132.911132
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 103.31729886439578,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1500.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1500.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000124BAA {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000037C3 {}",
+          "sourceId": "0x20000000000037C3 {}",
+          "name": "SupplyCache_S_FIA_06",
+          "worldPositionMeters": [
+            4486.780761,
+            1.531,
+            11124.680664
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 108.33207150608915,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000124BAA {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000010EC {}",
+          "sourceId": "0x20000000000010EC {}",
+          "name": "SupplyCache_S_FIA_04",
+          "worldPositionMeters": [
+            4434.09082,
+            5.810999,
+            11205.860351
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 143.46142195941556,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1500.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1500.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000124BAA {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000011BA {}",
+          "sourceId": "0x20000000000011BA {}",
+          "name": "SupplyCache_S_FIA_03",
+          "worldPositionMeters": [
+            4409.018066,
+            1.593999,
+            11211.245117
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 143.93107471276895,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 3000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 3000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000124BAA {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000037AB {}",
+          "sourceId": "0x20000000000037AB {}",
+          "name": "SupplyCache_S_FIA_06",
+          "worldPositionMeters": [
+            4466.274902,
+            5.749,
+            11212.697265
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 161.55712032998176,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000124BAA {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000004EC2 {}",
+          "sourceId": "0x2000000000004EC2 {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            4431.428222,
+            5.813,
+            11236.194335
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 172.21365420490008,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000124BAA {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000003115 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000003115 {}",
+      "name": "SP_T1H_StPierre",
+      "worldPositionMeters": [
+        9963.828125,
+        2.838,
+        1523.41394
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x2000000000001110 {}",
+          "sourceId": "0x2000000000001110 {}",
+          "name": "SupplyCache_S_FIA_04",
+          "worldPositionMeters": [
+            9985.821289,
+            2.358999,
+            1523.785034
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 22.001509390169396,
+          "band": "within_100m",
+          "configuredInitialSupplies": 1500.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1500.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000056AB6 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000011CB {}",
+          "sourceId": "0x20000000000011CB {}",
+          "name": "SupplyCache_S_FIA_03",
+          "worldPositionMeters": [
+            9961.073242,
+            2.530999,
+            1557.28601
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 33.985302059016576,
+          "band": "within_100m",
+          "configuredInitialSupplies": 3000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 3000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000056AB6 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000004EDE {}",
+          "sourceId": "0x2000000000004EDE {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            9941.110351,
+            2.540999,
+            1562.343994
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 45.07476643923997,
+          "band": "within_100m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000056AB6 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000004ED0 {}",
+          "sourceId": "0x2000000000004ED0 {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            10028.924804,
+            2.687,
+            1594.854003
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 96.65031308419564,
+          "band": "within_100m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000056AB6 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000037DB {}",
+          "sourceId": "0x20000000000037DB {}",
+          "name": "SupplyCache_S_FIA_06",
+          "worldPositionMeters": [
+            9922.700195,
+            3.75,
+            1648.255004
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 131.44439748706327,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000056AB6 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004E0B {}",
+      "anchorObjectId": "supply_source_base/0x2000000000004E0B {}",
+      "name": "SP_T2H_FishermansBay",
+      "worldPositionMeters": [
+        7531.005859,
+        2.440999,
+        6689.541015
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x2000000000004F4E {}",
+          "sourceId": "0x2000000000004F4E {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            7429.979003,
+            9.687999,
+            6796.036132
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 146.96991048200448,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x0000000000085611 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004DD7 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000004DD7 {}",
+      "name": "SP_T2H_Lamentin",
+      "worldPositionMeters": [
+        1052.508056,
+        3.503999,
+        6049.771972
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x2000000000001122 {}",
+          "sourceId": "0x2000000000001122 {}",
+          "name": "SupplyCache_S_FIA_04",
+          "worldPositionMeters": [
+            1054.876953,
+            2.821,
+            6058.437011
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 9.008943417634434,
+          "band": "within_100m",
+          "configuredInitialSupplies": 1500.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1500.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x000000000008BE1C {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000004EFA {}",
+          "sourceId": "0x2000000000004EFA {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            1013.765991,
+            2.857,
+            6049.546875
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 38.74812094579075,
+          "band": "within_100m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x000000000008BE1C {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000004EEC {}",
+          "sourceId": "0x2000000000004EEC {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            1075.962036,
+            2.904999,
+            6084.289062
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 41.735805741695216,
+          "band": "within_100m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x000000000008BE1C {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000037F3 {}",
+          "sourceId": "0x20000000000037F3 {}",
+          "name": "SupplyCache_S_FIA_06",
+          "worldPositionMeters": [
+            925.242004,
+            2.75,
+            6058.798828
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 127.58801133101588,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000C609A {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x20000000000011DC {}",
+          "sourceId": "0x20000000000011DC {}",
+          "name": "SupplyCache_S_FIA_03",
+          "worldPositionMeters": [
+            880.679992,
+            3.038,
+            6078.892089
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 174.27874783561472,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 3000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 3000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000C609A {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004E04 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000004E04 {}",
+      "name": "SP_T2H_Meaux",
+      "worldPositionMeters": [
+        4316.275878,
+        1.125,
+        9516.908203
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x2000000000004F40 {}",
+          "sourceId": "0x2000000000004F40 {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            4331.586914,
+            1.125,
+            9512.36621
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 15.970520461317264,
+          "band": "within_100m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000884D4 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000001146 {}",
+          "sourceId": "0x2000000000001146 {}",
+          "name": "SupplyCache_S_FIA_04",
+          "worldPositionMeters": [
+            4297.85498,
+            1.129999,
+            9532.503906
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 24.136185700739784,
+          "band": "within_100m",
+          "configuredInitialSupplies": 1500.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1500.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000884D4 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x2000000000003853 {}",
+          "sourceId": "0x2000000000003853 {}",
+          "name": "SupplyCache_S_FIA_06",
+          "worldPositionMeters": [
+            4313.669921,
+            1.125,
+            9491.602539
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 25.439489821276222,
+          "band": "within_100m",
+          "configuredInitialSupplies": 1000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000884D4 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x200000000000120F {}",
+          "sourceId": "0x200000000000120F {}",
+          "name": "SupplyCache_S_FIA_03",
+          "worldPositionMeters": [
+            4317.285156,
+            1.125,
+            9563.501953
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 46.60467982020457,
+          "band": "within_100m",
+          "configuredInitialSupplies": 3000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 3000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000884D4 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004DDD {}",
+      "anchorObjectId": "supply_source_base/0x2000000000004DDD {}",
+      "name": "SP_T2H_MilitaryHospital",
+      "worldPositionMeters": [
+        3737.437988,
+        1.246999,
+        8529.839843
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x20000000000011ED {}",
+          "sourceId": "0x20000000000011ED {}",
+          "name": "SupplyCache_S_FIA_03",
+          "worldPositionMeters": [
+            3722.218017,
+            1.281,
+            8513.858398
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 22.069328435565243,
+          "band": "within_100m",
+          "configuredInitialSupplies": 3000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 3000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000B0C4D {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        },
+        {
+          "objectId": "other_supply_parent/0x200000000000380B {}",
+          "sourceId": "0x200000000000380B {}",
+          "name": "SupplyCache_S_FIA_06",
+          "worldPositionMeters": [
+            3892.085937,
+            15.243,
+            8417.533203
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 191.63678551360607,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 1000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 1000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x00000000000B0C4D {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x2000000000004D93 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000004D93 {}",
+      "name": "SP_T2H_Morton",
+      "worldPositionMeters": [
+        4947.416992,
+        2.605999,
+        3870.59497
+      ],
+      "neighbors": [
+        {
+          "objectId": "other_supply_parent/0x2000000000004F08 {}",
+          "sourceId": "0x2000000000004F08 {}",
+          "name": "SupplyCache_S_FIA_05",
+          "worldPositionMeters": [
+            5022.725097,
+            15.375,
+            3946.36499
+          ],
+          "positionStatus": "resolved",
+          "distanceMeters": 107.58928383454037,
+          "band": "over_100m_to_200m",
+          "configuredInitialSupplies": 2000.0,
+          "configuredInitialStatus": "resolved",
+          "capacitySupplies": 2000.0,
+          "capacityStatus": "resolved",
+          "assignedGroupIds": [
+            "map/0x000000000003A667 {}/1"
+          ],
+          "includedInHarborTotal": false,
+          "runtimeConnectionStatus": "not_measured"
+        }
+      ]
+    },
+    {
+      "groupId": "harbor/0x20000000000000DE {}",
+      "anchorObjectId": "supply_source_base/0x20000000000000DE {}",
+      "name": "SP_T3H_GoatBay",
+      "worldPositionMeters": [
+        5803.098144,
+        2.961999,
+        3533.062011
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x2000000000000144 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000000144 {}",
+      "name": "SP_T3H_Gravette",
+      "worldPositionMeters": [
+        3817.627929,
+        5.025,
+        7733.58789
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x2000000000000111 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000000111 {}",
+      "name": "SP_T3H_HalcyonStrait",
+      "worldPositionMeters": [
+        3271.833984,
+        2.394999,
+        3547.009033
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x200000000000015D {}",
+      "anchorObjectId": "supply_source_base/0x200000000000015D {}",
+      "name": "SP_T3H_Kermovan",
+      "worldPositionMeters": [
+        6277.401855,
+        2.145999,
+        9643.742187
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x20000000000000C2 {}",
+      "anchorObjectId": "supply_source_base/0x20000000000000C2 {}",
+      "name": "SP_T3H_Lancre",
+      "worldPositionMeters": [
+        11658.808593,
+        7.841,
+        2176.576904
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x2000000000000191 {}",
+      "anchorObjectId": "supply_source_base/0x2000000000000191 {}",
+      "name": "SP_T3H_Laruns",
+      "worldPositionMeters": [
+        7782.555175,
+        2.344,
+        5875.38916
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x20000000000000A9 {}",
+      "anchorObjectId": "supply_source_base/0x20000000000000A9 {}",
+      "name": "SP_T3H_LeBosc",
+      "worldPositionMeters": [
+        7941.068847,
+        12.805999,
+        1469.953979
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x20000000000001C0 {}",
+      "anchorObjectId": "supply_source_base/0x20000000000001C0 {}",
+      "name": "SP_T3H_Perelle",
+      "worldPositionMeters": [
+        9328.079101,
+        3.74,
+        5065.999023
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x200000000000012B {}",
+      "anchorObjectId": "supply_source_base/0x200000000000012B {}",
+      "name": "SP_T3H_SpaniardsBay",
+      "worldPositionMeters": [
+        3375.760009,
+        1.093999,
+        7211.186035
+      ],
+      "neighbors": []
+    },
+    {
+      "groupId": "harbor/0x20000000000001A8 {}",
+      "anchorObjectId": "supply_source_base/0x20000000000001A8 {}",
+      "name": "SP_T3H_Thollevast",
+      "worldPositionMeters": [
+        3145.990966,
+        3.884999,
+        2141.905029
+      ],
+      "neighbors": []
+    }
+  ]
+}

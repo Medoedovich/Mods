@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 3,
+  "kind": "conflict-world-index",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0026",
+  "status": "partial",
+  "worldMetadata": "world.json",
+  "sections": {
+    "locations": {
+      "path": "Locations.json",
+      "table": "Locations.md"
+    },
+    "supplies": {
+      "catalog": "Locations.json",
+      "table": "Supplies/OtherContainers.md",
+      "controlPoints": "Supplies/ControlPoints.json",
+      "otherContainers": "Supplies/OtherContainers.json",
+      "harbors": "Supplies/Harbors.json",
+      "order": [
+        "control_points",
+        "harbors",
+        "supply_depots",
+        "settlements",
+        "other",
+        "unrecognized"
+      ],
+      "supplyDepots": "Supplies/SupplyDepots.json"
+    },
+    "aiGroups": {
+      "status": "not_analyzed"
+    },
+    "startingBases": {
+      "status": "not_analyzed"
+    },
+    "vehicleSpawns": {
+      "status": "not_analyzed"
+    }
+  }
+}

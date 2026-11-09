@@ -1,0 +1,3470 @@
+{
+  "schemaVersion": 3,
+  "kind": "supply-settings-view",
+  "report": "OtherContainers",
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0025",
+  "normalizerVersion": "supply-priority-architecture-0.7",
+  "sourceInputs": {
+    "locations": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0016",
+      "path": "../../r0016/Locations.json",
+      "sha256": "EFCBA9118C21CA0DBD684CCCE120634AC4BF541FF072FE087BB7A4B8F301E5D8",
+      "capturedAtUTC": "2026-10-06T01:23:30Z"
+    },
+    "supplies": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0006",
+      "path": "../../r0006/Supplies/OtherContainers.json",
+      "sha256": "98B7453C89A19951E5D98E16750FB5DC48DC9B391696D22BA919D02D58645589",
+      "capturedAtUTC": "2026-10-05T17:55:53Z"
+    }
+  },
+  "sourceSummary": {
+    "storageGroupCount": 124,
+    "physicalContainerCount": 568,
+    "virtualViewCount": 129,
+    "nestedStorageGroupCount": 129,
+    "unresolvedSlotCount": 0,
+    "unknownContainerListCount": 0,
+    "capacitySupplies": 190700.0,
+    "capacityStatus": "resolved",
+    "knownCapacitySubtotalSupplies": 190700.0,
+    "knownConfiguredInitialSubtotalSupplies": 190700.0,
+    "inspectedResourceComponentCount": 1072,
+    "filteredNonSuppliesSlotCount": 0,
+    "worldPhysicalSuppliesSlotCount": 617
+  },
+  "records": [
+    {
+      "objectId": "other_supply_parent/0x20000000000007D2 {}",
+      "sourceId": "0x20000000000007D2 {}",
+      "name": "LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        3528.617919,
+        181.238006,
+        5826.293945
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000007D2 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000084E {}",
+      "sourceId": "0x200000000000084E {}",
+      "name": "LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        7517.487792,
+        166.826995,
+        4262.006835
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000084E {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000008A9 {}",
+      "sourceId": "0x20000000000008A9 {}",
+      "name": "LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        4871.454101,
+        169.076004,
+        6939.353027
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000008A9 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000904 {}",
+      "sourceId": "0x2000000000000904 {}",
+      "name": "LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        4766.043945,
+        166.022003,
+        7040.08496
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000904 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000095F {}",
+      "sourceId": "0x200000000000095F {}",
+      "name": "LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        7232.816894,
+        137.617996,
+        2362.438964
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000095F {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000F16 {}",
+      "sourceId": "0x2000000000000F16 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        9044.77832,
+        124.507003,
+        2741.715087
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000F16 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000F34 {}",
+      "sourceId": "0x2000000000000F34 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        6914.711914,
+        50.905998,
+        4436.83789
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000F34 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000F52 {}",
+      "sourceId": "0x2000000000000F52 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        6947.629882,
+        59.075,
+        4481.804199
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000F52 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000F70 {}",
+      "sourceId": "0x2000000000000F70 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        4760.788085,
+        54.105998,
+        5842.752929
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000F70 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000F8E {}",
+      "sourceId": "0x2000000000000F8E {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        4840.767089,
+        51.726001,
+        5888.263183
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000F8E {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000FAC {}",
+      "sourceId": "0x2000000000000FAC {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        5033.289062,
+        26.916999,
+        9950.466796
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000FAC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000FCA {}",
+      "sourceId": "0x2000000000000FCA {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        4892.170898,
+        109.722999,
+        8113.824218
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000FCA {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000000FE8 {}",
+      "sourceId": "0x2000000000000FE8 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        4881.904785,
+        111.904998,
+        8142.600097
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000000FE8 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001006 {}",
+      "sourceId": "0x2000000000001006 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        3122.96997,
+        119.224998,
+        5234.888183
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001006 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001024 {}",
+      "sourceId": "0x2000000000001024 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        7077.478027,
+        156.667999,
+        2045.649047
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001024 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001042 {}",
+      "sourceId": "0x2000000000001042 {}",
+      "name": "SupplyCache_S_FIA_01_Campaign_HQC",
+      "worldPositionMeters": [
+        7069.131835,
+        156.811996,
+        2067.800048
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001042 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000010BD {}",
+      "sourceId": "0x20000000000010BD {}",
+      "name": "Base_Airport_FIA_01",
+      "worldPositionMeters": [
+        4900.952148,
+        28.594999,
+        11787.412109
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000010BD {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000010DA {}",
+      "sourceId": "0x20000000000010DA {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        4931.402832,
+        28.468999,
+        11986.46875
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000010DA {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000010EC {}",
+      "sourceId": "0x20000000000010EC {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        4434.09082,
+        5.810999,
+        11205.860351
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000010EC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000010FE {}",
+      "sourceId": "0x20000000000010FE {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        4474.851074,
+        1.531,
+        11132.911132
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000010FE {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001110 {}",
+      "sourceId": "0x2000000000001110 {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        9985.821289,
+        2.358999,
+        1523.785034
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001110 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001122 {}",
+      "sourceId": "0x2000000000001122 {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        1054.876953,
+        2.821,
+        6058.437011
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001122 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001134 {}",
+      "sourceId": "0x2000000000001134 {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        3917.11206,
+        15.312,
+        8418.873046
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001134 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001146 {}",
+      "sourceId": "0x2000000000001146 {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        4297.85498,
+        1.129999,
+        9532.503906
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001146 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001158 {}",
+      "sourceId": "0x2000000000001158 {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        4791.312988,
+        162.811004,
+        7133.941894
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001158 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000116A {}",
+      "sourceId": "0x200000000000116A {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        5785.700195,
+        7.938,
+        9748.801757
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000116A {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000117C {}",
+      "sourceId": "0x200000000000117C {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        5588.409179,
+        89.375999,
+        5903.201171
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000117C {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000118E {}",
+      "sourceId": "0x200000000000118E {}",
+      "name": "SupplyCache_S_FIA_04",
+      "worldPositionMeters": [
+        7841.875,
+        254.531005,
+        4029.389892
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000118E {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000011A9 {}",
+      "sourceId": "0x20000000000011A9 {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        4938.752929,
+        28.5,
+        11983.813476
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000011A9 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000011BA {}",
+      "sourceId": "0x20000000000011BA {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        4409.018066,
+        1.593999,
+        11211.245117
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000011BA {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000011CB {}",
+      "sourceId": "0x20000000000011CB {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        9961.073242,
+        2.530999,
+        1557.28601
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000011CB {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000011DC {}",
+      "sourceId": "0x20000000000011DC {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        880.679992,
+        3.038,
+        6078.892089
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000011DC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000011ED {}",
+      "sourceId": "0x20000000000011ED {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        3722.218017,
+        1.281,
+        8513.858398
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000011ED {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000011FE {}",
+      "sourceId": "0x20000000000011FE {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        7600.233886,
+        166.156005,
+        4227.49707
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000011FE {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000120F {}",
+      "sourceId": "0x200000000000120F {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        4317.285156,
+        1.125,
+        9563.501953
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000120F {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001220 {}",
+      "sourceId": "0x2000000000001220 {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        5583.657226,
+        89.151,
+        5891.403808
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001220 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001231 {}",
+      "sourceId": "0x2000000000001231 {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        2847.178955,
+        8.192999,
+        2263.299072
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001231 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001242 {}",
+      "sourceId": "0x2000000000001242 {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        7829.859863,
+        254.531005,
+        4020.951904
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001242 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001253 {}",
+      "sourceId": "0x2000000000001253 {}",
+      "name": "SupplyCache_S_FIA_03",
+      "worldPositionMeters": [
+        7890.569824,
+        256.625,
+        4006.571044
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001253 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000162B {}",
+      "sourceId": "0x200000000000162B {}",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "worldPositionMeters": [
+        4852.333984,
+        52.945999,
+        5719.825195
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000162B {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000163D {}",
+      "sourceId": "0x200000000000163D {}",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "worldPositionMeters": [
+        5018.894042,
+        26.27,
+        9988.490234
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000163D {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000164F {}",
+      "sourceId": "0x200000000000164F {}",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "worldPositionMeters": [
+        6508.111816,
+        161.822006,
+        6478.687011
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000164F {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001661 {}",
+      "sourceId": "0x2000000000001661 {}",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "worldPositionMeters": [
+        3056.593994,
+        118.287002,
+        5244.140136
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001661 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001673 {}",
+      "sourceId": "0x2000000000001673 {}",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "worldPositionMeters": [
+        7077.041992,
+        156.813003,
+        2077.012939
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001673 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001685 {}",
+      "sourceId": "0x2000000000001685 {}",
+      "name": "SupplyCache_S_FIA_04_Campaign_HQC",
+      "worldPositionMeters": [
+        7720.512207,
+        12.968999,
+        8111.981933
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001685 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 1
+        },
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 1
+        }
+      ],
+      "capacitySupplies": 1500.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1500.0,
+      "configuredInitialSupplies": 1500.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1500.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000016C7 {}",
+      "sourceId": "0x20000000000016C7 {}",
+      "name": "StartingPos21",
+      "worldPositionMeters": [
+        7583.85205,
+        6.816999,
+        8874.552734
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000016C7 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001A01 {}",
+      "sourceId": "0x2000000000001A01 {}",
+      "name": "VehicleMaintenance_M_USSR_01",
+      "worldPositionMeters": [
+        3538.831054,
+        176.841995,
+        5775.558105
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001A01 {}",
+      "nestedStorageGroupCount": 3,
+      "physicalContainerCount": 34,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 34
+        }
+      ],
+      "capacitySupplies": 3400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3400.0,
+      "configuredInitialSupplies": 3400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001AD5 {}",
+      "sourceId": "0x2000000000001AD5 {}",
+      "name": "VehicleMaintenance_M_Conflict_USSR_01",
+      "worldPositionMeters": [
+        5619.806152,
+        91.688003,
+        5917.717773
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001AD5 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 6,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 6
+        }
+      ],
+      "capacitySupplies": 600.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 600.0,
+      "configuredInitialSupplies": 600.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 600.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001DF9 {}",
+      "sourceId": "0x2000000000001DF9 {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        6924.791992,
+        59.536998,
+        4485.830078
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001DF9 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E07 {}",
+      "sourceId": "0x2000000000001E07 {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        4771.735839,
+        53.931999,
+        5843.774902
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E07 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E15 {}",
+      "sourceId": "0x2000000000001E15 {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        4974.981933,
+        25.874,
+        9873.353515
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E15 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E23 {}",
+      "sourceId": "0x2000000000001E23 {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        4852.032226,
+        111.492996,
+        8103.60205
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E23 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E31 {}",
+      "sourceId": "0x2000000000001E31 {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        6467.063964,
+        162.083999,
+        6493.528808
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E31 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E3F {}",
+      "sourceId": "0x2000000000001E3F {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        6427.174804,
+        162.111999,
+        6491.896972
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E3F {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E4D {}",
+      "sourceId": "0x2000000000001E4D {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        3075.743896,
+        118.469001,
+        5232.592773
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E4D {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E5B {}",
+      "sourceId": "0x2000000000001E5B {}",
+      "name": "SupplyCache_S_FIA_05_Campaign_HQC",
+      "worldPositionMeters": [
+        7714.188964,
+        12.968999,
+        8100.736816
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E5B {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001E73 {}",
+      "sourceId": "0x2000000000001E73 {}",
+      "name": "E_VehicleMaintenance_M_Conflict_USSR_01",
+      "worldPositionMeters": [
+        7241.935058,
+        136.623992,
+        2314.650878
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001E73 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 6,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 6
+        }
+      ],
+      "capacitySupplies": 600.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 600.0,
+      "configuredInitialSupplies": 600.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 600.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000001FBB {}",
+      "sourceId": "0x2000000000001FBB {}",
+      "name": "E_LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        5882.897949,
+        3.710999,
+        9773.521484
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000001FBB {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000002016 {}",
+      "sourceId": "0x2000000000002016 {}",
+      "name": "E_LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        5570.618164,
+        87.490997,
+        5818.493164
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000002016 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000002071 {}",
+      "sourceId": "0x2000000000002071 {}",
+      "name": "E_LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        5566.456054,
+        90.500999,
+        5956.208007
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000002071 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000020CC {}",
+      "sourceId": "0x20000000000020CC {}",
+      "name": "E_LivingArea_S_FIA_01",
+      "worldPositionMeters": [
+        2873.642089,
+        7.061999,
+        2193.677001
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000020CC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000002721 {}",
+      "sourceId": "0x2000000000002721 {}",
+      "name": "FieldHospital_M_FIA_01",
+      "worldPositionMeters": [
+        3469.189941,
+        179.867996,
+        5808.756835
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000002721 {}",
+      "nestedStorageGroupCount": 2,
+      "physicalContainerCount": 20,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 20
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000027E0 {}",
+      "sourceId": "0x20000000000027E0 {}",
+      "name": "FieldHospital_M_FIA_01",
+      "worldPositionMeters": [
+        4708.000976,
+        158.738998,
+        7186.537109
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000027E0 {}",
+      "nestedStorageGroupCount": 2,
+      "physicalContainerCount": 20,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 20
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000289F {}",
+      "sourceId": "0x200000000000289F {}",
+      "name": "FieldHospital_M_FIA_01",
+      "worldPositionMeters": [
+        7245.040039,
+        136.998992,
+        2333.923095
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000289F {}",
+      "nestedStorageGroupCount": 2,
+      "physicalContainerCount": 20,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 20
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003045 {}",
+      "sourceId": "0x2000000000003045 {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        9050.171875,
+        124.732002,
+        2767.865966
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003045 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003056 {}",
+      "sourceId": "0x2000000000003056 {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        4876.026855,
+        52.513,
+        5715.60205
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003056 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003067 {}",
+      "sourceId": "0x2000000000003067 {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        5031.582031,
+        27.031,
+        9869.460937
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003067 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003078 {}",
+      "sourceId": "0x2000000000003078 {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        6488.144042,
+        161.785995,
+        6516.363769
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003078 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003089 {}",
+      "sourceId": "0x2000000000003089 {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        6414.536132,
+        161.843994,
+        6485.85498
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003089 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000309A {}",
+      "sourceId": "0x200000000000309A {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        3113.860107,
+        118.763999,
+        5215.26416
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000309A {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000030AB {}",
+      "sourceId": "0x20000000000030AB {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        7082.237792,
+        156.811996,
+        2067.934082
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000030AB {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000030BC {}",
+      "sourceId": "0x20000000000030BC {}",
+      "name": "SupplyCache_S_FIA_03_Campaign_HQC",
+      "worldPositionMeters": [
+        7706.72998,
+        12.968999,
+        8095.992187
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000030BC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 3,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 3
+        }
+      ],
+      "capacitySupplies": 3000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 3000.0,
+      "configuredInitialSupplies": 3000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 3000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003793 {}",
+      "sourceId": "0x2000000000003793 {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        4944.240234,
+        28.416,
+        11863.355468
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003793 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000037AB {}",
+      "sourceId": "0x20000000000037AB {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        4466.274902,
+        5.749,
+        11212.697265
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000037AB {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000037C3 {}",
+      "sourceId": "0x20000000000037C3 {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        4486.780761,
+        1.531,
+        11124.680664
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000037C3 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000037DB {}",
+      "sourceId": "0x20000000000037DB {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        9922.700195,
+        3.75,
+        1648.255004
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000037DB {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000037F3 {}",
+      "sourceId": "0x20000000000037F3 {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        925.242004,
+        2.75,
+        6058.798828
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000037F3 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000380B {}",
+      "sourceId": "0x200000000000380B {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        3892.085937,
+        15.243,
+        8417.533203
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000380B {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003823 {}",
+      "sourceId": "0x2000000000003823 {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        7579.809082,
+        166.811996,
+        4329.583007
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003823 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000383B {}",
+      "sourceId": "0x200000000000383B {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        7614.017089,
+        166.843994,
+        4276.841796
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000383B {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003853 {}",
+      "sourceId": "0x2000000000003853 {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        4313.669921,
+        1.125,
+        9491.602539
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003853 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000386B {}",
+      "sourceId": "0x200000000000386B {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        3512.114013,
+        179.809997,
+        5782.75
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000386B {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003883 {}",
+      "sourceId": "0x2000000000003883 {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        4859.454101,
+        169.787994,
+        6945.554199
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003883 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000389B {}",
+      "sourceId": "0x200000000000389B {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        2923.606933,
+        5.788,
+        2166.968017
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000389B {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000038B3 {}",
+      "sourceId": "0x20000000000038B3 {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        7833.848144,
+        254.531005,
+        4040.590087
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000038B3 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000038CB {}",
+      "sourceId": "0x20000000000038CB {}",
+      "name": "SupplyCache_S_FIA_06",
+      "worldPositionMeters": [
+        7877.662109,
+        256.625,
+        3992.118896
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000038CB {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003D79 {}",
+      "sourceId": "0x2000000000003D79 {}",
+      "name": "SupplyCache_S_FIA_01",
+      "worldPositionMeters": [
+        7211.563964,
+        137.526,
+        2405.519042
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003D79 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 9,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 9
+        }
+      ],
+      "capacitySupplies": 900.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 900.0,
+      "configuredInitialSupplies": 900.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 900.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003ECC {}",
+      "sourceId": "0x2000000000003ECC {}",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "worldPositionMeters": [
+        4871.928222,
+        52.5,
+        5675.193847
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003ECC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003EE4 {}",
+      "sourceId": "0x2000000000003EE4 {}",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "worldPositionMeters": [
+        5011.831054,
+        26.677,
+        9908.480468
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003EE4 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003EFC {}",
+      "sourceId": "0x2000000000003EFC {}",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "worldPositionMeters": [
+        5020.932128,
+        26.059999,
+        10002.021484
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003EFC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003F14 {}",
+      "sourceId": "0x2000000000003F14 {}",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "worldPositionMeters": [
+        6494.722167,
+        161.988006,
+        6482.913085
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003F14 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000003F2C {}",
+      "sourceId": "0x2000000000003F2C {}",
+      "name": "SupplyCache_S_FIA_06_Campaign_HQC",
+      "worldPositionMeters": [
+        3054.258056,
+        118.561996,
+        5207.083984
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000003F2C {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 500.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 1000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 1000.0,
+      "configuredInitialSupplies": 1000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 1000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000041DB {}",
+      "sourceId": "0x20000000000041DB {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        9075.662109,
+        118.322998,
+        2669.572998
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000041DB {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004205 {}",
+      "sourceId": "0x2000000000004205 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        9038.024414,
+        124.563003,
+        2746.160888
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004205 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000422F {}",
+      "sourceId": "0x200000000000422F {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        6953.944824,
+        59.201,
+        4480.211914
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000422F {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004259 {}",
+      "sourceId": "0x2000000000004259 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        6941.625,
+        54.323001,
+        4444.806152
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004259 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004283 {}",
+      "sourceId": "0x2000000000004283 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        4741.731933,
+        54.596,
+        5834.935058
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004283 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000042AD {}",
+      "sourceId": "0x20000000000042AD {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        4760.327148,
+        54.131,
+        5813.492187
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000042AD {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000042D7 {}",
+      "sourceId": "0x20000000000042D7 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        4789.625976,
+        53.758998,
+        5856.381835
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000042D7 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004301 {}",
+      "sourceId": "0x2000000000004301 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        5014.078125,
+        26.839,
+        9944.228515
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004301 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000432B {}",
+      "sourceId": "0x200000000000432B {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        4996.237792,
+        26.385999,
+        9917.057617
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000432B {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004355 {}",
+      "sourceId": "0x2000000000004355 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        4869.61621,
+        114.278999,
+        8040.725097
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004355 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x200000000000437F {}",
+      "sourceId": "0x200000000000437F {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        4836.347167,
+        118.293998,
+        8157.402832
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x200000000000437F {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000043A9 {}",
+      "sourceId": "0x20000000000043A9 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        6483.949218,
+        161.332,
+        6526.777832
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000043A9 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000043D3 {}",
+      "sourceId": "0x20000000000043D3 {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        3099.809082,
+        117.636001,
+        5188.21289
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000043D3 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x20000000000043FD {}",
+      "sourceId": "0x20000000000043FD {}",
+      "name": "SupplyCache_S_FIA_02_Campaign_HQC",
+      "worldPositionMeters": [
+        7065.577148,
+        156.817993,
+        2050.177001
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x20000000000043FD {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 8,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 8
+        }
+      ],
+      "capacitySupplies": 800.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 800.0,
+      "configuredInitialSupplies": 800.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 800.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004987 {}",
+      "sourceId": "0x2000000000004987 {}",
+      "name": "Base_PowerPlant_FIA_01",
+      "worldPositionMeters": [
+        5834.382812,
+        4.572,
+        9786.421875
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004987 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 21,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 21
+        }
+      ],
+      "capacitySupplies": 2100.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2100.0,
+      "configuredInitialSupplies": 2100.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2100.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004AD5 {}",
+      "sourceId": "0x2000000000004AD5 {}",
+      "name": "E_VehicleMaintenance_S_FIA_01",
+      "worldPositionMeters": [
+        7542.708007,
+        166.843994,
+        4201.800781
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004AD5 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 4,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 100.0,
+          "containerCount": 4
+        }
+      ],
+      "capacitySupplies": 400.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 400.0,
+      "configuredInitialSupplies": 400.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 400.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004EC2 {}",
+      "sourceId": "0x2000000000004EC2 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        4431.428222,
+        5.813,
+        11236.194335
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004EC2 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004ED0 {}",
+      "sourceId": "0x2000000000004ED0 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        10028.924804,
+        2.687,
+        1594.854003
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004ED0 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004EDE {}",
+      "sourceId": "0x2000000000004EDE {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        9941.110351,
+        2.540999,
+        1562.343994
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004EDE {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004EEC {}",
+      "sourceId": "0x2000000000004EEC {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        1075.962036,
+        2.904999,
+        6084.289062
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004EEC {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004EFA {}",
+      "sourceId": "0x2000000000004EFA {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        1013.765991,
+        2.857,
+        6049.546875
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004EFA {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F08 {}",
+      "sourceId": "0x2000000000004F08 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        5022.725097,
+        15.375,
+        3946.36499
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F08 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F16 {}",
+      "sourceId": "0x2000000000004F16 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        3905.82788,
+        15.218999,
+        8416.606445
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F16 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F24 {}",
+      "sourceId": "0x2000000000004F24 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        7589.938964,
+        166.832,
+        4326.862792
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F24 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F32 {}",
+      "sourceId": "0x2000000000004F32 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        7604.240234,
+        166.156005,
+        4234.910156
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F32 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F40 {}",
+      "sourceId": "0x2000000000004F40 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        4331.586914,
+        1.125,
+        9512.36621
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F40 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F4E {}",
+      "sourceId": "0x2000000000004F4E {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        7429.979003,
+        9.687999,
+        6796.036132
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F4E {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F5C {}",
+      "sourceId": "0x2000000000004F5C {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        3489.980957,
+        179.716003,
+        5794.160156
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F5C {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F6A {}",
+      "sourceId": "0x2000000000004F6A {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        4845.845214,
+        163.893005,
+        7122.987792
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F6A {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F78 {}",
+      "sourceId": "0x2000000000004F78 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        5798.561035,
+        7.968999,
+        9725.105468
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F78 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F86 {}",
+      "sourceId": "0x2000000000004F86 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        2913.581054,
+        7.156,
+        2174.123046
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F86 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    },
+    {
+      "objectId": "other_supply_parent/0x2000000000004F94 {}",
+      "sourceId": "0x2000000000004F94 {}",
+      "name": "SupplyCache_S_FIA_05",
+      "worldPositionMeters": [
+        7817.884765,
+        254.531005,
+        4030.387939
+      ],
+      "positionStatus": "resolved",
+      "sourceReport": "../../r0006/Supplies/OtherContainers.json",
+      "sourceRecordId": "0x2000000000004F94 {}",
+      "nestedStorageGroupCount": 1,
+      "physicalContainerCount": 2,
+      "capacityComposition": [
+        {
+          "capacitySupplies": 1000.0,
+          "containerCount": 2
+        }
+      ],
+      "capacitySupplies": 2000.0,
+      "capacityStatus": "resolved",
+      "knownCapacitySubtotalSupplies": 2000.0,
+      "configuredInitialSupplies": 2000.0,
+      "configuredInitialStatus": "resolved",
+      "knownConfiguredInitialSubtotalSupplies": 2000.0
+    }
+  ],
+  "classificationCatalog": "../Locations.json",
+  "warnings": [
+    "Control points are selected by prefab, source bases by their previous verified catalog; named map labels are a separate source.",
+    "Control-point component supplies/max are configured fields, not measured physical capacity or runtime stock.",
+    "After hierarchy and map classification, uniquely corresponding map-label groups are merged into their control-point report group. Transferred map neighbors are not confirmed source children.",
+    "Each remaining OtherContainers root parent belongs only to its first matching category; all matches within that category are retained.",
+    "Control-point and Harbor source entities remain inventory anchors in their own category.",
+    "Source parenting and map proximity do not establish runtime resource-grid membership; unknown remains unknown.",
+    "Transferred members retain original map-label proximity evidence; displayed distances use the control-point source position and can exceed the map-label radius.",
+    "Supply-depot markers and their component supplies/max are separate from physical storage. Remaining parents match within the approved depot radius; completed control-point and Harbor assignments are protected.",
+    "Depot markers are displayed under named locations within the approved radius: settlements first, then other permitted types, nearest within that tier. Unmatched markers remain separate; this does not change their source parenting or container assignments."
+  ]
+}

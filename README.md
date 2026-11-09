@@ -4,6 +4,7 @@ Game mods and development projects by [Medoedovich](https://github.com/Medoedovi
 
 | Game | Project | Description |
 | --- | --- | --- |
+| Arma Reforger | [Conflict Analyzer](Arma%20Reforger/Conflict-Analyzer/) | Workbench helper for analyzing Conflict worlds. |
 | DayZ | [Test Range](DayZ/TestRange/) | A minimal terrain and offline mission for mod development. |
 
 Projects are grouped by game. Source, build instructions, ready-to-run files and licensing are documented inside each project.

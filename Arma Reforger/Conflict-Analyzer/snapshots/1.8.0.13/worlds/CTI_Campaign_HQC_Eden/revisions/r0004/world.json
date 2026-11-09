@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+  "revisionId": "r0004",
+  "revisionReason": "Analyze descendant storage for all source bases and add capacity column",
+  "status": "partial",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "worldResourceGuid": null,
+  "worldResourceGuidStatus": "unknown",
+  "gameChannel": null,
+  "capturedAtUTC": "2026-10-05T17:35:25Z",
+  "workbenchVersion": "1.8.0.13",
+  "workbenchVersionStatus": "provided_by_operator",
+  "analyzerVersion": "storage-capacity-batch-0.1",
+  "normalizerVersion": "all-source-capacity-0.1",
+  "subscenes": [
+    {
+      "index": 0,
+      "name": "worlds/Eden/Eden.ent"
+    },
+    {
+      "index": 1,
+      "name": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent"
+    }
+  ],
+  "editorEntityCountUnchanged": true,
+  "identityStatus": "provisional_editor_ids",
+  "addons": {
+    "inventoryStatus": "unknown",
+    "completeLoadedInventory": null
+  },
+  "inputs": {
+    "capacity": {
+      "sha256": "1DF29B33FCCF8A65F77588AE991F0FBC7D3B2D5CC2084A10919C9B361076EE73",
+      "kind": "source-bases-storage-capacity",
+      "capturedAtUTC": "2026-10-05T17:35:25Z"
+    },
+    "income": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0002",
+      "reportSha256": "A51ED9BD6CF63BD505C789B9ED3D910F52DC16BA810836C30D448691941BDCA1",
+      "capturedAtUTC": "2026-10-05T16:49:34Z"
+    }
+  },
+  "warnings": [
+    "Income values retain their verified earlier capture; capacity was read in a new Workbench run of the same game version.",
+    "Capacity counts physical descendant containers; virtual views are excluded. Detached cache ownership and runtime grid membership remain unresolved."
+  ]
+}

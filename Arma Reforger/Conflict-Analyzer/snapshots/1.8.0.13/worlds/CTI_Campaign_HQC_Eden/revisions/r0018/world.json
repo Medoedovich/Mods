@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0018",
+  "revisionId": "r0018",
+  "revisionReason": "Combine supply views in OtherContainers with Harbors as the final section",
+  "status": "partial",
+  "gameVersion": "1.8.0.13",
+  "scenarioKey": "CTI_Campaign_HQC_Eden",
+  "worldPath": "$ArmaReforger:worlds/MP/CTI_Campaign_HQC_Eden.ent",
+  "capturedAtUTC": "2026-10-06T01:23:30Z",
+  "captureTimeMeaning": "Inherited location capture time; supply captures are retained separately in inputs",
+  "normalizerVersion": "location-grouped-supplies-0.2",
+  "analyzerVersion": "named-locations-0.1",
+  "inputs": {
+    "locations": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0016",
+      "path": "../r0016/Locations.json",
+      "sha256": "EFCBA9118C21CA0DBD684CCCE120634AC4BF541FF072FE087BB7A4B8F301E5D8",
+      "capturedAtUTC": "2026-10-06T01:23:30Z",
+      "normalizerVersion": "location-catalog-0.8"
+    },
+    "locationWorld": {
+      "path": "../r0016/world.json",
+      "sha256": "4D877977A084BBAB2C5E0B78D91BD233051A6C19E290F0E5F3DCA369BE8B1743"
+    },
+    "otherContainers": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0006",
+      "path": "../r0006/Supplies/OtherContainers.json",
+      "sha256": "98B7453C89A19951E5D98E16750FB5DC48DC9B391696D22BA919D02D58645589",
+      "capturedAtUTC": "2026-10-05T17:55:53Z"
+    },
+    "harbors": {
+      "snapshotId": "1.8.0.13/CTI_Campaign_HQC_Eden/r0004",
+      "path": "../r0004/Supplies/Harbors.json",
+      "sha256": "AF0157C09E6D1818D241434C6BB976F4945C59612BE76A04D88262E133ABE9A1",
+      "capturedAtUTC": "2026-10-05T16:49:34Z",
+      "storageCapturedAtUTC": "2026-10-05T17:35:25Z"
+    }
+  },
+  "radiusMeters": 350.0,
+  "matchingPolicy": "settlements_islands_and_hills_first_then_generic_within_radius_then_ungrouped",
+  "matchingPriority": {
+    "field": "MainType",
+    "primaryDescriptorTypes": [
+      "Name City",
+      "Name Town",
+      "Name Village",
+      "Name Settlement",
+      "Name Island",
+      "Name Hill"
+    ],
+    "secondaryDescriptorTypes": [
+      "Name Generic"
+    ],
+    "selectionScope": "per_object",
+    "secondaryRule": "only_when_no_primary_location_within_radius",
+    "withinTierRule": "all_matches",
+    "radiusAppliesToBothTiers": true
+  },
+  "locationFilter": {
+    "field": "MainType",
+    "method": "descriptor_type",
+    "allowedDescriptorTypes": [
+      "Name City",
+      "Name Town",
+      "Name Village",
+      "Name Settlement",
+      "Name Island",
+      "Name Hill",
+      "Name Generic"
+    ],
+    "excludedDescriptorTypes": [
+      "Name Water Minor",
+      "Name Water Major"
+    ],
+    "unknownDescriptorTypePolicy": "exclude",
+    "otherLocationPolicy": "exclude_without_fallback"
+  },
+  "warnings": [
+    "Groups reproduce the verified Locations snapshot without additional matching.",
+    "Proximity to a map label does not establish editor parenting, base ownership or resource-grid membership.",
+    "The same object can appear at multiple locations in its selected tier; supply totals count unique source objects once.",
+    "Physical-container details and field provenance remain in the original supply snapshots.",
+    "Source data retains its original capture times; no new Workbench read was performed."
+  ]
+}
