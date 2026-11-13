@@ -1,0 +1,24 @@
+{
+  "title": "Proxy Placement Tool — Alpha",
+  "author": "Medoedovich",
+  "version": "0.1.0-alpha",
+  "appId": 221100,
+  "workshopItemId": "3839146464",
+  "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464",
+  "visibility": "Public",
+  "releaseDate": "2026-11-13",
+  "requiredItems": [
+    {
+      "id": "3826868718",
+      "name": "Test Range"
+    }
+  ],
+  "runtime": "DayZDiag offline only",
+  "sourceRepository": "https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool",
+  "preview": "preview.jpg",
+  "previewKind": "AI-generated illustration; not an in-game screenshot",
+  "previewSha256": "8E422E06ED0126D8E696C2A6C6985B0C1E949432E25842B4D623A951F77AA72C",
+  "description": "description-combined.bbcode.txt",
+  "descriptionSha256": "F323E8DCCA186B9023A3F6D0FEA4362A4ECB995580D47DED62E8E8F3D52B8836",
+  "publishedPboSha256": "7180A4E91B6B23D580E384F452497E47BEEBEDD4D24966070C6B1002F951280F"
+}

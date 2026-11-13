@@ -1,0 +1,202 @@
+WindowWidgetClass IOTSceneBrowser {
+ Name "IOTSceneBrowser"
+ position 20 20
+ size 360 650
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ style rover_sim_black_2
+ "title visible" 0
+ {
+ TextWidgetClass SceneTitle {
+  Name "SceneTitle"
+  visible 1
+  position 16 10
+  size 328 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 21
+  "text color" 1 1 1 1
+  text "#STR_IOT_CREATE_TITLE"
+ }
+ ButtonWidgetClass SceneAnchorsMode {
+  Name "SceneAnchorsMode"
+  visible 1
+  position 16 48
+  size 156 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.467
+  text "#STR_IOT_BUILDINGS"
+ }
+ ButtonWidgetClass SceneItemsMode {
+  Name "SceneItemsMode"
+  visible 1
+  position 188 48
+  size 156 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.500
+  text "#STR_IOT_ITEMS"
+ }
+ TextWidgetClass SceneSearchLabel {
+  Name "SceneSearchLabel"
+  visible 1
+  position 16 91
+  size 328 18
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 13
+  "text color" 1 1 1 1
+  text "#STR_IOT_SEARCH"
+ }
+ EditBoxWidgetClass SceneSearch {
+  Name "SceneSearch"
+  visible 1
+  position 16 113
+  size 328 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ TextListboxWidgetClass SceneResults {
+  Name "SceneResults"
+  visible 1
+  position 16 151
+  size 328 260
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  "title visible" 0
+  colums "text;100"
+  lines 12
+  font "gui/fonts/Metron14"
+ }
+ TextWidgetClass SceneCount {
+  Name "SceneCount"
+  visible 1
+  position 16 419
+  size 328 18
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 13
+  "text color" 1 1 1 1
+ }
+ TextWidgetClass SceneClassLabel {
+  Name "SceneClassLabel"
+  visible 1
+  position 16 447
+  size 328 18
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 13
+  "text color" 1 1 1 1
+  text "#STR_IOT_CLASSNAME"
+ }
+ EditBoxWidgetClass SceneClass {
+  Name "SceneClass"
+  visible 1
+  position 16 470
+  size 328 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ ButtonWidgetClass SceneCreate {
+  Name "SceneCreate"
+  visible 1
+  position 16 510
+  size 328 34
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.471
+  text "#STR_IOT_CREATE_ANCHOR"
+ }
+ ButtonWidgetClass SceneFocus {
+  Name "SceneFocus"
+  visible 1
+  position 16 554
+  size 156 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.500
+  text "#STR_IOT_FOCUS_ANCHOR"
+ }
+ ButtonWidgetClass SceneExport {
+  Name "SceneExport"
+  visible 1
+  position 188 554
+  size 156 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.500
+  text "#STR_IOT_EXPORT_ANCHOR"
+ }
+ MultilineTextWidgetClass SceneStatus {
+  Name "SceneStatus"
+  visible 1
+  position 16 592
+  size 328 42
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 13
+  "text color" 1 1 1 1
+ }
+ }
+}

@@ -6,6 +6,7 @@ Game mods and development projects by [Medoedovich](https://github.com/Medoedovi
 | --- | --- | --- |
 | Arma Reforger | [Conflict Analyzer](Arma%20Reforger/Conflict-Analyzer/) | Workbench helper for analyzing Conflict worlds. |
 | DayZ | [Test Range](DayZ/TestRange/) | A minimal terrain and offline mission for mod development. |
+| DayZ | [Proxy Placement Tool — Alpha](DayZ/ProxyPlacementTool/) | Offline DayZDiag editor for placing items relative to buildings and wrecks and exporting CE dispatch XML. |
 
 Projects are grouped by game. Source, build instructions, ready-to-run files and licensing are documented inside each project.
 

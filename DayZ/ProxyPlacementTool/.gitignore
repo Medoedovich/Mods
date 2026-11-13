@@ -1,0 +1,13 @@
+/build/
+/runtime/
+/logs/
+/checkpoints/
+/validation/
+/artifacts/
+*.RPT
+*.log
+*.mdmp
+*.biprivatekey
+*.bak
+*.tmp
+

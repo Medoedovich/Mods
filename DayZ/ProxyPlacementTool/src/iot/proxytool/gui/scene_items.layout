@@ -1,0 +1,212 @@
+PanelWidgetClass IOTSceneItems {
+ Name "IOTSceneItems"
+ color 0.10 0.12 0.14 0.98
+ style rover_sim_colorable
+ position 0 0
+ size 820 122
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  TextWidgetClass CreatedTitle {
+   position 16 10
+   size 580 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 16
+   text "#STR_IOT_TRAY_TITLE_EMPTY"
+  }
+  ButtonWidgetClass CreatedPrev {
+   position 636 8
+   size 38 28
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   text "‹"
+  }
+  TextWidgetClass CreatedPage {
+   position 684 10
+   size 68 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   text "1 / 1"
+  }
+  ButtonWidgetClass CreatedNext {
+   position 766 8
+   size 38 28
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   text "›"
+  }
+  TextWidgetClass CreatedEmpty {
+   position 16 55
+   size 788 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 16
+   text "#STR_IOT_TRAY_EMPTY"
+  }
+  ButtonWidgetClass CreatedItem0 {
+   position 16 44
+   size 194 60
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   {
+    TextWidgetClass CreatedName0 {
+     position 8 7
+     size 178 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+    }
+    TextWidgetClass CreatedOwner0 {
+     position 8 32
+     size 178 18
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 12
+    }
+   }
+  }
+  ButtonWidgetClass CreatedItem1 {
+   position 214 44
+   size 194 60
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   {
+    TextWidgetClass CreatedName1 {
+     position 8 7
+     size 178 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+    }
+    TextWidgetClass CreatedOwner1 {
+     position 8 32
+     size 178 18
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 12
+    }
+   }
+  }
+  ButtonWidgetClass CreatedItem2 {
+   position 412 44
+   size 194 60
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   {
+    TextWidgetClass CreatedName2 {
+     position 8 7
+     size 178 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+    }
+    TextWidgetClass CreatedOwner2 {
+     position 8 32
+     size 178 18
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 12
+    }
+   }
+  }
+  ButtonWidgetClass CreatedItem3 {
+   position 610 44
+   size 194 60
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   {
+    TextWidgetClass CreatedName3 {
+     position 8 7
+     size 178 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+    }
+    TextWidgetClass CreatedOwner3 {
+     position 8 32
+     size 178 18
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 12
+    }
+   }
+  }
+ }
+}

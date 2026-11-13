@@ -1,0 +1,98 @@
+{
+  "Name": "Proxy Placement Tool - Alpha",
+  "Author": "Medoedovich",
+  "Version": "0.1.0-alpha",
+  "Runtime": "DayZDiag offline",
+  "TestedGameVersion": "1.30.164289.70",
+  "RequiredWorkshopItems": [
+    "3826868718"
+  ],
+  "ProjectSaveLoad": false,
+  "Files": [
+    {
+      "Path": "CHANGELOG.md",
+      "Bytes": 928,
+      "SHA256": "52CBA8A14DD546402B8B4492BEACC7FB41F15DFDA9B7A7C21DD68570F3F13AED"
+    },
+    {
+      "Path": "mod.cpp",
+      "Bytes": 341,
+      "SHA256": "7BBEBF1FAAA7D5A23C330C990E822F0A086E309667EC800BB7E5ACC1AA24639E"
+    },
+    {
+      "Path": "README.en.md",
+      "Bytes": 4790,
+      "SHA256": "E25DFF0E83988B62F7641AFF4B88C160283BC0958A5C963F4B2F5C8E34E2FFEC"
+    },
+    {
+      "Path": "README.ru.md",
+      "Bytes": 9234,
+      "SHA256": "2EE339DCCA41A8AB8FA643859ED7195537D47BAE289F1563F34B051012796BF6"
+    },
+    {
+      "Path": "Start-Editor.cmd",
+      "Bytes": 124,
+      "SHA256": "1F87B881BBB2FBF5E65559B446532948A5101515BCA75609EA98458D34FA321F"
+    },
+    {
+      "Path": "Start-Editor.ps1",
+      "Bytes": 7184,
+      "SHA256": "624B22F30B48D49D7DFD4BA141A7A76B86B5992B2C95DB8A6F20659C2E0BA9ED"
+    },
+    {
+      "Path": "addons/iot_proxy_tool.pbo",
+      "Bytes": 126898,
+      "SHA256": "7180A4E91B6B23D580E384F452497E47BEEBEDD4D24966070C6B1002F951280F"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/cfglimitsdefinition.xml",
+      "Bytes": 1283,
+      "SHA256": "BE989A40C63793BFA169E5F2B8AB1BD5DCE345E48ABC73BA6F5B751B324D0B88"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/cfglimitsdefinitionuser.xml",
+      "Bytes": 892,
+      "SHA256": "961E38A4D028C17EBC49FE8A21B56A632F4B90F5B282B253ED62083ECF362E0A"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/init.c",
+      "Bytes": 755,
+      "SHA256": "ECCEF8CEEC35AAC4C7BF5DA36FE970ABC69D42BBD9A0D3193982DE88F35DF5F2"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/mapgrouppos.xml",
+      "Bytes": 47,
+      "SHA256": "BF5AB390692608083F9B8D9EBC1BAA0CAEED08DCE59DA1F2E43DEDFD598A46AB"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/mapgroupproto.xml",
+      "Bytes": 53,
+      "SHA256": "EA8BF04AEE308DF3ECF52FA9D66475000D2FA1FE838AD7A03CDA8E65A3BA1CE5"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/economy.xml",
+      "Bytes": 476,
+      "SHA256": "C904E1EB7E0B4BC1A62D7B9BC73B9154AA1149CFBA9C8CC14FA4A91B650666B7"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/events.xml",
+      "Bytes": 50,
+      "SHA256": "6924CEFCA009AAD2440C03053AF47F95C70AE90D52D2532B365DC2F2691A96FE"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/globals.xml",
+      "Bytes": 1738,
+      "SHA256": "6E8643D841ADCC53198853010BDDFD1844F49037F3CE7571A9C8F79843D37415"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/types.xml",
+      "Bytes": 49,
+      "SHA256": "17715D6637713EE59FFBF40CBA5A02D0F72EDAAB7880C78B32B8588C7B457D9E"
+    }
+  ],
+  "EditorLanguages": [
+    "Russian",
+    "English"
+  ],
+  "OtherLanguages": "English fallback"
+}

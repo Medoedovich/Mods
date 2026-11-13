@@ -1,0 +1,3 @@
+# Preserve the tested package and launcher-template bytes on checkout.
+dist/** -text
+package/** -text

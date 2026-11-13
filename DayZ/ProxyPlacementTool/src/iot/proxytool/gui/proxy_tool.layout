@@ -1,0 +1,633 @@
+WindowWidgetClass IOTProxyPanel {
+ Name "IOTProxyPanel"
+ position 20 20
+ size 400 650
+ halign right_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ style rover_sim_black_2
+ "title visible" 0
+ {
+ TextWidgetClass Title {
+  Name "Title"
+  visible 1
+  position 16 10
+  size 368 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 21
+  "text color" 1 1 1 1
+  text "#STR_IOT_TITLE"
+ }
+ TextWidgetClass ItemLabel {
+  Name "ItemLabel"
+  visible 1
+  position 16 44
+  size 368 20
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 15
+  "text color" 1 1 1 1
+  text "#STR_IOT_ITEM"
+ }
+ XComboBoxWidgetClass ItemList {
+  Name "ItemList"
+  visible 1
+  position 16 71
+  size 368 18
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+ }
+ TextWidgetClass AnchorLabel {
+  Name "AnchorLabel"
+  visible 1
+  position 16 105
+  size 368 20
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 14
+  "text color" 1 1 1 1
+  text "#STR_IOT_ANCHOR"
+ }
+ XComboBoxWidgetClass AnchorList {
+  Name "AnchorList"
+  visible 1
+  position 16 133
+  size 368 14
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+ }
+ ButtonWidgetClass MoveMode {
+  Name "MoveMode"
+  visible 1
+  position 16 164
+  size 176 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.533
+  text "#STR_IOT_MOVE"
+ }
+ ButtonWidgetClass RotateMode {
+  Name "RotateMode"
+  visible 1
+  position 208 164
+  size 176 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.533
+  text "#STR_IOT_ROTATE"
+ }
+ TextWidgetClass PositionTitle {
+  Name "PositionTitle"
+  visible 1
+  position 16 207
+  size 238 24
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 14
+  "text color" 1 1 1 1
+  text "#STR_IOT_POSITION"
+ }
+ ButtonWidgetClass MoveStep {
+  Name "MoveStep"
+  visible 1
+  position 264 204
+  size 120 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.536
+  text "#STR_IOT_MOVE_STEP_DEFAULT"
+ }
+ TextWidgetClass PosLabel0 {
+  Name "PosLabel0"
+  visible 1
+  position 18 240
+  size 28 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 18
+  "text color" 1 1 1 1
+  text "X"
+ }
+ ButtonWidgetClass PosMinus0 {
+  Name "PosMinus0"
+  visible 1
+  position 48 240
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "−"
+ }
+ EditBoxWidgetClass Pos0 {
+  Name "Pos0"
+  visible 1
+  position 100 240
+  size 230 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ ButtonWidgetClass PosPlus0 {
+  Name "PosPlus0"
+  visible 1
+  position 342 240
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "+"
+ }
+ TextWidgetClass PosLabel1 {
+  Name "PosLabel1"
+  visible 1
+  position 18 274
+  size 28 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 18
+  "text color" 1 1 1 1
+  text "Y"
+ }
+ ButtonWidgetClass PosMinus1 {
+  Name "PosMinus1"
+  visible 1
+  position 48 274
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "−"
+ }
+ EditBoxWidgetClass Pos1 {
+  Name "Pos1"
+  visible 1
+  position 100 274
+  size 230 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ ButtonWidgetClass PosPlus1 {
+  Name "PosPlus1"
+  visible 1
+  position 342 274
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "+"
+ }
+ TextWidgetClass PosLabel2 {
+  Name "PosLabel2"
+  visible 1
+  position 18 308
+  size 28 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 18
+  "text color" 1 1 1 1
+  text "Z"
+ }
+ ButtonWidgetClass PosMinus2 {
+  Name "PosMinus2"
+  visible 1
+  position 48 308
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "−"
+ }
+ EditBoxWidgetClass Pos2 {
+  Name "Pos2"
+  visible 1
+  position 100 308
+  size 230 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ ButtonWidgetClass PosPlus2 {
+  Name "PosPlus2"
+  visible 1
+  position 342 308
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "+"
+ }
+ TextWidgetClass RotationTitle {
+  Name "RotationTitle"
+  visible 1
+  position 16 349
+  size 238 24
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 16
+  "text color" 1 1 1 1
+  text "#STR_IOT_ROTATION"
+ }
+ ButtonWidgetClass AngleStep {
+  Name "AngleStep"
+  visible 1
+  position 264 346
+  size 120 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.536
+  text "#STR_IOT_ANGLE_STEP_DEFAULT"
+ }
+ TextWidgetClass RotLabel0 {
+  Name "RotLabel0"
+  visible 1
+  position 18 382
+  size 28 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 18
+  "text color" 1 1 1 1
+  text "1"
+ }
+ ButtonWidgetClass RotMinus0 {
+  Name "RotMinus0"
+  visible 1
+  position 48 382
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "−"
+ }
+ EditBoxWidgetClass Rot0 {
+  Name "Rot0"
+  visible 1
+  position 100 382
+  size 230 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ ButtonWidgetClass RotPlus0 {
+  Name "RotPlus0"
+  visible 1
+  position 342 382
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "+"
+ }
+ TextWidgetClass RotLabel1 {
+  Name "RotLabel1"
+  visible 1
+  position 18 416
+  size 28 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 18
+  "text color" 1 1 1 1
+  text "2"
+ }
+ ButtonWidgetClass RotMinus1 {
+  Name "RotMinus1"
+  visible 1
+  position 48 416
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "−"
+ }
+ EditBoxWidgetClass Rot1 {
+  Name "Rot1"
+  visible 1
+  position 100 416
+  size 230 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ ButtonWidgetClass RotPlus1 {
+  Name "RotPlus1"
+  visible 1
+  position 342 416
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "+"
+ }
+ TextWidgetClass RotLabel2 {
+  Name "RotLabel2"
+  visible 1
+  position 18 450
+  size 28 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 18
+  "text color" 1 1 1 1
+  text "3"
+ }
+ ButtonWidgetClass RotMinus2 {
+  Name "RotMinus2"
+  visible 1
+  position 48 450
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "−"
+ }
+ EditBoxWidgetClass Rot2 {
+  Name "Rot2"
+  visible 1
+  position 100 450
+  size 230 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+ }
+ ButtonWidgetClass RotPlus2 {
+  Name "RotPlus2"
+  visible 1
+  position 342 450
+  size 42 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.643
+  text "+"
+ }
+ ButtonWidgetClass ApplyValues {
+  Name "ApplyValues"
+  visible 1
+  position 16 490
+  size 176 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.533
+  text "#STR_IOT_APPLY"
+ }
+ ButtonWidgetClass PlayerMode {
+  Name "PlayerMode"
+  visible 1
+  position 208 490
+  size 176 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.533
+  text "#STR_IOT_CHARACTER"
+ }
+ ButtonWidgetClass Reset {
+  Name "Reset"
+  visible 1
+  position 16 528
+  size 176 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.533
+  text "#STR_IOT_RESET"
+ }
+ ButtonWidgetClass Export {
+  Name "Export"
+  visible 1
+  position 208 528
+  size 176 30
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.533
+  text "XML · F10"
+ }
+ ButtonWidgetClass Ground {
+  Name "Ground"
+  visible 1
+  position 16 566
+  size 368 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.538
+  text "#STR_IOT_GROUND"
+ }
+ MultilineTextWidgetClass Status {
+  Name "Status"
+  visible 1
+  position 16 598
+  size 368 28
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 13
+  "text color" 1 1 1 1
+  text "#STR_IOT_SELECT_HINT"
+ }
+ TextWidgetClass Help {
+  Name "Help"
+  visible 1
+  position 16 628
+  size 368 18
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 13
+  "text color" 1 1 1 1
+  text "#STR_IOT_HELP"
+ }
+ MultilineTextWidgetClass Debug {
+  Name "Debug"
+  visible 1
+  position 16 658
+  size 368 64
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  font "gui/fonts/sdf_MetronBook24"
+  "exact text" 1
+  "exact text size" 13
+  "text color" 1 1 1 1
+ }
+ }
+}
