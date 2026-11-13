@@ -28,3 +28,14 @@ F1 cursor/flight; WASD, Q/Z and mouse flight; wheel speed multiplier; F4 charact
 No project save/load, delete UI or undo/redo. Anchors use zero orientation and scale 1. Retail client, servers and multiplayer are unsupported. XML is a fragment for the target mission's mapgroupproto.xml; merge it with the appropriate economy settings, including types.xml, and test the result in CE. Preview placement is scripted; final loot placement is performed by the economy.
 
 Output: %LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement. Bug reports should include the game version, classnames, reproduction steps and relevant log lines.
+
+[h2]Discussion[/h2]
+[url=https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158]DayZ Modders — discussion, feedback and placement examples[/url]
+
+[h2]Source code[/h2]
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]GitHub — project sources and build instructions[/url]
+
+[h2]Contact[/h2]
+Discord: [b]medoedovich[/b]
+
+Use the discussion thread or Workshop comments for questions and bug reports. For direct contact, message me on Discord.
