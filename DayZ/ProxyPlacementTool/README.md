@@ -1,6 +1,6 @@
 # Proxy Placement Tool — Alpha
 
-[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464) · [Русский](README-RU.md) · [Build from source](docs/BUILD.md) · [Validation](docs/VALIDATION.md)
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464) · [Русский](README-RU.md) · [Build from source](docs/BUILD.md) · [Validation](docs/VALIDATION.md) · [Publication rules](PUBLICATION.md)
 
 By **Medoedovich** · **0.2.0-alpha** · **DayZDiag offline only**
 
@@ -54,7 +54,7 @@ Alpha limits: no project save/load, delete UI or undo/redo; anchors use zero ori
 | `dist/@ProxyPlacementTool` | Tested ready-to-run alpha package; the PBO matches Workshop. |
 | `tools/Build.ps1` | Build a new isolated package with official Addon Builder and check it with BankRev. |
 | `docs` | Build instructions, validation results and published PBO hash. |
-| `workshop` | Current descriptions, item metadata and generated cover illustration. |
+| `workshop` | Published description snapshots, item metadata, the next description draft and generated cover illustration. |
 
 See [build instructions](docs/BUILD.md). The addon prefix remains `iot\proxytool`; the `IOT_` identifiers are retained for compatibility with the published build. Source changes must be packed into a new PBO to take effect. The packaged mission contains only the bootstrap; editor logic and UI resources are loaded from the PBO without file patching.
 
