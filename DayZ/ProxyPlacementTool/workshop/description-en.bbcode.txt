@@ -1,5 +1,5 @@
 [h1]Proxy Placement Tool — Alpha[/h1]
-[b]By Medoedovich[/b]
+[b]By Medoedovich · 0.2.0-alpha[/b]
 
 An offline authoring tool for positioning items relative to buildings and wrecks. Use native Gizmo controls or precise values, inspect items in character mode and export CE dispatch XML.
 
@@ -8,11 +8,14 @@ An offline authoring tool for positioning items relative to buildings and wrecks
 
 [h2]Features[/h2]
 [list]
-[*]Create buildings, wrecks and items at runtime; search by classname.
+[*]Create buildings, wrecks and items at runtime.
+[*]Browse Objects by map/category, with residential and wreck subcategories; StaticObj hidden by default.
+[*]Browse Items by category/subcategory, including weapons, ammo, clothing, tools and vehicle parts.
+[*]Global classname search reveals matching folders without a 100-result limit; expanded branches are remembered.
 [*]Native translation/rotation handles and precise coordinates/angles.
 [*]Created-item tray and multiple anchor instances.
 [*]Free camera with an adjustable speed multiplier.
-[*]Character mode for take-action and nearby-inventory checks.
+[*]Character mode for take-action and nearby-inventory checks; HUD hidden while editing and test character equipped with clothes and boots.
 [*]Separate multi-item XML exports for each anchor.
 [/list]
 
@@ -37,5 +40,3 @@ Output: %LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement. Bug reports s
 
 [h2]Contact[/h2]
 Discord: [b]medoedovich[/b]
-
-Use the discussion thread or Workshop comments for questions and bug reports. For direct contact, message me on Discord.

@@ -1,6 +1,6 @@
 # Proxy Placement Tool — Alpha
 
-By **Medoedovich**, version **0.1.0-alpha**.
+By **Medoedovich**, version **0.2.0-alpha**.
 
 An offline authoring tool for positioning items relative to buildings and wrecks, then exporting CE `dispatch` XML. **DayZDiag only.** Tested with DayZDiag **1.30.164289.70**.
 
@@ -26,8 +26,9 @@ Start-Editor.cmd -ExtraMods "X:\Mods\@One;X:\Mods\@Two"
 
 The editor follows the DayZDiag client language: Russian or English. Other client languages use English.
 
-- Left: choose **Buildings / wrecks**, search by classname, select a row and create an anchor. The camera frames it automatically.
-- Switch to **Items**, search for an item and create it beside the active anchor.
+- Left: open **Objects → map → category**, select a classname and create an anchor. Residential buildings and wrecks have further subcategories. The camera frames the created anchor automatically.
+- **Show StaticObj** is off by default. Enable it to include StaticObj classes in the object tree and search.
+- Switch to **Items → category → subcategory**, select an item and create it beside the active anchor. Categories include weapons, ammunition, attachments, clothing, food/drinks, equipment, vehicle parts and Other.
 - Select an item in the world or in the bottom tray. **F7** shows native translation handles; **F8** shows rotation rings. The right panel provides exact coordinates and angles.
 - Click empty space to deselect. **F9** restores the item to its pose at selection time.
 - **F4** switches to character mode for take-action and nearby-inventory checks. Close inventory and press F4 to return.
@@ -36,7 +37,9 @@ The editor follows the DayZDiag client language: Russian or English. Other clien
 
 **F1** toggles cursor/flight. Fly with WASD, Q/Z and mouse; the wheel adjusts the 0.1–16 speed multiplier. Shift/Ctrl temporarily accelerate, Alt slows down. **F11** toggles world-coordinate diagnostics.
 
-Search shows the first 100 matches; refine the query or enter a full classname in the lower field. Catalogs use loaded configs, including additional mods; individual third-party classes may need separate testing.
+Search covers the complete loaded catalog, ignores case and surrounding spaces and reveals matching folders. There is no 100-result limit. Folder expansion is preserved when switching tabs; folders do not select a spawn classname. You can also enter an exact classname in the lower field. Catalogs use loaded configs, including additional mods; individual third-party classes may need separate testing.
+
+The character HUD is hidden in editor mode and restored in character mode. The test character starts dressed and wearing boots.
 
 ## Export
 

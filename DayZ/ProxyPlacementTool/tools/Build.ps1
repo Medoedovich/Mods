@@ -3,11 +3,11 @@ param([string]$Tools = '', [switch]$PrepareOnly)
 $ErrorActionPreference = 'Stop'
 $taskProject = Split-Path -Parent $PSScriptRoot
 $taskSource = Join-Path $taskProject 'src\iot\proxytool'
-$taskVersion = '0.1.0-alpha'
+$taskVersion = '0.2.0-alpha'
 $taskBuildRoot = Join-Path $taskProject ('build\'+(Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
 $taskAddon = Join-Path $taskBuildRoot 'iot_proxy_tool'
 $taskPackage = Join-Path $taskBuildRoot '@ProxyPlacementTool'
-$taskRequired = @('config.cpp','stringtable.csv','scripts\5_Mission\IOTProxyTool.c','gui\proxy_tool.layout','gui\scene_browser.layout','gui\scene_items.layout','gui\player_mode.layout','gui\camera_speed.layout')
+$taskRequired = @('config.cpp','stringtable.csv','scripts\5_Mission\IOTProxyTool.c','scripts\5_Mission\IOTMapCatalog.c','gui\proxy_tool.layout','gui\scene_browser.layout','gui\scene_items.layout','gui\player_mode.layout','gui\camera_speed.layout')
 foreach ($taskName in $taskRequired) {
     if (-not (Test-Path -LiteralPath (Join-Path $taskSource $taskName) -PathType Leaf)) { throw ('Missing source: '+$taskName) }
 }

@@ -13,7 +13,7 @@ class IOTL
 
     static array<string> Keys()
     {
-        array<string> keys = {"LOCALE","TITLE","ITEM","ANCHOR","MOVE","ROTATE","POSITION","MOVE_STEP_DEFAULT","ROTATION","ANGLE_STEP_DEFAULT","APPLY","CHARACTER","RESET","GROUND","SELECT_HINT","HELP","CREATE_TITLE","BUILDINGS","ITEMS","SEARCH","CLASSNAME","CREATE_ANCHOR","CREATE_ITEM","FOCUS_ANCHOR","EXPORT_ANCHOR","ITEM_MODE_HINT","ANCHOR_MODE_HINT","FOUND","UNKNOWN_CLASS","ANCHOR_REQUIRED","SPAWN_FAILED","NOT_INVENTORY_ITEM","NOT_ANCHOR","CREATED","ANCHOR_TRANSFORM_LIMIT","GIZMO_HINT","DESELECT_HINT","NO_ITEM","NO_ANCHOR","START_HINT","GIZMO_ON","GIZMO_OFF","INVALID_NUMBER","NUMBER_LIMIT","POSE_APPLIED","GROUNDED","POSE_RESET","ANCHOR_XML_FAILED","ANCHOR_XML_SAVED","XML_FAILED","MOVE_STEP","ANGLE_STEP","MOVE_KEYS","ROTATE_KEYS","ITEM_PICKED_UP","WORLD_POSITION","WORLD_ORIENTATION","TRAY_TITLE","TRAY_TITLE_EMPTY","TRAY_EMPTY","TRAY_OWNER","TRAY_SELECTED","TRAY_INVENTORY","CHARACTER_HINT"};
+        array<string> keys = {"LOCALE","TITLE","ITEM","ANCHOR","MOVE","ROTATE","POSITION","MOVE_STEP_DEFAULT","ROTATION","ANGLE_STEP_DEFAULT","APPLY","CHARACTER","RESET","GROUND","SELECT_HINT","HELP","CREATE_TITLE","BUILDINGS","ITEMS","ITEM_GROUP_WEAPONS","ITEM_GROUP_WEAPONS_FIREARMS","ITEM_GROUP_WEAPONS_PISTOLS","ITEM_GROUP_WEAPONS_SHOTGUNS","ITEM_GROUP_WEAPONS_ARCHERY","ITEM_GROUP_WEAPONS_MELEE","ITEM_GROUP_WEAPONS_EXPLOSIVES","ITEM_GROUP_WEAPONS_LAUNCHERS","ITEM_GROUP_WEAPONS_OTHER","ITEM_GROUP_AMMO","ITEM_GROUP_AMMO_ROUNDS","ITEM_GROUP_AMMO_MAGAZINES","ITEM_GROUP_AMMO_BOXES","ITEM_GROUP_ATTACHMENTS","ITEM_GROUP_ATTACHMENTS_OPTICS","ITEM_GROUP_ATTACHMENTS_MUZZLE","ITEM_GROUP_ATTACHMENTS_LIGHT","ITEM_GROUP_ATTACHMENTS_SUPPORT","ITEM_GROUP_ATTACHMENTS_OTHER","ITEM_GROUP_CLOTHING","ITEM_GROUP_CLOTHING_BACKPACKS","ITEM_GROUP_CLOTHING_VESTS","ITEM_GROUP_CLOTHING_TOPS","ITEM_GROUP_CLOTHING_PANTS","ITEM_GROUP_CLOTHING_SHOES","ITEM_GROUP_CLOTHING_HEADGEAR","ITEM_GROUP_CLOTHING_MASKS","ITEM_GROUP_CLOTHING_GLOVES","ITEM_GROUP_CLOTHING_GLASSES","ITEM_GROUP_CLOTHING_BELTS","ITEM_GROUP_CLOTHING_OTHER","ITEM_GROUP_FOOD_DRINKS","ITEM_GROUP_FOOD_DRINKS_FOOD","ITEM_GROUP_FOOD_DRINKS_DRINKS","ITEM_GROUP_GEAR","ITEM_GROUP_GEAR_TOOLS","ITEM_GROUP_GEAR_CONTAINERS","ITEM_GROUP_GEAR_CAMPING","ITEM_GROUP_GEAR_COOKING","ITEM_GROUP_GEAR_CRAFTING","ITEM_GROUP_GEAR_CULTIVATION","ITEM_GROUP_GEAR_MEDICAL","ITEM_GROUP_GEAR_NAVIGATION","ITEM_GROUP_GEAR_RADIO","ITEM_GROUP_GEAR_OPTICS","ITEM_GROUP_GEAR_TRAPS","ITEM_GROUP_GEAR_BOOKS","ITEM_GROUP_GEAR_CONSUMABLES","ITEM_GROUP_GEAR_OTHER","ITEM_GROUP_VEHICLE_PARTS","ITEM_GROUP_VEHICLE_PARTS_WHEELS","ITEM_GROUP_VEHICLE_PARTS_BODY","ITEM_GROUP_VEHICLE_PARTS_COMPONENTS","ITEM_GROUP_VEHICLE_PARTS_OTHER","ITEM_GROUP_OTHER","SHOW_STATICOBJ","OTHER_OBJECTS","OBJECT_TREE_HINT","CATEGORY_RESIDENTIAL","RESIDENTIAL_SUB_SHEDS","RESIDENTIAL_SUB_OFFICE","RESIDENTIAL_SUB_MISC","RESIDENTIAL_SUB_HOUSE","RESIDENTIAL_SUB_CITY","RESIDENTIAL_SUB_TENEMENTS","RESIDENTIAL_SUB_STORES","RESIDENTIAL_SUB_MEDICAL","RESIDENTIAL_SUB_POLICE","RESIDENTIAL_SUB_SCHOOLS","RESIDENTIAL_SUB_FIREDEP","RESIDENTIAL_SUB_BUS","RESIDENTIAL_SUB_SLUMS","RESIDENTIAL_SUB_PLATFORMS","RESIDENTIAL_SUB_TERRACES","RESIDENTIAL_SUB_OTHER","CATEGORY_INDUSTRIAL","CATEGORY_MILITARY","CATEGORY_UNDERGROUND","CATEGORY_WRECKS","WRECK_SUB_VEHICLES","WRECK_SUB_AIRCRAFT","WRECK_SUB_SHIPS","WRECK_SUB_TRAINS","WRECK_SUB_OTHER","VEHICLE_TYPE_TRUCK","VEHICLE_TYPE_SEDAN","VEHICLE_TYPE_OFFROAD","VEHICLE_TYPE_HATCHBACK","VEHICLE_TYPE_OTHER","CATEGORY_FURNITURE","CATEGORY_ROADS","CATEGORY_RAIL","CATEGORY_WALLS","CATEGORY_SIGNS","CATEGORY_RUINS","CATEGORY_SPECIFIC","CATEGORY_PROPS","CATEGORY_BUILDING_PARTS","CATEGORY_VEGETATION","CATEGORY_ROCKS","CATEGORY_WATER","CATEGORY_TERRAIN","CATEGORY_UNCATEGORIZED","SEARCH","CLASSNAME","CREATE_ANCHOR","CREATE_ITEM","FOCUS_ANCHOR","EXPORT_ANCHOR","ITEM_MODE_HINT","ANCHOR_MODE_HINT","FOUND","UNKNOWN_CLASS","ANCHOR_REQUIRED","SPAWN_FAILED","NOT_INVENTORY_ITEM","NOT_ANCHOR","CREATED","ANCHOR_TRANSFORM_LIMIT","GIZMO_HINT","DESELECT_HINT","NO_ITEM","NO_ANCHOR","START_HINT","GIZMO_ON","GIZMO_OFF","INVALID_NUMBER","NUMBER_LIMIT","POSE_APPLIED","GROUNDED","POSE_RESET","ANCHOR_XML_FAILED","ANCHOR_XML_SAVED","XML_FAILED","MOVE_STEP","ANGLE_STEP","MOVE_KEYS","ROTATE_KEYS","ITEM_PICKED_UP","WORLD_POSITION","WORLD_ORIENTATION","TRAY_TITLE","TRAY_TITLE_EMPTY","TRAY_EMPTY","TRAY_OWNER","TRAY_SELECTED","TRAY_INVENTORY","CHARACTER_HINT"};
         return keys;
     }
 }
@@ -22,6 +22,260 @@ class IOTSceneEntry
     Object Anchor;
     int Id;
     ref array<ItemBase> Items = new array<ItemBase>;
+}
+
+class IOTCatalogAsset
+{
+    static array<string> ModelParts(string model)
+    {
+        model.ToLower();
+        model.Replace("\\","/");
+        array<string> raw = new array<string>;
+        array<string> parts = new array<string>;
+        model.Split("/",raw);
+        foreach (string part : raw) { if (part != "") parts.Insert(part); }
+        return parts;
+    }
+
+    // Resource families are a fallback when CE has no recorded placement.
+    static int FamilyMask(string model)
+    {
+        array<string> parts = ModelParts(model);
+        if (parts.Count() < 2 || parts[0] != "dz") return 0;
+        string family = parts[1];
+        if (family.IndexOf("_bliss") >= 0) return 2;
+        if (family.IndexOf("_sakhal") >= 0) return 4;
+        if (family.IndexOf("_takistan") >= 0) return 8;
+        if (family == "worlds" && parts.Count() > 2)
+        {
+            if (parts[2] == "chernarusplus") return 1;
+            if (parts[2] == "enoch") return 2;
+            if (parts[2] == "sakhal") return 4;
+            if (parts[2] == "nasdara") return 8;
+        }
+        if (family == "structures" || family == "plants" || family == "rocks" || family == "water") return 1;
+        return 0;
+    }
+
+    static string Category(string model)
+    {
+        array<string> parts = ModelParts(model);
+        if (parts.Count() < 3 || parts[0] != "dz") return "UNCATEGORIZED";
+        string family = parts[1];
+        if (family.IndexOf("plants") == 0) return "VEGETATION";
+        if (family.IndexOf("rocks") == 0) return "ROCKS";
+        if (family.IndexOf("water") == 0) return "WATER";
+        if (family == "worlds") return "TERRAIN";
+        if (family.IndexOf("structures") != 0) return "UNCATEGORIZED";
+        string category = parts[2];
+        if (category == "residential") return "RESIDENTIAL";
+        if (category == "industrial") return "INDUSTRIAL";
+        if (category == "military") return "MILITARY";
+        if (category == "underground") return "UNDERGROUND";
+        if (category == "wrecks") return "WRECKS";
+        if (category == "furniture") return "FURNITURE";
+        if (category == "roads") return "ROADS";
+        if (category == "rail") return "RAIL";
+        if (category == "walls") return "WALLS";
+        if (category == "signs") return "SIGNS";
+        if (category == "ruins") return "RUINS";
+        if (category == "specific") return "SPECIFIC";
+        if (category == "props") return "PROPS";
+        if (category == "proxy_buildingparts") return "BUILDING_PARTS";
+        return "UNCATEGORIZED";
+    }
+
+    static string ResidentialSubcategory(string model)
+    {
+        if (Category(model) != "RESIDENTIAL") return "OTHER";
+        array<string> parts = ModelParts(model);
+        if (parts.Count() < 5) return "OTHER";
+        string folder = parts[3];
+        string filename = parts[parts.Count() - 1];
+        if (filename.IndexOf("city_") == 0 || folder == "city" || folder == "houseblocks") return "CITY";
+        if (folder == "sheds" || folder == "shed") return "SHEDS";
+        if (folder == "offices" || folder == "office") return "OFFICE";
+        if (folder == "misc") return "MISC";
+        if (folder == "houses" || folder == "house") return "HOUSE";
+        if (folder == "tenements") return "TENEMENTS";
+        if (folder == "stores") return "STORES";
+        if (folder == "medical") return "MEDICAL";
+        if (folder == "police") return "POLICE";
+        if (folder == "schools") return "SCHOOLS";
+        if (folder == "firedep") return "FIREDEP";
+        if (folder == "bus") return "BUS";
+        if (folder == "slums") return "SLUMS";
+        if (folder == "platforms") return "PLATFORMS";
+        if (folder == "terraces") return "TERRACES";
+        return "OTHER";
+    }
+
+    static string ResidentialLabel(string subcategory)
+    {
+        string key = "RESIDENTIAL_SUB_" + subcategory;
+        return IOTL.T(key);
+    }
+
+    static string WreckSubcategory(string model)
+    {
+        if (Category(model) != "WRECKS") return "OTHER";
+        array<string> parts = ModelParts(model);
+        if (parts.Count() > 4)
+        {
+            string folder = parts[3];
+            if (folder == "vehicles" || folder == "wheeled" || folder == "tracked") return "VEHICLES";
+            if (folder == "aircraft") return "AIRCRAFT";
+            if (folder == "ships") return "SHIPS";
+            if (folder == "trains") return "TRAINS";
+        }
+        // Sakhal also stores wreck models directly in its wrecks directory.
+        if (parts.Count() == 4 && parts[1] == "structures_sakhal")
+        {
+            string filename = parts[3];
+            if (filename.IndexOf("boat_") == 0 || filename.IndexOf("ship_") == 0 || filename.IndexOf("submarine_") == 0 || filename.IndexOf("patrolboat_") == 0) return "SHIPS";
+            if (filename.IndexOf("static_an2") == 0 || filename.IndexOf("static_mi8") == 0 || filename.IndexOf("wreck_mi8") == 0) return "AIRCRAFT";
+            if (filename.IndexOf("wreck_sed") == 0) return "VEHICLES";
+        }
+        return "OTHER";
+    }
+
+    static string VehicleSubcategory(string model)
+    {
+        if (WreckSubcategory(model) != "VEHICLES") return "OTHER";
+        array<string> parts = ModelParts(model);
+        string filename = parts[parts.Count() - 1];
+        if (filename.IndexOf("wreck_truck") == 0 || filename.IndexOf("wreck_v3s") == 0 || filename.IndexOf("wreck_ural") == 0 || filename.IndexOf("wreck_armedural") == 0 || filename.IndexOf("wreck_mtvr") == 0 || filename.IndexOf("wreck_mining_haultruck") == 0) return "TRUCK";
+        if (filename.IndexOf("wreck_sed") == 0) return "SEDAN";
+        if (filename.IndexOf("wreck_offroad") == 0 || filename.IndexOf("wreck_hb01") == 0 || filename.IndexOf("wreck_uaz") == 0 || filename.IndexOf("wreck_hmmwv") == 0 || filename.IndexOf("wreck_lr_") == 0) return "OFFROAD";
+        if (filename.IndexOf("wreck_hb02") == 0) return "HATCHBACK";
+        return "OTHER";
+    }
+
+    static string VehicleLabel(string vehicleType)
+    {
+        string key = "VEHICLE_TYPE_" + vehicleType;
+        return IOTL.T(key);
+    }
+
+    static string WreckLabel(string subcategory)
+    {
+        string key = "WRECK_SUB_" + subcategory;
+        return IOTL.T(key);
+    }
+
+    static string CategoryLabel(string category)
+    {
+        string key = "CATEGORY_" + category;
+        return IOTL.T(key);
+    }
+}
+
+class IOTItemCatalog
+{
+    static array<string> Categories()
+    {
+        array<string> categories = {"WEAPONS","AMMO","ATTACHMENTS","CLOTHING","FOOD_DRINKS","GEAR","VEHICLE_PARTS","OTHER"};
+        return categories;
+    }
+
+    static array<string> Paths()
+    {
+        array<string> paths = {
+            "WEAPONS/FIREARMS","WEAPONS/PISTOLS","WEAPONS/SHOTGUNS","WEAPONS/ARCHERY","WEAPONS/MELEE","WEAPONS/EXPLOSIVES","WEAPONS/LAUNCHERS","WEAPONS/OTHER",
+            "AMMO/ROUNDS","AMMO/MAGAZINES","AMMO/BOXES",
+            "ATTACHMENTS/OPTICS","ATTACHMENTS/MUZZLE","ATTACHMENTS/LIGHT","ATTACHMENTS/SUPPORT","ATTACHMENTS/OTHER",
+            "CLOTHING/BACKPACKS","CLOTHING/VESTS","CLOTHING/TOPS","CLOTHING/PANTS","CLOTHING/SHOES","CLOTHING/HEADGEAR","CLOTHING/MASKS","CLOTHING/GLOVES","CLOTHING/GLASSES","CLOTHING/BELTS","CLOTHING/OTHER",
+            "FOOD_DRINKS/FOOD","FOOD_DRINKS/DRINKS",
+            "GEAR/TOOLS","GEAR/CONTAINERS","GEAR/CAMPING","GEAR/COOKING","GEAR/CRAFTING","GEAR/CULTIVATION","GEAR/MEDICAL","GEAR/NAVIGATION","GEAR/RADIO","GEAR/OPTICS","GEAR/TRAPS","GEAR/BOOKS","GEAR/CONSUMABLES","GEAR/OTHER",
+            "VEHICLE_PARTS/WHEELS","VEHICLE_PARTS/BODY","VEHICLE_PARTS/COMPONENTS","VEHICLE_PARTS/OTHER","OTHER"
+        };
+        return paths;
+    }
+
+    static string Label(string path)
+    {
+        path.Replace("/","_");
+        string key = "ITEM_GROUP_"+path;
+        return IOTL.T(key);
+    }
+
+    // Each loaded item has one group. Unknown resources remain accessible in Other.
+    static string Group(string name, string model, string root)
+    {
+        if (root == "CfgMagazines")
+        {
+            if (GetGame().IsKindOf(name,"Ammunition_Base")) return "AMMO/ROUNDS";
+            return "AMMO/MAGAZINES";
+        }
+        if (GetGame().IsKindOf(name,"CarWheel")) return "VEHICLE_PARTS/WHEELS";
+        if (GetGame().IsKindOf(name,"CarDoor")) return "VEHICLE_PARTS/BODY";
+
+        array<string> parts = IOTCatalogAsset.ModelParts(model);
+        array<string> knownPaths = Paths();
+        if (parts.Count() >= 4 && parts[0] == "dz")
+        {
+            string family = parts[1];
+            string folder = parts[2];
+            if (family.IndexOf("characters") == 0)
+            {
+                string clothingPath = "CLOTHING/"+folder;
+                clothingPath.ToUpper();
+                if (knownPaths.Find(clothingPath) >= 0) return clothingPath;
+                if (GetGame().IsKindOf(name,"Clothing_Base")) return "CLOTHING/OTHER";
+            }
+            if (family.IndexOf("gear") == 0)
+            {
+                if (folder == "food") return "FOOD_DRINKS/FOOD";
+                if (folder == "drinks") return "FOOD_DRINKS/DRINKS";
+                string gearPath = "GEAR/"+folder;
+                gearPath.ToUpper();
+                if (knownPaths.Find(gearPath) >= 0) return gearPath;
+                return "GEAR/OTHER";
+            }
+            if (family.IndexOf("vehicles") == 0)
+            {
+                if (folder == "parts") return "VEHICLE_PARTS/COMPONENTS";
+                return "VEHICLE_PARTS/OTHER";
+            }
+            if (family.IndexOf("weapons") == 0)
+            {
+                if (folder == "ammunition") return "AMMO/BOXES";
+                if (folder == "projectiles") return "AMMO/ROUNDS";
+                if (folder == "attachments")
+                {
+                    if (parts.Count() > 4)
+                    {
+                        string attachmentPath = "ATTACHMENTS/"+parts[3];
+                        attachmentPath.ToUpper();
+                        if (knownPaths.Find(attachmentPath) >= 0) return attachmentPath;
+                    }
+                    return "ATTACHMENTS/OTHER";
+                }
+                string weaponPath = "WEAPONS/"+folder;
+                weaponPath.ToUpper();
+                if (knownPaths.Find(weaponPath) >= 0) return weaponPath;
+                return "WEAPONS/OTHER";
+            }
+        }
+        if (root == "CfgWeapons") return "WEAPONS/OTHER";
+        if (GetGame().IsKindOf(name,"Clothing_Base")) return "CLOTHING/OTHER";
+        if (GetGame().IsKindOf(name,"ItemOptics")) return "ATTACHMENTS/OPTICS";
+        if (GetGame().IsKindOf(name,"ExplosivesBase")) return "WEAPONS/EXPLOSIVES";
+        return "OTHER";
+    }
+}
+
+class IOTCatalogGroup
+{
+    int Map;
+    string Category;
+    ref array<string> Classes = new array<string>;
+}
+
+class IOTCatalogRow
+{
+    string Key;
+    string ClassName;
 }
 
 class IOTSceneBrowser : ScriptedWidgetEventHandler
@@ -33,11 +287,26 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
     protected TextListboxWidget m_Results;
     protected TextWidget m_Count;
     protected MultilineTextWidget m_Status;
+    protected CheckBoxWidget m_ShowStatic;
+    protected bool m_ShowStaticObjects;
+    protected int m_MatchCount;
     protected bool m_ItemsMode;
     protected bool m_Updating;
+    protected string m_LastQuery;
+    protected string m_SelectedKey;
+    protected ref map<string,int> m_MapMasks = new map<string,int>;
+    protected ref map<string,ref IOTCatalogGroup> m_Groups = new map<string,ref IOTCatalogGroup>;
+    protected ref map<string,ref IOTCatalogGroup> m_ItemGroups = new map<string,ref IOTCatalogGroup>;
+    protected ref map<string,bool> m_Expanded = new map<string,bool>;
+    protected ref map<string,bool> m_SearchClosed = new map<string,bool>;
+    protected ref array<ref IOTCatalogRow> m_Rows = new array<ref IOTCatalogRow>;
     protected ref array<string> m_AnchorClasses = new array<string>;
     protected ref array<string> m_ItemClasses = new array<string>;
     protected ref array<string> m_Filtered = new array<string>;
+    protected ref array<string> m_Categories = {"RESIDENTIAL","INDUSTRIAL","MILITARY","UNDERGROUND","WRECKS","FURNITURE","ROADS","RAIL","WALLS","SIGNS","RUINS","SPECIFIC","PROPS","BUILDING_PARTS","VEGETATION","ROCKS","WATER","TERRAIN","UNCATEGORIZED"};
+    protected ref array<string> m_WreckSubcategories = {"VEHICLES","AIRCRAFT","SHIPS","TRAINS","OTHER"};
+    protected ref array<string> m_VehicleTypes = {"TRUCK","SEDAN","OFFROAD","HATCHBACK","OTHER"};
+    protected ref array<string> m_ResidentialSubcategories = {"SHEDS","OFFICE","MISC","HOUSE","CITY","TENEMENTS","STORES","MEDICAL","POLICE","SCHOOLS","FIREDEP","BUS","SLUMS","PLATFORMS","TERRACES","OTHER"};
 
     void IOTSceneBrowser(IOTProxyTool tool)
     {
@@ -48,14 +317,79 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         m_Results = TextListboxWidget.Cast(m_Root.FindAnyWidget("SceneResults"));
         m_Count = TextWidget.Cast(m_Root.FindAnyWidget("SceneCount"));
         m_Status = MultilineTextWidget.Cast(m_Root.FindAnyWidget("SceneStatus"));
-        m_Root.SetHandler(this);
+        m_ShowStatic = CheckBoxWidget.Cast(m_Root.FindAnyWidget("SceneShowStatic"));
+        m_ShowStatic.SetChecked(false);
+        m_Expanded.Set("objects",true);
+        m_Expanded.Set("items",true);
+        IOTMapCatalog.Populate(m_MapMasks);
         LoadCatalog();
+        m_Root.SetHandler(this);
         SetMode(false);
     }
 
-    void ~IOTSceneBrowser()
+    void ~IOTSceneBrowser() { if (m_Root) m_Root.Unlink(); }
+
+    static string MapKey(int mapIndex) { return "map:"+mapIndex.ToString(); }
+
+    static string MapLabel(int mapIndex)
     {
-        if (m_Root) m_Root.Unlink();
+        if (mapIndex == 1) return "ChernarusPlus";
+        if (mapIndex == 2) return "Livonia";
+        if (mapIndex == 3) return "Sakhal";
+        if (mapIndex == 4) return "Nasdara";
+        return IOTL.T("OTHER_OBJECTS");
+    }
+
+    protected void AddAnchor(string name, string model)
+    {
+        m_AnchorClasses.Insert(name);
+        string lower = name;
+        lower.ToLower();
+        int mask = m_MapMasks.Get(lower);
+        if (mask == 0) mask = IOTCatalogAsset.FamilyMask(model);
+        string category = IOTCatalogAsset.Category(model);
+        string subcategory;
+        if (category == "WRECKS") subcategory = IOTCatalogAsset.WreckSubcategory(model);
+        if (category == "RESIDENTIAL") subcategory = IOTCatalogAsset.ResidentialSubcategory(model);
+        string vehicleType;
+        if (subcategory == "VEHICLES") vehicleType = IOTCatalogAsset.VehicleSubcategory(model);
+        for (int mapIndex = 1; mapIndex <= 5; mapIndex++)
+        {
+            if (mapIndex == 5 && mask != 0) continue;
+            int mapBit = 1 << (mapIndex - 1);
+            int belongs = mask & mapBit;
+            if (mapIndex < 5 && belongs == 0) continue;
+            string key = MapKey(mapIndex)+"/"+category;
+            if (subcategory != "") key += "/"+subcategory;
+            if (vehicleType != "") key += "/"+vehicleType;
+            IOTCatalogGroup group = m_Groups.Get(key);
+            if (!group)
+            {
+                group = new IOTCatalogGroup;
+                group.Map = mapIndex;
+                group.Category = category;
+                m_Groups.Insert(key,group);
+            }
+            group.Classes.Insert(name);
+        }
+    }
+
+    protected void AddItem(string name, string model, string root)
+    {
+        if (m_ItemClasses.Find(name) >= 0) return;
+        m_ItemClasses.Insert(name);
+        string path = IOTItemCatalog.Group(name,model,root);
+        string key = "items/"+path;
+        IOTCatalogGroup group = m_ItemGroups.Get(key);
+        if (!group)
+        {
+            array<string> parts = new array<string>;
+            path.Split("/",parts);
+            group = new IOTCatalogGroup;
+            group.Category = parts[0];
+            m_ItemGroups.Insert(key,group);
+        }
+        group.Classes.Insert(name);
     }
 
     protected void LoadCatalog()
@@ -73,22 +407,55 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
                 if (model == "") continue;
                 string lower = name;
                 lower.ToLower();
-                if (root == "CfgVehicles" && (lower.IndexOf("land_") == 0 || lower.IndexOf("staticobj_") == 0))
-                    m_AnchorClasses.Insert(name);
+                if (root == "CfgVehicles" && (lower.IndexOf("land_") == 0 || lower.IndexOf("staticobj_") == 0)) AddAnchor(name,model);
                 if (GetGame().ConfigGetInt(path + " scope") != 2) continue;
                 if (root == "CfgVehicles" && !GetGame().IsKindOf(name,"Inventory_Base")) continue;
-                if (m_ItemClasses.Find(name) < 0) m_ItemClasses.Insert(name);
+                AddItem(name,model,root);
             }
         }
         m_AnchorClasses.Sort();
         m_ItemClasses.Sort();
-        PrintToRPT("[PROXY CATALOG] Anchors=" + m_AnchorClasses.Count().ToString() + " items=" + m_ItemClasses.Count().ToString());
+        foreach (string groupKey, IOTCatalogGroup group : m_Groups) group.Classes.Sort();
+        foreach (string itemKey, IOTCatalogGroup itemGroup : m_ItemGroups) itemGroup.Classes.Sort();
+        PrintToRPT("[PROXY CATALOG] Anchors="+m_AnchorClasses.Count().ToString()+" items="+m_ItemClasses.Count().ToString());
     }
 
     int CatalogCount(bool items)
     {
         if (items) return m_ItemClasses.Count();
         return m_AnchorClasses.Count();
+    }
+
+    int BranchCount(int mapIndex)
+    {
+        int count;
+        foreach (string key, IOTCatalogGroup group : m_Groups)
+        {
+            if (group.Map != mapIndex) continue;
+            foreach (string name : group.Classes) { if (AnchorVisible(name)) count++; }
+        }
+        return count;
+    }
+
+    bool CatalogCovered()
+    {
+        map<string,bool> names = new map<string,bool>;
+        foreach (string key, IOTCatalogGroup group : m_Groups)
+        {
+            foreach (string name : group.Classes) names.Set(name,true);
+        }
+        return names.Count() == m_AnchorClasses.Count();
+    }
+
+    bool ItemCatalogCovered()
+    {
+        map<string,bool> names = new map<string,bool>;
+        int count;
+        foreach (string key, IOTCatalogGroup group : m_ItemGroups)
+        {
+            foreach (string name : group.Classes) { names.Set(name,true); count++; }
+        }
+        return names.Count() == m_ItemClasses.Count() && count == m_ItemClasses.Count();
     }
 
     string ResolveClass(string value, bool items)
@@ -110,8 +477,10 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
     {
         m_ItemsMode = items;
         m_Updating = true;
+        m_ShowStatic.Show(!items);
         m_Search.SetText("");
         m_ClassName.SetText("");
+        m_SelectedKey = "";
         ButtonWidget.Cast(m_Root.FindAnyWidget("SceneAnchorsMode")).SetState(!items);
         ButtonWidget.Cast(m_Root.FindAnyWidget("SceneItemsMode")).SetState(items);
         ButtonWidget button = ButtonWidget.Cast(m_Root.FindAnyWidget("SceneCreate"));
@@ -120,7 +489,201 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         m_Updating = false;
         Filter();
         if (items) SetStatus(IOTL.T("ITEM_MODE_HINT"));
-        else SetStatus(IOTL.T("ANCHOR_MODE_HINT"));
+        else SetStatus(IOTL.T("OBJECT_TREE_HINT"));
+    }
+
+    protected bool MatchesQuery(string name, string query)
+    {
+        if (query == "") return true;
+        name.ToLower();
+        return name.IndexOf(query) >= 0;
+    }
+
+    protected bool AnchorVisible(string name)
+    {
+        if (m_ShowStaticObjects) return true;
+        name.ToLower();
+        return name.IndexOf("staticobj_") != 0;
+    }
+
+    void SetShowStaticObjects(bool visible)
+    {
+        if (m_ShowStaticObjects == visible) return;
+        m_ShowStaticObjects = visible;
+        m_Updating = true;
+        m_ShowStatic.SetChecked(visible);
+        m_Updating = false;
+        Filter();
+    }
+
+    bool ShowStaticObjects() { return m_ShowStaticObjects; }
+    bool StaticControlVisible() { return m_ShowStatic.IsVisible(); }
+
+    protected bool FolderOpen(string key)
+    {
+        if (m_LastQuery != "") return !m_SearchClosed.Get(key);
+        return m_Expanded.Get(key);
+    }
+
+    protected void AddRow(string key, string label, string classname = "")
+    {
+        IOTCatalogRow row = new IOTCatalogRow;
+        row.Key = key;
+        row.ClassName = classname;
+        m_Rows.Insert(row);
+        m_Results.AddItem(label,null,0);
+        if (classname != "" && m_Filtered.Find(classname) < 0) m_Filtered.Insert(classname);
+    }
+
+    protected void AddFolder(string key, string label, int count, string indent)
+    {
+        string marker = "[+] ";
+        if (FolderOpen(key)) marker = "[-] ";
+        AddRow(key,indent+marker+label+" ("+count.ToString()+")");
+    }
+
+    protected void BuildTree(string query)
+    {
+        map<string,ref array<string>> matches = new map<string,ref array<string>>;
+        map<string,int> categoryCounts = new map<string,int>;
+        foreach (string key, IOTCatalogGroup group : m_Groups)
+        {
+            array<string> found = new array<string>;
+            foreach (string name : group.Classes) { if (AnchorVisible(name) && MatchesQuery(name,query)) found.Insert(name); }
+            matches.Insert(key,found);
+            string parentKey = MapKey(group.Map)+"/"+group.Category;
+            categoryCounts.Set(parentKey,categoryCounts.Get(parentKey)+found.Count());
+        }
+        foreach (string anchor : m_AnchorClasses) { if (AnchorVisible(anchor) && MatchesQuery(anchor,query)) m_MatchCount++; }
+        AddFolder("objects",IOTL.T("BUILDINGS"),m_MatchCount,"");
+        if (!FolderOpen("objects")) return;
+        for (int mapIndex = 1; mapIndex <= 5; mapIndex++)
+        {
+            int mapCount = 0;
+            foreach (string category : m_Categories)
+            {
+                mapCount += categoryCounts.Get(MapKey(mapIndex)+"/"+category);
+            }
+            if (query != "" && mapCount == 0) continue;
+            string mapKey = MapKey(mapIndex);
+            AddFolder(mapKey,MapLabel(mapIndex),mapCount,"  ");
+            if (!FolderOpen(mapKey)) continue;
+            foreach (string cat : m_Categories)
+            {
+                string categoryKey = mapKey+"/"+cat;
+                int categoryCount = categoryCounts.Get(categoryKey);
+                if (categoryCount == 0) continue;
+                AddFolder(categoryKey,IOTCatalogAsset.CategoryLabel(cat),categoryCount,"    ");
+                if (!FolderOpen(categoryKey)) continue;
+                if (cat == "RESIDENTIAL")
+                {
+                    BuildResidentialRows(categoryKey,matches);
+                    continue;
+                }
+                if (cat == "WRECKS")
+                {
+                    BuildWreckRows(categoryKey,matches);
+                    continue;
+                }
+                array<string> classes = matches.Get(categoryKey);
+                foreach (string classname : classes) AddRow(categoryKey+"/"+classname,"        "+classname,classname);
+            }
+        }
+    }
+
+    protected void BuildItemTree(string query)
+    {
+        map<string,ref array<string>> matches = new map<string,ref array<string>>;
+        map<string,int> categoryCounts = new map<string,int>;
+        foreach (string key, IOTCatalogGroup group : m_ItemGroups)
+        {
+            array<string> found = new array<string>;
+            foreach (string name : group.Classes) { if (MatchesQuery(name,query)) found.Insert(name); }
+            matches.Insert(key,found);
+            categoryCounts.Set(group.Category,categoryCounts.Get(group.Category)+found.Count());
+            m_MatchCount += found.Count();
+        }
+        AddFolder("items",IOTL.T("ITEMS"),m_MatchCount,"");
+        if (!FolderOpen("items")) return;
+        array<string> categories = IOTItemCatalog.Categories();
+        array<string> paths = IOTItemCatalog.Paths();
+        foreach (string category : categories)
+        {
+            int count = categoryCounts.Get(category);
+            if (count == 0) continue;
+            string categoryKey = "items/"+category;
+            AddFolder(categoryKey,IOTItemCatalog.Label(category),count,"  ");
+            if (!FolderOpen(categoryKey)) continue;
+            foreach (string path : paths)
+            {
+                string keyPath = "items/"+path;
+                if (keyPath != categoryKey && path.IndexOf(category+"/") != 0) continue;
+                array<string> classes = matches.Get(keyPath);
+                if (!classes || classes.Count() == 0) continue;
+                string indent = "      ";
+                if (keyPath != categoryKey)
+                {
+                    AddFolder(keyPath,IOTItemCatalog.Label(path),classes.Count(),"    ");
+                    if (!FolderOpen(keyPath)) continue;
+                    indent = "        ";
+                }
+                foreach (string classname : classes) AddRow(keyPath+"/"+classname,indent+classname,classname);
+            }
+        }
+    }
+
+    protected void BuildResidentialRows(string parentKey, map<string,ref array<string>> matches)
+    {
+        foreach (string subcategory : m_ResidentialSubcategories)
+        {
+            string key = parentKey+"/"+subcategory;
+            array<string> classes = matches.Get(key);
+            if (!classes || classes.Count() == 0) continue;
+            AddFolder(key,IOTCatalogAsset.ResidentialLabel(subcategory),classes.Count(),"      ");
+            if (!FolderOpen(key)) continue;
+            foreach (string classname : classes) AddRow(key+"/"+classname,"          "+classname,classname);
+        }
+    }
+
+    protected void BuildWreckRows(string categoryKey, map<string,ref array<string>> matches)
+    {
+        foreach (string subcategory : m_WreckSubcategories)
+        {
+            string key = categoryKey+"/"+subcategory;
+            array<string> classes = matches.Get(key);
+            int count = 0;
+            if (subcategory == "VEHICLES")
+            {
+                foreach (string vehicleType : m_VehicleTypes)
+                {
+                    array<string> vehicles = matches.Get(key+"/"+vehicleType);
+                    if (vehicles) count += vehicles.Count();
+                }
+            }
+            else if (classes) count = classes.Count();
+            if (count == 0) continue;
+            AddFolder(key,IOTCatalogAsset.WreckLabel(subcategory),count,"      ");
+            if (!FolderOpen(key)) continue;
+            if (subcategory == "VEHICLES")
+            {
+                BuildVehicleRows(key,matches);
+                continue;
+            }
+            foreach (string classname : classes) AddRow(key+"/"+classname,"          "+classname,classname);
+        }
+    }
+
+    protected void BuildVehicleRows(string parentKey, map<string,ref array<string>> matches)
+    {
+        foreach (string vehicleType : m_VehicleTypes)
+        {
+            string key = parentKey+"/"+vehicleType;
+            array<string> classes = matches.Get(key);
+            if (!classes || classes.Count() == 0) continue;
+            AddFolder(key,IOTCatalogAsset.VehicleLabel(vehicleType),classes.Count(),"        ");
+            if (!FolderOpen(key)) continue;
+            foreach (string classname : classes) AddRow(key+"/"+classname,"            "+classname,classname);
+        }
     }
 
     protected void Filter()
@@ -129,30 +692,76 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         string query = m_Search.GetText();
         query.TrimInPlace();
         query.ToLower();
+        if (query != m_LastQuery)
+        {
+            m_SearchClosed.Clear();
+            m_SelectedKey = "";
+        }
+        m_LastQuery = query;
         m_Results.ClearItems();
         m_Filtered.Clear();
-        array<string> source = m_AnchorClasses;
-        if (m_ItemsMode) source = m_ItemClasses;
-        int count;
-        foreach (string name : source)
+        m_Rows.Clear();
+        m_MatchCount = 0;
+        if (m_ItemsMode) BuildItemTree(query);
+        else BuildTree(query);
+        m_Count.SetText(IOTL.F("FOUND",m_MatchCount.ToString(),m_Filtered.Count().ToString()));
+        int selected = RowIndex(m_SelectedKey);
+        if (selected < 0 && query != "")
         {
-            string lower = name;
-            lower.ToLower();
-            if (query != "" && lower.IndexOf(query) < 0) continue;
-            count++;
-            if (m_Filtered.Count() >= 100) continue;
-            m_Filtered.Insert(name);
-            m_Results.AddItem(name,null,0);
+            for (int i = 0; i < m_Rows.Count(); i++)
+            {
+                if (m_Rows[i].ClassName != "") { selected = i; break; }
+            }
         }
-        m_Count.SetText(IOTL.F("FOUND",count.ToString(),m_Filtered.Count().ToString()));
-        if (m_Filtered.Count() > 0)
-        {
-            m_Results.SelectRow(0);
-            m_ClassName.SetText(m_Filtered[0]);
-        }
-        else m_ClassName.SetText("");
+        if (selected < 0 && m_Rows.Count() > 0) selected = 0;
+        m_ClassName.SetText("");
+        if (selected >= 0) { m_Results.SelectRow(selected); SelectRow(selected); }
         m_Updating = false;
         UpdateButtons();
+    }
+
+    protected void SelectRow(int row)
+    {
+        if (row < 0 || row >= m_Rows.Count()) return;
+        m_SelectedKey = m_Rows[row].Key;
+        m_ClassName.SetText(m_Rows[row].ClassName);
+    }
+
+    int RowIndex(string key)
+    {
+        for (int i = 0; i < m_Rows.Count(); i++) { if (m_Rows[i].Key == key) return i; }
+        return -1;
+    }
+
+    bool ActivateRow(string key)
+    {
+        int row = RowIndex(key);
+        if (row < 0) return false;
+        m_Updating = true;
+        m_Results.SelectRow(row);
+        SelectRow(row);
+        m_Updating = false;
+        if (m_Rows[row].ClassName == "")
+        {
+            if (m_LastQuery != "") m_SearchClosed.Set(key,FolderOpen(key));
+            else m_Expanded.Set(key,!FolderOpen(key));
+            Filter();
+        }
+        UpdateButtons();
+        return true;
+    }
+
+    int MatchCount() { return m_MatchCount; }
+    int ShownCount() { return m_Filtered.Count(); }
+    int RowCount() { return m_Rows.Count(); }
+    string FirstClass() { return m_ClassName.GetText(); }
+
+    void Search(string query)
+    {
+        m_Updating = true;
+        m_Search.SetText(query);
+        m_Updating = false;
+        Filter();
     }
 
     void UpdateButtons()
@@ -178,6 +787,12 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
 
     override bool OnClick(Widget w, int x, int y, int button)
     {
+        if (w == m_ShowStatic) { SetShowStaticObjects(m_ShowStatic.IsChecked()); return true; }
+        if (w == m_Results)
+        {
+            int row = m_Results.GetSelectedRow();
+            if (row >= 0 && row < m_Rows.Count()) return ActivateRow(m_Rows[row].Key);
+        }
         string name = w.GetName();
         if (name == "SceneAnchorsMode") { SetMode(false); return true; }
         if (name == "SceneItemsMode") { SetMode(true); return true; }
@@ -197,24 +812,27 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
     override bool OnChange(Widget w, int x, int y, bool finished)
     {
         if (m_Updating) return false;
+        if (w == m_ShowStatic) { SetShowStaticObjects(m_ShowStatic.IsChecked()); return true; }
         if (w == m_Search) { Filter(); return true; }
         if (w == m_ClassName) { UpdateButtons(); return true; }
-        if (w == m_Results)
-        {
-            int row = m_Results.GetSelectedRow();
-            if (row >= 0 && row < m_Filtered.Count()) m_ClassName.SetText(m_Filtered[row]);
-            UpdateButtons();
-            return true;
-        }
+        if (w == m_Results) { SelectRow(m_Results.GetSelectedRow()); UpdateButtons(); return true; }
         return false;
     }
 
     override bool OnItemSelected(Widget w, int x, int y, int row, int column, int oldRow, int oldColumn)
     {
         if (m_Updating || w != m_Results) return false;
-        if (row >= 0 && row < m_Filtered.Count()) m_ClassName.SetText(m_Filtered[row]);
+        SelectRow(row);
         UpdateButtons();
         return true;
+    }
+
+    override bool OnKeyDown(Widget w, int x, int y, int key)
+    {
+        if (w != m_Results || key != KeyCode.KC_RETURN) return false;
+        int row = m_Results.GetSelectedRow();
+        if (row >= 0 && row < m_Rows.Count()) return ActivateRow(m_Rows[row].Key);
+        return false;
     }
 }
 
@@ -357,6 +975,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected bool m_Booted;
     protected bool m_PlayerMode;
     protected bool m_PlayerWasDisabled;
+    protected bool m_PlayerHudHidden;
+    protected bool m_PlayerHudWasVisible;
     protected bool m_HasCameraPose;
     protected vector m_CameraPose[4];
     protected TextWidget m_ModeHint;
@@ -465,6 +1085,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     void ~IOTProxyTool()
     {
         if (GetGame()) GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(Tick);
+        SetPlayerHudHidden(false);
         if (m_ModeHint) m_ModeHint.Unlink();
         if (m_SpeedRoot) m_SpeedRoot.Unlink();
         m_Browser = null;
@@ -1067,6 +1688,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void FrameUpdate(float timeslice)
     {
+        // MissionGameplay can update HUD visibility while menus open or close.
+        if (m_Booted && !m_PlayerMode) SetPlayerHudHidden(true);
         UpdateFlightCamera(timeslice);
         if (!m_Booted || m_PlayerMode || !GetGame().IsAppActive() || GetGame().GetUIManager().GetMenu())
         {
@@ -1095,6 +1718,34 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         }
     }
 
+    protected Widget PlayerHudRoot()
+    {
+        if (!GetGame() || !GetGame().GetMission()) return null;
+        IngameHud hud = IngameHud.Cast(GetGame().GetMission().GetHud());
+        if (!hud) return null;
+        return hud.GetHudPanelWidget();
+    }
+
+    protected void SetPlayerHudHidden(bool hidden)
+    {
+        Widget hudRoot = PlayerHudRoot();
+        if (!hudRoot) return;
+        if (hidden)
+        {
+            if (!m_PlayerHudHidden)
+            {
+                m_PlayerHudWasVisible = hudRoot.IsVisible();
+                m_PlayerHudHidden = true;
+            }
+            if (hudRoot.IsVisible()) hudRoot.Show(false);
+        }
+        else if (m_PlayerHudHidden)
+        {
+            hudRoot.Show(m_PlayerHudWasVisible);
+            m_PlayerHudHidden = false;
+        }
+    }
+
     void EnterEditor()
     {
         PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
@@ -1104,6 +1755,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             player.DisableSimulation(true);
         }
         m_PlayerMode = false;
+        SetPlayerHudHidden(true);
         FreeDebugCamera camera = FreeDebugCamera.GetInstance();
         if (camera)
         {
@@ -1149,6 +1801,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_CreatedTray.Show(false);
         m_ModeHint.Show(true);
         m_SpeedRoot.Show(false);
+        SetPlayerHudHidden(false);
         m_SpeedHintUntil = 0;
         SetFocus(null);
         GetGame().GetInput().ResetGameFocus();
@@ -1532,6 +2185,13 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected void SelfTestStart()
     {
         if (!SelfTestLocalization()) return;
+        PlayerBase testPlayer = PlayerBase.Cast(GetGame().GetPlayer());
+        EntityAI boots = testPlayer.FindAttachmentBySlotName("Feet");
+        EntityAI shirt = testPlayer.FindAttachmentBySlotName("Body");
+        EntityAI trousers = testPlayer.FindAttachmentBySlotName("Legs");
+        if (!TestCheck(boots && boots.GetType() == "HikingBoots_Black" && !boots.IsRuined(), "test player starts with usable hiking boots attached to feet")) return;
+        if (!TestCheck(shirt && shirt.GetType() == "TShirt_Grey" && trousers && trousers.GetType() == "CargoPants_Grey", "test player starts dressed with shirt and trousers")) return;
+        if (!TestCheck(PlayerHudRoot() && !PlayerHudRoot().IsVisible() && m_PlayerHudHidden, "character HUD hidden in initial editor mode")) return;
         if (!TestCheck(!m_Anchor && !m_Item && m_Scenes.Count() == 0, "empty editor starts without predefined anchor")) return;
         if (!TestCheck(m_CreatedTray.Count() == 0 && m_CreatedTray.IsVisible(), "bottom created-item tray starts empty")) return;
         float stepX,stepY,stepWidth,stepHeight,rowX,rowY;
@@ -1542,10 +2202,174 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(stepY+stepHeight <= rowY+1, "right panel step control does not overlap coordinate row at UI scale")) return;
         if (!TestCheck(m_Browser.CatalogCount(false) > 0 && m_Browser.CatalogCount(true) > 0, "loaded anchor and inventory catalogs")) return;
         if (!TestCheck(m_Browser.ResolveClass("land_garage_row_small",false) == "Land_Garage_Row_Small" && m_Browser.ResolveClass("AK101",true) == "AK101", "catalog resolves buildings and weapons")) return;
+        if (!SelfTestObjectTree()) return;
+        if (!SelfTestWreckCategories()) return;
+        if (!SelfTestVehicleTypes()) return;
+        if (!SelfTestItemTree()) return;
         if (!TestCheck(SpawnSceneClass("Land_Wreck_hb01_aban1_blue",false) && SpawnSceneClass("HatchbackWheel",true), "runtime creation of wreck and wheel")) return;
         DeselectItem();
         RefreshObjects();
         GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SelfTest,1000,false);
+    }
+
+    protected bool SelfTestObjectTree()
+    {
+        m_Browser.SetMode(false);
+        if (!SelfTestStaticObjectFilter()) return false;
+        m_Browser.SetShowStaticObjects(true);
+        if (!TestCheck(m_Browser.CatalogCovered() && m_Browser.MatchCount() == m_Browser.CatalogCount(false), "object tree covers every loaded anchor class")) return false;
+        if (!TestCheck(m_Browser.RowCount() == 6 && m_Browser.FirstClass() == "", "object root contains four maps and Other without Common")) return false;
+        if (!TestCheck(IOTCatalogAsset.Category("\\DZ\\Structures\\Industrial\\Garages\\garage_row_small.p3d") == "INDUSTRIAL" && IOTCatalogAsset.Category("dz/structures_bliss/underground/prison.p3d") == "UNDERGROUND", "model paths determine normalized object categories")) return false;
+        if (!TestCheck(IOTCatalogAsset.FamilyMask("dz/structures_sakhal/residential/house.p3d") == 4 && IOTCatalogAsset.FamilyMask("dz/structures_takistan/military/tower.p3d") == 8 && IOTCatalogAsset.FamilyMask("custom/map/house.p3d") == 0 && IOTCatalogAsset.Category("custom/map/house.p3d") == "UNCATEGORIZED", "unrecorded resource families have explicit map and unknown fallbacks")) return false;
+        for (int i = 1; i <= 4; i++)
+        {
+            string mapKey = IOTSceneBrowser.MapKey(i);
+            string mapName = IOTSceneBrowser.MapLabel(i);
+            string categoryKey = mapKey+"/INDUSTRIAL";
+            string leafKey = categoryKey+"/Land_Garage_Row_Small";
+            if (!TestCheck(m_Browser.BranchCount(i) > 100 && m_Browser.RowIndex(mapKey) >= 0, "map branch is populated: "+mapName)) return false;
+            PrintToRPT("[PROXY TREE TEST] "+mapName+"="+m_Browser.BranchCount(i).ToString());
+            m_Browser.ActivateRow(mapKey);
+            if (!TestCheck(m_Browser.RowIndex(categoryKey) >= 0 && m_Browser.FirstClass() == "", "map expands to categories without choosing a spawn class: "+mapName)) return false;
+            m_Browser.ActivateRow(categoryKey);
+            if (!TestCheck(m_Browser.RowIndex(leafKey) >= 0, "category expands to shared garage: "+mapName)) return false;
+            m_Browser.ActivateRow(leafKey);
+            if (!TestCheck(m_Browser.FirstClass() == "Land_Garage_Row_Small", "tree leaf selects the exact spawn classname: "+mapName)) return false;
+            m_Browser.ActivateRow(categoryKey);
+            if (!TestCheck(m_Browser.RowIndex(leafKey) < 0 && m_Browser.FirstClass() == "", "collapsing a category hides its objects and clears spawn selection: "+mapName)) return false;
+        }
+        m_Browser.Search("  LAND_GARAGE_ROW_SMALL  ");
+        if (!TestCheck(m_Browser.MatchCount() == 1 && m_Browser.ShownCount() == 1 && m_Browser.RowCount() == 13 && m_Browser.FirstClass() == "Land_Garage_Row_Small", "global tree search reveals shared objects under all four maps")) return false;
+        m_Browser.ActivateRow("map:2");
+        if (!TestCheck(m_Browser.RowIndex("map:2/INDUSTRIAL/Land_Garage_Row_Small") < 0 && m_Browser.RowIndex("map:1/INDUSTRIAL/Land_Garage_Row_Small") >= 0, "search results can be collapsed independently")) return false;
+        m_Browser.Search("Land_Underground_Storage_Prison");
+        if (!TestCheck(m_Browser.MatchCount() == 1 && m_Browser.RowIndex("map:2/UNDERGROUND/Land_Underground_Storage_Prison") >= 0 && m_Browser.RowIndex("map:1") < 0, "map-specific search prunes unrelated branches")) return false;
+        m_Browser.Search("no_such_proxy_tool_class");
+        if (!TestCheck(m_Browser.MatchCount() == 0 && m_Browser.FirstClass() == "" && m_Browser.RowCount() == 1, "empty tree search clears the previous spawn class")) return false;
+        m_Browser.Search("");
+        m_Browser.ActivateRow("map:1/INDUSTRIAL");
+        m_Browser.SetMode(true);
+        if (!TestCheck(m_Browser.RowIndex("objects") < 0 && m_Browser.RowIndex("items/GEAR") >= 0 && m_Browser.MatchCount() == m_Browser.CatalogCount(true) && m_Browser.ShownCount() == 0 && m_Browser.FirstClass() == "", "item tab opens an independent category tree")) return false;
+        m_Browser.Search("  canistergasoline  ");
+        if (!TestCheck(m_Browser.MatchCount() == 1 && m_Browser.FirstClass() == "CanisterGasoline", "item search still resolves inventory classes")) return false;
+        m_Browser.SetMode(false);
+        if (!TestCheck(m_Browser.RowIndex("map:1/INDUSTRIAL/Land_Garage_Row_Small") >= 0, "return to objects preserves expanded maps and categories")) return false;
+        m_Browser.ActivateRow("objects");
+        if (!TestCheck(m_Browser.RowCount() == 1 && m_Browser.ShownCount() == 0 && m_Browser.FirstClass() == "", "object root collapses without selecting a spawn class")) return false;
+        m_Browser.ActivateRow("objects");
+        if (!TestCheck(m_Browser.RowIndex("map:1/INDUSTRIAL/Land_Garage_Row_Small") >= 0, "object root restores previously open branches")) return false;
+        PrintToRPT("[PROXY TREE TEST] Other="+m_Browser.BranchCount(5).ToString());
+        m_Browser.SetShowStaticObjects(false);
+        return true;
+    }
+
+    protected bool SelfTestWreckCategories()
+    {
+        int baseline = m_Browser.MatchCount();
+        if (!TestCheck(IOTCatalogAsset.WreckSubcategory("dz/structures_takistan/wrecks/tracked/tank.p3d") == "VEHICLES" && IOTCatalogAsset.WreckSubcategory("dz/structures_sakhal/wrecks/Static_Mi8_Civilian.p3d") == "AIRCRAFT" && IOTCatalogAsset.WreckSubcategory("dz/structures/wrecks/unknown.p3d") == "OTHER", "wreck models classify tracked vehicles, Sakhal aircraft and unknown wrecks")) return false;
+        array<string> examples = {"Land_Wreck_hb01_aban1_blue","Land_Wreck_C130J","Land_Boat_Small1","Land_Train_742_Blue"};
+        array<string> subcategories = {"VEHICLES","AIRCRAFT","SHIPS","TRAINS"};
+        for (int i = 0; i < examples.Count(); i++)
+        {
+            m_Browser.Search(examples[i]);
+            string key = "map:1/WRECKS/"+subcategories[i]+"/"+examples[i];
+            if (subcategories[i] == "VEHICLES") key = "map:1/WRECKS/VEHICLES/OFFROAD/"+examples[i];
+            if (!TestCheck(m_Browser.ActivateRow(key) && m_Browser.FirstClass() == examples[i], "wreck search reveals and selects its nested subcategory: "+subcategories[i])) return false;
+        }
+        m_Browser.Search("Land_Submarine_Back");
+        if (!TestCheck(m_Browser.ActivateRow("map:3/WRECKS/SHIPS/Land_Submarine_Back") && m_Browser.FirstClass() == "Land_Submarine_Back", "Sakhal submarine parts appear under ships and boats")) return false;
+        m_Browser.Search("Land_Wreck_hb01_aban1_blue");
+        m_Browser.ActivateRow("map:1/WRECKS/VEHICLES");
+        if (!TestCheck(m_Browser.RowIndex("map:1/WRECKS/VEHICLES/OFFROAD/Land_Wreck_hb01_aban1_blue") < 0 && m_Browser.RowIndex("map:1/WRECKS") >= 0 && m_Browser.FirstClass() == "", "wreck subcategory collapses independently and clears its spawn selection")) return false;
+        m_Browser.SetShowStaticObjects(true);
+        m_Browser.Search("StaticObj_Wreck_Mi8");
+        if (!TestCheck(m_Browser.RowIndex("map:1/WRECKS/AIRCRAFT/StaticObj_Wreck_Mi8") >= 0, "StaticObj wrecks use the same aircraft subcategory")) return false;
+        m_Browser.SetShowStaticObjects(false);
+        if (!TestCheck(m_Browser.MatchCount() == 0 && m_Browser.RowIndex("map:1/WRECKS/AIRCRAFT") < 0, "StaticObj filter removes empty wreck subcategories")) return false;
+        m_Browser.Search("");
+        if (!TestCheck(m_Browser.CatalogCovered() && m_Browser.MatchCount() == baseline, "wreck nesting preserves full catalog coverage and filtered totals")) return false;
+        return true;
+    }
+
+    protected bool SelfTestVehicleTypes()
+    {
+        int baseline = m_Browser.MatchCount();
+        array<string> examples = {"Land_wreck_truck01_aban1_blue","Land_Wreck_sed01_aban1_black","Land_Wreck_hb01_aban1_blue","Land_Wreck_hb02_aban1_blue"};
+        array<string> types = {"TRUCK","SEDAN","OFFROAD","HATCHBACK"};
+        for (int i = 0; i < examples.Count(); i++)
+        {
+            m_Browser.Search(examples[i]);
+            string key = "map:1/WRECKS/VEHICLES/"+types[i]+"/"+examples[i];
+            if (!TestCheck(m_Browser.ActivateRow(key) && m_Browser.FirstClass() == examples[i], "vehicle type search selects the exact wreck: "+types[i])) return false;
+        }
+        if (!TestCheck(IOTCatalogAsset.VehicleSubcategory("dz/structures/wrecks/vehicles/Wreck_Trailer_Flat.p3d") == "OTHER" && IOTCatalogAsset.VehicleSubcategory("dz/structures_takistan/wrecks/tracked/Wreck_T62_Hull_TK.p3d") == "OTHER", "unclassified trailers and tracked vehicles remain in Other ground vehicles")) return false;
+        m_Browser.ActivateRow("map:1/WRECKS/VEHICLES/HATCHBACK");
+        if (!TestCheck(m_Browser.RowIndex("map:1/WRECKS/VEHICLES/HATCHBACK/Land_Wreck_hb02_aban1_blue") < 0 && m_Browser.RowIndex("map:1/WRECKS/VEHICLES") >= 0 && m_Browser.FirstClass() == "", "vehicle type folders collapse without selecting a spawn class")) return false;
+        m_Browser.Search("");
+        if (!TestCheck(m_Browser.CatalogCovered() && m_Browser.MatchCount() == baseline && !m_Browser.ShowStaticObjects(), "vehicle type nesting preserves catalog totals and the StaticObj default")) return false;
+        return true;
+    }
+
+    protected bool SelfTestItemTree()
+    {
+        m_Browser.SetMode(true);
+        if (!TestCheck(m_Browser.ItemCatalogCovered() && m_Browser.MatchCount() == m_Browser.CatalogCount(true) && !m_Browser.StaticControlVisible(), "item tree covers every loaded inventory class exactly once")) return false;
+        array<string> examples = {"AK101","Ammo_556x45","Mag_AK101_30Rnd","AmmoBox_556x45_20Rnd","ReflexOptic","CargoPants_Grey","BakedBeansCan","WaterBottle","Hammer","CanisterGasoline","HatchbackWheel","HatchbackDoors_Driver"};
+        array<string> groups = {"WEAPONS/FIREARMS","AMMO/ROUNDS","AMMO/MAGAZINES","AMMO/BOXES","ATTACHMENTS/OPTICS","CLOTHING/PANTS","FOOD_DRINKS/FOOD","FOOD_DRINKS/DRINKS","GEAR/TOOLS","VEHICLE_PARTS/COMPONENTS","VEHICLE_PARTS/WHEELS","VEHICLE_PARTS/BODY"};
+        for (int i = 0; i < examples.Count(); i++)
+        {
+            m_Browser.Search(examples[i]);
+            string key = "items/"+groups[i]+"/"+examples[i];
+            if (!TestCheck(m_Browser.ActivateRow(key) && m_Browser.FirstClass() == examples[i], "item search reveals its category and selects exact classname: "+examples[i])) return false;
+        }
+        m_Browser.ActivateRow("items/VEHICLE_PARTS/BODY");
+        if (!TestCheck(m_Browser.ShownCount() == 0 && m_Browser.FirstClass() == "" && m_Browser.RowIndex("items/VEHICLE_PARTS") >= 0, "item search folders collapse without selecting a spawn class")) return false;
+        m_Browser.Search("a");
+        if (!TestCheck(m_Browser.MatchCount() > 100 && m_Browser.ShownCount() == m_Browser.MatchCount(), "item search displays every matching class without a 100-result cap")) return false;
+        m_Browser.Search("no_such_proxy_tool_item");
+        if (!TestCheck(m_Browser.MatchCount() == 0 && m_Browser.RowCount() == 1 && m_Browser.FirstClass() == "", "empty item search clears the previous spawn classname")) return false;
+        m_Browser.Search("");
+        m_Browser.ActivateRow("items/GEAR");
+        m_Browser.ActivateRow("items/GEAR/TOOLS");
+        if (!TestCheck(m_Browser.RowIndex("items/GEAR/TOOLS/Hammer") >= 0 && m_Browser.FirstClass() == "", "item folders expand without choosing a spawn classname")) return false;
+        m_Browser.SetMode(false);
+        m_Browser.SetMode(true);
+        if (!TestCheck(m_Browser.RowIndex("items/GEAR/TOOLS/Hammer") >= 0 && m_Browser.RowIndex("objects") < 0, "return to items preserves its expanded categories")) return false;
+        m_Browser.Search("  hAmMeR  ");
+        if (!TestCheck(m_Browser.ActivateRow("items/GEAR/TOOLS/Hammer") && m_Browser.FirstClass() == "Hammer" && m_Browser.RowIndex("items/CLOTHING") < 0, "item search ignores case and spaces and hides unrelated categories")) return false;
+        m_Browser.Search("");
+        m_Browser.ActivateRow("items");
+        if (!TestCheck(m_Browser.RowCount() == 1 && m_Browser.ShownCount() == 0 && m_Browser.FirstClass() == "", "item root collapses without selecting a spawn class")) return false;
+        m_Browser.ActivateRow("items");
+        if (!TestCheck(m_Browser.RowIndex("items/GEAR/TOOLS/Hammer") >= 0, "item root restores previously expanded categories")) return false;
+        if (!TestCheck(IOTItemCatalog.Group("Hammer","custom/items/tool.p3d","CfgVehicles") == "OTHER" && IOTItemCatalog.Group("AK101","custom/weapons/rifle.p3d","CfgWeapons") == "WEAPONS/OTHER" && IOTItemCatalog.Group("HatchbackWheel","custom/items/wheel.p3d","CfgVehicles") == "VEHICLE_PARTS/WHEELS", "unknown item resources retain Other fallbacks and inherited wheel classification")) return false;
+        m_Browser.SetMode(false);
+        return true;
+    }
+
+    protected bool SelfTestStaticObjectFilter()
+    {
+        int hiddenCount = m_Browser.MatchCount();
+        int hiddenBranch = m_Browser.BranchCount(1);
+        if (!TestCheck(!m_Browser.ShowStaticObjects() && m_Browser.StaticControlVisible() && hiddenCount > 0 && hiddenCount < m_Browser.CatalogCount(false), "StaticObj checkbox starts off and reduces object counts")) return false;
+        m_Browser.Search("  STATICOBJ_FURNITURE_MATRESS_WHITE  ");
+        if (!TestCheck(m_Browser.MatchCount() == 0 && m_Browser.ShownCount() == 0 && m_Browser.FirstClass() == "", "StaticObj search is empty while checkbox is off")) return false;
+        m_Browser.SetShowStaticObjects(true);
+        if (!TestCheck(m_Browser.MatchCount() > 0 && m_Browser.RowIndex("map:1/FURNITURE/StaticObj_Furniture_matress_white") >= 0, "enabling StaticObj reveals matching objects in their categories")) return false;
+        m_Browser.ActivateRow("map:1/FURNITURE/StaticObj_Furniture_matress_white");
+        m_Browser.SetShowStaticObjects(false);
+        if (!TestCheck(m_Browser.MatchCount() == 0 && m_Browser.FirstClass() == "" && m_Browser.RowIndex("map:1/FURNITURE/StaticObj_Furniture_matress_white") < 0, "disabling StaticObj clears a hidden selected spawn classname")) return false;
+        m_Browser.Search("");
+        m_Browser.SetShowStaticObjects(true);
+        if (!TestCheck(m_Browser.MatchCount() == m_Browser.CatalogCount(false) && m_Browser.BranchCount(1) > hiddenBranch, "enabling StaticObj restores full root and branch counts")) return false;
+        m_Browser.SetMode(true);
+        if (!TestCheck(!m_Browser.StaticControlVisible() && m_Browser.MatchCount() == m_Browser.CatalogCount(true), "item catalog ignores and hides the StaticObj checkbox")) return false;
+        m_Browser.SetMode(false);
+        if (!TestCheck(m_Browser.ShowStaticObjects() && m_Browser.StaticControlVisible(), "StaticObj checkbox state survives tab switching")) return false;
+        m_Browser.SetShowStaticObjects(false);
+        if (!TestCheck(m_Browser.MatchCount() == hiddenCount && m_Browser.BranchCount(1) == hiddenBranch, "disabling StaticObj restores filtered counts")) return false;
+        PrintToRPT("[PROXY STATIC FILTER TEST] Default="+hiddenCount.ToString()+" all="+m_Browser.CatalogCount(false).ToString());
+        return true;
     }
 
     protected bool SelfTestLocalization()
@@ -1666,6 +2490,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
         PrintToRPT("[PROXY MODES TEST] Player disabled=" + player.GetIsSimulationDisabled().ToString() + " wheel disabled=" + wheel.GetIsSimulationDisabled().ToString() + " canHands=" + player.GetHumanInventory().CanAddEntityInHands(wheel).ToString());
         if (!TestCheck(!player.GetIsSimulationDisabled(), "player simulation restored")) return;
+        if (!TestCheck(PlayerHudRoot() && PlayerHudRoot().IsVisible() == m_PlayerHudWasVisible && !m_PlayerHudHidden, "player mode restores previous character HUD visibility")) return;
         if (!TestCheck(player.GetHumanInventory().CanAddEntityInHands(wheel), "take in hands permitted")) return;
         vector placedPosition = wheel.GetPosition();
         vector placedOrientation = wheel.GetOrientation();
@@ -1678,6 +2503,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         FreeDebugCamera camera = FreeDebugCamera.GetInstance();
         PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
         if (!TestCheck(!m_PlayerMode && camera.IsActive() && !m_Item && GetGizmoApi().GetCount() == 0 && m_Root.IsVisible() && m_Browser.IsVisible() && m_CreatedTray.IsVisible() && player.GetIsSimulationDisabled(), "return to editor without selection and restore all panels")) return;
+        if (!TestCheck(PlayerHudRoot() && !PlayerHudRoot().IsVisible() && m_PlayerHudHidden, "return to editor hides character HUD again")) return;
         SelectItem(wheel);
         if (!TestCheck(vector.Distance(wheel.GetPosition(),placedPosition) < 0.001 && vector.Distance(wheel.GetOrientation(),placedOrientation) < 0.001, "editor return preserves current placement")) return;
         bool exported = Export();

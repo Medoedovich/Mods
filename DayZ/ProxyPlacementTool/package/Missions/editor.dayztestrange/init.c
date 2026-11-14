@@ -10,6 +10,9 @@ void main()
     {
         GetGame().SelectPlayer(NULL, player);
         player.SetOrientation("0 0 0");
+        player.GetInventory().CreateInInventory("TShirt_Grey");
+        player.GetInventory().CreateInInventory("CargoPants_Grey");
+        player.GetInventory().CreateInInventory("HikingBoots_Black");
     }
     GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(IOT_StartProxyTool, 2000, false);
     Print("[PROXY ALPHA] 0.1.0-alpha / Medoedovich / DayZDiag offline editor. Scene saving is not available; export XML before exiting.");

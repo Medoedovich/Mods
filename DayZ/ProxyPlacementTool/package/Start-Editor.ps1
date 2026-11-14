@@ -78,7 +78,7 @@ try {
     if (-not $RuntimeRoot) { $RuntimeRoot = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'ProxyPlacementTool' }
     $RuntimeRoot = [IO.Path]::GetFullPath($RuntimeRoot)
     $taskProfiles = Join-Path $RuntimeRoot 'profiles'
-    Write-Host 'Proxy Placement Tool - Alpha 0.1.0 / Medoedovich'
+    Write-Host 'Proxy Placement Tool - Alpha 0.2.0 / Medoedovich'
     Write-Host ('DayZDiag: '+$taskExecutable)
     Write-Host ('Test Range: '+$TestRange)
     Write-Host ('Editor: '+$ModRoot)
@@ -105,7 +105,7 @@ try {
     if ($SelfTest -and $ExpectedLanguage) { $taskArguments += ('-proxyToolExpectedLanguage='+$ExpectedLanguage) }
     $taskStart.Arguments = $taskArguments -join ' '
     $taskProcess = [Diagnostics.Process]::Start($taskStart)
-    $taskLaunch = [ordered]@{Version='0.1.0-alpha';StartedAt=(Get-Date -Format o);PID=$taskProcess.Id;Game=$Game;Mod=$ModRoot;TestRange=$TestRange;Mission=$taskMission;Profiles=$taskProfiles;SelfTest=[bool]$SelfTest}
+    $taskLaunch = [ordered]@{Version='0.2.0-alpha';StartedAt=(Get-Date -Format o);PID=$taskProcess.Id;Game=$Game;Mod=$ModRoot;TestRange=$TestRange;Mission=$taskMission;Profiles=$taskProfiles;SelfTest=[bool]$SelfTest}
     $taskLaunch | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $RuntimeRoot 'last-launch.json') -Encoding UTF8
     $taskLaunch | ConvertTo-Json
 } catch {

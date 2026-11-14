@@ -1,33 +1,35 @@
 {
   "Name": "Proxy Placement Tool - Alpha",
   "Author": "Medoedovich",
-  "Version": "0.1.0-alpha",
+  "Version": "0.2.0-alpha",
   "Runtime": "DayZDiag offline",
-  "TestedGameVersion": "1.30.164289.70",
   "RequiredWorkshopItems": [
     "3826868718"
   ],
-  "ProjectSaveLoad": false,
+  "EditorLanguages": [
+    "Russian",
+    "English"
+  ],
   "Files": [
     {
       "Path": "CHANGELOG.md",
-      "Bytes": 928,
-      "SHA256": "52CBA8A14DD546402B8B4492BEACC7FB41F15DFDA9B7A7C21DD68570F3F13AED"
+      "Bytes": 2298,
+      "SHA256": "7583B5609BE9D87848E99228BC789BB92E842EB639692A6F9DA8E1E034C16DDE"
     },
     {
       "Path": "mod.cpp",
       "Bytes": 341,
-      "SHA256": "7BBEBF1FAAA7D5A23C330C990E822F0A086E309667EC800BB7E5ACC1AA24639E"
+      "SHA256": "E46C324F53F8DD3C6862A73D5285AAA18756EDCD68CFA3FFCF6D5FC6FB6F2A36"
     },
     {
       "Path": "README.en.md",
-      "Bytes": 4790,
-      "SHA256": "E25DFF0E83988B62F7641AFF4B88C160283BC0958A5C963F4B2F5C8E34E2FFEC"
+      "Bytes": 5426,
+      "SHA256": "22E9EC166EEEBAE8A1A866A984E3692C63CFF7F9D6488B090328818D53A3162A"
     },
     {
       "Path": "README.ru.md",
-      "Bytes": 9234,
-      "SHA256": "2EE339DCCA41A8AB8FA643859ED7195537D47BAE289F1563F34B051012796BF6"
+      "Bytes": 10244,
+      "SHA256": "437DB9F469C60114DF57B0D8DDB518985D47F61A7685EF9D3585401640375BE7"
     },
     {
       "Path": "Start-Editor.cmd",
@@ -37,12 +39,12 @@
     {
       "Path": "Start-Editor.ps1",
       "Bytes": 7184,
-      "SHA256": "624B22F30B48D49D7DFD4BA141A7A76B86B5992B2C95DB8A6F20659C2E0BA9ED"
+      "SHA256": "8756DB4706C1E9F12E9B60F7A5747177129FDDCE9ABE621779EC07B0C0AEB2D3"
     },
     {
       "Path": "addons/iot_proxy_tool.pbo",
-      "Bytes": 126898,
-      "SHA256": "7180A4E91B6B23D580E384F452497E47BEEBEDD4D24966070C6B1002F951280F"
+      "Bytes": 228963,
+      "SHA256": "7C58624E693439E772F3166DD6F375A782ACA243377B840AE5D80FB8C468A18C"
     },
     {
       "Path": "Missions/editor.dayztestrange/cfglimitsdefinition.xml",
@@ -56,8 +58,8 @@
     },
     {
       "Path": "Missions/editor.dayztestrange/init.c",
-      "Bytes": 755,
-      "SHA256": "ECCEF8CEEC35AAC4C7BF5DA36FE970ABC69D42BBD9A0D3193982DE88F35DF5F2"
+      "Bytes": 957,
+      "SHA256": "C58A5EFD1491A0BEC8825BD2D979757201964F0B377DAFD61B54B7E5A1F44780"
     },
     {
       "Path": "Missions/editor.dayztestrange/mapgrouppos.xml",
@@ -89,10 +91,5 @@
       "Bytes": 49,
       "SHA256": "17715D6637713EE59FFBF40CBA5A02D0F72EDAAB7880C78B32B8588C7B457D9E"
     }
-  ],
-  "EditorLanguages": [
-    "Russian",
-    "English"
-  ],
-  "OtherLanguages": "English fallback"
+  ]
 }

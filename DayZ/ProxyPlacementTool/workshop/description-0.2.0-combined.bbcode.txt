@@ -1,0 +1,87 @@
+[h1]Proxy Placement Tool — Alpha[/h1]
+[b]By Medoedovich · 0.2.0-alpha[/b]
+
+An offline authoring tool for positioning items relative to buildings and wrecks. Use native Gizmo controls or precise values, inspect items in character mode and export CE dispatch XML.
+
+[b]Early alpha. DayZDiag only.[/b]
+[b]Projects cannot be saved or reopened yet. Export XML before exiting. Each launch starts an empty scene; exported XML files remain available.[/b]
+
+[h2]Features[/h2]
+[list]
+[*]Create buildings, wrecks and items at runtime.
+[*]Browse Objects by map/category, with residential and wreck subcategories; StaticObj hidden by default.
+[*]Browse Items by category/subcategory, including weapons, ammo, clothing, tools and vehicle parts.
+[*]Global classname search reveals matching folders without a 100-result limit; expanded branches are remembered.
+[*]Native translation/rotation handles and precise coordinates/angles.
+[*]Created-item tray and multiple anchor instances.
+[*]Free camera with an adjustable speed multiplier.
+[*]Character mode for take-action and nearby-inventory checks; HUD hidden while editing and test character equipped with clothes and boots.
+[*]Separate multi-item XML exports for each anchor.
+[/list]
+
+[h2]Start[/h2]
+Requires DayZ, DayZ Tools with a matching DayZDiag executable and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3826868718]Test Range[/url]. Subscribe to both mods, open this tool's installed folder and run [b]Start-Editor.cmd[/b]. Close any running DayZ client first. Enabling the mod in the regular Launcher alone does not open the editor.
+
+See README.en.md or README.ru.md for setup. The editor follows the DayZDiag client language: Russian or English, with English for other languages. Tested with DayZDiag 1.30.164289.70.
+
+[h2]Controls[/h2]
+F1 cursor/flight; WASD, Q/Z and mouse flight; wheel speed multiplier; F4 character/editor; F7 translate; F8 rotate; F9 reset selection; F10 export; F11 diagnostics.
+
+[h2]Alpha limits[/h2]
+No project save/load, delete UI or undo/redo. Anchors use zero orientation and scale 1. Retail client, servers and multiplayer are unsupported. XML is a fragment for the target mission's mapgroupproto.xml; merge it with the appropriate economy settings, including types.xml, and test the result in CE. Preview placement is scripted; final loot placement is performed by the economy.
+
+Output: %LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement. Bug reports should include the game version, classnames, reproduction steps and relevant log lines.
+
+[h2]Discussion[/h2]
+[url=https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158]DayZ Modders — discussion, feedback and placement examples[/url]
+
+[h2]Source code[/h2]
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]GitHub — project sources and build instructions[/url]
+
+[h2]Contact[/h2]
+Discord: [b]medoedovich[/b]
+
+[h1]Русский[/h1]
+
+[h1]Proxy Placement Tool — Alpha[/h1]
+[b]Автор: Medoedovich · 0.2.0-alpha[/b]
+
+Офлайн-инструмент для подбора позиции и углов предметов относительно зданий и остовов. Разместите вещь штатным Gizmo или задайте точные значения, проверьте её персонажем и экспортируйте настройки для CE dispatch.
+
+[b]Это ранняя alpha. Запуск — только через DayZDiag.[/b]
+[b]Сохранения и открытия проектов пока нет: перед выходом экспортируйте XML. После перезапуска сцена начинается заново, экспортированные файлы сохраняются.[/b]
+
+[h2]Возможности[/h2]
+[list]
+[*]Создание зданий, остовов и предметов во время миссии.
+[*]Дерево объектов по картам и категориям, подкатегории жилых зданий и остовов; StaticObj по умолчанию скрыты.
+[*]Дерево предметов по категориям и подкатегориям: оружие, боеприпасы, одежда, инструменты, запчасти и другое.
+[*]Поиск classname раскрывает нужные папки без ограничения в 100 результатов; раскрытые ветки сохраняются.
+[*]Штатные ручки перемещения и вращения, точный ввод координат и углов.
+[*]Список созданных предметов и переключение между опорами.
+[*]Свободная камера с регулируемым множителем скорости.
+[*]Режим персонажа для проверки действия «Взять» и раздела «Поблизости»; HUD скрыт при редактировании, персонаж одет и обут.
+[*]Отдельный XML всех предметов каждой опоры.
+[/list]
+
+[h2]Установка[/h2]
+Нужны DayZ, DayZ Tools с подготовленным DayZDiag и [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3826868718]Test Range[/url]. Подпишитесь на оба мода, откройте папку этого инструмента и запустите [b]Start-Editor.cmd[/b]. Закройте уже запущенный клиент DayZ. Подключение мода в обычном Launcher само по себе редактор не открывает.
+
+Инструкция на русском — README.ru.md, английская — README.en.md. Интерфейс автоматически выбирает русский или английский по языку клиента DayZDiag; для остальных языков используется английский. Проверено с DayZDiag 1.30.164289.70.
+
+[h2]Управление[/h2]
+F1 — курсор/полёт; WASD, Q/Z, мышь — полёт; колесо — множитель скорости; F4 — персонаж/редактор; F7 — перемещение; F8 — вращение; F9 — сброс выбранной вещи; F10 — экспорт XML; F11 — диагностика.
+
+[h2]Ограничения alpha[/h2]
+Нет сохранения проектов, удаления через меню и undo/redo. Опора — без поворота, масштаб 1. Обычный клиент, сервер и мультиплеер не поддерживаются. Экспорт — заготовка для mapgroupproto.xml: её нужно объединить с настройками целевой миссии и проверить в CE, включая types.xml. Предпросмотр создаётся скриптом; итоговое размещение лута выполняет экономика.
+
+Результаты: %LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement. При ошибке укажите версию игры, classnames, шаги воспроизведения и строки журнала.
+
+[h2]Обсуждение[/h2]
+[url=https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158]DayZ Modders — обсуждение, отзывы и примеры размещения[/url]
+
+[h2]Исходный код[/h2]
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]GitHub — исходники проекта и инструкции по сборке[/url]
+
+[h2]Связь[/h2]
+Discord: [b]medoedovich[/b]

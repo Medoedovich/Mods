@@ -1,0 +1,23 @@
+[b]0.2.0-alpha — catalog update[/b]
+[list]
+[*]Objects tree: ChernarusPlus, Livonia, Sakhal and Nasdara, grouped by resource categories.
+[*]Residential and wreck subcategories, including Truck/Sedan/Offroad/Hatchback ground-vehicle wrecks.
+[*]StaticObj hidden by default, with a checkbox to show them.
+[*]Items tree: weapons, ammunition, attachments, clothing, food/drinks, equipment, vehicle parts and Other.
+[*]Classname search reveals matching paths without a 100-result limit; folder expansion survives tab switching.
+[*]Character HUD hidden in editor mode and restored in character mode; test character starts clothed and wearing boots.
+[*]Russian/English labels and updated instructions.
+[/list]
+DayZDiag offline alpha. Project save/load remains unavailable; export XML before exiting.
+
+[b]0.2.0-alpha — обновление каталогов[/b]
+[list]
+[*]Дерево объектов по картам ChernarusPlus, Livonia, Sakhal и Nasdara и категориям ресурсов.
+[*]Подкатегории жилых зданий и остовов, в том числе грузовики, седаны, внедорожники и хэтчбеки.
+[*]StaticObj скрыты по умолчанию; чекбокс возвращает их в каталог.
+[*]Дерево предметов: оружие, боеприпасы, обвесы, одежда, еда и напитки, снаряжение, запчасти и прочее.
+[*]Поиск classname раскрывает нужные ветки без ограничения в 100 результатов; раскрытые папки сохраняются при переключении вкладок.
+[*]HUD персонажа скрыт в редакторе и возвращается в режиме персонажа; персонаж начинает в одежде и ботинках.
+[*]Русские/английские подписи и обновлённые инструкции.
+[/list]
+Офлайн-alpha для DayZDiag. Сохранения проектов пока нет; перед выходом экспортируйте XML.

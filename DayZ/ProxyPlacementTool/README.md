@@ -2,7 +2,7 @@
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464) · [Русский](README-RU.md) · [Build from source](docs/BUILD.md) · [Validation](docs/VALIDATION.md)
 
-By **Medoedovich** · **0.1.0-alpha** · **DayZDiag offline only**
+By **Medoedovich** · **0.2.0-alpha** · **DayZDiag offline only**
 
 ![Proxy Placement Tool — Alpha](workshop/preview.jpg)
 
@@ -25,6 +25,8 @@ The repository also contains the tested build in [`dist/@ProxyPlacementTool`](di
 ## Work
 
 - Create a building or wreck from the left catalog, then switch to **Items** and create an item. Search uses classnames from loaded configurations.
+- Browse **Objects → map → category → classname**, with Residential and Wrecks subcategories. **Show StaticObj** is off by default. See [catalog scope and resource-family fallbacks](docs/MAP-CATALOG.md).
+- Browse **Items → category → subcategory → classname**. Search reveals matching branches without a 100-result limit, and both trees remember expanded folders. See [item categories](docs/ITEM-CATALOG.md) and [planned work](TODO.md).
 - Select an item in the world or in the bottom tray. **F7** shows translation handles; **F8** shows rotation rings. The right panel provides exact position and angle fields.
 - Click empty space to deselect. **F9** resets the current item to its pose when selected.
 - **F1** toggles cursor/flight. Fly with WASD, Q/Z and the mouse; the wheel changes the camera speed multiplier from 0.1 to 16.
@@ -47,7 +49,7 @@ Alpha limits: no project save/load, delete UI or undo/redo; anchors use zero ori
 
 | Path | Purpose |
 | --- | --- |
-| `src/iot/proxytool` | Exact script, configuration, stringtable and five layouts used to build the published alpha. |
+| `src/iot/proxytool` | Script, configuration, stringtable, map catalog and five layouts for this version. |
 | `package` | Portable launcher, mod information, instructions and bootstrap mission template. |
 | `dist/@ProxyPlacementTool` | Tested ready-to-run alpha package; the PBO matches Workshop. |
 | `tools/Build.ps1` | Build a new isolated package with official Addon Builder and check it with BankRev. |
@@ -60,7 +62,7 @@ The cover is a generated illustration, not an in-game screenshot. DayZ game file
 
 ## Validation and reports
 
-Tested with DayZDiag **1.30.164289.70**. English and Russian installed copies passed 51 editor checks per language; all 64 localization keys resolved. The downloaded Workshop copy also passed 51 checks and exported separate XML files for two anchors. See [validation details](docs/VALIDATION.md) for the scope of these checks.
+Version **0.2.0-alpha** passed **136 checks per language** in Russian and English, both in separate local installations and in the downloaded Workshop copy. All **167 localization keys** resolved, and all **17 delivered files** matched the prepared package. See [validation details](docs/VALIDATION.md).
 
 For bugs, include the DayZDiag version, anchor/item classnames, reproduction steps, relevant RPT/script log lines and exported XML. Use [GitHub issues](https://github.com/Medoedovich/Mods/issues) or [Workshop comments](https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464). Discord: **medoedovich**.
 

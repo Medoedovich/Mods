@@ -1,0 +1,33 @@
+{
+  "Source": "Bohemia Interactive DayZ terrain CE files",
+  "Definition": "Static CE group classnames present in mapgrouppos.xml, intersected with loaded building/wreck classes at runtime",
+  "License": "ADPL-SA",
+  "Maps": [
+    {
+      "Map": "Chernarus",
+      "World": "chernarusplus",
+      "Classes": 269,
+      "SHA256": "3EEAAD9786A73C339F61F6E6AD203F0732E36B88F27333978CC8B4BEECE9CEC4"
+    },
+    {
+      "Map": "Livonia",
+      "World": "enoch",
+      "Classes": 240,
+      "SHA256": "FE43DF7ADDF71F8C67EEA9DF63F6195A1A230D1EC1F8FE34A739B9C5DEE302D6"
+    },
+    {
+      "Map": "Sakhal",
+      "World": "sakhal",
+      "Classes": 304,
+      "SHA256": "803F609567FEB26CED99DC4C24338D022A2405C88F280071D9F66643B2EEFD20"
+    },
+    {
+      "Map": "Nasdara",
+      "World": "nasdara",
+      "Classes": 306,
+      "SHA256": "4C1C1BA3C58371866805AC9B9CD7F00363529D022F436AD859A282E3D552F05E"
+    }
+  ],
+  "UniqueClasses": 606,
+  "GeneratedSHA256": "DB04FB8A5A897D06DE90267E96098A11B02E10BCC1D178636A387EF595CA8E71"
+}

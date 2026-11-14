@@ -16,7 +16,7 @@ Each call creates a separate `build/<timestamp>` directory and prints the output
 
 The source prefix is **`iot\proxytool`**. The script uses `-packonly`; it does not binarize or redistribute DayZ assets. The official `AddonBuilder.exe` and `BankRev.exe` paths are resolved relative to the supplied `-Tools` folder. BankRev verifies the prefix and every required source entry.
 
-Edit the addon under `src/iot/proxytool`. `scripts/5_Mission/IOTProxyTool.c` is the assembled, readable editor script used for alpha 0.1.0; it includes localization helpers, catalogs, UI handling, native Gizmo integration and editor self-tests. `stringtable.csv` is the native 64-key RU/EN table. Keep fallback language columns populated when editing it. The five `gui/*.layout` files use its `#STR_IOT_` keys.
+Edit the addon under `src/iot/proxytool`. `scripts/5_Mission/IOTProxyTool.c` is the assembled, readable editor script; it includes localization helpers, catalogs, UI handling, native Gizmo integration and editor self-tests. `IOTMapCatalog.c` contains the generated [map membership data](MAP-CATALOG.md). The [item catalog](ITEM-CATALOG.md) reads loaded item configurations at runtime. `stringtable.csv` is the native 167-key RU/EN table. Keep fallback language columns populated when editing it. The five `gui/*.layout` files use its `#STR_IOT_` keys.
 
 Edit the launcher or bootstrap mission under `package`. To run a new build, close the existing DayZ client, install Test Range, then run **Start-Editor.cmd** from that build's `@ProxyPlacementTool` directory. Runtime data is outside the mod directory. The packed script and GUI resources must load without `-filePatching`.
 
@@ -37,7 +37,7 @@ For Workshop updates, use the existing item **3839146464**, preserve the require
 
 Префикс addon — **`iot\proxytool`**. Используется `-packonly`, без обработки и распространения игровых ресурсов. Параметр `-Tools` указывает каталог DayZ Tools, внутри которого скрипт находит AddonBuilder и BankRev. Проверяются префикс PBO и все необходимые файлы.
 
-Исходники addon находятся в `src/iot/proxytool`. `scripts/5_Mission/IOTProxyTool.c` — объединённый читаемый скрипт опубликованной alpha: локализация, каталоги, интерфейс, штатный Gizmo и проверки редактора. `stringtable.csv` содержит 64 ключа RU/EN; при изменении сохраняйте английские значения в остальных языковых столбцах. Пять layout-файлов в `gui` используют ключи `#STR_IOT_`.
+Исходники addon находятся в `src/iot/proxytool`. `scripts/5_Mission/IOTProxyTool.c` — объединённый читаемый скрипт редактора: локализация, каталоги, интерфейс, штатный Gizmo и проверки. `IOTMapCatalog.c` содержит сгенерированные [данные фильтра карт](MAP-CATALOG.md). [Каталог предметов](ITEM-CATALOG.md) читает загруженную конфигурацию при запуске. `stringtable.csv` содержит 167 ключей RU/EN; при изменении сохраняйте английские значения в остальных языковых столбцах. Пять layout-файлов в `gui` используют ключи `#STR_IOT_`.
 
 Launcher и стартовая миссия находятся в `package`. Для проверки новой сборки закройте текущий клиент DayZ, установите Test Range и запустите **Start-Editor.cmd** из новой папки `@ProxyPlacementTool`. Данные сеанса хранятся отдельно от мода. Скрипт и интерфейс должны загружаться из PBO без `-filePatching`.
 

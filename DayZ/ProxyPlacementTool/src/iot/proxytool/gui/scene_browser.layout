@@ -82,11 +82,39 @@ WindowWidgetClass IOTSceneBrowser {
   font "gui/fonts/sdf_MetronBook24"
   "exact text" 1
  }
+ CheckBoxWidgetClass SceneShowStatic {
+  Name "SceneShowStatic"
+  visible 1
+  position 16 148
+  size 328 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  checked 0
+  {
+   TextWidgetClass SceneShowStaticLabel {
+    Name "SceneShowStaticLabel"
+    position 24 3
+    size 304 20
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 13
+    "text color" 1 1 1 1
+    text "#STR_IOT_SHOW_STATICOBJ"
+   }
+  }
+ }
  TextListboxWidgetClass SceneResults {
   Name "SceneResults"
   visible 1
-  position 16 151
-  size 328 260
+  position 16 183
+  size 328 228
   hexactpos 1
   vexactpos 1
   hexactsize 1
@@ -94,7 +122,7 @@ WindowWidgetClass IOTSceneBrowser {
   style Default
   "title visible" 0
   colums "text;100"
-  lines 12
+  lines 10
   font "gui/fonts/Metron14"
  }
  TextWidgetClass SceneCount {

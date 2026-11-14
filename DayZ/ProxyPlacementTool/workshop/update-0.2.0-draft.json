@@ -1,0 +1,28 @@
+{
+  "status": "PUBLISHED_AND_WORKSHOP_VALIDATED",
+  "version": "0.2.0-alpha",
+  "title": "Proxy Placement Tool — Alpha",
+  "author": "Medoedovich",
+  "appId": 221100,
+  "workshopItemId": "3839146464",
+  "updateExistingItem": true,
+  "visibility": "Public",
+  "contentFolder": "../dist/@ProxyPlacementTool",
+  "pboSha256": "7C58624E693439E772F3166DD6F375A782ACA243377B840AE5D80FB8C468A18C",
+  "previousPublishedVersion": "0.1.0-alpha",
+  "previousPublishedPboSha256": "7180A4E91B6B23D580E384F452497E47BEEBEDD4D24966070C6B1002F951280F",
+  "description": "description-0.2.0-combined.bbcode.txt",
+  "descriptionSha256": "AB17225BAD64CDA9E27666C6375EFD33E0B624E07B614226EB52115B38795713",
+  "changeNote": "changenote-0.2.0.bbcode.txt",
+  "preview": "preview.jpg",
+  "requiredItems": [
+    "3826868718"
+  ],
+  "discussionUrl": "https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158",
+  "sourceRepository": "https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool",
+  "discordContact": "medoedovich",
+  "validation": "../docs/VALIDATION-0.2.0.md",
+  "archiveName": "ProxyPlacementTool-0.2.0-alpha.zip",
+  "archiveSha256": "50925E8F7032D25EC930730382F88093F37B6ED912958E618D51B2A21836E1F9",
+  "publishedContentManifestId": "8907751712909589628"
+}
