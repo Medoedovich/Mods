@@ -1,0 +1,20 @@
+[b]0.3.0-alpha — editor update[/b]
+
+[list]
+[*]Framed world editing area: selection and Gizmo input stay within the frame; leaving it cancels the current drag.
+[*]Drag buildings, wrecks and items from the catalog onto surfaces. Creation buttons are removed.
+[*]One building/wreck anchor per scene, with Replace / Cancel confirmation. Replacement preserves the character, inventory and existing XML exports; creation failure keeps the old layout.
+[*]Native 3D item previews on hover, with the full classname below its heading.
+[*]Localized item names and search by either name or classname, including partial queries and case-insensitive matching.
+[*]Compact Scene Objects list showing the character, anchor and items, with larger text and exact selection of duplicate item instances.
+[*]Move the selected character or anchor with the native Gizmo and numeric fields. Moving an anchor leaves its items in place; rotation remains available for items.
+[*]Toolbar for Move/Rotate, Fly/Cursor, anchor focus, character mode and XML export.
+[*]Reworked Object Properties: mode-specific position or Roll/Pitch/Yaw fields, colored axis labels, immediate numeric edits, individual reset icons and collapsible fine controls.
+[*]Taller catalog, search icon and placeholder, one-row wheel scrolling, fewer duplicate labels and a separate error notification.
+[/list]
+
+Interface design inspired by the World Editor in Arma Reforger.
+
+DayZDiag offline alpha. Project save/load, Undo/Redo and a delete UI remain unavailable; export XML before exiting. Anchors use zero rotation and scale one. The native Gizmo may draw outside the editing frame, while input stays restricted to it. Exported CE settings require integration and testing in the target mission.
+
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]Source code and documentation on GitHub[/url]

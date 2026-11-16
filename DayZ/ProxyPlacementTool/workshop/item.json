@@ -1,7 +1,7 @@
 {
   "title": "Proxy Placement Tool — Alpha",
   "author": "Medoedovich",
-  "version": "0.2.0-alpha",
+  "version": "0.3.0-alpha",
   "appId": 221100,
   "workshopItemId": "3839146464",
   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464",
@@ -20,23 +20,38 @@
   "previewSha256": "8E422E06ED0126D8E696C2A6C6985B0C1E949432E25842B4D623A951F77AA72C",
   "description": "description-combined.bbcode.txt",
   "descriptionSha256": "AB17225BAD64CDA9E27666C6375EFD33E0B624E07B614226EB52115B38795713",
-  "publishedPboSha256": "7C58624E693439E772F3166DD6F375A782ACA243377B840AE5D80FB8C468A18C",
+  "publishedPboSha256": "875450ECB4E301B855002BCF7025EDE66FF8C952F5879B186A5683C098AED482",
   "discussionUrl": "https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158",
   "discordContact": "medoedovich",
   "communityLinksUpdateDate": "2026-11-13",
   "communityLinksVerifiedInEnglishAndRussian": true,
-  "updatedDate": "2026-11-14",
-  "publishedContentManifestId": "8907751712909589628",
+  "updatedDate": "2026-11-16",
+  "publishedContentManifestId": "5346954173286684114",
   "descriptionBytes": 7785,
   "workshopUploadStatus": "PUBLISHED",
   "downloadedCopyValidation": {
-    "Status": "PASSED",
-    "Languages": [
-      "Russian",
-      "English"
-    ],
-    "ChecksPerLanguage": 136,
+    "Status": "FILES_MATCH_PREPARED_PACKAGE",
     "VerifiedPackageFiles": 17,
-    "ValidatedDate": "2026-11-14"
+    "ValidatedDate": "2026-11-16",
+    "RuntimeRetested": false,
+    "PreparedPackageRuntimeValidation": {
+      "Languages": [
+        "English",
+        "Russian"
+      ],
+      "ChecksPerLanguage": 292,
+      "LocalizationKeys": 207,
+      "FilePatching": false
+    }
+  },
+  "descriptionSnapshotVersion": "0.2.0-alpha",
+  "descriptionSnapshotStatus": "HISTORICAL_SNAPSHOT_CURRENT_DESCRIPTION_NOT_VERIFIED",
+  "latestDescriptionDraft": "description-next.bbcode.txt",
+  "changeNoteDraft": "changenote-0.3.0.bbcode.txt",
+  "gallery": {
+    "UploadedManuallyByAuthor": true,
+    "Images": 3,
+    "Date": "2026-11-16",
+    "LocalSource": "../docs/screenshots/0.3.0-alpha/"
   }
 }

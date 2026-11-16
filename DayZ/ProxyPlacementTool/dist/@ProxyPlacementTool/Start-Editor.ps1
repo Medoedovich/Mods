@@ -7,6 +7,7 @@ param(
     [string]$RuntimeRoot = '',
     [switch]$CheckOnly,
     [switch]$SelfTest,
+    [switch]$KeepOpenAfterTest,
     [ValidateSet('','English','Russian')][string]$ExpectedLanguage = ''
 )
 $ErrorActionPreference = 'Stop'
@@ -78,7 +79,7 @@ try {
     if (-not $RuntimeRoot) { $RuntimeRoot = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'ProxyPlacementTool' }
     $RuntimeRoot = [IO.Path]::GetFullPath($RuntimeRoot)
     $taskProfiles = Join-Path $RuntimeRoot 'profiles'
-    Write-Host 'Proxy Placement Tool - Alpha 0.2.0 / Medoedovich'
+    Write-Host 'Proxy Placement Tool - Alpha 0.3.0 / Medoedovich'
     Write-Host ('DayZDiag: '+$taskExecutable)
     Write-Host ('Test Range: '+$TestRange)
     Write-Host ('Editor: '+$ModRoot)
@@ -102,10 +103,11 @@ try {
     $taskStart.EnvironmentVariables['SteamGameId'] = '221100'
     $taskArguments = @(('"-mod='+($taskMods -join ';')+'"'),('"-mission='+$taskMission+'"'),('"-profiles='+$taskProfiles+'"'),('"-storage='+(Join-Path $taskSession 'storage')+'"'),'-window','-noPause','-noSplash','-doLogs')
     if ($SelfTest) { $taskArguments += '-proxyToolSelfTest=1' }
+    if ($SelfTest -and $KeepOpenAfterTest) { $taskArguments += '-proxyToolKeepOpen=1' }
     if ($SelfTest -and $ExpectedLanguage) { $taskArguments += ('-proxyToolExpectedLanguage='+$ExpectedLanguage) }
     $taskStart.Arguments = $taskArguments -join ' '
     $taskProcess = [Diagnostics.Process]::Start($taskStart)
-    $taskLaunch = [ordered]@{Version='0.2.0-alpha';StartedAt=(Get-Date -Format o);PID=$taskProcess.Id;Game=$Game;Mod=$ModRoot;TestRange=$TestRange;Mission=$taskMission;Profiles=$taskProfiles;SelfTest=[bool]$SelfTest}
+    $taskLaunch = [ordered]@{Version='0.3.0-alpha';StartedAt=(Get-Date -Format o);PID=$taskProcess.Id;Game=$Game;Mod=$ModRoot;TestRange=$TestRange;Mission=$taskMission;Profiles=$taskProfiles;SelfTest=[bool]$SelfTest}
     $taskLaunch | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $RuntimeRoot 'last-launch.json') -Encoding UTF8
     $taskLaunch | ConvertTo-Json
 } catch {

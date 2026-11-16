@@ -1,7 +1,7 @@
 WindowWidgetClass IOTProxyPanel {
  Name "IOTProxyPanel"
  position 20 20
- size 400 650
+ size 400 286
  halign right_ref
  hexactpos 1
  vexactpos 1
@@ -12,9 +12,8 @@ WindowWidgetClass IOTProxyPanel {
  {
  TextWidgetClass Title {
   Name "Title"
-  visible 1
-  position 16 10
-  size 368 28
+  position 16 12
+  size 368 27
   hexactpos 1
   vexactpos 1
   hexactsize 1
@@ -26,38 +25,50 @@ WindowWidgetClass IOTProxyPanel {
   "text color" 1 1 1 1
   text "#STR_IOT_TITLE"
  }
- TextWidgetClass ItemLabel {
-  Name "ItemLabel"
-  visible 1
-  position 16 44
-  size 368 20
+ TextWidgetClass NumberMeasure {
+  Name "NumberMeasure"
+  visible 0
+  position 0 0
+  size 368 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
+  font "gui/fonts/Metron22"
   "exact text" 1
-  "exact text size" 15
-  "text color" 1 1 1 1
-  text "#STR_IOT_ITEM"
  }
  XComboBoxWidgetClass ItemList {
   Name "ItemList"
-  visible 1
-  position 16 71
-  size 368 18
+  position 0 0
+  size 1 1
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
+  visible 0
+  ignorepointer 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
+  font "gui/fonts/Metron14"
  }
- TextWidgetClass AnchorLabel {
-  Name "AnchorLabel"
-  visible 1
-  position 16 105
+ XComboBoxWidgetClass AnchorList {
+  Name "AnchorList"
+  position 0 0
+  size 1 1
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  visible 0
+  ignorepointer 1
+  style Default
+  font "gui/fonts/Metron14"
+ }
+
+
+ TextWidgetClass PositionTitle {
+  Name "PositionTitle"
+  position 16 52
   size 368 20
   hexactpos 1
   vexactpos 1
@@ -68,53 +79,12 @@ WindowWidgetClass IOTProxyPanel {
   "exact text" 1
   "exact text size" 14
   "text color" 1 1 1 1
-  text "#STR_IOT_ANCHOR"
+  text "#STR_IOT_POSITION_SHORT"
  }
- XComboBoxWidgetClass AnchorList {
-  Name "AnchorList"
-  visible 1
-  position 16 133
-  size 368 14
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
- }
- ButtonWidgetClass MoveMode {
-  Name "MoveMode"
-  visible 1
-  position 16 164
-  size 176 30
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.533
-  text "#STR_IOT_MOVE"
- }
- ButtonWidgetClass RotateMode {
-  Name "RotateMode"
-  visible 1
-  position 208 164
-  size 176 30
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.533
-  text "#STR_IOT_ROTATE"
- }
- TextWidgetClass PositionTitle {
-  Name "PositionTitle"
-  visible 1
-  position 16 207
-  size 238 24
+ TextWidgetClass RotationTitle {
+  Name "RotationTitle"
+  position 16 52
+  size 368 20
   hexactpos 1
   vexactpos 1
   hexactsize 1
@@ -124,454 +94,426 @@ WindowWidgetClass IOTProxyPanel {
   "exact text" 1
   "exact text size" 14
   "text color" 1 1 1 1
-  text "#STR_IOT_POSITION"
+  text "#STR_IOT_ROTATION_SHORT"
  }
- ButtonWidgetClass MoveStep {
-  Name "MoveStep"
-  visible 1
-  position 264 204
-  size 120 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.536
-  text "#STR_IOT_MOVE_STEP_DEFAULT"
- }
- TextWidgetClass PosLabel0 {
-  Name "PosLabel0"
-  visible 1
-  position 18 240
-  size 28 28
+ PanelWidgetClass PosAxis0 {
+  Name "PosAxis0"
+  position 16 80
+  size 26 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 18
-  "text color" 1 1 1 1
-  text "X"
+  color 0.62 0.24 0.24 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass PosLabel0 {
+    Name "PosLabel0"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 16
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "X"
+   }
+  }
  }
- ButtonWidgetClass PosMinus0 {
-  Name "PosMinus0"
-  visible 1
-  position 48 240
-  size 42 28
+ PanelWidgetClass RotAxis0 {
+  Name "RotAxis0"
+  position 16 80
+  size 76 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "−"
+  ignorepointer 1
+  color 0.62 0.24 0.24 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass RotLabel0 {
+    Name "RotLabel0"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 16
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Roll"
+   }
+  }
  }
  EditBoxWidgetClass Pos0 {
   Name "Pos0"
-  visible 1
-  position 100 240
-  size 230 28
+  position 50 80
+  size 160 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
+  font "gui/fonts/Metron22"
   "exact text" 1
- }
- ButtonWidgetClass PosPlus0 {
-  Name "PosPlus0"
-  visible 1
-  position 342 240
-  size 42 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "+"
- }
- TextWidgetClass PosLabel1 {
-  Name "PosLabel1"
-  visible 1
-  position 18 274
-  size 28 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 18
-  "text color" 1 1 1 1
-  text "Y"
- }
- ButtonWidgetClass PosMinus1 {
-  Name "PosMinus1"
-  visible 1
-  position 48 274
-  size 42 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "−"
- }
- EditBoxWidgetClass Pos1 {
-  Name "Pos1"
-  visible 1
-  position 100 274
-  size 230 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
- }
- ButtonWidgetClass PosPlus1 {
-  Name "PosPlus1"
-  visible 1
-  position 342 274
-  size 42 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "+"
- }
- TextWidgetClass PosLabel2 {
-  Name "PosLabel2"
-  visible 1
-  position 18 308
-  size 28 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 18
-  "text color" 1 1 1 1
-  text "Z"
- }
- ButtonWidgetClass PosMinus2 {
-  Name "PosMinus2"
-  visible 1
-  position 48 308
-  size 42 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "−"
- }
- EditBoxWidgetClass Pos2 {
-  Name "Pos2"
-  visible 1
-  position 100 308
-  size 230 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
- }
- ButtonWidgetClass PosPlus2 {
-  Name "PosPlus2"
-  visible 1
-  position 342 308
-  size 42 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "+"
- }
- TextWidgetClass RotationTitle {
-  Name "RotationTitle"
-  visible 1
-  position 16 349
-  size 238 24
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 16
-  "text color" 1 1 1 1
-  text "#STR_IOT_ROTATION"
- }
- ButtonWidgetClass AngleStep {
-  Name "AngleStep"
-  visible 1
-  position 264 346
-  size 120 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.536
-  text "#STR_IOT_ANGLE_STEP_DEFAULT"
- }
- TextWidgetClass RotLabel0 {
-  Name "RotLabel0"
-  visible 1
-  position 18 382
-  size 28 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 18
-  "text color" 1 1 1 1
-  text "1"
- }
- ButtonWidgetClass RotMinus0 {
-  Name "RotMinus0"
-  visible 1
-  position 48 382
-  size 42 28
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "−"
  }
  EditBoxWidgetClass Rot0 {
   Name "Rot0"
-  visible 1
-  position 100 382
-  size 230 28
+  position 100 80
+  size 140 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
+  font "gui/fonts/Metron22"
   "exact text" 1
  }
- ButtonWidgetClass RotPlus0 {
-  Name "RotPlus0"
-  visible 1
-  position 342 382
-  size 42 28
+ ButtonWidgetClass PosReset0 {
+  Name "PosReset0"
+  position 218 83
+  size 26 26
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "+"
+  {
+   ImageWidgetClass PosReset0Icon {
+    Name "PosReset0Icon"
+    position 4 4
+    size 18 18
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    image0 "set:dayz_gui image:icon_refresh"
+    mode blend
+    "src alpha" 1
+    filter 1
+   }
+  }
  }
- TextWidgetClass RotLabel1 {
-  Name "RotLabel1"
-  visible 1
-  position 18 416
-  size 28 28
+ ButtonWidgetClass RotReset0 {
+  Name "RotReset0"
+  position 248 83
+  size 26 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  {
+   ImageWidgetClass RotReset0Icon {
+    Name "RotReset0Icon"
+    position 4 4
+    size 18 18
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    image0 "set:dayz_gui image:icon_refresh"
+    mode blend
+    "src alpha" 1
+    filter 1
+   }
+  }
+ }
+ PanelWidgetClass PosAxis1 {
+  Name "PosAxis1"
+  position 16 118
+  size 26 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 18
-  "text color" 1 1 1 1
-  text "2"
+  color 0.22 0.45 0.29 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass PosLabel1 {
+    Name "PosLabel1"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 16
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Y"
+   }
+  }
  }
- ButtonWidgetClass RotMinus1 {
-  Name "RotMinus1"
-  visible 1
-  position 48 416
-  size 42 28
+ PanelWidgetClass RotAxis1 {
+  Name "RotAxis1"
+  position 16 118
+  size 76 32
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.22 0.45 0.29 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass RotLabel1 {
+    Name "RotLabel1"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 16
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Pitch"
+   }
+  }
+ }
+ EditBoxWidgetClass Pos1 {
+  Name "Pos1"
+  position 50 118
+  size 160 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "−"
+  font "gui/fonts/Metron22"
+  "exact text" 1
  }
  EditBoxWidgetClass Rot1 {
   Name "Rot1"
-  visible 1
-  position 100 416
-  size 230 28
+  position 100 118
+  size 140 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
+  font "gui/fonts/Metron22"
   "exact text" 1
  }
- ButtonWidgetClass RotPlus1 {
-  Name "RotPlus1"
-  visible 1
-  position 342 416
-  size 42 28
+ ButtonWidgetClass PosReset1 {
+  Name "PosReset1"
+  position 218 121
+  size 26 26
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "+"
+  {
+   ImageWidgetClass PosReset1Icon {
+    Name "PosReset1Icon"
+    position 4 4
+    size 18 18
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    image0 "set:dayz_gui image:icon_refresh"
+    mode blend
+    "src alpha" 1
+    filter 1
+   }
+  }
  }
- TextWidgetClass RotLabel2 {
-  Name "RotLabel2"
-  visible 1
-  position 18 450
-  size 28 28
+ ButtonWidgetClass RotReset1 {
+  Name "RotReset1"
+  position 248 121
+  size 26 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  {
+   ImageWidgetClass RotReset1Icon {
+    Name "RotReset1Icon"
+    position 4 4
+    size 18 18
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    image0 "set:dayz_gui image:icon_refresh"
+    mode blend
+    "src alpha" 1
+    filter 1
+   }
+  }
+ }
+ PanelWidgetClass PosAxis2 {
+  Name "PosAxis2"
+  position 16 156
+  size 26 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 18
-  "text color" 1 1 1 1
-  text "3"
+  color 0.23 0.38 0.62 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass PosLabel2 {
+    Name "PosLabel2"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 16
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Z"
+   }
+  }
  }
- ButtonWidgetClass RotMinus2 {
-  Name "RotMinus2"
-  visible 1
-  position 48 450
-  size 42 28
+ PanelWidgetClass RotAxis2 {
+  Name "RotAxis2"
+  position 16 156
+  size 76 32
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.23 0.38 0.62 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass RotLabel2 {
+    Name "RotLabel2"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 16
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Yaw"
+   }
+  }
+ }
+ EditBoxWidgetClass Pos2 {
+  Name "Pos2"
+  position 50 156
+  size 160 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "−"
+  font "gui/fonts/Metron22"
+  "exact text" 1
  }
  EditBoxWidgetClass Rot2 {
   Name "Rot2"
-  visible 1
-  position 100 450
-  size 230 28
+  position 100 156
+  size 140 32
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
-  font "gui/fonts/sdf_MetronBook24"
+  font "gui/fonts/Metron22"
   "exact text" 1
  }
- ButtonWidgetClass RotPlus2 {
-  Name "RotPlus2"
-  visible 1
-  position 342 450
-  size 42 28
+ ButtonWidgetClass PosReset2 {
+  Name "PosReset2"
+  position 218 159
+  size 26 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  {
+   ImageWidgetClass PosReset2Icon {
+    Name "PosReset2Icon"
+    position 4 4
+    size 18 18
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    image0 "set:dayz_gui image:icon_refresh"
+    mode blend
+    "src alpha" 1
+    filter 1
+   }
+  }
+ }
+ ButtonWidgetClass RotReset2 {
+  Name "RotReset2"
+  position 248 159
+  size 26 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  {
+   ImageWidgetClass RotReset2Icon {
+    Name "RotReset2Icon"
+    position 4 4
+    size 18 18
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    image0 "set:dayz_gui image:icon_refresh"
+    mode blend
+    "src alpha" 1
+    filter 1
+   }
+  }
+ }
+ ButtonWidgetClass FineToggle {
+  Name "FineToggle"
+  position 16 200
+  size 368 28
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   style Default
   font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.643
-  text "+"
+  text_proportion 0.50
+  text "#STR_IOT_FINE_SETTINGS"
  }
- ButtonWidgetClass ApplyValues {
-  Name "ApplyValues"
-  visible 1
-  position 16 490
-  size 176 30
+ PanelWidgetClass FinePanel {
+  Name "FinePanel"
+  position 16 358
+  size 368 170
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.533
-  text "#STR_IOT_APPLY"
- }
- ButtonWidgetClass PlayerMode {
-  Name "PlayerMode"
-  visible 1
-  position 208 490
-  size 176 30
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.533
-  text "#STR_IOT_CHARACTER"
- }
- ButtonWidgetClass Reset {
-  Name "Reset"
-  visible 1
-  position 16 528
-  size 176 30
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.533
-  text "#STR_IOT_RESET"
- }
- ButtonWidgetClass Export {
-  Name "Export"
-  visible 1
-  position 208 528
-  size 176 30
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.533
-  text "XML · F10"
- }
- ButtonWidgetClass Ground {
-  Name "Ground"
-  visible 1
-  position 16 566
+  visible 0
+  color 0.14 0.16 0.18 0.98
+  style rover_sim_colorable
+  {
+ ButtonWidgetClass MoveStep {
+  Name "MoveStep"
+  position 0 0
   size 368 26
   hexactpos 1
   vexactpos 1
@@ -579,14 +521,363 @@ WindowWidgetClass IOTProxyPanel {
   vexactsize 1
   style Default
   font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.538
+  text_proportion 0.50
+  text "#STR_IOT_MOVE_STEP_DEFAULT"
+ }
+ ButtonWidgetClass AngleStep {
+  Name "AngleStep"
+  position 0 0
+  size 368 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "#STR_IOT_ANGLE_STEP_DEFAULT"
+ }
+ PanelWidgetClass FinePosAxis0 {
+  Name "FinePosAxis0"
+  position 0 33
+  size 20 24
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.62 0.24 0.24 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass FinePosLabel0 {
+    Name "FinePosLabel0"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 14
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "X"
+   }
+  }
+ }
+ PanelWidgetClass FineRotAxis0 {
+  Name "FineRotAxis0"
+  position 0 32
+  size 90 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.62 0.24 0.24 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass FineRotLabel0 {
+    Name "FineRotLabel0"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 14
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Roll"
+   }
+  }
+ }
+ ButtonWidgetClass PosMinus0 {
+  Name "PosMinus0"
+  position 26 32
+  size 42 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "−"
+ }
+ ButtonWidgetClass PosPlus0 {
+  Name "PosPlus0"
+  position 74 32
+  size 42 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "+"
+ }
+ ButtonWidgetClass RotMinus0 {
+  Name "RotMinus0"
+  position 100 32
+  size 120 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "−"
+ }
+ ButtonWidgetClass RotPlus0 {
+  Name "RotPlus0"
+  position 232 32
+  size 120 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "+"
+ }
+ PanelWidgetClass FinePosAxis1 {
+  Name "FinePosAxis1"
+  position 124 33
+  size 20 24
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.22 0.45 0.29 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass FinePosLabel1 {
+    Name "FinePosLabel1"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 14
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Y"
+   }
+  }
+ }
+ PanelWidgetClass FineRotAxis1 {
+  Name "FineRotAxis1"
+  position 0 66
+  size 90 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.22 0.45 0.29 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass FineRotLabel1 {
+    Name "FineRotLabel1"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 14
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Pitch"
+   }
+  }
+ }
+ ButtonWidgetClass PosMinus1 {
+  Name "PosMinus1"
+  position 150 32
+  size 42 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "−"
+ }
+ ButtonWidgetClass PosPlus1 {
+  Name "PosPlus1"
+  position 198 32
+  size 42 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "+"
+ }
+ ButtonWidgetClass RotMinus1 {
+  Name "RotMinus1"
+  position 100 66
+  size 120 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "−"
+ }
+ ButtonWidgetClass RotPlus1 {
+  Name "RotPlus1"
+  position 232 66
+  size 120 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "+"
+ }
+ PanelWidgetClass FinePosAxis2 {
+  Name "FinePosAxis2"
+  position 248 33
+  size 20 24
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.23 0.38 0.62 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass FinePosLabel2 {
+    Name "FinePosLabel2"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 14
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Z"
+   }
+  }
+ }
+ PanelWidgetClass FineRotAxis2 {
+  Name "FineRotAxis2"
+  position 0 100
+  size 90 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  ignorepointer 1
+  color 0.23 0.38 0.62 1
+  style rover_sim_colorable
+  {
+   TextWidgetClass FineRotLabel2 {
+    Name "FineRotLabel2"
+    position 0 0
+    size 1 1
+    ignorepointer 1
+    font "gui/fonts/sdf_MetronBook24"
+    "exact text" 1
+    "exact text size" 14
+    "text color" 1 1 1 1
+    "text halign" center
+    "text valign" center
+    text "Yaw"
+   }
+  }
+ }
+ ButtonWidgetClass PosMinus2 {
+  Name "PosMinus2"
+  position 274 32
+  size 42 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "−"
+ }
+ ButtonWidgetClass PosPlus2 {
+  Name "PosPlus2"
+  position 322 32
+  size 42 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "+"
+ }
+ ButtonWidgetClass RotMinus2 {
+  Name "RotMinus2"
+  position 100 100
+  size 120 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "−"
+ }
+ ButtonWidgetClass RotPlus2 {
+  Name "RotPlus2"
+  position 232 100
+  size 120 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
+  text "+"
+ }
+ ButtonWidgetClass Ground {
+  Name "Ground"
+  position 0 68
+  size 368 26
+  hexactpos 1
+  vexactpos 1
+  hexactsize 1
+  vexactsize 1
+  style Default
+  font "gui/fonts/sdf_MetronBook24"
+  text_proportion 0.50
   text "#STR_IOT_GROUND"
  }
+  }
+ }
+
+
+
+
  MultilineTextWidgetClass Status {
   Name "Status"
-  visible 1
-  position 16 598
-  size 368 28
+  position 16 438
+  size 368 60
   hexactpos 1
   vexactpos 1
   hexactsize 1
@@ -597,36 +888,21 @@ WindowWidgetClass IOTProxyPanel {
   "exact text size" 13
   "text color" 1 1 1 1
   text "#STR_IOT_SELECT_HINT"
- }
- TextWidgetClass Help {
-  Name "Help"
-  visible 1
-  position 16 628
-  size 368 18
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 13
-  "text color" 1 1 1 1
-  text "#STR_IOT_HELP"
+  wrap 1
  }
  MultilineTextWidgetClass Debug {
   Name "Debug"
-  visible 1
-  position 16 658
+  position 16 508
   size 368 64
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
+  visible 0
   ignorepointer 1
   font "gui/fonts/sdf_MetronBook24"
   "exact text" 1
-  "exact text size" 13
+  "exact text size" 12
   "text color" 1 1 1 1
  }
  }

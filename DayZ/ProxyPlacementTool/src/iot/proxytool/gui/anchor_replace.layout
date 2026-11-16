@@ -1,0 +1,95 @@
+PanelWidgetClass AnchorReplaceOverlay {
+ Name "AnchorReplaceOverlay"
+ visible 0
+ position 0 0
+ size 1280 720
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ color 0 0 0 0.55
+ style rover_sim_colorable
+ {
+  PanelWidgetClass ReplaceDialog {
+   Name "ReplaceDialog"
+   position 380 205
+   size 520 310
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   color 0.14 0.17 0.19 1
+   style rover_sim_colorable
+   {
+    TextWidgetClass ReplaceTitle {
+     Name "ReplaceTitle"
+     position 20 16
+     size 480 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 21
+     "text color" 1 1 1 1
+    }
+    MultilineTextWidgetClass ReplaceNames {
+     Name "ReplaceNames"
+     position 20 58
+     size 480 70
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text color" 1 1 1 1
+     wrap 1
+    }
+    MultilineTextWidgetClass ReplaceWarning {
+     Name "ReplaceWarning"
+     position 20 140
+     size 480 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text color" 1 0.8 0.5 1
+     wrap 1
+    }
+    ButtonWidgetClass ReplaceCancel {
+     Name "ReplaceCancel"
+     position 20 258
+     size 230 34
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Default
+     font "gui/fonts/sdf_MetronBook24"
+     text_proportion 0.47
+    }
+    ButtonWidgetClass ReplaceConfirm {
+     Name "ReplaceConfirm"
+     position 270 258
+     size 230 34
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Default
+     font "gui/fonts/sdf_MetronBook24"
+     text_proportion 0.47
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,68 @@
+PanelWidgetClass ErrorNotification {
+ Name "ErrorNotification"
+ visible 0
+ position 0 0
+ size 440 120
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ color 0.16 0.07 0.07 0.98
+ style rover_sim_colorable
+ {
+  PanelWidgetClass ErrorAccent {
+   position 0 0
+   size 4 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   ignorepointer 1
+   color 0.95 0.25 0.25 1
+   style rover_sim_colorable
+  }
+  TextWidgetClass ErrorTitle {
+   Name "ErrorTitle"
+   position 16 10
+   size 364 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 16
+   "text color" 1 0.6 0.6 1
+   text "#STR_IOT_ERROR_TITLE"
+  }
+  ButtonWidgetClass ErrorClose {
+   Name "ErrorClose"
+   position 402 8
+   size 26 26
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.7
+   text "×"
+  }
+  MultilineTextWidgetClass ErrorText {
+   Name "ErrorText"
+   position 16 42
+   size 408 66
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 1 1 1 1
+   wrap 1
+  }
+ }
+}

@@ -1,0 +1,70 @@
+WindowWidgetClass ItemHoverPreview {
+ Name "ItemHoverPreview"
+ visible 0
+ position 0 0
+ size 280 292
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ ignorepointer 1
+ style rover_sim_black_2
+ "title visible" 0
+ {
+  TextWidgetClass HoverClassTitle {
+   Name "HoverClassTitle"
+   position 10 8
+   size 260 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 0.75 0.8 0.85 1
+   text "#STR_IOT_CLASSNAME"
+  }
+  MultilineTextWidgetClass HoverItemClass {
+   Name "HoverItemClass"
+   position 10 32
+   size 260 48
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 1 1 1 1
+   wrap 1
+  }
+  ItemPreviewWidgetClass HoverItemModel {
+   Name "HoverItemModel"
+   position 10 86
+   size 260 196
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+  }
+  TextWidgetClass HoverItemEmpty {
+   Name "HoverItemEmpty"
+   position 10 86
+   size 260 196
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 1 1 1 1
+   text "#STR_IOT_ITEM_PREVIEW_UNAVAILABLE"
+  }
+ }
+}

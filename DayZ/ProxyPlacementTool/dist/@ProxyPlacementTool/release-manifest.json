@@ -1,7 +1,7 @@
 {
   "Name": "Proxy Placement Tool - Alpha",
   "Author": "Medoedovich",
-  "Version": "0.2.0-alpha",
+  "Version": "0.3.0-alpha",
   "Runtime": "DayZDiag offline",
   "RequiredWorkshopItems": [
     "3826868718"
@@ -13,23 +13,23 @@
   "Files": [
     {
       "Path": "CHANGELOG.md",
-      "Bytes": 2298,
-      "SHA256": "7583B5609BE9D87848E99228BC789BB92E842EB639692A6F9DA8E1E034C16DDE"
+      "Bytes": 5178,
+      "SHA256": "B560A37C9ADC84B5097C404D37BEFA4200012E97D5CA12CB08CF2FD1127D8DD3"
     },
     {
       "Path": "mod.cpp",
       "Bytes": 341,
-      "SHA256": "E46C324F53F8DD3C6862A73D5285AAA18756EDCD68CFA3FFCF6D5FC6FB6F2A36"
+      "SHA256": "BE81FE6A36DAA3F3A3E9288D90504F55890A854A8722E33905AFC2770EE524AC"
     },
     {
       "Path": "README.en.md",
-      "Bytes": 5426,
-      "SHA256": "22E9EC166EEEBAE8A1A866A984E3692C63CFF7F9D6488B090328818D53A3162A"
+      "Bytes": 6245,
+      "SHA256": "92EB12A2C81823DF26FC63FF8A69314E578A62C35F101E9B9EBF63C4F77E3671"
     },
     {
       "Path": "README.ru.md",
-      "Bytes": 10244,
-      "SHA256": "437DB9F469C60114DF57B0D8DDB518985D47F61A7685EF9D3585401640375BE7"
+      "Bytes": 11687,
+      "SHA256": "FAB35FF56B6607A9C4488516B130BD877478E25C2EE32B2E246B3743BFCF8859"
     },
     {
       "Path": "Start-Editor.cmd",
@@ -38,13 +38,13 @@
     },
     {
       "Path": "Start-Editor.ps1",
-      "Bytes": 7184,
-      "SHA256": "8756DB4706C1E9F12E9B60F7A5747177129FDDCE9ABE621779EC07B0C0AEB2D3"
+      "Bytes": 7304,
+      "SHA256": "CA8025A2ADF7A67A26250DE94D95D39C041D022565852E09D099B4B7D601B317"
     },
     {
       "Path": "addons/iot_proxy_tool.pbo",
-      "Bytes": 228963,
-      "SHA256": "7C58624E693439E772F3166DD6F375A782ACA243377B840AE5D80FB8C468A18C"
+      "Bytes": 384583,
+      "SHA256": "875450ECB4E301B855002BCF7025EDE66FF8C952F5879B186A5683C098AED482"
     },
     {
       "Path": "Missions/editor.dayztestrange/cfglimitsdefinition.xml",
@@ -59,7 +59,7 @@
     {
       "Path": "Missions/editor.dayztestrange/init.c",
       "Bytes": 957,
-      "SHA256": "C58A5EFD1491A0BEC8825BD2D979757201964F0B377DAFD61B54B7E5A1F44780"
+      "SHA256": "8A3783616B3293C9CFB8EF69FE9064252AD88848AB4A78BA349274CB1ACDDC30"
     },
     {
       "Path": "Missions/editor.dayztestrange/mapgrouppos.xml",

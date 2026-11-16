@@ -1,0 +1,39 @@
+PanelWidgetClass IOTCatalogDrag {
+ position 0 0
+ size 300 52
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ ignorepointer 1
+ color 0.10 0.12 0.14 0.95
+ style rover_sim_colorable
+ {
+  TextWidgetClass DragClassName {
+   position 10 5
+   size 280 21
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 16
+   "text color" 1 1 1 1
+  }
+  TextWidgetClass DragDropHint {
+   position 10 28
+   size 280 18
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 12
+   "text color" 1 1 1 1
+  }
+ }
+}

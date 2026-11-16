@@ -1,0 +1,16 @@
+{
+  "status": "WORKSHOP_DELIVERY_FILES_VERIFIED",
+  "version": "0.3.0-alpha",
+  "workshopItemId": "3839146464",
+  "requiredItems": [
+    "3826868718"
+  ],
+  "updateExistingItem": true,
+  "published": true,
+  "pboSha256": "875450ECB4E301B855002BCF7025EDE66FF8C952F5879B186A5683C098AED482",
+  "validation": "../docs/VALIDATION-0.3.0.md",
+  "authorManualPublication": true,
+  "publicationDate": "2026-11-16",
+  "workshopContentManifestId": "5346954173286684114",
+  "verifiedPackageFiles": 17
+}

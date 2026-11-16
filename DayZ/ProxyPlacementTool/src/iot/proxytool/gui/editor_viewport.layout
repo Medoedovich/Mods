@@ -1,0 +1,58 @@
+PanelWidgetClass IOTEditorViewport {
+ Name "IOTEditorViewport"
+ position 0 0
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ ignorepointer 1
+ color 0 0 0 0
+ style rover_sim_colorable
+ {
+  PanelWidgetClass WorldTop {
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.63 0.69 0.73 0.51
+   style rover_sim_colorable
+  }
+  PanelWidgetClass WorldBottom {
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.63 0.69 0.73 0.51
+   style rover_sim_colorable
+  }
+  PanelWidgetClass WorldLeft {
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.63 0.69 0.73 0.51
+   style rover_sim_colorable
+  }
+  PanelWidgetClass WorldRight {
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.63 0.69 0.73 0.51
+   style rover_sim_colorable
+  }
+ }
+}

@@ -1,0 +1,34 @@
+ButtonWidgetClass CatalogItemRow {
+ Name "CatalogItemRow"
+ position 0 0
+ size 308 24
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ clipchildren 1
+ style Default
+ {
+  PanelWidgetClass CatalogItemBackground {
+   Name "CatalogItemBackground"
+   position 0 0
+   size 1 1
+   ignorepointer 1
+   color 0.14 0.16 0.17 1
+   style rover_sim_colorable
+  }
+  TextWidgetClass CatalogItemLabel {
+   Name "CatalogItemLabel"
+   position 4 2
+   size 300 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/Metron14"
+   "exact text" 1
+   "text color" 1 1 1 1
+  }
+ }
+}

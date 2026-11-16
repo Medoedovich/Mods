@@ -1,6 +1,6 @@
 # Proxy Placement Tool — Alpha
 
-By **Medoedovich**, version **0.2.0-alpha**.
+By **Medoedovich**, version **0.3.0-alpha**.
 
 An offline authoring tool for positioning items relative to buildings and wrecks, then exporting CE `dispatch` XML. **DayZDiag only.** Tested with DayZDiag **1.30.164289.70**.
 
@@ -24,22 +24,20 @@ Start-Editor.cmd -ExtraMods "X:\Mods\@One;X:\Mods\@Two"
 
 ## Work
 
-The editor follows the DayZDiag client language: Russian or English. Other client languages use English.
+- In **Objects**, open a map/category or search by classname. Drag an actual building/wreck row onto a surface inside the world frame. The editor creates and frames the anchor; a normal click only selects a catalog entry.
+- The scene has **one anchor**. Dropping another opens **Replace / Cancel**; Escape cancels. Confirming removes the old anchor and its placed world items after validating the replacement. The character, inventory and existing XML exports remain. Export any layout you need before replacing it.
+- **Show StaticObj** is off by default. Residential buildings and wrecks have further subcategories; both catalog trees preserve folder expansion.
+- Open **Items**, search by the localized name or classname, then drag an item onto a surface in the world frame. Hover over a row for its 3D preview and full classname. Repeated drops create separate instances without a quantity limit. Drops outside the frame or over the sky cancel creation.
+- Select an item by clicking its model or its row in **Scene Objects**, below the catalog. Click empty world space to deselect. **F7 / Move** shows translation arrows; **F8 / Rotate** shows rotation rings. A drag stops when it leaves the world area and requires a new press to continue.
+- **Object Properties** shows Position in Move mode and Roll/Pitch/Yaw in Rotate mode. Valid numeric edits apply immediately. Each reset icon restores one component to its value at selection time; **F9** restores the full selection. Expand **Fine adjustments** for step controls.
+- Select the character or anchor in Scene Objects to move that entity with the native Gizmo or world position fields. Moving the anchor leaves items in place. Item coordinates are relative to the anchor; character and anchor positions are world coordinates. Only items can rotate.
+- **F1 / Fly** toggles cursor and flight. Fly with WASD, Q/Z and the mouse. The wheel changes the 0.1–16 speed multiplier, shown briefly below the center; Shift/Ctrl accelerate and Alt slows down.
+- **F4 / Character** switches to the dressed test character for take-action and nearby-inventory checks. Close inventory and press F4 to return. Character HUD is hidden while editing.
+- The toolbar also focuses the anchor and exports XML. **Item XML / F10** exports the selected item and the full anchor; **Anchor XML** exports all associated ground items. **F11** toggles diagnostics. Errors appear in a separate dismissible notification.
 
-- Left: open **Objects → map → category**, select a classname and create an anchor. Residential buildings and wrecks have further subcategories. The camera frames the created anchor automatically.
-- **Show StaticObj** is off by default. Enable it to include StaticObj classes in the object tree and search.
-- Switch to **Items → category → subcategory**, select an item and create it beside the active anchor. Categories include weapons, ammunition, attachments, clothing, food/drinks, equipment, vehicle parts and Other.
-- Select an item in the world or in the bottom tray. **F7** shows native translation handles; **F8** shows rotation rings. The right panel provides exact coordinates and angles.
-- Click empty space to deselect. **F9** restores the item to its pose at selection time.
-- **F4** switches to character mode for take-action and nearby-inventory checks. Close inventory and press F4 to return.
-- Create additional anchors without restarting. The right anchor selector switches between them; bottom cards select exact item instances across anchors. Use ‹/› for more cards.
-- **Export anchor XML** exports all ground items associated with the current anchor. **F10** exports the selected item and the full anchor together.
+Search accepts partial queries, ignores letter case and surrounding spaces, and reveals matching branches without a 100-result cap. Objects uses classnames; Items accepts both client-localized names and classnames. Distinct classes with the same displayed name remain separate rows. Catalogs use loaded configurations, including additional mods; individual third-party classes may need separate testing.
 
-**F1** toggles cursor/flight. Fly with WASD, Q/Z and mouse; the wheel adjusts the 0.1–16 speed multiplier. Shift/Ctrl temporarily accelerate, Alt slows down. **F11** toggles world-coordinate diagnostics.
-
-Search covers the complete loaded catalog, ignores case and surrounding spaces and reveals matching folders. There is no 100-result limit. Folder expansion is preserved when switching tabs; folders do not select a spawn classname. You can also enter an exact classname in the lower field. Catalogs use loaded configs, including additional mods; individual third-party classes may need separate testing.
-
-The character HUD is hidden in editor mode and restored in character mode. The test character starts dressed and wearing boots.
+Interface design inspired by the World Editor in Arma Reforger.
 
 ## Export
 

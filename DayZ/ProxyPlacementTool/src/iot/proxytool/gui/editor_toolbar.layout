@@ -1,0 +1,126 @@
+PanelWidgetClass IOTEditorToolbar {
+ Name "IOTEditorToolbar"
+ position 20 20
+ size 1000 48
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ color 0.12 0.15 0.17 0.96
+ style rover_sim_colorable
+ {
+  ButtonWidgetClass MoveMode {
+   Name "MoveMode"
+   position 8 8
+   size 160 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.46
+   text "#STR_IOT_MOVE"
+   {
+    PanelWidgetClass MoveModeActive {
+     Name "MoveModeActive"
+     visible 0
+     position 0 0.9
+     size 1 0.1
+     ignorepointer 1
+     color 0.25 0.65 0.95 1
+     style rover_sim_colorable
+    }
+   }
+  }
+  ButtonWidgetClass RotateMode {
+   Name "RotateMode"
+   position 8 8
+   size 160 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.46
+   text "#STR_IOT_ROTATE"
+   {
+    PanelWidgetClass RotateModeActive {
+     Name "RotateModeActive"
+     visible 0
+     position 0 0.9
+     size 1 0.1
+     ignorepointer 1
+     color 0.25 0.65 0.95 1
+     style rover_sim_colorable
+    }
+   }
+  }
+  ButtonWidgetClass CameraMode {
+   Name "CameraMode"
+   position 8 8
+   size 160 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.46
+   text "#STR_IOT_CAMERA_FLIGHT"
+  }
+  ButtonWidgetClass SceneFocus {
+   Name "SceneFocus"
+   position 8 8
+   size 160 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.46
+   text "#STR_IOT_FOCUS_ANCHOR"
+  }
+  ButtonWidgetClass PlayerMode {
+   Name "PlayerMode"
+   position 8 8
+   size 160 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.46
+   text "#STR_IOT_CHARACTER"
+  }
+  ButtonWidgetClass Export {
+   Name "Export"
+   position 8 8
+   size 160 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.46
+   text "#STR_IOT_XML_SELECTION"
+  }
+  ButtonWidgetClass SceneExport {
+   Name "SceneExport"
+   position 8 8
+   size 160 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Default
+   font "gui/fonts/sdf_MetronBook24"
+   text_proportion 0.46
+   text "#STR_IOT_EXPORT_ANCHOR"
+  }
+ }
+}
