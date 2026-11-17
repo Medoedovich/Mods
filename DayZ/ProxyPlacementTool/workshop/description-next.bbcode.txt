@@ -1,24 +1,22 @@
 [url=https://github.com/Medoedovich/Mods/blob/main/DayZ/ProxyPlacementTool/README-RU.md]Описание и инструкция на русском[/url]
 
-An offline authoring tool for positioning items relative to buildings and wrecks. Use native Gizmo controls or precise values, inspect items in character mode and export CE dispatch XML.
+An offline DayZ editor for placing loot at any angle relative to buildings and wrecks, like vehicle parts on vanilla wrecks. Use the native Gizmo or enter precise coordinates and angles, check the placement as a character, and export CE dispatch XML.
 
 [b]Early alpha. DayZDiag only.[/b]
-[b]Projects cannot be saved or reopened yet. Export XML before exiting. Each launch starts an empty scene; exported XML files remain available.[/b]
 
 [h2]Features[/h2]
 [list]
 [*]Create buildings, wrecks and items by dragging catalog entries into the world editing area.
-[*]Browse Objects by map/category, with residential and wreck subcategories; StaticObj hidden by default.
-[*]Browse Items by category/subcategory, including weapons, ammo, clothing, tools and vehicle parts.
-[*]Search items by localized name or classname; search objects by classname. Matching folders are revealed without a 100-result limit, and expanded branches are remembered.
-[*]Native 3D item previews on hover, with the full classname.
-[*]Native translation/rotation handles and precise coordinates/angles.
-[*]Scene Objects list for selecting the character, anchor and individual item instances.
-[*]One building/wreck anchor per scene, with Replace / Cancel confirmation when changing it.
-[*]Free camera with an adjustable speed multiplier.
-[*]Character mode for take-action and nearby-inventory checks; HUD hidden while editing and test character equipped with clothes and boots.
-[*]Separate multi-item XML exports for each anchor.
+[*]Browse buildings and wrecks by map and category. Search items by localized name or classname and hover over a result for a 3D preview.
+[*]Save and reopen JSON projects with the building or wreck, placed items, character position and camera view.
+[*]Move and rotate loot with native Gizmo handles or numeric fields. Undo and redo transform edits.
+[*]Show standard loot points and their spawn volumes to spot where new proxies might overlap existing loot. The editor uses the installed game's data when available.
+[*]Use Place on surface to lay an item flat on the ground or floor directly below it.
+[*]Switch to the test character to check the Take action and the Vicinity inventory panel.
+[*]Export CE dispatch XML for the selected item or for all placed items associated with the building or wreck.
 [/list]
+
+Interface design inspired by the World Editor in Arma Reforger.
 
 [h2]Start[/h2]
 Requires DayZ, DayZ Tools with a matching DayZDiag executable and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3826868718]Test Range[/url].
@@ -26,40 +24,35 @@ Requires DayZ, DayZ Tools with a matching DayZDiag executable and [url=https://s
 [olist]
 [*]Subscribe to this tool and Test Range, and wait for both downloads.
 [*]Close any running DayZ client and keep Steam running.
-[*]Open this tool's installed folder: steamapps/workshop/content/221100/3839146464.
+[*]Open [b]steamapps/workshop/content/221100/3839146464[/b] in your Steam library.
 [*]Run [b]Start-Editor.cmd[/b].
 [/olist]
 
 Enabling the mod in the regular Launcher alone does not open the editor.
 
-See README.en.md or README.ru.md for setup. The editor follows the DayZDiag client language: Russian or English, with English for other languages. Tested with DayZDiag 1.30.164289.70.
+The editor follows the DayZDiag client language and supports Russian and English. Other languages use English.
 
 [h2]Controls[/h2]
 [list]
-[*][b]F1[/b] — switch between cursor and camera flight.
-[*][b]WASD[/b] — move the camera; [b]Q/Z[/b] — move up/down during flight.
-[*][b]Mouse[/b] — look around during flight.
-[*][b]Mouse wheel[/b] — adjust the camera speed multiplier during flight.
-[*][b]Shift/Ctrl[/b] — fly faster; [b]Alt[/b] — fly slower.
+[*][b]Hold the right mouse button[/b] over the scene to fly. Release it to return to the cursor.
+[*][b]WASD[/b] moves the camera, [b]Q[/b] rises, [b]Z[/b] descends, and the mouse looks around. The mouse wheel adjusts flight speed. The camera icon in [b]View[/b] opens the full control reference.
 [*][b]F4[/b] — switch between the character and editor.
-[*][b]F7[/b] — move the selected entity.
-[*][b]F8[/b] — rotate the selected item.
-[*][b]F9[/b] — reset the selection to its pose at selection time.
+[*][b]F7 / F8[/b] — move the selected entity or rotate the selected item.
+[*][b]F9[/b] — restore the selected entity's position and orientation from when it was selected.
+[*][b]Ctrl+Z / Ctrl+Y[/b] — undo or redo a transform edit.
 [*][b]F10[/b] — export the selected item and full anchor XML.
 [*][b]F11[/b] — toggle diagnostics.
 [/list]
 
 [h2]Alpha limits[/h2]
 [list]
-[*]Project saving and loading are not available yet. Export XML before exiting.
-[*]No delete UI or Undo/Redo yet.
-[*]Anchors use zero orientation and scale 1; anchor rotation is unsupported.
-[*]The retail client, servers and multiplayer are unsupported. This tool requires DayZDiag.
-[*]Exported XML is a fragment for the target mission's mapgroupproto.xml. Merge it with the appropriate economy settings, including types.xml, and test the result in CE.
-[*]Editor preview placement is scripted; final loot placement is performed by the economy.
+[*]The editor runs offline in DayZDiag with Test Range.
+[*]Each scene has one building or wreck at zero orientation and scale 1.
+[*]Undo and Redo cover position and rotation changes.
+[*]Merge the exported dispatch into the target mission's mapgroupproto.xml, configure the economy as needed, and test spawning in CE.
 [/list]
 
-Output: %LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement. Bug reports should include the game version, classnames, reproduction steps and relevant log lines.
+Find XML exports and the Projects folder under [b]%LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement[/b]. For bug reports, include the game version, classnames, reproduction steps and relevant log lines.
 
 [h2]Discussion[/h2]
 [url=https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158]DayZ Modders — discussion, feedback and placement examples[/url]

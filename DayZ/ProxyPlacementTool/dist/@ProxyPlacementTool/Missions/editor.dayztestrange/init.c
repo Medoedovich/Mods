@@ -15,7 +15,7 @@ void main()
         player.GetInventory().CreateInInventory("HikingBoots_Black");
     }
     GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(IOT_StartProxyTool, 2000, false);
-    Print("[PROXY ALPHA] 0.3.0-alpha / Medoedovich / DayZDiag offline editor. Scene saving is not available; export XML before exiting.");
+    Print("[PROXY ALPHA] 0.4.0-alpha / Medoedovich / DayZDiag offline editor.");
 }
 
 Mission CreateCustomMission(string path)

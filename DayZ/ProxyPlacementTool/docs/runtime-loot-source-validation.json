@@ -1,0 +1,12 @@
+{
+  "Status": "RUNTIME_LOOT_SOURCES_VALIDATED",
+  "GameVersion": "1.30.164289.70",
+  "Checks": 16,
+  "ComparedPoints": 53335,
+  "Packaging": "UNPACKED_MISSION",
+  "Language": "Russian",
+  "VisualReview": "PENDING_AUTHOR_CHECK",
+  "EnglishValidation": "DEFERRED_UNTIL_WORKSHOP_RELEASE",
+  "ValidatedAt": "2026-11-17T13:39:13.2417435+03:00",
+  "Published": false
+}

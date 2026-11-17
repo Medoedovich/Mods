@@ -1,0 +1,62 @@
+PanelWidgetClass IOTEditorMatte {
+ Name "IOTEditorMatte"
+ position 0 0
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ ignorepointer 1
+ color 0 0 0 0
+ style rover_sim_colorable
+ {
+  PanelWidgetClass MatteTop {
+   Name "MatteTop"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.04314 0.05098 0.05882 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass MatteBottom {
+   Name "MatteBottom"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.04314 0.05098 0.05882 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass MatteLeft {
+   Name "MatteLeft"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.04314 0.05098 0.05882 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass MatteRight {
+   Name "MatteRight"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.04314 0.05098 0.05882 1
+   style rover_sim_colorable
+  }
+ }
+}

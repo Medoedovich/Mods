@@ -1,11 +1,12 @@
 # Validation / Проверки
 
+- [0.4.0-alpha: release package and Workshop delivery](VALIDATION-0.4.0.md) — 395 checks per language, 255 localization keys, 17 matching downloaded files; published and file-verified, 2026-11-17.
 - [0.3.0-alpha: release package and Workshop delivery](VALIDATION-0.3.0.md) — 292 checks per language, 207 localization keys, 17 matching downloaded files; published and file-verified, 2026-11-16.
 
 - [0.2.0-alpha: package, installed copies and Workshop delivery](VALIDATION-0.2.0.md) — published 2026-11-14.
 - [0.1.0-alpha: original publication record](VALIDATION-0.1.0.md) — historical release, 2026-11-13.
 
-Опубликованная версия: **0.3.0-alpha**. Релизный пакет прошёл по 292 проверки на русском и английском; все 17 скачанных Workshop-файлов совпали с ним. Повторный игровой прогон скачанной копии не проводился: её PBO идентичен проверенному.
+Опубликованная версия: **0.4.0-alpha**. Релизный пакет прошёл по 395 проверок на русском и английском, разрешены 255 ключей локализации. Все 17 скачанных Workshop-файлов совпали с проверенной сборкой по SHA-256.
 
 ## Порядок проверок при разработке
 

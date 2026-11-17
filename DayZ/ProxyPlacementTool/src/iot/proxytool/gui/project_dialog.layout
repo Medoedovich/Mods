@@ -1,0 +1,131 @@
+PanelWidgetClass ProjectOverlay {
+ Name "ProjectOverlay"
+ visible 0
+ position 0 0
+ size 1280 720
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ color 0 0 0 0.72
+ style rover_sim_colorable
+ {
+  PanelWidgetClass ProjectDialog {
+   Name "ProjectDialog"
+   position 360 140
+   size 560 440
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   color 0.075 0.10 0.125 0.91
+   style rover_sim_colorable
+   {
+  PanelWidgetClass ThemeRule {
+   Name "ThemeRule"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   ignorepointer 1
+   color 0.65 0.68 0.69 0.22
+   style rover_sim_colorable
+  }
+    TextWidgetClass ProjectTitle {
+     Name "ProjectTitle"
+     position 20 16
+     size 520 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 21
+    }
+    TextWidgetClass ProjectNameLabel {
+     Name "ProjectNameLabel"
+     position 20 52
+     size 520 24
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     text "#STR_IOT_PROJECT_NAME"
+    }
+    EditBoxWidgetClass ProjectName {
+     Name "ProjectName"
+     position 20 78
+     size 520 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style IOT_Edit
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+    }
+    TextListboxWidgetClass ProjectList {
+     Name "ProjectList"
+     position 20 120
+     size 520 180
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style IOT_List
+     "title visible" 0
+     colums "text;100"
+     lines 8
+     font "gui/fonts/Metron22"
+    }
+    MultilineTextWidgetClass ProjectInfo {
+     Name "ProjectInfo"
+     position 20 312
+     size 520 65
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     wrap 1
+    }
+    ButtonWidgetClass ProjectCancel {
+     Name "ProjectCancel"
+     position 20 392
+     size 250 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style IOT_Button
+     font "gui/fonts/sdf_MetronBook24"
+     text_proportion 0.47
+     text "#STR_IOT_REPLACE_CANCEL"
+    }
+    ButtonWidgetClass ProjectAction {
+     Name "ProjectAction"
+     position 290 392
+     size 250 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style IOT_Button
+     font "gui/fonts/sdf_MetronBook24"
+     text_proportion 0.47
+    }
+   }
+  }
+ }
+}

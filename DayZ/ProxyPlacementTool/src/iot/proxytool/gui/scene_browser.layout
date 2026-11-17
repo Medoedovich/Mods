@@ -1,4 +1,5 @@
 WindowWidgetClass IOTSceneBrowser {
+ color 0.035 0.055 0.075 0.54
  Name "IOTSceneBrowser"
  position 20 20
  size 360 501
@@ -6,9 +7,21 @@ WindowWidgetClass IOTSceneBrowser {
  vexactpos 1
  hexactsize 1
  vexactsize 1
- style rover_sim_black_2
+ style IOT_Window
  "title visible" 0
  {
+  PanelWidgetClass ThemeRule {
+   Name "ThemeRule"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   ignorepointer 1
+   color 0.65 0.68 0.69 0.22
+   style rover_sim_colorable
+  }
  TextWidgetClass SceneTitle {
   Name "SceneTitle"
   visible 1
@@ -34,7 +47,7 @@ WindowWidgetClass IOTSceneBrowser {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.467
   text "#STR_IOT_BUILDINGS"
@@ -48,7 +61,7 @@ WindowWidgetClass IOTSceneBrowser {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.500
   text "#STR_IOT_ITEMS"
@@ -73,7 +86,7 @@ WindowWidgetClass IOTSceneBrowser {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Edit
   font "gui/fonts/sdf_MetronBook24"
   "exact text" 1
  }
@@ -93,6 +106,7 @@ WindowWidgetClass IOTSceneBrowser {
   text "#STR_IOT_CLASSNAME"
  }
  CheckBoxWidgetClass SceneShowStatic {
+ style IOT_Checkbox
   Name "SceneShowStatic"
   visible 1
   position 16 126
@@ -103,6 +117,16 @@ WindowWidgetClass IOTSceneBrowser {
   vexactsize 1
   checked 0
   {
+   CanvasWidgetClass SceneShowStaticIcon {
+    Name "SceneShowStaticIcon"
+    position 2 4
+    size 16 16
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+   }
    TextWidgetClass SceneShowStaticLabel {
     Name "SceneShowStaticLabel"
     position 24 3
@@ -129,7 +153,7 @@ WindowWidgetClass IOTSceneBrowser {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_List
   "title visible" 0
   colums "text;100"
   lines 10
@@ -145,7 +169,7 @@ WindowWidgetClass IOTSceneBrowser {
   hexactsize 1
   vexactsize 1
   clipchildren 1
-  style Default
+  style IOT_Scroll
   "Scrollbar V" 1
   {
    PanelWidgetClass SceneItemRows {
@@ -156,28 +180,38 @@ WindowWidgetClass IOTSceneBrowser {
     vexactpos 1
     hexactsize 1
     vexactsize 1
-    color 0.14 0.16 0.17 1
+    color 0.035 0.052 0.065 0.22
     style rover_sim_colorable
    }
   }
  }
 
-
-
- MultilineTextWidgetClass SceneStatus {
-  Name "SceneStatus"
-  visible 1
-  position 16 443
-  size 328 42
+ PanelWidgetClass CatalogScrollTrack {
+  Name "CatalogScrollTrack"
+  visible 0
+  position 328 161
+  size 16 228
   hexactpos 1
   vexactpos 1
   hexactsize 1
   vexactsize 1
   ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 13
-  "text color" 1 1 1 1
+  color 0.13 0.17 0.20 1
+  style rover_sim_colorable
+  {
+   PanelWidgetClass CatalogScrollThumb {
+    Name "CatalogScrollThumb"
+    position 6 0
+    size 4 40
+    hexactpos 1
+    vexactpos 1
+    hexactsize 1
+    vexactsize 1
+    ignorepointer 1
+    color 0.65 0.67 0.67 1
+    style rover_sim_colorable
+   }
+  }
  }
  }
 }

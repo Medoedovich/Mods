@@ -4,7 +4,7 @@
 
   **English:** Add meaningful subcategories wherever an item category or existing subcategory contains more than 30 item entries. Preserve global search, counts, complete classname coverage and Russian/English labels.
 
-- [ ] Создать `FEATURES.md` с описанием основных и второстепенных возможностей редактора. Например: индикатор множителя скорости камеры под прицелом, который появляется при изменении скорости колесом мыши.
+- [x] Создать [FEATURES.md](FEATURES.md) с описанием возможностей редактора, включая индикатор множителя скорости камеры под прицелом и подсказку управления.
 
   **English:** Create `FEATURES.md` documenting both major and smaller editor features, including the camera speed multiplier indicator shown below the crosshair when the mouse wheel changes speed.
 
@@ -24,19 +24,19 @@
 
   **English:** Add a Proxy editing mode, enabled by default, with a dedicated toolbar button.
 
-- [ ] Добавить режим заполнения здания по его стандартным точкам лута, с отдельной кнопкой включения на панели инструментов.
+- [x] Добавить отдельную кнопку показа штатных точек лута здания/остова и их полупрозрачных объёмов по данным `mapgroupproto.xml`. Использовать их как ориентир при размещении Proxy, чтобы видеть возможные пересечения с обычным лутом. Визуализация следует за опорой, не перехватывает выбор предметов и не попадает в экспорт Proxy. Создание/редактирование штатных точек и заполнение их предметами в эту задачу не входят. Реализовано в следующей версии: 376 технических проверок RU пройдены, включая 14 новых; визуальная проверка — автором. [Поведение, источники и проверки](docs/LOOT-VOLUMES.md).
 
-  **English:** Add a mode for filling a building at its standard loot points, activated by a dedicated toolbar button.
+  **English:** Add a toolbar toggle showing the building/wreck's existing loot points and translucent volumes from `mapgroupproto.xml`, as a placement guide for avoiding overlap between proxies and regular loot. The overlay follows the anchor, does not intercept item selection and stays out of proxy export. Creating/editing standard points and populating them with items are outside this task. Implemented for the next version: 376 Russian native checks passed, including 14 new checks; visual review pending author check. See [behavior, sources and validation](docs/LOOT-VOLUMES.md).
 
-- [ ] Реализовать сохранение и открытие проекта.
+- [x] Реализовать сохранение и открытие проекта: JSON с опорой, предметами, их положением и поворотом, персонажем и камерой. Добавить список файлов, подтверждения перезаписи/замены сцены, резервную копию предыдущего сохранения и проверку данных до удаления текущей сцены. Реализовано в следующей версии; технические проверки RU пройдены, проверка интерфейса и открытия после перезапуска — автором. [Поведение и проверки](docs/PROJECTS.md).
 
-  **English:** Implement saving and opening projects.
+  **English:** Save and open projects as JSON with the anchor, item transforms, character position and camera state. Include a file list, overwrite/scene replacement confirmation, a backup of the previous save and validation before removing the current scene. Implemented for the next version; Russian technical checks passed, UI and reopening after restart pending author review. See [behavior and validation](docs/PROJECTS.md).
 
 - [ ] **Опционально:** разделить каталог «Предметы» по картам: ChernarusPlus, Livonia, Sakhal и Nasdara. Продумать выделение общих для нескольких карт предметов в раздел **Common**. Сохранить категории, подкатегории и поиск по всему каталогу.
 
   **English:** **Optional:** organize the Items catalog by map: ChernarusPlus, Livonia, Sakhal and Nasdara. Consider a **Common** section for items shared across maps. Preserve categories, subcategories and global catalog search.
 
-- [ ] Пересмотреть описание в Workshop и описание изменений. Убрать из описания Workshop дублирующие название и строку автора/версии (`Proxy Placement Tool — Alpha`, `By Medoedovich · 0.2.0-alpha`). В описании изменений оставить английский текст и ссылку на GitHub вместо полного русского перевода. Окончательный текст и публикацию автор выполняет вручную по `PUBLICATION.md`.
+- [x] Пересмотреть описание в Workshop и описание изменений. Убрать из описания Workshop дублирующие название и строку автора/версии (`Proxy Placement Tool — Alpha`, `By Medoedovich · 0.2.0-alpha`). В описании изменений оставить английский текст и ссылку на GitHub вместо полного русского перевода. Окончательный текст и публикацию автор выполняет вручную по `PUBLICATION.md`. Автор подтвердил сохранение обновлённого описания при публикации 0.4.0-alpha 17 ноября 2026.
 
   **English:** Review the Workshop description and release notes. Remove redundant title and author/version lines from the Workshop description (`Proxy Placement Tool — Alpha`, `By Medoedovich · 0.2.0-alpha`). Keep release notes in English with a GitHub link instead of a full Russian translation. The author handles final copy and publishing manually under `PUBLICATION.md`.
 
@@ -58,7 +58,7 @@
 
 - [x] **Следующий релиз:** после реализации и проверки перетаскивания зданий/остовов с ограничением одной опорой на сцене подготовить новую версию для Steam Workshop со всеми накопленными изменениями. Перед релизом проверить английский интерфейс. Публикацию автор выполняет вручную по [правилам публикации](PUBLICATION.md).
 
-  **English:** **Next release:** after implementing and validating building/wreck drag-and-drop with one scene anchor, prepare a new Steam Workshop version containing the accumulated changes. Validate the English interface before release. The author publishes manually under the [publication rules](PUBLICATION.md). Candidate 0.3.0-alpha prepared and validated locally: [report](docs/VALIDATION-0.3.0.md). Publication remains pending.
+  **English:** **Next release:** after implementing and validating building/wreck drag-and-drop with one scene anchor, prepare a new Steam Workshop version containing the accumulated changes. Validate the English interface before release. The author publishes manually under the [publication rules](PUBLICATION.md). Version 0.3.0-alpha is published in Workshop and GitHub; the author also announced it on Discord. See the [release validation](docs/VALIDATION-0.3.0.md).
 
 - [x] В описании проекта и следующего обновления упомянуть источник вдохновения для интерфейса: «Дизайн интерфейса вдохновлён World Editor из Arma Reforger».
 
@@ -72,9 +72,9 @@
 
   **English:** Add previews of selected buildings and wrecks in the Objects catalog.
 
-- [ ] Добавить автоматический поворот камеры, когда перемещаемый предмет приближается к краю активной области. Согласовать поведение с отменой перетаскивания при выходе за рамку.
+- [ ] **Опционально:** автоматически поворачивать камеру, когда перемещаемый предмет достигает границы экрана / активной области мира, чтобы продолжать перемещение. Согласовать поведение с отменой перетаскивания при выходе за рамку.
 
-  **English:** Automatically rotate the camera when a dragged item approaches an edge of the world editing area. Coordinate this behavior with drag cancellation when leaving the frame.
+  **English:** **Optional:** automatically rotate the camera when a dragged item reaches the screen / world editing area boundary, allowing movement to continue. Coordinate this behavior with drag cancellation when leaving the frame.
 
 - [x] Переработать окно сцены: компактный плоский список «Объекты на сцене» слева под каталогом показывает персонажа, здание/остов и предметы. Щелчок по предмету выбирает точный экземпляр и включает штатный Gizmo; строки опоры и персонажа фокусируют камеру. [Поведение и проверки](docs/SCENE-OBJECTS.md).
 
@@ -112,6 +112,10 @@
 
   **English:** **Optional:** limit item creation in Proxy placement mode to an area around the building/wreck so items cannot be spawned excessively far from their anchor. Consider using the model bounds with an approximately **10-metre** margin.
 
+- [x] Заменить пробную кнопку «На землю перед опорой» командой «Положить на поверхность». Уложить выбранный предмет плашмя на землю или пол под ним с учётом габаритов модели, сохранив X/Z. Записывать положение и поворот одним действием Undo/Redo.
+
+  **English:** Replace the test placement button with a Place on Surface command for the selected item. For example, lay a wheel on the ground or floor beneath it while keeping its X/Z position. Align it to the surface and use the model bounds to make contact without floating or sinking.
+
 - [x] **Опционально:** показывать превью предмета при наведении курсора на его строку в каталоге во временном всплывающем окне сбоку от списка. Задержка 250 мс; выбор в каталоге и сцене сохраняется, при перетаскивании окно закрывается. [Поведение и проверки](docs/ITEM-HOVER.md).
 
   **English:** **Optional:** show an item preview in a temporary popup beside the catalog when hovering over its entry. Use a 250 ms delay, preserve catalog and scene selection, and close on drag. See [behavior and validation](docs/ITEM-HOVER.md).
@@ -144,17 +148,19 @@
 
   **English:** Move the Roll/Pitch/Yaw reset icons closer to their numeric values, removing the large gap between each value and its button.
 
-- [ ] Активировать управление камерой по умолчанию при нажатии на активную область мира. После внедрения убрать отдельную кнопку переключения камеры с панели инструментов. В инструкции описать управление камерой и назначение кнопок.
+- [x] Включать управление камерой при удержании **ПКМ внутри активной области мира**. При отпускании ПКМ возвращать курсор для выбора сущностей и работы с Gizmo. Заменить этим постоянное переключение режимов через **F1** и убрать отдельную кнопку камеры с панели инструментов. В инструкции описать управление камерой и назначение кнопок. Реализовано в следующей версии; [управление и проверка](docs/CAMERA-CONTROLS.md). Технические проверки RU пройдены; проверка физической мышью — автором.
 
-  **English:** Activate camera controls by default when clicking the active world editing area. Once implemented, remove the dedicated camera toggle button from the toolbar. Document camera controls and key bindings in the instructions.
+  **English:** Enable camera controls while holding the **right mouse button inside the world editing area**. Releasing it restores the cursor for entity selection and Gizmo use. Replace the persistent **F1** mode toggle and remove the dedicated camera button from the toolbar. Document camera controls and key bindings in the instructions.
 
-- [ ] **Опционально:** сделать разделы интерфейса полупрозрачными, ориентируясь на оформление Battlefield 1.
+- [x] **Опционально:** сделать разделы интерфейса полупрозрачными, ориентируясь на оформление Battlefield 1. Реализовано в следующей версии: единый тёмный стиль панелей, полей, каталогов, превью и диалогов; нейтральные состояния и тёплые акценты. Тёмный фон скрывает мир за рабочей областью и исчезает в режиме персонажа. 19 технических проверок RU пройдены; визуальная проверка — автором. [Оформление и проверка](docs/EDITOR-THEME.md).
 
   **English:** **Optional:** make interface sections semi-transparent, taking visual inspiration from Battlefield 1.
 
-- [ ] **Опционально:** добавить для кнопок Move и Rotate иконки в виде соответствующих Gizmo: стрелок перемещения и колец вращения.
+- [x] Сделать размытый пейзаж под панелями редактора. Текстура входит в релизный кандидат, границы фона следуют за рабочей областью. [Оформление и проверка](docs/EDITOR-THEME.md).
 
-  **English:** **Optional:** add Gizmo-style icons to Move and Rotate: translation arrows and rotation rings.
+- [x] **Опционально:** добавить для кнопок Move и Rotate иконки в виде соответствующих Gizmo: стрелок перемещения и колец вращения. Реализовано в следующей версии вместе с [панелью иконок](docs/ICON-TOOLBAR.md).
+
+  **English:** **Optional:** add Gizmo-style icons to Move and Rotate: translation arrows and rotation rings. Implemented for the next version with the [icon toolbar](docs/ICON-TOOLBAR.md).
 
 - [x] Добавить в инструкцию по инструменту создание предметов перетаскиванием: «Перетащи предмет в область мира». Описать перенос строки из каталога на поверхность внутри активной области, необходимость опоры и отмену при отпускании за границами области. Постоянная подсказка убрана из панели.
 
@@ -168,18 +174,42 @@
 
   **English:** Display errors in a dedicated notification with a heading, wrapped text and close button, preserving selection and blocking world clicks through the notice. See [behavior and validation](docs/ERROR-NOTIFICATIONS.md).
 
-- [ ] Развить отдельный виджет уведомлений для ошибок, сообщений об успехе и предупреждений. Использовать существующий виджет ошибок как основу и визуально различать три типа сообщений.
+- [x] Развить отдельный виджет уведомлений для ошибок, сообщений об успехе и предупреждений. Успех — зелёный с исчезновением через 4 секунды, предупреждение — жёлтое на 6 секунд, ошибка — красная без таймера. Результаты сохранения/открытия проектов и экспорта XML перенесены сюда. Реализовано в следующей версии; технические проверки RU пройдены, визуальная проверка — автором. [Поведение и проверки](docs/NOTIFICATIONS.md).
 
-  **English:** Extend the dedicated notification widget to support errors, success messages and warnings. Build on the existing error widget and visually distinguish the three message types.
+  **English:** Extend the notification widget with green success messages (4 seconds), amber warnings (6 seconds) and persistent red errors. Route project save/open and XML export results here. Implemented for the next version; Russian technical checks passed, visual review pending author confirmation. See [behavior and validation](docs/NOTIFICATIONS.md).
 
 - [ ] **Опционально:** изменять координаты и углы перетаскиванием мыши по числовому полю, как у слайдера. Сохранить возможность точного ввода с клавиатуры.
 
   **English:** **Optional:** adjust coordinate and angle values by dragging over the numeric input like a slider, while retaining precise keyboard entry.
 
-- [ ] Добавить Undo и Redo — отмену и повтор действий в редакторе.
+- [x] Добавить Undo и Redo — отмену и повтор перемещений, поворотов, числового ввода и сбросов в редакторе. Общая история на 100 действий, кнопки на панели и Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z. Одно перетаскивание Gizmo и редактирование одного поля группируются в одно действие. Создание и удаление сущностей в эту историю не входят. Реализовано в следующей версии; технические проверки RU пройдены, работа Undo/Redo подтверждена автором в игре 16 ноября 2026. [Поведение и проверки](docs/UNDO-REDO.md).
 
-  **English:** Add Undo and Redo for editor actions.
+  **English:** Add scene-wide Undo/Redo for transforms, numeric edits and resets, with a 100-action limit, toolbar buttons and Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z shortcuts. Group a complete Gizmo drag or numeric field edit as one action. Entity creation and deletion are outside this history. Implemented for the next version; Russian technical checks passed and the author confirmed Undo/Redo operation in game on 2026-11-16. See [behavior and validation](docs/UNDO-REDO.md).
 
-- [ ] Обеспечить управление высотой камеры в режиме полёта: **Q — поднимать камеру, Z — опускать**.
+- [x] Обеспечить управление высотой камеры в режиме полёта: **Q — поднимать камеру, Z — опускать** при удержании ПКМ. Использовать мировую вертикаль и прямую обработку клавиш, независимо от привязок Bulldozer. Реализовано в следующей версии; технические проверки RU пройдены, работа Q/Z подтверждена автором в игре 16 ноября 2026. [Управление и проверка](docs/CAMERA-CONTROLS.md).
 
-  **English:** Ensure vertical camera controls in flight mode: **Q moves the camera up, Z moves it down**.
+  **English:** Ensure vertical camera controls while holding RMB: **Q moves the camera up, Z moves it down**, following the world vertical and reading the keys directly rather than relying on Bulldozer bindings. Implemented for the next version; Russian technical checks passed and the author confirmed Q/Z operation in game on 2026-11-16. See [camera controls](docs/CAMERA-CONTROLS.md).
+
+- [ ] К выходу версии **1.0** написать пост на **Reddit** с примером использования инструмента.
+
+  **English:** Write a Reddit post for version **1.0**, including an example of using the tool.
+
+- [ ] Подумать над изменением картинки-превью мода, чтобы она наглядно показывала назначение инструмента — размещение лута под разными углами. Рассмотреть картинку от Китьки, где колесо лежит под углом на водительском сиденье.
+
+  **English:** Consider updating the mod's preview image to clearly show the tool's purpose: placing loot at different angles. Consider Kitka's image of a wheel resting at an angle on the driver's seat.
+
+- [x] Переработать панель инструментов: иконки кнопок, разделители между категориями «Проект», «История», «Редактирование», «Просмотр», «Экспорт» и локализованные подсказки с горячими клавишами. Группы переносятся целиком при нехватке ширины, скрытые действия не оставляют лишний разделитель. Реализовано в следующей версии; технические проверки RU пройдены, появление подсказок при обычном наведении подтверждено автором 16 ноября 2026. [Поведение и проверки](docs/ICON-TOOLBAR.md).
+
+  **English:** Rework the toolbar with icons, separators for Project, History, Editing, View and Export, and localized shortcut hints. Wrap whole categories on narrow windows and omit separators for hidden groups. Implemented for the next version; Russian technical checks passed and the author confirmed normal hover hints on 2026-11-16. See [behavior and validation](docs/ICON-TOOLBAR.md).
+
+- [x] Убрать постоянные подсказки управления из панели свойств и сообщения о результатах действий из каталога. Увеличить «Объекты на сцене» до 10 видимых строк при наличии места, сохраняя размер шрифта и адаптацию к высоте окна. Реализовано в следующей версии; технические проверки RU пройдены, внешний вид проверяет автор. [Поведение и проверки](docs/NOTIFICATIONS.md).
+
+  **English:** Remove persistent control hints from properties and action-result footers from the catalog. Expand Scene Objects to 10 visible rows when space allows, preserving font size and adapting to window height. Implemented for the next version; Russian technical checks passed, appearance pending author review. See [behavior and validation](docs/NOTIFICATIONS.md).
+
+- [x] Прокручивать **2 строки за шаг колёсика** во вкладках «Объекты» и «Предметы» с сохранением выбранной строки.
+
+  **English:** Increase mouse-wheel scrolling in the Create panel from **1 to 2 entries per step** in both Objects and Items.
+
+- [ ] Убрать воспроизведение жеста персонажа при нажатии **F4** для переключения между редактором и режимом персонажа.
+
+  **English:** Prevent the character from playing a gesture when pressing **F4** to switch between the editor and character mode.

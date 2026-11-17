@@ -2,15 +2,17 @@
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464) · [Русский](README-RU.md) · [Build from source](docs/BUILD.md) · [Validation](docs/VALIDATION.md) · [Publication rules](PUBLICATION.md)
 
-By **Medoedovich** · **0.3.0-alpha** · **DayZDiag offline only**
+By **Medoedovich** · **0.4.0-alpha** · **DayZDiag offline only**
 
-![Editor overview with catalog and item hover preview](docs/screenshots/0.3.0-alpha/workshop/01-editor-overview.jpg)
+![Editor overview with loot volumes, rotation controls and item hover preview](docs/screenshots/0.4.0-alpha/workshop/01-editor-overview.jpg)
 
 An offline authoring tool for placing items relative to buildings and wrecks, then exporting CE `dispatch` XML. Select an item, use the native Gizmo or enter exact coordinates and angles, inspect its take action and nearby inventory in character mode, and export the result.
 
-**Early alpha: project save/load is not available. Export XML before exiting. Each launch starts an empty scene; exported XML files remain available.**
+Use **Save project** to keep an editable scene and **Open project** to resume it after starting the editor. Export CE XML separately for the target mission.
 
-**0.3.0-alpha is published. All 17 files downloaded from Workshop match the validated release package.**
+**0.4.0-alpha is published. All 17 files downloaded from Workshop match the validated release package.**
+
+[Editor features](FEATURES.md)
 
 ## Start
 
@@ -33,7 +35,9 @@ The repository also contains the tested build in [`dist/@ProxyPlacementTool`](di
 - Select an item by clicking its model or its row in **Scene Objects**, below the catalog. Click empty world space to deselect. **F7 / Move** shows translation arrows; **F8 / Rotate** shows rotation rings. A drag stops when it leaves the world area and requires a new press to continue.
 - **Object Properties** shows Position in Move mode and Roll/Pitch/Yaw in Rotate mode. Valid numeric edits apply immediately. Each reset icon restores one component to its value at selection time; **F9** restores the full selection. Expand **Fine adjustments** for step controls.
 - Select the character or anchor in Scene Objects to move that entity with the native Gizmo or world position fields. Moving the anchor leaves items in place. Item coordinates are relative to the anchor; character and anchor positions are world coordinates. Only items can rotate.
-- **F1 / Fly** toggles cursor and flight. Fly with WASD, Q/Z and the mouse. The wheel changes the 0.1–16 speed multiplier, shown briefly below the center; Shift/Ctrl accelerate and Alt slows down.
+- Hold **RMB** over the scene to fly and release it to return to the cursor. WASD moves, Q rises and Z descends. The mouse wheel changes the 0.1–16× speed multiplier shown briefly below the crosshair. The camera icon in **View** lists all flight controls.
+- **Place on surface** lays the selected item flat on the ground or floor below it while preserving X and Z. Use **Undo** and **Redo**, or **Ctrl+Z / Ctrl+Y**, to restore or repeat completed transform edits.
+- Use the **standard loot overlay** to see existing spawn points and their volumes. The editor reads the installed game's `mapgroupproto.xml` and labels a bundled fallback when needed.
 - **F4 / Character** switches to the dressed test character for take-action and nearby-inventory checks. Close inventory and press F4 to return. Character HUD is hidden while editing.
 - The toolbar also focuses the anchor and exports XML. **Item XML / F10** exports the selected item and the full anchor; **Anchor XML** exports all associated ground items. **F11** toggles diagnostics. Errors appear in a separate dismissible notification.
 
@@ -49,25 +53,23 @@ Merge the exported `dispatch` into the appropriate group in the target mission's
 
 Per-instance export files help authoring; a prototype keyed by one building classname generally affects all instances of that class. Do not blindly add duplicate groups with the same name. Items held or stored in inventory are omitted until placed on the ground.
 
-Alpha limits: no project save/load, delete UI or undo/redo; anchors use zero orientation and scale 1. Placement was calibrated for CE groups with `rpy="0 0 0" a="90"`. No support for arbitrary mod classes or multiplayer behavior is claimed.
+Saved JSON projects are under `%LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement\Projects`. They store the anchor, item positions and rotations, character position and camera state. See [project files](docs/PROJECTS.md).
+
+Anchors use zero orientation and scale 1. Placement was calibrated for CE groups with `rpy="0 0 0" a="90"`. Undo and Redo cover transform edits. The editor runs offline in DayZDiag on Test Range.
 
 ## Screenshots
 
 Item placement and rotation relative to an anchor:
 
-![Angled item placement](docs/screenshots/0.3.0-alpha/workshop/02-angled-placement.jpg)
+![Angled item placement](docs/screenshots/0.4.0-alpha/workshop/02-angled-placement.jpg)
 
-Checking the placed item in character mode:
-
-![Character inspection](docs/screenshots/0.3.0-alpha/workshop/03-character-check.jpg)
-
-[Original PNG screenshots and JPEG copies](docs/screenshots/0.3.0-alpha/README.md).
+[Original PNG screenshots and JPEG copies](docs/screenshots/0.4.0-alpha/README.md). The [0.3.0-alpha gallery](docs/screenshots/0.3.0-alpha/README.md) includes character-mode inspection.
 
 ## Source and build
 
 | Path | Purpose |
 | --- | --- |
-| `src/iot/proxytool` | Scripts, configuration, stringtable, map catalog and UI layouts; see CHANGELOG.md for unreleased source changes. |
+| `src/iot/proxytool` | Scripts, configuration, stringtable, map catalog and UI layouts. |
 | `package` | Portable launcher, mod information, instructions and bootstrap mission template. |
 | `dist/@ProxyPlacementTool` | Tested ready-to-run alpha package; the PBO matches Workshop. |
 | `tools/Build.ps1` | Build a new isolated package with official Addon Builder and check it with BankRev. |
@@ -80,7 +82,7 @@ The cover is a generated illustration, not an in-game screenshot. DayZ game file
 
 ## Validation and reports
 
-The **0.3.0-alpha** release package passed **292 checks per language**, resolved **207 native localization keys**, and validated **17 delivered files** in separate installed PBO copies without file patching. All 17 downloaded Workshop files match that tested package, including the PBO; a separate downloaded-copy runtime was not repeated. See [release validation](docs/VALIDATION-0.3.0.md).
+The **0.4.0-alpha** release package passed **395 checks per language**, resolved **255 native localization keys**, and validated **17 delivered files** in separate Russian and English PBO installations. SHA-256 comparison confirmed that all 17 downloaded Workshop files match that tested package. See [release validation](docs/VALIDATION-0.4.0.md).
 
 Published version **0.2.0-alpha** passed **136 checks per language** in Russian and English, both in separate local installations and in the downloaded Workshop copy. All **167 localization keys** resolved, and all **17 delivered files** matched the prepared package. See [validation details](docs/VALIDATION.md).
 

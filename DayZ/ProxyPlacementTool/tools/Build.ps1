@@ -3,11 +3,15 @@ param([string]$Tools = '', [switch]$PrepareOnly)
 $ErrorActionPreference = 'Stop'
 $taskProject = Split-Path -Parent $PSScriptRoot
 $taskSource = Join-Path $taskProject 'src\iot\proxytool'
-$taskVersion = '0.3.0-alpha'
+$taskMod = Get-Content -LiteralPath (Join-Path $taskProject 'package\mod.cpp') -Raw
+$taskVersion = [regex]::Match($taskMod,'(?m)^\s*version\s*=\s*"([^"]+)"\s*;').Groups[1].Value
+if (-not $taskVersion) { throw 'Missing package version in mod.cpp.' }
 $taskBuildRoot = Join-Path $taskProject ('build\'+(Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
 $taskAddon = Join-Path $taskBuildRoot 'iot_proxy_tool'
 $taskPackage = Join-Path $taskBuildRoot '@ProxyPlacementTool'
 $taskRequired = @('config.cpp','stringtable.csv','scripts\5_Mission\IOTProxyTool.c','scripts\5_Mission\IOTMapCatalog.c','gui\proxy_tool.layout','gui\scene_browser.layout','gui\item_catalog_row.layout','gui\item_hover_preview.layout','gui\error_notification.layout','gui\anchor_replace.layout','gui\scene_items.layout','gui\player_mode.layout','gui\camera_speed.layout','gui\editor_viewport.layout','gui\editor_toolbar.layout','gui\catalog_drag.layout')
+$taskRequired += @('gui\project_dialog.layout','gui\toolbar_hint.layout','data\loot_volumes.txt')
+$taskRequired += @('gui\editor.styles','gui\editor_matte.layout','gui\editor_backdrop.edds')
 foreach ($taskName in $taskRequired) {
     if (-not (Test-Path -LiteralPath (Join-Path $taskSource $taskName) -PathType Leaf)) { throw ('Missing source: '+$taskName) }
 }
@@ -27,7 +31,7 @@ Get-ChildItem -LiteralPath (Join-Path $taskProject 'package') -Force | Copy-Item
 $taskRecord = [ordered]@{Version=$taskVersion;Status='PREPARED';AddonSource=$taskAddon;Package=$taskPackage;BuiltAt=(Get-Date -Format o)}
 if (-not $PrepareOnly) {
     $taskInclude = Join-Path $taskBuildRoot 'include.txt'
-    [IO.File]::WriteAllText($taskInclude,'*.c;*.cpp;*.layout;*.csv',[Text.Encoding]::ASCII)
+    [IO.File]::WriteAllText($taskInclude,'*.c;*.cpp;*.layout;*.styles;*.csv;*.txt;*.edds',[Text.Encoding]::ASCII)
     $taskTemp = Join-Path $taskBuildRoot 'temp'
     [IO.Directory]::CreateDirectory($taskTemp) | Out-Null
     $taskOutput = & $taskBuilder $taskAddon (Join-Path $taskPackage 'addons') '-packonly' '-prefix=iot\proxytool' ('-project='+$taskBuildRoot) ('-temp='+$taskTemp) ('-include='+$taskInclude) ('-toolsDirectory='+$Tools) 2>&1

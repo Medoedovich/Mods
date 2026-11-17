@@ -1,7 +1,7 @@
 {
   "title": "Proxy Placement Tool — Alpha",
   "author": "Medoedovich",
-  "version": "0.3.0-alpha",
+  "version": "0.4.0-alpha",
   "appId": 221100,
   "workshopItemId": "3839146464",
   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464",
@@ -20,34 +20,40 @@
   "previewSha256": "8E422E06ED0126D8E696C2A6C6985B0C1E949432E25842B4D623A951F77AA72C",
   "description": "description-combined.bbcode.txt",
   "descriptionSha256": "AB17225BAD64CDA9E27666C6375EFD33E0B624E07B614226EB52115B38795713",
-  "publishedPboSha256": "875450ECB4E301B855002BCF7025EDE66FF8C952F5879B186A5683C098AED482",
+  "publishedPboSha256": "874BB3248ED0CBD605E0FD550DFB898E29D6D0764CE69E75B9349291B23F1ED9",
   "discussionUrl": "https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158",
   "discordContact": "medoedovich",
   "communityLinksUpdateDate": "2026-11-13",
   "communityLinksVerifiedInEnglishAndRussian": true,
-  "updatedDate": "2026-11-16",
-  "publishedContentManifestId": "5346954173286684114",
+  "updatedDate": "2026-11-17",
+  "publishedContentManifestId": "7294150487483844695",
   "descriptionBytes": 7785,
   "workshopUploadStatus": "PUBLISHED",
   "downloadedCopyValidation": {
     "Status": "FILES_MATCH_PREPARED_PACKAGE",
     "VerifiedPackageFiles": 17,
-    "ValidatedDate": "2026-11-16",
+    "ValidatedDate": "2026-11-17",
     "RuntimeRetested": false,
     "PreparedPackageRuntimeValidation": {
       "Languages": [
         "English",
         "Russian"
       ],
-      "ChecksPerLanguage": 292,
-      "LocalizationKeys": 207,
+      "ChecksPerLanguage": 395,
+      "LocalizationKeys": 255,
       "FilePatching": false
     }
   },
   "descriptionSnapshotVersion": "0.2.0-alpha",
   "descriptionSnapshotStatus": "HISTORICAL_SNAPSHOT_CURRENT_DESCRIPTION_NOT_VERIFIED",
   "latestDescriptionDraft": "description-next.bbcode.txt",
-  "changeNoteDraft": "changenote-0.3.0.bbcode.txt",
+  "descriptionPublication": {
+    "AuthorReportedSaved": true,
+    "Date": "2026-11-17",
+    "PublicTextIndependentlyVerified": false
+  },
+  "changeNoteDraft": "changenote-0.4.0.bbcode.txt",
+  "changeNoteDraftVersion": "0.4.0-alpha",
   "gallery": {
     "UploadedManuallyByAuthor": true,
     "Images": 3,

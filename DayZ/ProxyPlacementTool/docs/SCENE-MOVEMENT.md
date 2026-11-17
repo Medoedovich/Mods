@@ -2,6 +2,10 @@
 
 ## English
 
+In 0.4.0-alpha, adding or confirming replacement of an anchor places the existing test character on the camera side, **five metres beyond the model's horizontal bounding box**, on terrain and facing the model center. The distance is measured from the model bounds. The character and equipment are retained. Item creation, cancelled/invalid replacements and moving an existing anchor do not reposition the character. Opening a project restores its saved character position. Use **F4** to inspect from the character's new position.
+
+Validation on 17 November 2026: **383 Russian native checks** in an unpacked mission, including **7 character placement checks** covering first creation, all camera sides and the overhead fallback, equipment/camera preservation, item creation, cancelled/invalid/pending replacements, confirmed replacement and independent manual anchor movement. The successful client was left open for author review. Development report: `ProxyPlacementTool/release/CHARACTER-START-VALIDATION-Russian.json`; rerun with `Test-WorldViewport.ps1 -CharacterStart -Language Russian`. English runtime review remains deferred until release.
+
 Select the character or a registered building/wreck in **Scene Objects** to focus the camera and enable the stock movement Gizmo. Drag an arrow or enter world X/Y/Z coordinates in the right panel, then apply them. Selection is shown in the left scene list. **F9** restores the position captured when that object was selected.
 
 - Moving an anchor changes that anchor's world position. Loot is not automatically translated or attached to it. CE proxy coordinates are calculated from the items' current world positions relative to the moved anchor.
@@ -17,6 +21,8 @@ Manual check: select and move the wreck, confirm that the wheel is not automatic
 Technical validation on 14 November 2026: **232 checks** with the Russian interface in an unpacked Test Range mission, including **23 movement checks**. These cover native transforms, independent entity movement, recalculated proxy coordinates, unchanged item physics modes, world coordinate input, F9, and character control after F4. Visual inspection is pending the author's check; English runtime validation is deferred until the Workshop release.
 
 ## Русский
+
+В исходниках следующей версии при добавлении или подтверждённой замене опоры существующий персонаж переносится со стороны камеры **на пять метров за горизонтальные габариты модели**, ставится на землю и разворачивается к центру здания/остова. Расстояние считается от габаритов, а не от точки отсчёта модели. Персонаж и экипировка сохраняются. Создание предметов, отмена или ошибка замены и обычное перемещение опоры не переносят персонажа. Открытие проекта восстанавливает сохранённую позицию. **F4** возвращает управление уже на новом месте.
 
 Выбери персонажа или зарегистрированное здание/остов в **«Объекты на сцене»**: камера направится на него, появятся штатные стрелки перемещения. Тяни стрелку или введи мировые координаты X/Y/Z справа и примени значения. Выделение показано в левом списке сцены. **F9** возвращает позицию, зафиксированную при его выделении.
 

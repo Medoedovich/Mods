@@ -1,0 +1,42 @@
+PanelWidgetClass ToolbarHint {
+ Name "ToolbarHint"
+ visible 0
+ position 0 0
+ size 280 64
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ ignorepointer 1
+ color 0.045 0.065 0.085 0.90
+ style rover_sim_colorable
+ {
+  PanelWidgetClass ThemeRule {
+   Name "ThemeRule"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   ignorepointer 1
+   color 0.65 0.68 0.69 0.22
+   style rover_sim_colorable
+  }
+  MultilineTextWidgetClass ToolbarHintText {
+   Name "ToolbarHintText"
+   position 12 8
+   size 256 48
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 1 1 1 1
+   wrap 1
+  }
+ }
+}

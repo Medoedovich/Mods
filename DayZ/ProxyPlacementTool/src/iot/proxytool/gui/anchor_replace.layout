@@ -7,7 +7,7 @@ PanelWidgetClass AnchorReplaceOverlay {
  vexactpos 1
  hexactsize 1
  vexactsize 1
- color 0 0 0 0.55
+ color 0 0 0 0.72
  style rover_sim_colorable
  {
   PanelWidgetClass ReplaceDialog {
@@ -18,9 +18,21 @@ PanelWidgetClass AnchorReplaceOverlay {
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   color 0.14 0.17 0.19 1
+   color 0.075 0.10 0.125 0.91
    style rover_sim_colorable
    {
+  PanelWidgetClass ThemeRule {
+   Name "ThemeRule"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   ignorepointer 1
+   color 0.65 0.68 0.69 0.22
+   style rover_sim_colorable
+  }
     TextWidgetClass ReplaceTitle {
      Name "ReplaceTitle"
      position 20 16
@@ -73,7 +85,7 @@ PanelWidgetClass AnchorReplaceOverlay {
      vexactpos 1
      hexactsize 1
      vexactsize 1
-     style Default
+     style IOT_Button
      font "gui/fonts/sdf_MetronBook24"
      text_proportion 0.47
     }
@@ -85,7 +97,7 @@ PanelWidgetClass AnchorReplaceOverlay {
      vexactpos 1
      hexactsize 1
      vexactsize 1
-     style Default
+     style IOT_Button
      font "gui/fonts/sdf_MetronBook24"
      text_proportion 0.47
     }

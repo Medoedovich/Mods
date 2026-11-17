@@ -1,0 +1,62 @@
+{
+  "VerifiedAt": "2026-11-17T12:48:36.8216053+03:00",
+  "GameVersion": "1.30.164289.70",
+  "Runtime": "Unpacked Test Range mission, native DayZDiag script file API",
+  "DirectReadAllMaps": true,
+  "EditorSourceChanged": false,
+  "ClientRetained": true,
+  "Maps": [
+    {
+      "World": "chernarusplus",
+      "Path": "DZ\\worlds\\chernarusplus\\ce\\mapgroupproto.xml",
+      "Exists": 1,
+      "Opened": 1,
+      "ReadBytes": 1229651,
+      "HasPrototype": 1,
+      "Captured": 1,
+      "Groups": 436,
+      "Points": 11074,
+      "SHA256": "44E70165DA1B13DE1AB2451AEA43413955A7E81ACD2D7016BA957787632585A6",
+      "MatchesExtractedSource": true
+    },
+    {
+      "World": "enoch",
+      "Path": "DZ\\worlds\\enoch\\ce\\mapgroupproto.xml",
+      "Exists": 1,
+      "Opened": 1,
+      "ReadBytes": 1267785,
+      "HasPrototype": 1,
+      "Captured": 1,
+      "Groups": 456,
+      "Points": 11304,
+      "SHA256": "19DB8E376BD66B73502CA8780BA02DFBC0CC568CD7AD1E337A8995C1B4DEA39E",
+      "MatchesExtractedSource": true
+    },
+    {
+      "World": "sakhal",
+      "Path": "DZ\\worlds\\sakhal\\ce\\mapgroupproto.xml",
+      "Exists": 1,
+      "Opened": 1,
+      "ReadBytes": 1517591,
+      "HasPrototype": 1,
+      "Captured": 1,
+      "Groups": 525,
+      "Points": 13888,
+      "SHA256": "4F8FA50E67CC1C055C5D1D06065B0D36D02EA7B8193BD9B702B30C045E49117E",
+      "MatchesExtractedSource": true
+    },
+    {
+      "World": "nasdara",
+      "Path": "DZ\\worlds\\nasdara\\ce\\mapgroupproto.xml",
+      "Exists": 1,
+      "Opened": 1,
+      "ReadBytes": 1893676,
+      "HasPrototype": 1,
+      "Captured": 1,
+      "Groups": 755,
+      "Points": 17069,
+      "SHA256": "B687BEAD88FF2E33742C319F2B2FA9143DCE08593489CFC06BB8A8A50C1F8967",
+      "MatchesExtractedSource": true
+    }
+  ]
+}

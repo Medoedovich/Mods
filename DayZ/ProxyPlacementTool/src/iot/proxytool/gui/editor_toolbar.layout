@@ -1,34 +1,235 @@
 PanelWidgetClass IOTEditorToolbar {
  Name "IOTEditorToolbar"
  position 20 20
- size 1000 48
+ size 1000 78
  hexactpos 1
  vexactpos 1
  hexactsize 1
  vexactsize 1
- color 0.12 0.15 0.17 0.96
+ color 0.035 0.055 0.075 0.46
  style rover_sim_colorable
  {
-  ButtonWidgetClass MoveMode {
-   Name "MoveMode"
+  PanelWidgetClass ThemeRule {
+   Name "ThemeRule"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   ignorepointer 1
+   color 0.65 0.68 0.69 0.22
+   style rover_sim_colorable
+  }
+  TextWidgetClass ToolsHeading0 {
+   Name "ToolsHeading0"
    position 8 8
-   size 160 32
+   size 84 18
    hexactpos 1
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
+   ignorepointer 1
    font "gui/fonts/sdf_MetronBook24"
-   text_proportion 0.46
-   text "#STR_IOT_MOVE"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 0.78 0.82 0.84 1
+   "text halign" center
+   "text valign" center
+   text "#STR_IOT_TOOLS_PROJECT"
+  }
+  TextWidgetClass ToolsHeading1 {
+   Name "ToolsHeading1"
+   position 8 8
+   size 84 18
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 0.78 0.82 0.84 1
+   "text halign" center
+   "text valign" center
+   text "#STR_IOT_TOOLS_HISTORY"
+  }
+  TextWidgetClass ToolsHeading2 {
+   Name "ToolsHeading2"
+   position 8 8
+   size 84 18
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 0.78 0.82 0.84 1
+   "text halign" center
+   "text valign" center
+   text "#STR_IOT_TOOLS_EDIT"
+  }
+  TextWidgetClass ToolsHeading3 {
+   Name "ToolsHeading3"
+   position 8 8
+   size 128 18
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 0.78 0.82 0.84 1
+   "text halign" center
+   "text valign" center
+   text "#STR_IOT_TOOLS_VIEW"
+  }
+  TextWidgetClass ToolsHeading4 {
+   Name "ToolsHeading4"
+   position 8 8
+   size 84 18
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text color" 0.78 0.82 0.84 1
+   "text halign" center
+   "text valign" center
+   text "#STR_IOT_TOOLS_EXPORT"
+  }
+  ButtonWidgetClass ProjectSave {
+   Name "ProjectSave"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
    {
+    CanvasWidgetClass ProjectSaveIcon {
+     Name "ProjectSaveIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
+  }
+  ButtonWidgetClass ProjectOpen {
+   Name "ProjectOpen"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass ProjectOpenIcon {
+     Name "ProjectOpenIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
+  }
+  ButtonWidgetClass Undo {
+   Name "Undo"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass UndoIcon {
+     Name "UndoIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
+  }
+  ButtonWidgetClass Redo {
+   Name "Redo"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass RedoIcon {
+     Name "RedoIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
+  }
+  ButtonWidgetClass MoveMode {
+   Name "MoveMode"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass MoveModeIcon {
+     Name "MoveModeIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
     PanelWidgetClass MoveModeActive {
      Name "MoveModeActive"
      visible 0
      position 0 0.9
      size 1 0.1
      ignorepointer 1
-     color 0.25 0.65 0.95 1
+     color 0.88 0.82 0.70 1
      style rover_sim_colorable
     }
    }
@@ -36,91 +237,269 @@ PanelWidgetClass IOTEditorToolbar {
   ButtonWidgetClass RotateMode {
    Name "RotateMode"
    position 8 8
-   size 160 32
+   size 40 40
    hexactpos 1
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
-   font "gui/fonts/sdf_MetronBook24"
-   text_proportion 0.46
-   text "#STR_IOT_ROTATE"
+   style IOT_Button
+   text ""
    {
+    CanvasWidgetClass RotateModeIcon {
+     Name "RotateModeIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
     PanelWidgetClass RotateModeActive {
      Name "RotateModeActive"
      visible 0
      position 0 0.9
      size 1 0.1
      ignorepointer 1
-     color 0.25 0.65 0.95 1
+     color 0.88 0.82 0.70 1
      style rover_sim_colorable
     }
    }
   }
-  ButtonWidgetClass CameraMode {
-   Name "CameraMode"
+  ButtonWidgetClass PlaceOnSurface {
+   Name "PlaceOnSurface"
    position 8 8
-   size 160 32
+   size 40 40
    hexactpos 1
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
-   font "gui/fonts/sdf_MetronBook24"
-   text_proportion 0.46
-   text "#STR_IOT_CAMERA_FLIGHT"
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass PlaceOnSurfaceIcon {
+     Name "PlaceOnSurfaceIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+   }
   }
   ButtonWidgetClass SceneFocus {
    Name "SceneFocus"
    position 8 8
-   size 160 32
+   size 40 40
    hexactpos 1
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
-   font "gui/fonts/sdf_MetronBook24"
-   text_proportion 0.46
-   text "#STR_IOT_FOCUS_ANCHOR"
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass SceneFocusIcon {
+     Name "SceneFocusIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
   }
   ButtonWidgetClass PlayerMode {
    Name "PlayerMode"
    position 8 8
-   size 160 32
+   size 40 40
    hexactpos 1
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
-   font "gui/fonts/sdf_MetronBook24"
-   text_proportion 0.46
-   text "#STR_IOT_CHARACTER"
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass PlayerModeIcon {
+     Name "PlayerModeIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
+  }
+  ButtonWidgetClass LootVolumes {
+   Name "LootVolumes"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass LootVolumesIcon {
+     Name "LootVolumesIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+    PanelWidgetClass LootVolumesActive {
+     Name "LootVolumesActive"
+     visible 0
+     position 0 0.9
+     size 1 0.1
+     ignorepointer 1
+     color 0.88 0.82 0.70 1
+     style rover_sim_colorable
+    }
+   }
+  }
+  ButtonWidgetClass CameraHelp {
+   Name "CameraHelp"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass CameraHelpIcon {
+     Name "CameraHelpIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+    PanelWidgetClass CameraHelpActive {
+     Name "CameraHelpActive"
+     visible 0
+     position 0 0.9
+     size 1 0.1
+     ignorepointer 1
+     color 0.88 0.82 0.70 1
+     style rover_sim_colorable
+    }
+   }
   }
   ButtonWidgetClass Export {
    Name "Export"
    position 8 8
-   size 160 32
+   size 40 40
    hexactpos 1
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
-   font "gui/fonts/sdf_MetronBook24"
-   text_proportion 0.46
-   text "#STR_IOT_XML_SELECTION"
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass ExportIcon {
+     Name "ExportIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
   }
   ButtonWidgetClass SceneExport {
    Name "SceneExport"
    position 8 8
-   size 160 32
+   size 40 40
    hexactpos 1
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
-   font "gui/fonts/sdf_MetronBook24"
-   text_proportion 0.46
-   text "#STR_IOT_EXPORT_ANCHOR"
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass SceneExportIcon {
+     Name "SceneExportIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+
+   }
+  }
+  PanelWidgetClass ToolsSeparator1 {
+   Name "ToolsSeparator1"
+   visible 0
+   position 0 0
+   size 1 30
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.5 0.55 0.6 0.65
+   style rover_sim_colorable
+  }
+  PanelWidgetClass ToolsSeparator2 {
+   Name "ToolsSeparator2"
+   visible 0
+   position 0 0
+   size 1 30
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.5 0.55 0.6 0.65
+   style rover_sim_colorable
+  }
+  PanelWidgetClass ToolsSeparator3 {
+   Name "ToolsSeparator3"
+   visible 0
+   position 0 0
+   size 1 30
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.5 0.55 0.6 0.65
+   style rover_sim_colorable
+  }
+  PanelWidgetClass ToolsSeparator4 {
+   Name "ToolsSeparator4"
+   visible 0
+   position 0 0
+   size 1 30
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   ignorepointer 1
+   color 0.5 0.55 0.6 0.65
+   style rover_sim_colorable
   }
  }
 }

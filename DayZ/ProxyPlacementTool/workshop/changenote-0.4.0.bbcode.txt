@@ -1,0 +1,12 @@
+[h1]0.4.0-alpha — Projects and loot placement[/h1]
+
+[list]
+[*]Save and reopen projects with the building or wreck, placed items, test character position, and camera view.
+[*]Undo and redo moves, rotations, and numeric edits with Ctrl+Z and Ctrl+Y.
+[*]Show standard loot points and their spawn volumes using the installed game's data. Use the overlay to spot where new proxies might overlap existing loot.
+[*]Lay the selected item flat on the ground or floor below with Place on surface.
+[*]Hold the right mouse button inside the editing area to fly. The Camera controls button opens a quick reference in the editor.
+[*]Use a redesigned icon toolbar, translucent panels, a larger Scene Objects list, and dedicated notifications. Catalog hover previews show 3D models with the new theme.
+[/list]
+
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]Source code and documentation on GitHub[/url]

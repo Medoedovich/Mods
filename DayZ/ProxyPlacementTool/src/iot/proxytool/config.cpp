@@ -16,7 +16,7 @@ class CfgMods
         dir = "ProxyPlacementTool";
         name = "Proxy Placement Tool - Alpha";
         author = "Medoedovich";
-        version = "0.3.0-alpha";
+        version = "0.4.0-alpha";
         type = "mod";
         dependencies[] = {"Game", "World", "Mission"};
         class defs

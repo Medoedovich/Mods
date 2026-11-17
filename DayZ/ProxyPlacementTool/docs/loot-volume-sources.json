@@ -1,0 +1,33 @@
+{
+  "Source": "Bohemia Interactive installed official terrain CE files",
+  "License": "ADPL-SA",
+  "Definition": "Only group/container/point pos, range and height; dispatch proxies excluded; identical container records share a map bitmask",
+  "Maps": [
+    {
+      "World": "chernarusplus",
+      "Groups": 436,
+      "Points": 11074,
+      "SHA256": "44E70165DA1B13DE1AB2451AEA43413955A7E81ACD2D7016BA957787632585A6"
+    },
+    {
+      "World": "enoch",
+      "Groups": 456,
+      "Points": 11304,
+      "SHA256": "19DB8E376BD66B73502CA8780BA02DFBC0CC568CD7AD1E337A8995C1B4DEA39E"
+    },
+    {
+      "World": "sakhal",
+      "Groups": 525,
+      "Points": 13888,
+      "SHA256": "4F8FA50E67CC1C055C5D1D06065B0D36D02EA7B8193BD9B702B30C045E49117E"
+    },
+    {
+      "World": "nasdara",
+      "Groups": 755,
+      "Points": 17069,
+      "SHA256": "B687BEAD88FF2E33742C319F2B2FA9143DCE08593489CFC06BB8A8A50C1F8967"
+    }
+  ],
+  "Records": 2921,
+  "GeneratedSHA256": "18725C375609C280B5E931839732CA6F9FB2841A54143D1978871D8CE543AF52"
+}

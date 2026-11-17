@@ -1,5 +1,9 @@
 # World editing area / Область редактирования мира
 
+Current development update: an [opaque outside mask and shared panel theme](EDITOR-THEME.md) now hide the world outside this input rectangle and follow its live bounds. F4 hides the mask for character inspection. Camera controls now use **held RMB** inside the rectangle; the historical F1 references below describe the earlier implementation.
+
+Обновление разработки: [непрозрачный фон и единое оформление](EDITOR-THEME.md) закрывают мир за рабочей областью и следуют за её границами. F4 скрывает фон для проверки персонажем. Камера теперь управляется при **удержании ПКМ** внутри области; упоминания F1 ниже относятся к прежнему варианту.
+
 ## English
 
 The editor outlines a world input area between the left catalog/scene-list column and the precise settings panel, extending to the bottom margin. The former bottom tray is now a compact [Scene Objects list](SCENE-OBJECTS.md) in the left column. Bounds follow the actual panel geometry and UI scaling. Empty margins outside that rectangle are excluded as well as the panels themselves.

@@ -14,7 +14,7 @@
 
 Для следующего ручного обновления описания подготовлен [текст в Steam BBCode](workshop/description-next.bbcode.txt): сначала ссылка на [русское описание и инструкцию](README-RU.md), затем английский текст без отдельного русского раздела. Это черновик; окончательный текст и его размещение остаются за автором.
 
-`workshop/item.json` фиксирует опубликованную версию 0.3.0-alpha и результат сверки скачанных файлов. `workshop/description-combined.bbcode.txt` остаётся историческим снимком описания 0.2.0-alpha; текущая редакция описания отдельно не сверена. Черновик следующего текста не считается точной копией опубликованного описания.
+`workshop/item.json` фиксирует опубликованную версию 0.4.0-alpha и совпадение всех 17 скачанных файлов с проверенной сборкой. Сохранение описания отмечено по подтверждению автора от 17 ноября 2026 года. `workshop/description-combined.bbcode.txt` остаётся историческим снимком описания 0.2.0-alpha; текущая редакция описания отдельно не сверена. Черновик следующего текста не считается точной копией опубликованного описания.
 
 ## English
 
@@ -30,4 +30,4 @@
 
 The [next Workshop description draft](workshop/description-next.bbcode.txt) begins with a link to the Russian description and instructions, followed by English copy without a separate Russian section. The author controls the final text and posts it manually.
 
-`workshop/item.json` records the published 0.3.0-alpha version and downloaded-file verification. `workshop/description-combined.bbcode.txt` remains the historical 0.2.0-alpha description snapshot; the current description has not been independently checked. A draft must not be treated as an exact published-text snapshot.
+`workshop/item.json` records the published 0.4.0-alpha version and SHA-256 verification of all 17 downloaded package files. Saving the description is recorded from the author's confirmation on 17 November 2026. `workshop/description-combined.bbcode.txt` remains the historical 0.2.0-alpha description snapshot; the current description has not been independently checked. A draft must not be treated as an exact published-text snapshot.

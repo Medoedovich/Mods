@@ -13,10 +13,29 @@ class IOTL
 
     static array<string> Keys()
     {
-        array<string> keys = {"LOCALE","TITLE","ITEM","ANCHOR","MOVE","ROTATE","POSITION","MOVE_STEP_DEFAULT","ROTATION","ANGLE_STEP_DEFAULT","APPLY","CHARACTER","RESET","GROUND","SELECT_HINT","HELP","CREATE_TITLE","BUILDINGS","ITEMS","ITEM_GROUP_WEAPONS","ITEM_GROUP_WEAPONS_FIREARMS","ITEM_GROUP_WEAPONS_PISTOLS","ITEM_GROUP_WEAPONS_SHOTGUNS","ITEM_GROUP_WEAPONS_ARCHERY","ITEM_GROUP_WEAPONS_MELEE","ITEM_GROUP_WEAPONS_EXPLOSIVES","ITEM_GROUP_WEAPONS_LAUNCHERS","ITEM_GROUP_WEAPONS_OTHER","ITEM_GROUP_AMMO","ITEM_GROUP_AMMO_ROUNDS","ITEM_GROUP_AMMO_MAGAZINES","ITEM_GROUP_AMMO_BOXES","ITEM_GROUP_ATTACHMENTS","ITEM_GROUP_ATTACHMENTS_OPTICS","ITEM_GROUP_ATTACHMENTS_MUZZLE","ITEM_GROUP_ATTACHMENTS_LIGHT","ITEM_GROUP_ATTACHMENTS_SUPPORT","ITEM_GROUP_ATTACHMENTS_OTHER","ITEM_GROUP_CLOTHING","ITEM_GROUP_CLOTHING_BACKPACKS","ITEM_GROUP_CLOTHING_VESTS","ITEM_GROUP_CLOTHING_TOPS","ITEM_GROUP_CLOTHING_PANTS","ITEM_GROUP_CLOTHING_SHOES","ITEM_GROUP_CLOTHING_HEADGEAR","ITEM_GROUP_CLOTHING_MASKS","ITEM_GROUP_CLOTHING_GLOVES","ITEM_GROUP_CLOTHING_GLASSES","ITEM_GROUP_CLOTHING_BELTS","ITEM_GROUP_CLOTHING_OTHER","ITEM_GROUP_FOOD_DRINKS","ITEM_GROUP_FOOD_DRINKS_FOOD","ITEM_GROUP_FOOD_DRINKS_DRINKS","ITEM_GROUP_GEAR","ITEM_GROUP_GEAR_TOOLS","ITEM_GROUP_GEAR_CONTAINERS","ITEM_GROUP_GEAR_CAMPING","ITEM_GROUP_GEAR_COOKING","ITEM_GROUP_GEAR_CRAFTING","ITEM_GROUP_GEAR_CULTIVATION","ITEM_GROUP_GEAR_MEDICAL","ITEM_GROUP_GEAR_NAVIGATION","ITEM_GROUP_GEAR_RADIO","ITEM_GROUP_GEAR_OPTICS","ITEM_GROUP_GEAR_TRAPS","ITEM_GROUP_GEAR_BOOKS","ITEM_GROUP_GEAR_CONSUMABLES","ITEM_GROUP_GEAR_OTHER","ITEM_GROUP_VEHICLE_PARTS","ITEM_GROUP_VEHICLE_PARTS_WHEELS","ITEM_GROUP_VEHICLE_PARTS_BODY","ITEM_GROUP_VEHICLE_PARTS_COMPONENTS","ITEM_GROUP_VEHICLE_PARTS_OTHER","ITEM_GROUP_OTHER","SHOW_STATICOBJ","OTHER_OBJECTS","OBJECT_TREE_HINT","CATEGORY_RESIDENTIAL","RESIDENTIAL_SUB_SHEDS","RESIDENTIAL_SUB_OFFICE","RESIDENTIAL_SUB_MISC","RESIDENTIAL_SUB_HOUSE","RESIDENTIAL_SUB_CITY","RESIDENTIAL_SUB_TENEMENTS","RESIDENTIAL_SUB_STORES","RESIDENTIAL_SUB_MEDICAL","RESIDENTIAL_SUB_POLICE","RESIDENTIAL_SUB_SCHOOLS","RESIDENTIAL_SUB_FIREDEP","RESIDENTIAL_SUB_BUS","RESIDENTIAL_SUB_SLUMS","RESIDENTIAL_SUB_PLATFORMS","RESIDENTIAL_SUB_TERRACES","RESIDENTIAL_SUB_OTHER","CATEGORY_INDUSTRIAL","CATEGORY_MILITARY","CATEGORY_UNDERGROUND","CATEGORY_WRECKS","WRECK_SUB_VEHICLES","WRECK_SUB_AIRCRAFT","WRECK_SUB_SHIPS","WRECK_SUB_TRAINS","WRECK_SUB_OTHER","VEHICLE_TYPE_TRUCK","VEHICLE_TYPE_SEDAN","VEHICLE_TYPE_OFFROAD","VEHICLE_TYPE_HATCHBACK","VEHICLE_TYPE_OTHER","CATEGORY_FURNITURE","CATEGORY_ROADS","CATEGORY_RAIL","CATEGORY_WALLS","CATEGORY_SIGNS","CATEGORY_RUINS","CATEGORY_SPECIFIC","CATEGORY_PROPS","CATEGORY_BUILDING_PARTS","CATEGORY_VEGETATION","CATEGORY_ROCKS","CATEGORY_WATER","CATEGORY_TERRAIN","CATEGORY_UNCATEGORIZED","SEARCH","CLASSNAME","CREATE_ANCHOR","CREATE_ITEM","FOCUS_ANCHOR","EXPORT_ANCHOR","ITEM_MODE_HINT","ANCHOR_MODE_HINT","FOUND","UNKNOWN_CLASS","ANCHOR_REQUIRED","SPAWN_FAILED","NOT_INVENTORY_ITEM","NOT_ANCHOR","CREATED","ANCHOR_TRANSFORM_LIMIT","GIZMO_HINT","DESELECT_HINT","NO_ITEM","NO_ANCHOR","START_HINT","GIZMO_ON","GIZMO_OFF","INVALID_NUMBER","NUMBER_LIMIT","POSE_APPLIED","GROUNDED","POSE_RESET","ANCHOR_XML_FAILED","ANCHOR_XML_SAVED","XML_FAILED","MOVE_STEP","ANGLE_STEP","MOVE_KEYS","ROTATE_KEYS","MOVE_KEYS_HEIGHT","ROTATE_KEYS_YAW","FINE_KEYS","ITEM_PICKED_UP","WORLD_POSITION","WORLD_ORIENTATION","TRAY_TITLE","TRAY_TITLE_EMPTY","TRAY_EMPTY","TRAY_OWNER","TRAY_SELECTED","TRAY_INVENTORY","CHARACTER_HINT","WORLD_FLIGHT_HINT","ITEM_DRAG_HINT","ITEM_DROP_READY","ITEM_DROP_INVALID","ITEM_DROP_CANCELLED","ITEM_PREVIEW_SELECT","ITEM_PREVIEW_LOADING","ITEM_PREVIEW_UNAVAILABLE","SCENE_OBJECTS_TITLE","SCENE_OBJECTS_TITLE_EMPTY","SCENE_OBJECTS_EMPTY","SCENE_ANCHOR_ROW","SCENE_CHARACTER","SCENE_OBJECT","POSITION_WORLD","SCENE_MOVE_HINT","WORLD_NUMBER_LIMIT","POSITION_SHORT","ROTATION_SHORT","FINE_SETTINGS","COORDINATES_RELATIVE","COORDINATES_WORLD","PROPERTIES_ANCHOR","XML_SELECTION","CAMERA_FLIGHT","CAMERA_CURSOR","SEARCH_ITEMS_PLACEHOLDER","ERROR_TITLE","ANCHOR_DROP_READY","ANCHOR_DROP_REPLACE","REPLACE_TITLE","REPLACE_NAMES","REPLACE_WARNING","REPLACE_CONFIRM","REPLACE_CANCEL","REPLACE_SCENE_CHANGED","REPLACE_NEW"};
+        array<string> keys = {"LOCALE","TITLE","ITEM","ANCHOR","MOVE","ROTATE","POSITION","MOVE_STEP_DEFAULT","ROTATION","ANGLE_STEP_DEFAULT","APPLY","CHARACTER","RESET","GROUND","PLACE_ON_SURFACE","PLACEMENT_NO_SURFACE","PLACEMENT_NO_BOUNDS","SELECT_HINT","HELP","CREATE_TITLE","BUILDINGS","ITEMS","ITEM_GROUP_WEAPONS","ITEM_GROUP_WEAPONS_FIREARMS","ITEM_GROUP_WEAPONS_PISTOLS","ITEM_GROUP_WEAPONS_SHOTGUNS","ITEM_GROUP_WEAPONS_ARCHERY","ITEM_GROUP_WEAPONS_MELEE","ITEM_GROUP_WEAPONS_EXPLOSIVES","ITEM_GROUP_WEAPONS_LAUNCHERS","ITEM_GROUP_WEAPONS_OTHER","ITEM_GROUP_AMMO","ITEM_GROUP_AMMO_ROUNDS","ITEM_GROUP_AMMO_MAGAZINES","ITEM_GROUP_AMMO_BOXES","ITEM_GROUP_ATTACHMENTS","ITEM_GROUP_ATTACHMENTS_OPTICS","ITEM_GROUP_ATTACHMENTS_MUZZLE","ITEM_GROUP_ATTACHMENTS_LIGHT","ITEM_GROUP_ATTACHMENTS_SUPPORT","ITEM_GROUP_ATTACHMENTS_OTHER","ITEM_GROUP_CLOTHING","ITEM_GROUP_CLOTHING_BACKPACKS","ITEM_GROUP_CLOTHING_VESTS","ITEM_GROUP_CLOTHING_TOPS","ITEM_GROUP_CLOTHING_PANTS","ITEM_GROUP_CLOTHING_SHOES","ITEM_GROUP_CLOTHING_HEADGEAR","ITEM_GROUP_CLOTHING_MASKS","ITEM_GROUP_CLOTHING_GLOVES","ITEM_GROUP_CLOTHING_GLASSES","ITEM_GROUP_CLOTHING_BELTS","ITEM_GROUP_CLOTHING_OTHER","ITEM_GROUP_FOOD_DRINKS","ITEM_GROUP_FOOD_DRINKS_FOOD","ITEM_GROUP_FOOD_DRINKS_DRINKS","ITEM_GROUP_GEAR","ITEM_GROUP_GEAR_TOOLS","ITEM_GROUP_GEAR_CONTAINERS","ITEM_GROUP_GEAR_CAMPING","ITEM_GROUP_GEAR_COOKING","ITEM_GROUP_GEAR_CRAFTING","ITEM_GROUP_GEAR_CULTIVATION","ITEM_GROUP_GEAR_MEDICAL","ITEM_GROUP_GEAR_NAVIGATION","ITEM_GROUP_GEAR_RADIO","ITEM_GROUP_GEAR_OPTICS","ITEM_GROUP_GEAR_TRAPS","ITEM_GROUP_GEAR_BOOKS","ITEM_GROUP_GEAR_CONSUMABLES","ITEM_GROUP_GEAR_OTHER","ITEM_GROUP_VEHICLE_PARTS","ITEM_GROUP_VEHICLE_PARTS_WHEELS","ITEM_GROUP_VEHICLE_PARTS_BODY","ITEM_GROUP_VEHICLE_PARTS_COMPONENTS","ITEM_GROUP_VEHICLE_PARTS_OTHER","ITEM_GROUP_OTHER","SHOW_STATICOBJ","OTHER_OBJECTS","OBJECT_TREE_HINT","CATEGORY_RESIDENTIAL","RESIDENTIAL_SUB_SHEDS","RESIDENTIAL_SUB_OFFICE","RESIDENTIAL_SUB_MISC","RESIDENTIAL_SUB_HOUSE","RESIDENTIAL_SUB_CITY","RESIDENTIAL_SUB_TENEMENTS","RESIDENTIAL_SUB_STORES","RESIDENTIAL_SUB_MEDICAL","RESIDENTIAL_SUB_POLICE","RESIDENTIAL_SUB_SCHOOLS","RESIDENTIAL_SUB_FIREDEP","RESIDENTIAL_SUB_BUS","RESIDENTIAL_SUB_SLUMS","RESIDENTIAL_SUB_PLATFORMS","RESIDENTIAL_SUB_TERRACES","RESIDENTIAL_SUB_OTHER","CATEGORY_INDUSTRIAL","CATEGORY_MILITARY","CATEGORY_UNDERGROUND","CATEGORY_WRECKS","WRECK_SUB_VEHICLES","WRECK_SUB_AIRCRAFT","WRECK_SUB_SHIPS","WRECK_SUB_TRAINS","WRECK_SUB_OTHER","VEHICLE_TYPE_TRUCK","VEHICLE_TYPE_SEDAN","VEHICLE_TYPE_OFFROAD","VEHICLE_TYPE_HATCHBACK","VEHICLE_TYPE_OTHER","CATEGORY_FURNITURE","CATEGORY_ROADS","CATEGORY_RAIL","CATEGORY_WALLS","CATEGORY_SIGNS","CATEGORY_RUINS","CATEGORY_SPECIFIC","CATEGORY_PROPS","CATEGORY_BUILDING_PARTS","CATEGORY_VEGETATION","CATEGORY_ROCKS","CATEGORY_WATER","CATEGORY_TERRAIN","CATEGORY_UNCATEGORIZED","SEARCH","CLASSNAME","CREATE_ANCHOR","CREATE_ITEM","FOCUS_ANCHOR","EXPORT_ANCHOR","ITEM_MODE_HINT","ANCHOR_MODE_HINT","FOUND","UNKNOWN_CLASS","ANCHOR_REQUIRED","SPAWN_FAILED","NOT_INVENTORY_ITEM","NOT_ANCHOR","CREATED","ANCHOR_TRANSFORM_LIMIT","GIZMO_HINT","DESELECT_HINT","NO_ITEM","NO_ANCHOR","START_HINT","GIZMO_ON","GIZMO_OFF","INVALID_NUMBER","NUMBER_LIMIT","POSE_APPLIED","GROUNDED","POSE_RESET","ANCHOR_XML_FAILED","ANCHOR_XML_SAVED","XML_FAILED","MOVE_STEP","ANGLE_STEP","MOVE_KEYS","ROTATE_KEYS","MOVE_KEYS_HEIGHT","ROTATE_KEYS_YAW","FINE_KEYS","ITEM_PICKED_UP","WORLD_POSITION","WORLD_ORIENTATION","TRAY_TITLE","TRAY_TITLE_EMPTY","TRAY_EMPTY","TRAY_OWNER","TRAY_SELECTED","TRAY_INVENTORY","CHARACTER_HINT","WORLD_FLIGHT_HINT","ITEM_DRAG_HINT","ITEM_DROP_READY","ITEM_DROP_INVALID","ITEM_DROP_CANCELLED","ITEM_PREVIEW_SELECT","ITEM_PREVIEW_LOADING","ITEM_PREVIEW_UNAVAILABLE","SCENE_OBJECTS_TITLE","SCENE_OBJECTS_TITLE_EMPTY","SCENE_OBJECTS_EMPTY","SCENE_ANCHOR_ROW","SCENE_CHARACTER","SCENE_OBJECT","POSITION_WORLD","SCENE_MOVE_HINT","WORLD_NUMBER_LIMIT","POSITION_SHORT","ROTATION_SHORT","FINE_SETTINGS","COORDINATES_RELATIVE","COORDINATES_WORLD","PROPERTIES_ANCHOR","XML_SELECTION","CAMERA_FLIGHT","CAMERA_CURSOR","CAMERA_HELP","CAMERA_HELP_ENTER","CAMERA_HELP_MOVE","CAMERA_HELP_HEIGHT","CAMERA_HELP_LOOK","CAMERA_HELP_SPEED","CAMERA_HELP_BOOST","CAMERA_HELP_SLOW","SEARCH_ITEMS_PLACEHOLDER","ERROR_TITLE","ANCHOR_DROP_READY","ANCHOR_DROP_REPLACE","REPLACE_TITLE","REPLACE_NAMES","REPLACE_WARNING","REPLACE_CONFIRM","REPLACE_CANCEL","REPLACE_SCENE_CHANGED","REPLACE_NEW","UNDO","REDO","PROJECT_SAVE","PROJECT_OPEN","PROJECT_NAME","PROJECT_NAME_INVALID","PROJECT_FORMAT_INVALID","PROJECT_WORLD_INVALID","PROJECT_CLASS_INVALID","PROJECT_STAGE_FAILED","PROJECT_WRITE_FAILED","PROJECT_OPEN_WARNING","PROJECT_OVERWRITE","PROJECT_OPEN_REPLACE","PROJECT_SAVE_REPLACE","PROJECT_NOT_FOUND","PROJECT_READ_FAILED","PROJECT_JSON_INVALID","TOOLS_PROJECT","TOOLS_HISTORY","TOOLS_EDIT","TOOLS_VIEW","TOOLS_EXPORT","SUCCESS_TITLE","WARNING_TITLE","PROJECT_SAVED","PROJECT_OPENED","ITEM_XML_SAVED","LOOT_VOLUMES","LOOT_SOURCE","LOOT_DATA_UNAVAILABLE","LOOT_GROUP_UNAVAILABLE","LOOT_NO_POINTS","LOOT_DIMENSIONS_UNSPECIFIED","LOOT_FROM_GAME","LOOT_FROM_SNAPSHOT","LOOT_FALLBACK_WARNING"};
         return keys;
     }
 }
+// Scoped flat styles; no replacement of DayZ's global Default widget styles.
+class IOTEditorTheme
+{
+    protected static bool s_Loaded;
+
+    static void Load()
+    {
+        if (s_Loaded) return;
+        LoadWidgetStyles("iot\\proxytool\\gui\\editor.styles");
+        s_Loaded = true;
+    }
+
+    static int Matte() { return ARGB(255,11,13,15); }
+    static int Row() { return ARGB(0,24,27,29); }
+    static int RowHover() { return ARGB(62,171,184,194); }
+    static int RowSelected() { return ARGB(100,192,203,211); }
+    static int Accent() { return ARGB(255,224,210,178); }
+}
+
 class IOTSceneEntry
 {
     Object Anchor;
@@ -287,8 +306,12 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
     protected TextListboxWidget m_Results;
     protected ScrollWidget m_ItemScroll;
     protected Widget m_ItemContent;
+    protected Widget m_ScrollTrack;
+    protected Widget m_ScrollThumb;
+    protected CanvasWidget m_StaticIcon;
+    protected bool m_StaticIconDrawn;
+    protected bool m_StaticIconChecked;
     protected ref array<Widget> m_ItemRows = new array<Widget>;
-    protected MultilineTextWidget m_Status;
     protected CheckBoxWidget m_ShowStatic;
     protected Widget m_HoverRoot;
     protected ItemPreviewWidget m_HoverView;
@@ -333,6 +356,9 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         m_Results = TextListboxWidget.Cast(m_Root.FindAnyWidget("SceneResults"));
         m_ItemScroll = ScrollWidget.Cast(m_Root.FindAnyWidget("SceneItemScroll"));
         m_ItemContent = m_Root.FindAnyWidget("SceneItemRows");
+        m_ScrollTrack = m_Root.FindAnyWidget("CatalogScrollTrack");
+        m_ScrollThumb = m_Root.FindAnyWidget("CatalogScrollThumb");
+        m_StaticIcon = CanvasWidget.Cast(m_Root.FindAnyWidget("SceneShowStaticIcon"));
         m_HoverRoot = GetGame().GetWorkspace().CreateWidgets("iot\\proxytool\\gui\\item_hover_preview.layout");
         m_HoverView = ItemPreviewWidget.Cast(m_HoverRoot.FindAnyWidget("HoverItemModel"));
         m_HoverClass = MultilineTextWidget.Cast(m_HoverRoot.FindAnyWidget("HoverItemClass"));
@@ -341,7 +367,6 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         m_HoverEmpty.SetFlags(WidgetFlags.CENTER | WidgetFlags.VCENTER);
         m_HoverEmpty.SetText(IOTL.T("ITEM_PREVIEW_UNAVAILABLE"));
         m_HoverRoot.Show(false);
-        m_Status = MultilineTextWidget.Cast(m_Root.FindAnyWidget("SceneStatus"));
         m_ShowStatic = CheckBoxWidget.Cast(m_Root.FindAnyWidget("SceneShowStatic"));
         float panelWidth,panelHeight;
         m_Root.GetScreenSize(panelWidth,panelHeight);
@@ -355,6 +380,51 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         m_Root.SetHandler(this);
         SetMode(false);
         DrawSearchIcon();
+        UpdateTheme();
+    }
+
+    void UpdateTheme()
+    {
+        // The ScrollWidget owns its native scrollbar and its mouse handling.
+        // Pointer-transparent chrome only replaces the hard-coded red drawing.
+        bool scrolling = m_Root.IsVisible() && m_ItemScroll.IsVisible() && m_ItemScroll.IsScrollbarVisible();
+        m_ScrollTrack.Show(scrolling);
+        if (scrolling)
+        {
+            float x,y,width,height;
+            m_ItemScroll.GetScreenPos(x,y);
+            m_ItemScroll.GetScreenSize(width,height);
+            float trackWidth = Math.Max(8*m_PanelScale,m_ItemScroll.GetScrollbarWidth());
+            m_ScrollTrack.SetScreenPos(x+width - trackWidth,y);
+            m_ScrollTrack.SetScreenSize(trackWidth,height);
+            float contentWidth,contentHeight;
+            m_ItemContent.GetScreenSize(contentWidth,contentHeight);
+            float thumbHeight = Math.Min(height,Math.Max(18*m_PanelScale,height*height/Math.Max(height,contentHeight)));
+            float thumbWidth = Math.Min(trackWidth,4*m_PanelScale);
+            float thumbY = (height - thumbHeight)*Math.Clamp(m_ItemScroll.GetVScrollPos01(),0,1);
+            m_ScrollThumb.SetScreenPos(x+width - (trackWidth+thumbWidth)*0.5,y+thumbY);
+            m_ScrollThumb.SetScreenSize(thumbWidth,thumbHeight);
+        }
+
+        bool checked = m_ShowStatic.IsChecked();
+        if (m_StaticIconDrawn && checked == m_StaticIconChecked) return;
+        m_StaticIconDrawn = true;
+        m_StaticIconChecked = checked;
+        float iconWidth,iconHeight;
+        m_StaticIcon.GetScreenSize(iconWidth,iconHeight);
+        float scale = Math.Min(iconWidth,iconHeight)/16;
+        float stroke = Math.Max(1,scale);
+        int color = ARGB(255,200,204,205);
+        m_StaticIcon.Clear();
+        m_StaticIcon.DrawLine(1*scale,1*scale,15*scale,1*scale,stroke,color);
+        m_StaticIcon.DrawLine(15*scale,1*scale,15*scale,15*scale,stroke,color);
+        m_StaticIcon.DrawLine(15*scale,15*scale,1*scale,15*scale,stroke,color);
+        m_StaticIcon.DrawLine(1*scale,15*scale,1*scale,1*scale,stroke,color);
+        if (checked)
+        {
+            m_StaticIcon.DrawLine(4*scale,8*scale,7*scale,11*scale,2*stroke,IOTEditorTheme.Accent());
+            m_StaticIcon.DrawLine(7*scale,11*scale,12*scale,5*scale,2*stroke,IOTEditorTheme.Accent());
+        }
     }
 
     protected void DrawSearchIcon()
@@ -459,10 +529,11 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         int selected = m_Results.GetSelectedRow();
         for (int i = 0; i < m_ItemRows.Count(); i++)
         {
-            int color = ARGB(255,35,40,43);
-            if (i == m_HoverRow) color = ARGB(255,60,73,82);
-            if (i == selected) color = ARGB(255,150,43,43);
+            int color = IOTEditorTheme.Row();
+            if (i == m_HoverRow) color = IOTEditorTheme.RowHover();
+            if (i == selected) color = IOTEditorTheme.RowSelected();
             m_ItemRows[i].FindAnyWidget("CatalogItemBackground").SetColor(color);
+            m_ItemRows[i].FindAnyWidget("CatalogItemAccent").Show(i == selected);
         }
     }
 
@@ -593,14 +664,12 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
 
     protected void ResizeCatalog()
     {
-        float footer = 66;
+        float footer = 12;
         float listHeight = 228*m_PanelScale;
         if (m_CatalogHeight > 0) listHeight = Math.Max(24*m_PanelScale,m_CatalogHeight - (161+footer)*m_PanelScale);
         m_Results.SetScreenSize(328*m_PanelScale,listHeight);
         m_ItemScroll.SetScreenSize(328*m_PanelScale,listHeight);
-        float statusY = 169*m_PanelScale+listHeight;
-        m_Status.SetPos(16*m_PanelScale,statusY);
-        m_Root.SetScreenSize(360*m_PanelScale,statusY+58*m_PanelScale);
+        m_Root.SetScreenSize(360*m_PanelScale,161*m_PanelScale+listHeight+footer*m_PanelScale);
         m_ItemScroll.Update();
     }
 
@@ -779,8 +848,6 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         ButtonWidget.Cast(m_Root.FindAnyWidget("SceneItemsMode")).SetState(items);
         m_Updating = false;
         Filter();
-        if (items) SetStatus("");
-        else SetStatus(IOTL.T("OBJECT_TREE_HINT"));
     }
 
     protected bool MatchesQuery(string name, string query)
@@ -1075,7 +1142,6 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         Filter();
     }
 
-    void SetStatus(string value) { m_Status.SetText(value); }
     void Show(bool visible)
     {
         m_Root.Show(visible);
@@ -1102,6 +1168,18 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         int row = m_Results.GetSelectedRow();
         if (row < 0 || row >= m_Rows.Count()) return "";
         return m_Rows[row].ClassName;
+    }
+
+    int MapForClass(string classname)
+    {
+        if (m_ItemsMode) return 0;
+        int row = m_Results.GetSelectedRow();
+        if (row < 0 || row >= m_Rows.Count() || m_Rows[row].ClassName != classname) return 0;
+        string key = m_Rows[row].Key;
+        if (key.IndexOf("map:") != 0) return 0;
+        int index = key.Substring(4,1).ToInt();
+        if (index >= 1 && index <= 4) return index;
+        return 0;
     }
 
     bool Contains(vector point)
@@ -1165,7 +1243,7 @@ class IOTSceneBrowser : ScriptedWidgetEventHandler
         if (wheel != 0)
         {
             HideHoverPreview();
-            float delta = 24*m_PanelScale;
+            float delta = 2*24*m_PanelScale;
             if (wheel > 0) delta = -delta;
             m_ItemScroll.VScrollToPos(Math.Max(0,m_ItemScroll.GetVScrollPos()+delta));
             m_ItemScroll.Update();
@@ -1231,6 +1309,7 @@ class IOTSceneItems : ScriptedWidgetEventHandler
     protected int m_ItemCount;
     protected int m_AnchorCount;
     protected bool m_Updating;
+    protected int m_VisibleRows;
 
     void IOTSceneItems(IOTProxyTool tool)
     {
@@ -1249,6 +1328,7 @@ class IOTSceneItems : ScriptedWidgetEventHandler
     int AnchorCount() { return m_AnchorCount; }
     int RowCount() { return m_Rows.Count(); }
     bool IsVisible() { return m_Root.IsVisible(); }
+    int VisibleRows() { return m_VisibleRows; }
     void Show(bool visible) { m_Root.Show(visible); }
 
     void Position(Widget browser)
@@ -1259,9 +1339,22 @@ class IOTSceneItems : ScriptedWidgetEventHandler
         browser.GetScreenPos(x,y);
         browser.GetScreenSize(width,height);
         float scale = width/360;
-        m_Root.SetScreenSize(width,150*scale);
-        // Keep the same window-safe lower margin as the former bottom tray.
-        m_Root.SetScreenPos(x,screenHeight - 150*scale - Math.Max(54,24*scale));
+        float bottom = screenHeight - Math.Max(54,24*scale);
+        float space = bottom - y;
+        // Reserve the catalog header and several rows before growing the scene.
+        m_VisibleRows = Math.Clamp(Math.Floor((space - 326*scale)/(24*scale)),1,10);
+        float sceneHeight = (54+m_VisibleRows*24)*scale;
+        float currentX,currentY,currentWidth,currentHeight;
+        m_Root.GetScreenPos(currentX,currentY);
+        m_Root.GetScreenSize(currentWidth,currentHeight);
+        if (Math.AbsFloat(currentWidth - width) > 0.1 || Math.AbsFloat(currentHeight - sceneHeight) > 0.1) m_Root.SetScreenSize(width,sceneHeight);
+        m_List.GetScreenSize(currentWidth,currentHeight);
+        if (Math.AbsFloat(currentWidth - width+32*scale) > 0.1 || Math.AbsFloat(currentHeight - m_VisibleRows*24*scale) > 0.1)
+        {
+            m_List.SetPos(16*scale,46*scale);
+            m_List.SetScreenSize(width - 32*scale,m_VisibleRows*24*scale);
+        }
+        if (Math.AbsFloat(currentX - x) > 0.1 || Math.AbsFloat(currentY - bottom+sceneHeight) > 0.1) m_Root.SetScreenPos(x,bottom - sceneHeight);
     }
 
     bool Contains(vector point)
@@ -1363,7 +1456,7 @@ class IOTSceneItems : ScriptedWidgetEventHandler
             else
             {
                 label = entry.Anchor.GetType();
-                if (entry.Anchor == active) color = ARGB(255,110,195,245);
+                if (entry.Anchor == active) color = IOTEditorTheme.Accent();
             }
             if (rebuild) m_List.AddItem(label,null,0);
             else m_List.SetItem(index,label,null,0);
@@ -1416,6 +1509,14 @@ class IOTSceneItems : ScriptedWidgetEventHandler
 class IOTEditorViewport
 {
     protected Widget m_Root;
+    protected Widget m_Matte;
+    protected ref array<Widget> m_Backdrop = new array<Widget>;
+    protected bool m_BackdropLoadFailed;
+    protected vector m_MatteOrigin;
+    protected vector m_MatteSize;
+    protected int m_ScreenWidth;
+    protected int m_ScreenHeight;
+    protected bool m_MatteValid;
     protected float m_Left;
     protected float m_Top;
     protected float m_Right;
@@ -1426,12 +1527,25 @@ class IOTEditorViewport
     void IOTEditorViewport()
     {
         m_Root = GetGame().GetWorkspace().CreateWidgets("iot\\proxytool\\gui\\editor_viewport.layout");
+        m_Matte = GetGame().GetWorkspace().CreateWidgets("iot\\proxytool\\gui\\editor_matte.layout");
+        if (m_Matte) { m_Matte.SetSort(-200); m_Matte.Show(false); }
         if (m_Root) { m_Root.SetSort(-100); m_Root.Show(false); }
     }
 
-    void ~IOTEditorViewport() { if (m_Root) m_Root.Unlink(); }
+    void ~IOTEditorViewport()
+    {
+        foreach (Widget frame : m_Backdrop) if (frame) frame.Unlink();
+        if (m_Root) m_Root.Unlink();
+        if (m_Matte) m_Matte.Unlink();
+    }
 
-    bool Ready() { return m_Root != null; }
+    bool Ready() { return m_Root != null && m_Matte != null; }
+    Widget MatteRoot() { return m_Matte; }
+    Widget BackdropPart(int index)
+    {
+        if (index >= m_Backdrop.Count()) return null;
+        return m_Backdrop[index];
+    }
     bool IsVisible() { return m_Root && m_Root.IsVisible(); }
     vector Origin() { return Vector(m_Left,m_Top,0); }
     vector Size() { return Vector(m_Right-m_Left,m_Bottom-m_Top,0); }
@@ -1439,8 +1553,116 @@ class IOTEditorViewport
 
     void Show(bool visible)
     {
-        if (!visible) m_Valid = false;
+        if (!visible)
+        {
+            m_Valid = false;
+            m_MatteValid = false;
+        }
         if (m_Root) m_Root.Show(visible && m_Valid);
+        if (m_Matte) m_Matte.Show(visible);
+        if (!visible) foreach (Widget frame : m_Backdrop) frame.Show(false);
+    }
+
+    protected bool LoadBackdrop()
+    {
+        if (m_BackdropLoadFailed) return false;
+        if (m_Backdrop.Count() == 4) return true;
+        int flags = WidgetFlags.HEXACTPOS | WidgetFlags.VEXACTPOS | WidgetFlags.HEXACTSIZE | WidgetFlags.VEXACTSIZE | WidgetFlags.IGNOREPOINTER;
+        int imageFlags = flags | WidgetFlags.VISIBLE | WidgetFlags.BLEND | WidgetFlags.SOURCEALPHA | WidgetFlags.STRETCH;
+        string texture = "iot\\proxytool\\gui\\editor_backdrop.edds";
+        for (int index = 0; index < 4; index++)
+        {
+            // Leave the native sort-zero layer available for ItemPreviewWidget.
+            Widget frame = GetGame().GetWorkspace().CreateWidget(FrameWidgetTypeID,0,0,1,1,flags | WidgetFlags.CLIPCHILDREN,ARGB(255,255,255,255),-150);
+            ImageWidget image;
+            if (frame)
+            {
+                m_Backdrop.Insert(frame);
+                image = ImageWidget.Cast(GetGame().GetWorkspace().CreateWidget(ImageWidgetTypeID,0,0,1,1,imageFlags,ARGB(255,255,255,255),0,frame));
+            }
+            if (!image || !image.LoadImageFile(0,texture))
+            {
+                foreach (Widget loaded : m_Backdrop) loaded.Unlink();
+                m_Backdrop.Clear();
+                m_BackdropLoadFailed = true;
+                PrintToRPT("[PROXY THEME] Backdrop texture failed to load.");
+                return false;
+            }
+        }
+        PrintToRPT("[PROXY THEME] Backdrop texture loaded.");
+        return true;
+    }
+
+    protected void BackdropRect(int index, float x, float y, float width, float height, float u0, float v0, float u1, float v1)
+    {
+        Widget frame = m_Backdrop[index];
+        frame.Show(width > 0 && height > 0);
+        if (!frame.IsVisible()) return;
+        frame.SetScreenPos(x,y);
+        frame.SetScreenSize(width,height);
+        Widget image = frame.GetChildren();
+        float scaleX = width/(u1-u0);
+        float scaleY = height/(v1-v0);
+        image.SetPos(-u0*scaleX,-v0*scaleY);
+        image.SetScreenSize(1024*scaleX,512*scaleY);
+    }
+
+    protected void LayoutBackdrop(int width, int height)
+    {
+        if (!m_Valid)
+        {
+            foreach (Widget frame : m_Backdrop) frame.Show(false);
+            return;
+        }
+        if (!LoadBackdrop()) return;
+        // The source atlas has a cutout from (156,54) to (854,498).
+        // Fit the four opaque strips independently so no margins show on resize.
+        BackdropRect(0,0,0,width,m_Top,0,0,1024,53);
+        BackdropRect(1,0,m_Bottom,width,height - m_Bottom,0,499,1024,512);
+        BackdropRect(2,0,m_Top,m_Left,m_Bottom - m_Top,0,55,155,497);
+        BackdropRect(3,m_Right,m_Top,width - m_Right,m_Bottom - m_Top,855,55,1024,497);
+    }
+
+    protected void MatteRect(string name, float x, float y, float width, float height)
+    {
+        Widget panel = m_Matte.FindAnyWidget(name);
+        panel.SetScreenPos(x,y);
+        panel.SetScreenSize(Math.Max(0,width),Math.Max(0,height));
+        panel.SetColor(IOTEditorTheme.Matte());
+        panel.Show(width > 0 && height > 0);
+    }
+
+    protected void LayoutMatte(int width, int height)
+    {
+        if (!m_Matte) return;
+        vector origin = Origin();
+        vector size = Size();
+        if (m_ScreenWidth != width || m_ScreenHeight != height || m_MatteValid != m_Valid || vector.Distance(origin,m_MatteOrigin) > 0.01 || vector.Distance(size,m_MatteSize) > 0.01)
+        {
+            m_Matte.SetScreenPos(0,0);
+            m_Matte.SetScreenSize(width,height);
+            if (m_Valid)
+            {
+                MatteRect("MatteTop",0,0,width,m_Top);
+                MatteRect("MatteBottom",0,m_Bottom,width,height - m_Bottom);
+                MatteRect("MatteLeft",0,m_Top,m_Left,m_Bottom - m_Top);
+                MatteRect("MatteRight",m_Right,m_Top,width - m_Right,m_Bottom - m_Top);
+            }
+            else
+            {
+                MatteRect("MatteTop",0,0,width,height);
+                MatteRect("MatteBottom",0,0,0,0);
+                MatteRect("MatteLeft",0,0,0,0);
+                MatteRect("MatteRight",0,0,0,0);
+            }
+            m_ScreenWidth = width;
+            m_ScreenHeight = height;
+            m_MatteOrigin = origin;
+            m_MatteSize = size;
+            m_MatteValid = m_Valid;
+            LayoutBackdrop(width,height);
+        }
+        m_Matte.Show(true);
     }
 
     void Update(Widget browser, Widget settings, Widget tray, Widget toolbar, bool visible)
@@ -1470,6 +1692,8 @@ class IOTEditorViewport
         }
         m_Right = Math.Min(screenWidth,rightX-gap);
         m_Bottom = screenHeight - Math.Max(40,gap);
+        m_Left = Math.Ceil(m_Left); m_Top = Math.Ceil(m_Top);
+        m_Right = Math.Floor(m_Right); m_Bottom = Math.Floor(m_Bottom);
         m_Valid = m_Right-m_Left >= 64 && m_Bottom-m_Top >= 64;
         if (m_Valid)
         {
@@ -1485,6 +1709,7 @@ class IOTEditorViewport
             m_Root.FindAnyWidget("WorldRight").SetScreenSize(1,height);
         }
         m_Root.Show(m_Valid);
+        LayoutMatte(screenWidth,screenHeight);
     }
 
     bool Contains(vector point)
@@ -1496,18 +1721,1176 @@ class IOTEditorViewport
     {
         if (!m_Root || active == m_Active) return;
         m_Active = active;
-        int color = ARGB(130,160,175,185);
-        if (active) color = ARGB(210,90,165,215);
+        int color = ARGB(95,185,189,190);
+        if (active) color = ARGB(190,224,210,178);
         Widget edge = m_Root.GetChildren();
         while (edge) { edge.SetColor(color); edge = edge.GetSibling(); }
     }
 }
 
+class IOTProjectObject
+{
+    string Classname;
+    vector Position;
+    vector Orientation;
+}
+
+class IOTProjectData
+{
+    int Version;
+    string WorldName;
+    int LootMap; // Optional in version 1: 0 auto, 1..4 official CE reference map.
+    ref IOTProjectObject Anchor;
+    ref array<ref IOTProjectObject> Items = new array<ref IOTProjectObject>;
+    vector CharacterPosition;
+    vector CameraPosition;
+    vector CameraOrientation;
+    float CameraSpeed;
+}
+
+class IOTProjectFiles
+{
+    static string Folder() { return "$profile:ProxyPlacement/Projects"; }
+
+    static bool ValidName(string name)
+    {
+        name.TrimInPlace();
+        if (name == "" || name.Length() > 80 || name.Contains("..") || name.Substring(name.Length() - 1,1) == ".") return false;
+        string forbidden = "<>:\"/\\|?*\r\n\t";
+        for (int i = 0; i < name.Length(); i++)
+            if (forbidden.Contains(name.Substring(i,1))) return false;
+        return true;
+    }
+
+    static string Path(string name) { return Folder()+"/"+name+".json"; }
+
+    static array<string> Names()
+    {
+        array<string> names = new array<string>;
+        string filename;
+        FileAttr attributes;
+        FindFileHandle handle = FindFile(Folder()+"/*.json",filename,attributes,FindFileFlags.DIRECTORIES);
+        if (handle)
+        {
+            bool more = true;
+            while (more)
+            {
+                if (!(attributes & FileAttr.DIRECTORY) && filename.Length() > 5)
+                {
+                    string name = filename.Substring(0,filename.Length() - 5);
+                    if (ValidName(name)) names.Insert(name);
+                }
+                more = FindNextFile(handle,filename,attributes);
+            }
+            CloseFindFile(handle);
+        }
+        names.Sort();
+        return names;
+    }
+
+    static bool Load(string name, out IOTProjectData data, out string error)
+    {
+        name.TrimInPlace();
+        data = null;
+        if (!ValidName(name)) { error = IOTL.T("PROJECT_NAME_INVALID"); return false; }
+        string path = Path(name);
+        if (!FileExist(path))
+        {
+            PrintToRPT("[PROXY PROJECT IO] File not found: "+path);
+            error = IOTL.F("PROJECT_NOT_FOUND",name+".json");
+            return false;
+        }
+        FileHandle handle = OpenFile(path,FileMode.READ);
+        if (handle == 0)
+        {
+            PrintToRPT("[PROXY PROJECT IO] Cannot open for reading: "+path);
+            error = IOTL.F("PROJECT_READ_FAILED",name+".json");
+            return false;
+        }
+        string content;
+        int bytes = ReadFile(handle,content,100000000);
+        CloseFile(handle);
+        if (bytes < 0)
+        {
+            PrintToRPT("[PROXY PROJECT IO] Cannot read: "+path);
+            error = IOTL.F("PROJECT_READ_FAILED",name+".json");
+            return false;
+        }
+        string detail;
+        if (!JsonFileLoader<IOTProjectData>.LoadData(content,data,detail))
+        {
+            PrintToRPT("[PROXY PROJECT IO] "+path+": "+detail);
+            data = null;
+            error = IOTL.F("PROJECT_JSON_INVALID",name+".json");
+            return false;
+        }
+        error = "";
+        return true;
+    }
+
+    protected static bool WriteFailure(string detail, out string error)
+    {
+        PrintToRPT("[PROXY PROJECT IO] "+detail);
+        error = IOTL.T("PROJECT_WRITE_FAILED");
+        return false;
+    }
+
+    static bool Save(string name, IOTProjectData data, out string error)
+    {
+        name.TrimInPlace();
+        if (!ValidName(name)) { error = IOTL.T("PROJECT_NAME_INVALID"); return false; }
+        MakeDirectory("$profile:ProxyPlacement");
+        MakeDirectory(Folder());
+        string path = Path(name);
+        string temporary = path+".tmp";
+        string backup = path+".bak";
+        string detail;
+        if (!JsonFileLoader<IOTProjectData>.SaveFile(temporary,data,detail))
+        {
+            DeleteFile(temporary);
+            return WriteFailure(detail,error);
+        }
+        IOTProjectData check;
+        if (!JsonFileLoader<IOTProjectData>.LoadFile(temporary,check,detail)) { DeleteFile(temporary); return WriteFailure(detail,error); }
+        bool existed = FileExist(path);
+        if (existed)
+        {
+            if (FileExist(backup) && !DeleteFile(backup)) { DeleteFile(temporary); return WriteFailure("Cannot remove backup: "+backup,error); }
+            if (!CopyFile(path,backup)) { DeleteFile(temporary); return WriteFailure("Cannot create backup: "+backup,error); }
+            if (!DeleteFile(path)) { DeleteFile(temporary); return WriteFailure("Cannot replace: "+path,error); }
+        }
+        if (!CopyFile(temporary,path))
+        {
+            if (existed) CopyFile(backup,path);
+            DeleteFile(temporary);
+            return WriteFailure("Cannot copy temporary project to: "+path,error);
+        }
+        DeleteFile(temporary);
+        error = "";
+        return true;
+    }
+}
+
+// Vector toolbar icons use the native canvas and scale with the UI.
+class IOTToolbarIcons
+{
+    static void Line(CanvasWidget canvas, vector a, vector b, float scale, int color)
+    {
+        canvas.DrawLine(a[0]*scale,a[1]*scale,b[0]*scale,b[1]*scale,1.8*scale,color);
+    }
+
+    static void Poly(CanvasWidget canvas, array<vector> points, float scale, int color)
+    {
+        for (int i = 1; i < points.Count(); i++) Line(canvas,points[i - 1],points[i],scale,color);
+    }
+
+    static void Arc(CanvasWidget canvas, vector center, float rx, float ry, float from, float to, float scale, int color)
+    {
+        vector previous;
+        for (int i = 0; i <= 32; i++)
+        {
+            float angle = (from+(to-from)*i/32)*Math.DEG2RAD;
+            vector point = Vector(center[0]+Math.Cos(angle)*rx,center[1]+Math.Sin(angle)*ry,0);
+            if (i > 0) Line(canvas,previous,point,scale,color);
+            previous = point;
+        }
+    }
+
+    static void Draw(CanvasWidget canvas, string action, bool active = false)
+    {
+        canvas.Clear();
+        float width,height;
+        canvas.GetScreenSize(width,height);
+        float scale = Math.Min(width,height)/32;
+        int white = ARGB(255,225,231,235);
+        int red = ARGB(255,240,92,92);
+        int green = ARGB(255,103,218,132);
+        int blue = ARGB(255,91,163,244);
+        if (action == "ProjectSave")
+        {
+            Poly(canvas,{"4 3 0","24 3 0","29 8 0","29 29 0","3 29 0","3 3 0","4 3 0"},scale,white);
+            Poly(canvas,{"9 3 0","9 12 0","22 12 0","22 3 0"},scale,white);
+            Poly(canvas,{"8 29 0","8 20 0","24 20 0","24 29 0"},scale,white);
+            Line(canvas,"18 5 0","18 10 0",scale,white);
+        }
+        else if (action == "ProjectOpen")
+        {
+            Poly(canvas,{"3 13 0","3 6 0","12 6 0","16 10 0","28 10 0","28 13 0"},scale,white);
+            Poly(canvas,{"3 13 0","30 13 0","26 27 0","5 27 0","3 13 0"},scale,white);
+        }
+        else if (action == "Undo" || action == "Redo")
+        {
+            if (action == "Undo")
+            {
+                Arc(canvas,"16 18 0",10,10,215,395,scale,white);
+                Poly(canvas,{"6 4 0","6 12 0","14 12 0"},scale,white);
+            }
+            else
+            {
+                Arc(canvas,"16 18 0",10,10,-35,-215,scale,white);
+                Poly(canvas,{"26 4 0","26 12 0","18 12 0"},scale,white);
+            }
+        }
+        else if (action == "MoveMode")
+        {
+            Line(canvas,"13 20 0","13 3 0",scale,green);
+            Poly(canvas,{"9 8 0","13 3 0","17 8 0"},scale,green);
+            Line(canvas,"13 20 0","30 20 0",scale,red);
+            Poly(canvas,{"25 16 0","30 20 0","25 24 0"},scale,red);
+            Line(canvas,"13 20 0","3 29 0",scale,blue);
+            Poly(canvas,{"3 23 0","3 29 0","9 29 0"},scale,blue);
+        }
+        else if (action == "RotateMode")
+        {
+            Arc(canvas,"16 16 0",13,13,0,360,scale,red);
+            Arc(canvas,"16 16 0",5,13,0,360,scale,blue);
+            Arc(canvas,"16 16 0",13,5,0,360,scale,green);
+        }
+        else if (action == "PlaceOnSurface")
+        {
+            Line(canvas,"16 4 0","16 20 0",scale,white);
+            Poly(canvas,{"10 14 0","16 20 0","22 14 0"},scale,white);
+            Line(canvas,"3 26 0","29 26 0",scale,white);
+        }
+        else if (action == "SceneFocus")
+        {
+            Poly(canvas,{"3 11 0","3 3 0","11 3 0"},scale,white);
+            Poly(canvas,{"21 3 0","29 3 0","29 11 0"},scale,white);
+            Poly(canvas,{"29 21 0","29 29 0","21 29 0"},scale,white);
+            Poly(canvas,{"11 29 0","3 29 0","3 21 0"},scale,white);
+            Line(canvas,"10 16 0","22 16 0",scale,white);
+            Line(canvas,"16 10 0","16 22 0",scale,white);
+        }
+        else if (action == "PlayerMode")
+        {
+            Arc(canvas,"16 7 0",4,4,0,360,scale,white);
+            Poly(canvas,{"5 28 0","6 19 0","10 15 0","22 15 0","26 19 0","27 28 0","5 28 0"},scale,white);
+        }
+        else if (action == "LootVolumes")
+        {
+            int lootColor = white;
+            if (active) lootColor = ARGB(255,70,205,245);
+            Arc(canvas,"16 7 0",12,4,0,360,scale,lootColor);
+            Arc(canvas,"16 25 0",12,4,0,360,scale,lootColor);
+            Line(canvas,"4 7 0","4 25 0",scale,lootColor);
+            Line(canvas,"28 7 0","28 25 0",scale,lootColor);
+            Arc(canvas,"16 25 0",2,2,0,360,scale,white);
+        }
+        else if (action == "CameraHelp")
+        {
+            Poly(canvas,{"3 8 0","21 8 0","21 24 0","3 24 0","3 8 0"},scale,white);
+            Poly(canvas,{"21 13 0","29 8 0","29 24 0","21 19 0"},scale,white);
+            Arc(canvas,"12 16 0",4,4,0,360,scale,white);
+        }
+        else if (action == "Export")
+        {
+            Poly(canvas,{"20 29 0","5 29 0","5 3 0","20 3 0","26 9 0","26 14 0"},scale,white);
+            Poly(canvas,{"19 3 0","19 10 0","26 10 0"},scale,white);
+            Line(canvas,"15 22 0","30 22 0",scale,white);
+            Poly(canvas,{"25 17 0","30 22 0","25 27 0"},scale,white);
+        }
+        else if (action == "SceneExport")
+        {
+            Poly(canvas,{"2 12 0","14 3 0","26 12 0"},scale,white);
+            Poly(canvas,{"5 10 0","5 29 0","20 29 0"},scale,white);
+            Poly(canvas,{"10 29 0","10 17 0","17 17 0","17 29 0"},scale,white);
+            Line(canvas,"20 21 0","31 21 0",scale,white);
+            Poly(canvas,{"26 16 0","31 21 0","26 26 0"},scale,white);
+        }
+    }
+}
+
+class IOTToolbarChrome
+{
+    protected Widget m_Root;
+    protected Widget m_Hint;
+    protected MultilineTextWidget m_Text;
+    protected string m_Hovered;
+    protected int m_HoverStart;
+    protected float m_Scale = 1;
+    protected bool m_HasLayout;
+    protected float m_LayoutWidth;
+    protected float m_LayoutHeight;
+    protected int m_LayoutVisibility;
+    protected string m_LootDetail;
+    protected bool m_LootActive;
+    protected bool m_CameraHelpOpen;
+
+    void IOTToolbarChrome(Widget root)
+    {
+        m_Root = root;
+        m_Hint = GetGame().GetWorkspace().CreateWidgets("iot\\proxytool\\gui\\toolbar_hint.layout");
+        m_Text = MultilineTextWidget.Cast(m_Hint.FindAnyWidget("ToolbarHintText"));
+        // Above the toolbar, hover preview and optional editor backdrop.
+        m_Hint.SetSort(1770);
+        m_Hint.Show(false);
+    }
+
+    void ~IOTToolbarChrome() { if (m_Hint) m_Hint.Unlink(); }
+
+    static array<string> Actions()
+    {
+        return {"ProjectSave","ProjectOpen","Undo","Redo","MoveMode","RotateMode","PlaceOnSurface","SceneFocus","PlayerMode","LootVolumes","CameraHelp","Export","SceneExport"};
+    }
+
+    static int GroupIndex(int action)
+    {
+        if (action < 4) return action/2;
+        if (action < 7) return 2;
+        if (action < 11) return 3;
+        return 4;
+    }
+
+    void SetLootDetail(string detail) { m_LootDetail = detail; }
+
+    void SetLootActive(bool active)
+    {
+        if (m_LootActive == active) return;
+        m_LootActive = active;
+        m_Root.FindAnyWidget("LootVolumesActive").Show(active);
+        CanvasWidget icon = CanvasWidget.Cast(m_Root.FindAnyWidget("LootVolumesIcon"));
+        IOTToolbarIcons.Draw(icon,"LootVolumes",active);
+    }
+
+    static string GroupLabel(int index)
+    {
+        array<string> keys = {"TOOLS_PROJECT","TOOLS_HISTORY","TOOLS_EDIT","TOOLS_VIEW","TOOLS_EXPORT"};
+        return IOTL.T(keys[index]);
+    }
+
+    static string HintText(string action)
+    {
+        array<string> names = Actions();
+        int index = names.Find(action);
+        if (index < 0) return "";
+        array<string> keys = {"PROJECT_SAVE","PROJECT_OPEN","UNDO","REDO","MOVE","ROTATE","PLACE_ON_SURFACE","FOCUS_ANCHOR","CHARACTER","LOOT_VOLUMES","CAMERA_HELP","XML_SELECTION","EXPORT_ANCHOR"};
+        string text = IOTL.T(keys[index]);
+        if (action == "Redo") text = text+" / Ctrl+Shift+Z";
+        return text;
+    }
+
+    float Layout(float width, float scale)
+    {
+        array<string> names = Actions();
+        int visibility = 0;
+        for (int action = 0; action < names.Count(); action++)
+            if (m_Root.FindAnyWidget(names[action]).IsVisible()) visibility = visibility | (1 << action);
+        // Tick refreshes button state every 50 ms. Preserve the hover timer
+        // and retained canvas lines until geometry or visible actions change.
+        if (m_HasLayout && Math.AbsFloat(m_LayoutWidth - width) < 0.01 && Math.AbsFloat(m_Scale - scale) < 0.001 && m_LayoutVisibility == visibility) return m_LayoutHeight;
+        HideHint();
+        m_Scale = scale;
+        for (int separator = 1; separator < 5; separator++) m_Root.FindAnyWidget("ToolsSeparator"+separator.ToString()).Show(false);
+        float headingHeight = 18;
+        for (int labelIndex = 0; labelIndex < 5; labelIndex++)
+        {
+            TextWidget label = TextWidget.Cast(m_Root.FindAnyWidget("ToolsHeading"+labelIndex.ToString()));
+            label.SetText(GroupLabel(labelIndex));
+            int labelWidth,labelHeight;
+            label.GetTextSize(labelWidth,labelHeight);
+            headingHeight = Math.Max(headingHeight,labelHeight/scale+2);
+        }
+        float rowHeight = headingHeight+52;
+        float available = width/scale;
+        float x = 8;
+        float y = 8;
+        for (int group = 0; group < 5; group++)
+        {
+            int count = 0;
+            for (int entry = 0; entry < names.Count(); entry++)
+                if (GroupIndex(entry) == group && m_Root.FindAnyWidget(names[entry]).IsVisible()) count++;
+            TextWidget heading = TextWidget.Cast(m_Root.FindAnyWidget("ToolsHeading"+group.ToString()));
+            heading.Show(count > 0);
+            if (count == 0) continue;
+            int textWidth,textHeight;
+            heading.GetTextSize(textWidth,textHeight);
+            float iconsWidth = count*40+(count - 1)*4;
+            float groupWidth = Math.Max(iconsWidth,textWidth/scale+8);
+            if (x > 8)
+            {
+                if (x+20+groupWidth > available - 8) { x = 8; y = y+rowHeight; }
+                else
+                {
+                    Widget divider = m_Root.FindAnyWidget("ToolsSeparator"+group.ToString());
+                    divider.SetPos((x+9)*scale,(y+4)*scale);
+                    divider.SetScreenSize(Math.Max(1,scale),(headingHeight+36)*scale);
+                    divider.Show(true);
+                    x = x+20;
+                }
+            }
+            heading.SetPos(x*scale,y*scale);
+            heading.SetScreenSize(groupWidth*scale,headingHeight*scale);
+            float buttonX = x+(groupWidth - iconsWidth)*0.5;
+            for (int item = 0; item < names.Count(); item++)
+            {
+                if (GroupIndex(item) != group) continue;
+                string name = names[item];
+                Widget button = m_Root.FindAnyWidget(name);
+                if (!button.IsVisible()) continue;
+                button.SetPos(buttonX*scale,(y+headingHeight+4)*scale);
+                button.SetScreenSize(40*scale,40*scale);
+                CanvasWidget icon = CanvasWidget.Cast(button.FindAnyWidget(name+"Icon"));
+                icon.SetPos(6*scale,6*scale);
+                icon.SetScreenSize(28*scale,28*scale);
+                IOTToolbarIcons.Draw(icon,name,name == "LootVolumes" && m_LootActive);
+                buttonX = buttonX+44;
+            }
+            x = x+groupWidth;
+        }
+        m_HasLayout = true;
+        m_LayoutWidth = width;
+        m_LayoutHeight = (y+rowHeight)*scale;
+        m_LayoutVisibility = visibility;
+        return m_LayoutHeight;
+    }
+
+    string ActionAt(vector point)
+    {
+        if (!m_Root.IsVisible()) return "";
+        array<string> names = Actions();
+        foreach (string name : names)
+        {
+            Widget button = m_Root.FindAnyWidget(name);
+            if (!button.IsVisible()) continue;
+            float x,y,w,h;
+            button.GetScreenPos(x,y); button.GetScreenSize(w,h);
+            if (point[0] >= x && point[0] < x+w && point[1] >= y && point[1] < y+h) return name;
+        }
+        return "";
+    }
+
+    void HideHint()
+    {
+        if (m_CameraHelpOpen)
+        {
+            m_CameraHelpOpen = false;
+            m_Root.FindAnyWidget("CameraHelpActive").Show(false);
+        }
+        m_Hovered = "";
+        m_Hint.Show(false);
+    }
+
+    void ToggleCameraHelp()
+    {
+        bool open = !m_CameraHelpOpen;
+        HideHint();
+        if (!open) return;
+        m_CameraHelpOpen = true;
+        m_Root.FindAnyWidget("CameraHelpActive").Show(true);
+        string hint = IOTL.T("CAMERA_HELP")+"\n\n"+IOTL.T("CAMERA_HELP_ENTER")+"\n";
+        array<string> lines = {"CAMERA_HELP_MOVE","CAMERA_HELP_HEIGHT","CAMERA_HELP_LOOK","CAMERA_HELP_SPEED","CAMERA_HELP_BOOST","CAMERA_HELP_SLOW"};
+        foreach (string line : lines) hint += "\n"+IOTL.T(line);
+        ShowHint("CameraHelp",hint,360,300);
+    }
+
+    Widget HintRoot() { return m_Hint; }
+
+    bool ContainsHint(vector point)
+    {
+        if (!m_Hint.IsVisible()) return false;
+        float x,y,w,h;
+        m_Hint.GetScreenPos(x,y); m_Hint.GetScreenSize(w,h);
+        return point[0] >= x && point[0] < x+w && point[1] >= y && point[1] < y+h;
+    }
+
+    void HoverAt(vector point, bool allowed, bool immediate = false)
+    {
+        if (m_CameraHelpOpen) return;
+        string action;
+        if (allowed) action = ActionAt(point);
+        if (action == "") { HideHint(); return; }
+        if (m_Hovered != action)
+        {
+            m_Hovered = action;
+            m_HoverStart = GetGame().GetTime();
+            m_Hint.Show(false);
+        }
+        if (!immediate && GetGame().GetTime() - m_HoverStart < 350) return;
+        string hint = HintText(action);
+        if (action == "LootVolumes" && m_LootDetail != "") hint = hint+"\n"+m_LootDetail;
+        ShowHint(action,hint,280,180);
+    }
+
+    protected void ShowHint(string action, string hint, float baseWidth, float baseHeight)
+    {
+        int screenWidth,screenHeight;
+        GetScreenSize(screenWidth,screenHeight);
+        float width = Math.Min(baseWidth*m_Scale,screenWidth - 16*m_Scale);
+        float maxHeight = Math.Min(baseHeight*m_Scale,screenHeight);
+        m_Hint.SetScreenSize(width,maxHeight);
+        m_Text.SetPos(12*m_Scale,8*m_Scale);
+        m_Text.SetScreenSize(width - 24*m_Scale,maxHeight - 16*m_Scale);
+        m_Text.SetText(hint);
+        m_Hint.Show(true);
+        int textWidth,textHeight;
+        m_Text.GetTextSize(textWidth,textHeight);
+        float height = Math.Clamp(textHeight+16*m_Scale,32*m_Scale,maxHeight);
+        m_Hint.SetScreenSize(width,height);
+        m_Text.SetScreenSize(width - 24*m_Scale,height - 16*m_Scale);
+        Widget button = m_Root.FindAnyWidget(action);
+        float x,y,w,h;
+        button.GetScreenPos(x,y); button.GetScreenSize(w,h);
+        m_Hint.SetScreenPos(Math.Clamp(x,8*m_Scale,Math.Max(8*m_Scale,screenWidth - width - 8*m_Scale)),Math.Clamp(y+h+8*m_Scale,0,Math.Max(0,screenHeight - height)));
+    }
+}
+
+// Runtime CE reference reader. Only ordinary container points are interpreted.
+class IOTLootPoint
+{
+    vector Position;
+    float Range = -1;
+    float Height = -1;
+    string ContainerName;
+}
+
+class IOTLootGroup
+{
+    ref array<ref IOTLootPoint> Points = new array<ref IOTLootPoint>;
+}
+
+class IOTLootDataset
+{
+    bool Valid;
+    string Error;
+    int PointCount;
+    ref map<string,ref IOTLootGroup> Groups = new map<string,ref IOTLootGroup>;
+}
+
+// CE XML uses element/attribute data. No entity expansion, DTD or external IO.
+// Reject unsupported/malformed input as a whole instead of publishing partial data.
+class IOTLootXml
+{
+    protected static bool Space(string c) { return c == " " || c == "\t" || c == "\r" || c == "\n"; }
+
+    static string Trim(string text)
+    {
+        // Keep Replace on short tag fragments: native Replace truncates large
+        // strings on this client. Never normalize the complete XML buffer.
+        text.Replace("\r"," "); text.Replace("\n"," "); text.Replace("\t"," ");
+        text.TrimInPlace();
+        return text;
+    }
+
+    static bool Number(string text, out float value)
+    {
+        text.TrimInPlace();
+        int n = text.Length();
+        if (n == 0) return false;
+        // Native numeric tokenization avoids a script call per digit in the
+        // common decimal case. Keep explicit exponent parsing as a fallback.
+        string unsigned = text;
+        if (unsigned.Substring(0,1) == "+" || unsigned.Substring(0,1) == "-") unsigned = unsigned.Substring(1,n - 1);
+        if (unsigned == "" || Space(unsigned.Substring(0,1)) || unsigned.Substring(0,1) == "+" || unsigned.Substring(0,1) == "-") return false;
+        string remainder = unsigned;
+        string token;
+        int kind = remainder.ParseStringEx(token);
+        remainder.TrimInPlace();
+        if (kind == 4 && remainder == "" && !unsigned.Contains("x") && !unsigned.Contains("X") && !unsigned.Contains("f") && !unsigned.Contains("F"))
+        {
+            value = text.ToFloat();
+            return Math.AbsFloat(value) <= 1000000;
+        }
+        int i = 0;
+        if (text.Substring(i,1) == "+" || text.Substring(i,1) == "-") i++;
+        bool digit = false;
+        bool dot = false;
+        while (i < n)
+        {
+            string c = text.Substring(i,1);
+            if ("0123456789".Contains(c)) digit = true;
+            else if (c == "." && !dot) dot = true;
+            else break;
+            i++;
+        }
+        if (!digit) return false;
+        if (i < n && (text.Substring(i,1) == "e" || text.Substring(i,1) == "E"))
+        {
+            i++;
+            if (i < n && (text.Substring(i,1) == "+" || text.Substring(i,1) == "-")) i++;
+            int exponentStart = i;
+            while (i < n && "0123456789".Contains(text.Substring(i,1))) i++;
+            if (i == exponentStart) return false;
+        }
+        if (i != n) return false;
+        value = text.ToFloat();
+        return Math.AbsFloat(value) <= 1000000;
+    }
+
+    static bool Attributes(string tag, out string name, map<string,string> attributes)
+    {
+        int length = tag.Length();
+        int cursor = tag.IndexOf(" ");
+        if (cursor < 0) cursor = length;
+        name = tag.Substring(0,cursor);
+        if (name == "") return false;
+        while (cursor < length)
+        {
+            while (cursor < length && Space(tag.Substring(cursor,1))) cursor++;
+            if (cursor == length) break;
+            int equals = tag.IndexOfFrom(cursor,"=");
+            if (equals < 0) return false;
+            string key = Trim(tag.Substring(cursor,equals - cursor));
+            if (key == "" || key.Contains(" ")) return false;
+            cursor = equals+1;
+            while (cursor < length && Space(tag.Substring(cursor,1))) cursor++;
+            if (cursor >= length) return false;
+            string quote = tag.Substring(cursor,1);
+            if (quote != "\"" && quote != "'") return false;
+            int start = cursor+1;
+            int end = tag.IndexOfFrom(start,quote);
+            if (end < 0 || attributes.Contains(key)) return false;
+            string value = tag.Substring(start,end - start);
+            if (value.Contains("<") || value.Contains("&")) return false;
+            attributes.Insert(key,value);
+            cursor = end+1;
+            if (cursor < length && !Space(tag.Substring(cursor,1))) return false;
+        }
+        return true;
+    }
+
+    static bool Point(map<string,string> attributes, string containerName, IOTLootGroup group)
+    {
+        string position = attributes.Get("pos");
+        array<string> words = new array<string>;
+        position.Split(" ",words);
+        array<float> values = new array<float>;
+        foreach (string word : words)
+        {
+            if (word == "") continue;
+            float component;
+            if (!Number(word,component)) return false;
+            values.Insert(component);
+        }
+        if (values.Count() != 3) return false;
+        IOTLootPoint point = new IOTLootPoint;
+        point.Position = Vector(values[0],values[1],values[2]);
+        point.ContainerName = containerName;
+        float rangeValue;
+        float heightValue;
+        if (attributes.Contains("range"))
+        {
+            if (!Number(attributes.Get("range"),rangeValue) || rangeValue < 0 || rangeValue > 10000) return false;
+            point.Range = rangeValue;
+        }
+        if (attributes.Contains("height"))
+        {
+            if (!Number(attributes.Get("height"),heightValue) || heightValue < 0 || heightValue > 10000) return false;
+            point.Height = heightValue;
+        }
+        group.Points.Insert(point);
+        return true;
+    }
+
+    static IOTLootDataset Parse(string xml)
+    {
+        IOTLootXmlStream reader = new IOTLootXmlStream;
+        for (int offset = 0; offset < xml.Length(); offset = offset+2048)
+            reader.Feed(xml.Substring(offset,Math.Min(2048,xml.Length() - offset)));
+        return reader.Finish();
+    }
+
+    static IOTLootDataset ParseFile(FileHandle file)
+    {
+        IOTLootXmlStream reader = new IOTLootXmlStream;
+        string line;
+        int totalBytes = 0;
+        while (FGets(file,line) >= 0)
+        {
+            totalBytes = totalBytes+line.Length();
+            if (totalBytes > 10000000)
+            {
+                IOTLootDataset oversized = new IOTLootDataset;
+                oversized.Error = "Oversized CE XML";
+                return oversized;
+            }
+            for (int offset = 0; offset < line.Length(); offset = offset+2048)
+                reader.Feed(line.Substring(offset,Math.Min(2048,line.Length() - offset)));
+            reader.Feed("\n");
+            if (reader.Failed()) return reader.Finish();
+        }
+        return reader.Finish();
+    }
+}
+class IOTLootCache
+{
+    protected static ref map<string,ref IOTLootDataset> s_Files = new map<string,ref IOTLootDataset>;
+    protected static string s_Version;
+
+    static void Clear() { s_Files.Clear(); s_Version = ""; }
+
+    static string Version()
+    {
+        if (s_Version == "")
+        {
+            string version;
+            GetGame().GetVersion(version);
+            s_Version = version;
+        }
+        return s_Version;
+    }
+
+    static string WorldFolder(int index)
+    {
+        array<string> names = {"","chernarusplus","enoch","sakhal","nasdara"};
+        return names[index];
+    }
+
+    static IOTLootDataset Get(string path)
+    {
+        if (s_Files.Contains(path)) return s_Files.Get(path);
+        IOTLootDataset data = new IOTLootDataset;
+        data.Error = "File unavailable";
+        FileHandle file = OpenFile(path,FileMode.READ);
+        if (file)
+        {
+            data = IOTLootXml.ParseFile(file);
+            CloseFile(file);
+        }
+        // Never retain partially parsed groups after validation fails.
+        if (!data.Valid) { data.Groups.Clear(); data.PointCount = 0; }
+        s_Files.Insert(path,data);
+        PrintToRPT("[PROXY LOOT SOURCE] "+path+" valid="+data.Valid.ToString()+" groups="+data.Groups.Count().ToString()+" points="+data.PointCount.ToString()+" error="+data.Error);
+        return data;
+    }
+}
+
+class IOTLootReference
+{
+    int MapIndex;
+    bool Readable;
+    bool Known;
+    bool Snapshot;
+    ref array<ref IOTLootPoint> Points = new array<ref IOTLootPoint>;
+}
+
+class IOTLootSources
+{
+    protected string m_GameRoot;
+    protected string m_BackupPath;
+
+    void IOTLootSources(string gameRoot = "DZ\\worlds", string backupPath = "iot\\proxytool\\data\\loot_volumes.txt")
+    {
+        m_GameRoot = gameRoot;
+        m_BackupPath = backupPath;
+    }
+
+    protected IOTLootReference ForMap(string classname, int mapIndex)
+    {
+        IOTLootReference result = new IOTLootReference;
+        result.MapIndex = mapIndex;
+        string path = m_GameRoot+"\\"+IOTLootCache.WorldFolder(mapIndex)+"\\ce\\mapgroupproto.xml";
+        IOTLootDataset installed = IOTLootCache.Get(path);
+        if (installed.Valid)
+        {
+            result.Readable = true;
+            result.Known = installed.Groups.Contains(classname);
+            if (result.Known) foreach (IOTLootPoint point : installed.Groups.Get(classname).Points) result.Points.Insert(point);
+            return result;
+        }
+        result.Snapshot = true;
+        FileHandle backup = OpenFile(m_BackupPath,FileMode.READ);
+        if (!backup) return result;
+        result.Readable = true;
+        int bit = 1 << (mapIndex - 1);
+        string line;
+        while (FGets(backup,line) >= 0)
+        {
+            if (line.IndexOf(classname+"|") != 0) continue;
+            array<string> columns = new array<string>;
+            line.Split("|",columns);
+            if (columns.Count() < 2 || (columns[1].ToInt() & bit) == 0) continue;
+            result.Known = true;
+            if (columns.Count() < 4) continue;
+            array<string> points = new array<string>;
+            columns[3].Split(";",points);
+            foreach (string entry : points)
+            {
+                array<string> numbers = new array<string>;
+                entry.Split(" ",numbers);
+                if (numbers.Count() != 5) continue;
+                IOTLootPoint stored = new IOTLootPoint;
+                stored.Position = Vector(numbers[0].ToFloat(),numbers[1].ToFloat(),numbers[2].ToFloat());
+                stored.Range = numbers[3].ToFloat();
+                stored.Height = numbers[4].ToFloat();
+                stored.ContainerName = columns[2];
+                result.Points.Insert(stored);
+            }
+        }
+        CloseFile(backup);
+        return result;
+    }
+
+    IOTLootReference Resolve(string classname, int preferredMap)
+    {
+        classname.ToLower();
+        if (preferredMap >= 1 && preferredMap <= 4) return ForMap(classname,preferredMap);
+        bool readable;
+        IOTLootReference result;
+        for (int index = 1; index <= 4; index++)
+        {
+            result = ForMap(classname,index);
+            if (result.Known) return result;
+            readable = readable || result.Readable;
+        }
+        result.MapIndex = 0;
+        result.Readable = readable;
+        return result;
+    }
+}
+
+// Feed short fragments: string searches on whole megabyte buffers are costly
+// in the script runtime. State survives file lines and fragment boundaries.
+class IOTLootXmlStream
+{
+    protected ref IOTLootDataset m_Result = new IOTLootDataset;
+    protected ref array<string> m_Stack = new array<string>;
+    protected ref IOTLootGroup m_Group;
+    protected string m_ContainerName;
+    protected string m_Buffer;
+    protected string m_SkipUntil;
+    protected bool m_Root;
+    protected bool m_Closed;
+    protected bool m_Failed;
+    protected bool m_Started;
+
+    protected void Fail(string message) { m_Failed = true; m_Result.Error = message; }
+    bool Failed() { return m_Failed; }
+
+    protected void Tag(string raw)
+    {
+        string tag = IOTLootXml.Trim(raw);
+        if (tag == "") { Fail("Empty XML tag"); return; }
+        bool closing = tag.Substring(0,1) == "/";
+        bool empty = tag.Substring(tag.Length() - 1,1) == "/";
+        if (closing)
+        {
+            string closeName = IOTLootXml.Trim(tag.Substring(1,tag.Length() - 1));
+            if (m_Stack.Count() == 0 || m_Stack[m_Stack.Count() - 1] != closeName) { Fail("Mismatched close tag: "+closeName); return; }
+            if (closeName == "container" && m_Stack.Count() == 3) m_ContainerName = "";
+            if (closeName == "group" && m_Stack.Count() == 2) m_Group = null;
+            m_Stack.Remove(m_Stack.Count() - 1);
+            if (m_Stack.Count() == 0) m_Closed = true;
+            return;
+        }
+        if (m_Closed) { Fail("Tag after document end"); return; }
+        if (empty) tag = IOTLootXml.Trim(tag.Substring(0,tag.Length() - 1));
+        string name;
+        map<string,string> attributes = new map<string,string>;
+        if (!IOTLootXml.Attributes(tag,name,attributes)) { Fail("Invalid attributes: "+tag); return; }
+        string parent;
+        if (m_Stack.Count() > 0) parent = m_Stack[m_Stack.Count() - 1];
+        if (m_Stack.Count() == 0)
+        {
+            if (m_Root || name != "prototype") { Fail("Invalid root tag: "+name); return; }
+            m_Root = true;
+        }
+        else if (m_Stack.Count() == 1 && parent == "prototype" && name == "group")
+        {
+            string classname = attributes.Get("name");
+            classname.ToLower();
+            if (classname == "" || m_Result.Groups.Contains(classname)) { Fail("Missing or duplicate group"); return; }
+            m_Group = new IOTLootGroup;
+            m_Result.Groups.Insert(classname,m_Group);
+            if (empty) m_Group = null;
+        }
+        else if (m_Stack.Count() == 2 && parent == "group" && name == "container")
+        {
+            m_ContainerName = attributes.Get("name");
+            if (m_ContainerName == "") { Fail("Unnamed container"); return; }
+            if (empty) m_ContainerName = "";
+        }
+        else if (m_Stack.Count() == 3 && parent == "container" && name == "point")
+        {
+            if (!m_Group || !IOTLootXml.Point(attributes,m_ContainerName,m_Group)) { Fail("Invalid point: "+tag); return; }
+            m_Result.PointCount++;
+        }
+        if (!empty) m_Stack.Insert(name);
+        else if (m_Stack.Count() == 0) m_Closed = true;
+    }
+
+    void Feed(string text)
+    {
+        if (m_Failed) return;
+        m_Buffer = m_Buffer+text;
+        if (!m_Started)
+        {
+            if (m_Buffer.Length() < 3) return;
+            if (m_Buffer.Substring(0,1).ToAscii() == 239 && m_Buffer.Substring(1,1).ToAscii() == 187 && m_Buffer.Substring(2,1).ToAscii() == 191) m_Buffer = m_Buffer.Substring(3,m_Buffer.Length() - 3);
+            m_Started = true;
+        }
+        while (m_Buffer != "" && !m_Failed)
+        {
+            if (m_SkipUntil != "")
+            {
+                int skipped = m_Buffer.IndexOf(m_SkipUntil);
+                if (skipped < 0)
+                {
+                    int retain = Math.Min(m_Buffer.Length(),m_SkipUntil.Length() - 1);
+                    m_Buffer = m_Buffer.Substring(m_Buffer.Length() - retain,retain);
+                    return;
+                }
+                int after = skipped+m_SkipUntil.Length();
+                m_Buffer = m_Buffer.Substring(after,m_Buffer.Length() - after);
+                m_SkipUntil = "";
+                continue;
+            }
+            int start = m_Buffer.IndexOf("<");
+            if (start < 0)
+            {
+                if (m_Stack.Count() == 0 && IOTLootXml.Trim(m_Buffer) != "") Fail("Unexpected text outside prototype");
+                m_Buffer = "";
+                return;
+            }
+            if (start > 0)
+            {
+                if (m_Stack.Count() == 0 && IOTLootXml.Trim(m_Buffer.Substring(0,start)) != "") { Fail("Unexpected text outside prototype"); return; }
+                m_Buffer = m_Buffer.Substring(start,m_Buffer.Length() - start);
+            }
+            if (m_Buffer.Length() < 4) return;
+            if (m_Buffer.IndexOf("<!--") == 0)
+            {
+                m_SkipUntil = "-->";
+                m_Buffer = m_Buffer.Substring(4,m_Buffer.Length() - 4);
+                continue;
+            }
+            if (m_Buffer.IndexOf("<?") == 0)
+            {
+                m_SkipUntil = "?>";
+                m_Buffer = m_Buffer.Substring(2,m_Buffer.Length() - 2);
+                continue;
+            }
+            if (m_Buffer.IndexOf("<!") == 0) { Fail("Unsupported XML declaration"); return; }
+            int end = m_Buffer.IndexOf(">");
+            if (end < 0)
+            {
+                if (m_Buffer.Length() > 4096) Fail("Oversized XML tag");
+                return;
+            }
+            if (end > 4096) { Fail("Oversized XML tag"); return; }
+            string raw = m_Buffer.Substring(1,end - 1);
+            m_Buffer = m_Buffer.Substring(end+1,m_Buffer.Length() - end - 1);
+            Tag(raw);
+        }
+    }
+
+    IOTLootDataset Finish()
+    {
+        if (!m_Failed && (m_Buffer != "" || m_SkipUntil != "" || !m_Root || !m_Closed || m_Stack.Count() != 0)) Fail("Incomplete CE XML");
+        m_Result.Valid = !m_Failed;
+        return m_Result;
+    }
+}
+
+// Read-only official CE reference. No entities, CE registration or export entries.
+class IOTLootVolumes
+{
+    protected ref array<ref IOTLootPoint> m_Points = new array<ref IOTLootPoint>;
+    protected ref array<Shape> m_Shapes = new array<Shape>;
+    protected Object m_Anchor;
+    protected int m_RequestedMap = -1;
+    protected int m_Map;
+    protected bool m_Known;
+    protected bool m_Readable;
+    protected bool m_Snapshot;
+    protected ref IOTLootSources m_Sources = new IOTLootSources;
+    protected bool m_Enabled;
+    protected bool m_Drawn;
+    protected vector m_Pose[4];
+
+    void ~IOTLootVolumes() { ClearShapes(); }
+
+    static string DataPath() { return "iot\\proxytool\\data\\loot_volumes.txt"; }
+
+    static string MapName(int index)
+    {
+        if (index == 1) return "ChernarusPlus";
+        if (index == 2) return "Livonia";
+        if (index == 3) return "Sakhal";
+        if (index == 4) return "Nasdara";
+        return "";
+    }
+
+    static int WorldMap()
+    {
+        string world = GetGame().GetWorldName();
+        world.ToLower();
+        if (world == "chernarusplus") return 1;
+        if (world == "enoch") return 2;
+        if (world == "sakhal") return 3;
+        if (world == "nasdara") return 4;
+        return 0;
+    }
+
+    static vector ModelPosition(vector ce) { return Vector(-ce[2],ce[1],ce[0]); }
+    static vector WorldPosition(Object anchor, vector ce) { return anchor.ModelToWorld(ModelPosition(ce)); }
+
+    bool Enabled() { return m_Enabled; }
+    bool Known() { return m_Known; }
+    bool Readable() { return m_Readable; }
+    bool UsingSnapshot() { return m_Snapshot; }
+    int SourceMap() { return m_Map; }
+    int Count() { return m_Points.Count(); }
+    int ShapeCount() { return m_Shapes.Count(); }
+    IOTLootPoint Point(int index) { return m_Points[index]; }
+
+    int IncompleteCount()
+    {
+        int count;
+        foreach (IOTLootPoint point : m_Points) if (point.Range < 0 || point.Height < 0) count++;
+        return count;
+    }
+
+    void Enable(bool enabled)
+    {
+        m_Enabled = enabled;
+        if (!enabled) ClearShapes();
+    }
+
+    protected void ClearShapes()
+    {
+        foreach (Shape shape : m_Shapes) if (shape) shape.Destroy();
+        m_Shapes.Clear();
+        m_Drawn = false;
+    }
+
+    void Reset()
+    {
+        ClearShapes();
+        m_Anchor = null;
+        m_RequestedMap = -1;
+        m_Map = 0;
+        m_Known = false;
+        m_Readable = false;
+        m_Snapshot = false;
+        m_Points.Clear();
+    }
+
+    // Source files are cached for the editor session. Each anchor gets a view
+    // of exactly one map's data; the installed XML is authoritative when valid.
+    protected void Read(Object anchor, int requestedMap)
+    {
+        Reset();
+        m_Anchor = anchor;
+        m_RequestedMap = requestedMap;
+        if (!anchor) return;
+        string classname = anchor.GetType();
+        int preferred = requestedMap;
+        if (preferred == 0) preferred = WorldMap();
+        IOTLootReference data = m_Sources.Resolve(classname,preferred);
+        m_Map = data.MapIndex;
+        m_Readable = data.Readable;
+        m_Known = data.Known;
+        m_Snapshot = data.Snapshot;
+        foreach (IOTLootPoint point : data.Points) m_Points.Insert(point);
+        PrintToRPT("[PROXY LOOT VOLUMES] "+classname+" map="+MapName(m_Map)+" snapshot="+m_Snapshot.ToString()+" points="+Count().ToString()+" unspecified="+IncompleteCount().ToString());
+    }
+
+    void Update(Object anchor, int requestedMap, bool visible)
+    {
+        if (!m_Enabled || !visible || !anchor)
+        {
+            if (m_Drawn) ClearShapes();
+            if (!anchor && m_Anchor) Reset();
+            return;
+        }
+        if (anchor != m_Anchor || requestedMap != m_RequestedMap) Read(anchor,requestedMap);
+        vector pose[4];
+        anchor.GetTransform(pose);
+        bool changed = !m_Drawn;
+        for (int i = 0; i < 4; i++) if (vector.Distance(pose[i],m_Pose[i]) > 0.00001) changed = true;
+        if (!changed) return;
+        ClearShapes();
+        copyarray(m_Pose,pose);
+        Draw();
+        m_Drawn = true;
+    }
+
+    protected void Keep(Shape shape) { if (shape) m_Shapes.Insert(shape); }
+
+    protected void Draw()
+    {
+        int flags = ShapeFlags.NOZWRITE | ShapeFlags.TRANSP | ShapeFlags.DOUBLESIDE;
+        foreach (IOTLootPoint point : m_Points)
+        {
+            // Point center at the base. Shape geometry is built explicitly in
+            // world space to avoid relying on native cylinder pivot conventions.
+            vector base = WorldPosition(m_Anchor,point.Position);
+            bool complete = point.Range >= 0 && point.Height >= 0;
+            int outline = ARGB(210,70,205,245);
+            if (!complete) outline = ARGB(230,245,185,65);
+            Keep(Shape.CreateSphere(outline,ShapeFlags.NOZWRITE | ShapeFlags.NOOUTLINE,base,0.025));
+            if (point.Range <= 0) continue;
+            vector lowerRing[25];
+            vector upperRing[25];
+            vector faces[288];
+            int faceCount = 0;
+            vector top = base;
+            if (complete) top = WorldPosition(m_Anchor,point.Position+Vector(0,point.Height,0));
+            for (int segment = 0; segment < 24; segment++)
+            {
+                float a = segment*Math.PI2/24;
+                float b = (segment+1)*Math.PI2/24;
+                vector offsetA = Vector(Math.Cos(a)*point.Range,0,Math.Sin(a)*point.Range);
+                vector offsetB = Vector(Math.Cos(b)*point.Range,0,Math.Sin(b)*point.Range);
+                vector lowerA = WorldPosition(m_Anchor,point.Position+offsetA);
+                vector lowerB = WorldPosition(m_Anchor,point.Position+offsetB);
+                lowerRing[segment] = lowerA;
+                if (segment == 23) lowerRing[24] = lowerB;
+                if (!complete || point.Height == 0) continue;
+                vector upperA = lowerA+(top - base);
+                vector upperB = lowerB+(top - base);
+                upperRing[segment] = upperA;
+                if (segment == 23) upperRing[24] = upperB;
+                if (segment % 6 == 0) Keep(Shape.Create(ShapeType.LINE,outline,flags,lowerA,upperA));
+                faces[faceCount++] = lowerA; faces[faceCount++] = lowerB; faces[faceCount++] = upperB;
+                faces[faceCount++] = lowerA; faces[faceCount++] = upperB; faces[faceCount++] = upperA;
+                faces[faceCount++] = base; faces[faceCount++] = lowerB; faces[faceCount++] = lowerA;
+                faces[faceCount++] = top; faces[faceCount++] = upperA; faces[faceCount++] = upperB;
+            }
+            Keep(Shape.CreateLines(outline,flags,lowerRing,25));
+            if (faceCount > 0)
+            {
+                Keep(Shape.CreateLines(outline,flags,upperRing,25));
+                Keep(Shape.CreateTris(ARGB(25,70,205,245),flags | ShapeFlags.NOOUTLINE,faces,faceCount/3));
+            }
+        }
+    }
+
+    string Detail()
+    {
+        if (!m_Readable) return IOTL.T("LOOT_DATA_UNAVAILABLE");
+        if (m_Map == 0) return IOTL.T("LOOT_GROUP_UNAVAILABLE");
+        string text = IOTL.F("LOOT_SOURCE",MapName(m_Map));
+        if (m_Snapshot) text = text+"\n"+IOTL.T("LOOT_FROM_SNAPSHOT");
+        else text = text+"\n"+IOTL.F("LOOT_FROM_GAME",IOTLootCache.Version());
+        if (!m_Known) return text+"\n"+IOTL.T("LOOT_GROUP_UNAVAILABLE");
+        if (IncompleteCount() > 0) text = text+"\n"+IOTL.T("LOOT_DIMENSIONS_UNSPECIFIED");
+        return text;
+    }
+}
+
 // Offline proxy authoring: existing world items, native Gizmo, precise controls.
 // CE export remains calibrated for an unrotated, scale-one anchor / group a=90.
+enum IOTNoticeKind
+{
+    ERROR,
+    SUCCESS,
+    WARNING
+}
+
+class IOTTransformEdit
+{
+    Object Target;
+    vector Before[4];
+    vector After[4];
+}
+
 class IOTProxyTool : ScriptedWidgetEventHandler
 {
     protected Object m_Anchor;
+    protected ref IOTLootVolumes m_LootVolumes = new IOTLootVolumes;
+    protected int m_LootMap;
+    protected int m_ReplaceLootMap;
     protected ref IOTSceneBrowser m_Browser;
     protected ref IOTSceneItems m_CreatedTray;
     protected ref IOTEditorViewport m_Viewport;
@@ -1541,6 +2924,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected bool m_Pointer;
     protected bool m_Booted;
     protected bool m_PlayerMode;
+    protected bool m_GameMenuOpen;
+    protected bool m_ResumeProjectDialog;
     protected bool m_CharacterFocused;
     protected bool m_PlayerWasDisabled;
     protected bool m_PlayerSimulationPending;
@@ -1556,6 +2941,9 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected int m_SpeedHintUntil;
     protected int m_SkipLookFrames;
     protected bool m_MouseWasDown;
+    protected bool m_CameraHeld;
+    protected bool m_RightWasDown;
+    protected bool m_CameraBlockedUntilRelease;
     protected bool m_ClickPending;
     protected bool m_ClickReleased;
     protected bool m_NativeGesture;
@@ -1570,6 +2958,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected bool m_UpdatingUI;
     protected bool m_FineOpen;
     protected bool m_SelfTest;
+    protected int m_SelfTestStartupDeadline;
     protected vector m_TestPlayerPosition;
     protected vector m_TestPlayerMovedPosition;
     protected int m_Attempts;
@@ -1577,14 +2966,18 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected int m_AngleStepIndex = 1;
     protected Widget m_Root;
     protected Widget m_Toolbar;
+    protected ref IOTToolbarChrome m_ToolbarChrome;
+    protected ref IOTToolbarChrome m_ToolbarHoverTest;
     protected Widget m_ErrorRoot;
     protected MultilineTextWidget m_ErrorText;
     protected string m_LastError;
+    protected IOTNoticeKind m_NoticeKind;
+    protected string m_NoticeMessage;
+    protected int m_NoticeUntil;
     protected float m_ChromeTop;
     protected int m_ChromeWidth;
     protected int m_ChromeHeight;
     protected float m_PanelScale = 1;
-    protected TextWidget m_Status;
     protected TextWidget m_NumberMeasure;
     protected TextWidget m_Debug;
     protected XComboBoxWidget m_ItemsList;
@@ -1599,9 +2992,414 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected Widget m_SuppressClick;
     protected vector m_LastPos;
     protected vector m_LastAngles;
+    protected ref array<ref IOTTransformEdit> m_Undo = new array<ref IOTTransformEdit>;
+    protected ref array<ref IOTTransformEdit> m_Redo = new array<ref IOTTransformEdit>;
+    protected ref IOTTransformEdit m_HistoryPending;
+    protected string m_HistoryGroup;
+    protected bool m_ApplyingHistory;
+    protected Widget m_ProjectRoot;
+    protected EditBoxWidget m_ProjectName;
+    protected TextListboxWidget m_ProjectList;
+    protected ref array<string> m_ProjectNames = new array<string>;
+    protected bool m_ProjectSaving;
+    protected string m_ProjectConfirm;
+    protected string m_CurrentProject;
+    protected ref array<ItemBase> m_ProjectFrozen = new array<ItemBase>;
+
+    protected void ReleaseProjectItems()
+    {
+        foreach (ItemBase item : m_ProjectFrozen) if (item) SetItemSimulation(item,false);
+        m_ProjectFrozen.Clear();
+    }
+
+    protected bool ProjectVectorValid(vector value, float limit)
+    {
+        for (int i = 0; i < 3; i++) if (!(Math.AbsFloat(value[i]) <= limit)) return false;
+        return true;
+    }
+
+    protected bool ValidateProject(IOTProjectData data)
+    {
+        if (!data || data.Version != 1 || !data.Items) { ReportError(IOTL.T("PROJECT_FORMAT_INVALID")); return false; }
+        if (data.LootMap < 0 || data.LootMap > 4) { ReportError(IOTL.T("PROJECT_FORMAT_INVALID")); return false; }
+        string world = GetGame().GetWorldName();
+        string savedWorld = data.WorldName;
+        world.ToLower(); savedWorld.ToLower();
+        if (world != savedWorld) { ReportError(IOTL.T("PROJECT_WORLD_INVALID")); return false; }
+        if (!ProjectVectorValid(data.CharacterPosition,100000) || !ProjectVectorValid(data.CameraPosition,100000) || !ProjectVectorValid(data.CameraOrientation,3600) || !(data.CameraSpeed >= 0.1 && data.CameraSpeed <= 16)) { ReportError(IOTL.T("PROJECT_FORMAT_INVALID")); return false; }
+        if (!data.Anchor && data.Items.Count() > 0) { ReportError(IOTL.T("PROJECT_FORMAT_INVALID")); return false; }
+        array<ref IOTProjectObject> entities = new array<ref IOTProjectObject>;
+        if (data.Anchor) entities.Insert(data.Anchor);
+        foreach (IOTProjectObject item : data.Items) entities.Insert(item);
+        foreach (IOTProjectObject entry : entities)
+        {
+            if (!entry || entry.Classname == "" || !ProjectVectorValid(entry.Position,100000) || !ProjectVectorValid(entry.Orientation,3600)) { ReportError(IOTL.T("PROJECT_FORMAT_INVALID")); return false; }
+            if (!GetGame().ConfigIsExisting("CfgVehicles "+entry.Classname) && !GetGame().ConfigIsExisting("CfgWeapons "+entry.Classname) && !GetGame().ConfigIsExisting("CfgMagazines "+entry.Classname)) { ReportError(IOTL.F("PROJECT_CLASS_INVALID",entry.Classname)); return false; }
+        }
+        if (data.Anchor && data.Anchor.Orientation.Length() > 0.001) { ReportError(IOTL.T("ANCHOR_TRANSFORM_LIMIT")); return false; }
+        return true;
+    }
+
+    protected IOTProjectObject ProjectObject(Object entity)
+    {
+        IOTProjectObject result = new IOTProjectObject;
+        result.Classname = entity.GetType();
+        result.Position = entity.GetPosition();
+        result.Orientation = entity.GetOrientation();
+        return result;
+    }
+
+    protected IOTProjectData CaptureProject()
+    {
+        if (m_PlayerMode || AnchorReplacementPending()) return null;
+        if (m_DirtyInputs && !ApplyFields()) return null;
+        FinishHistory();
+        IOTProjectData data = new IOTProjectData;
+        data.Version = 1;
+        data.WorldName = GetGame().GetWorldName();
+        data.LootMap = m_LootMap;
+        Object anchor = ExistingSceneAnchor();
+        if (anchor) data.Anchor = ProjectObject(anchor);
+        foreach (IOTSceneEntry scene : m_Scenes)
+        {
+            if (scene.Anchor != anchor) { ReportError(IOTL.T("PROJECT_FORMAT_INVALID")); return null; }
+            foreach (ItemBase item : scene.Items)
+                if (item && !item.GetHierarchyParent() && !item.IsHologram()) data.Items.Insert(ProjectObject(item));
+        }
+        data.CharacterPosition = GetGame().GetPlayer().GetPosition();
+        FreeDebugCamera camera = FreeDebugCamera.GetInstance();
+        data.CameraPosition = camera.GetPosition();
+        data.CameraOrientation = camera.GetOrientation();
+        data.CameraSpeed = m_CameraMultiplier;
+        return data;
+    }
+
+    bool SaveProject(string name)
+    {
+        name.TrimInPlace();
+        IOTProjectData data = CaptureProject();
+        if (!data) return false;
+        string error;
+        if (!IOTProjectFiles.Save(name,data,error)) { ReportError(error); return false; }
+        m_CurrentProject = name;
+        PrintToRPT("[PROXY PROJECT] Saved "+IOTProjectFiles.Path(name));
+        ReportSuccess(IOTL.F("PROJECT_SAVED",name+".json"));
+        return true;
+    }
+
+    protected bool ApplyProject(IOTProjectData data)
+    {
+        if (m_PlayerMode || EditorModalPending() || !ValidateProject(data)) return false;
+        array<Object> staged = new array<Object>;
+        array<ItemBase> items = new array<ItemBase>;
+        Object anchor;
+        int flags = ECE_SETUP | ECE_CREATEPHYSICS | ECE_UPDATEPATHGRAPH | ECE_NOLIFETIME | ECE_NOPERSISTENCY_WORLD | ECE_NOSURFACEALIGN;
+        bool valid = true;
+        if (data.Anchor)
+        {
+            anchor = GetGame().CreateObjectEx(data.Anchor.Classname,"0 -10000 0",flags,RF_IGNORE);
+            if (anchor) staged.Insert(anchor);
+            valid = ValidAnchor(anchor);
+        }
+        foreach (IOTProjectObject entry : data.Items)
+        {
+            if (!valid) break;
+            Object created = GetGame().CreateObjectEx(entry.Classname,"0 -10000 0",flags,RF_IGNORE);
+            if (created) staged.Insert(created);
+            ItemBase item = ItemBase.Cast(created);
+            if (!item) { valid = false; break; }
+            SetItemSimulation(item,true);
+            items.Insert(item);
+        }
+        if (!valid)
+        {
+            foreach (Object failed : staged) if (failed) GetGame().ObjectDelete(failed);
+            ReportError(IOTL.T("PROJECT_STAGE_FAILED"));
+            return false;
+        }
+        ClearSceneLayout();
+        if (anchor)
+        {
+            anchor.SetPosition(data.Anchor.Position);
+            anchor.SetOrientation("0 0 0");
+            anchor.SetScale(1);
+            SetAnchor(anchor);
+            m_LootMap = data.LootMap;
+            for (int i = 0; i < items.Count(); i++)
+            {
+                ItemBase placed = items[i];
+                placed.SetPosition(data.Items[i].Position);
+                placed.SetOrientation(data.Items[i].Orientation);
+                m_ActiveScene.Items.Insert(placed);
+                m_CreatedItems.Insert(placed);
+                m_ProjectFrozen.Insert(placed);
+            }
+        }
+        GetGame().GetPlayer().SetPosition(data.CharacterPosition);
+        FreeDebugCamera camera = FreeDebugCamera.GetInstance();
+        camera.SetPosition(data.CameraPosition);
+        camera.SetOrientation(data.CameraOrientation);
+        m_CameraMultiplier = data.CameraSpeed;
+        m_HasCameraPose = false;
+        SetPointer(true);
+        if (items.Count() > 0) SelectItem(items[0]);
+        else if (anchor) SelectMoveTarget(anchor,false);
+        RefreshObjects();
+        ClearHistory();
+        ClearError();
+        return true;
+    }
+
+    bool LoadProject(string name, bool replaceConfirmed = false)
+    {
+        if (m_PlayerMode || EditorModalPending()) return false;
+        if (ExistingSceneAnchor() && !replaceConfirmed) { ReportError(IOTL.T("PROJECT_OPEN_WARNING")); return false; }
+        IOTProjectData data;
+        string error;
+        if (!IOTProjectFiles.Load(name,data,error)) { ReportError(error); return false; }
+        if (!ApplyProject(data)) return false;
+        m_CurrentProject = name;
+        PrintToRPT("[PROXY PROJECT] Opened "+IOTProjectFiles.Path(name));
+        ReportSuccess(IOTL.F("PROJECT_OPENED",name+".json"));
+        return true;
+    }
+
+    protected void PositionProjectDialog()
+    {
+        if (!ProjectDialogOpen()) return;
+        int width,height;
+        GetScreenSize(width,height);
+        m_ProjectRoot.SetScreenPos(0,0);
+        m_ProjectRoot.SetScreenSize(width,height);
+        Widget dialog = m_ProjectRoot.FindAnyWidget("ProjectDialog");
+        float w = Math.Min(560*m_PanelScale,width);
+        float h = Math.Min(440*m_PanelScale,height);
+        dialog.SetScreenSize(w,h);
+        dialog.SetScreenPos((width-w)*0.5,(height-h)*0.5);
+    }
+
+    protected void ResetProjectConfirm()
+    {
+        m_ProjectConfirm = "";
+        string action = "PROJECT_OPEN";
+        if (m_ProjectSaving) action = "PROJECT_SAVE";
+        ButtonWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectAction")).SetText(IOTL.T(action));
+        string info = IOTProjectFiles.Folder();
+        if (!m_ProjectSaving) info = IOTL.T("PROJECT_OPEN_WARNING")+"\n"+info;
+        MultilineTextWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectInfo")).SetText(info);
+    }
+
+    protected void ShowProjectDialog(bool saving)
+    {
+        if (m_PlayerMode || EditorModalPending() || !m_Pointer || m_CatalogPressed) return;
+        SetFocus(null);
+        CancelWorldGesture();
+        FinishHistory();
+        m_Browser.HideHoverPreview();
+        ClearError();
+        m_ProjectSaving = saving;
+        m_ProjectNames = IOTProjectFiles.Names();
+        m_ProjectList.ClearItems();
+        foreach (string name : m_ProjectNames) m_ProjectList.AddItem(name,null,0);
+        m_ProjectName.SetText(m_CurrentProject);
+        string title = "PROJECT_OPEN";
+        if (saving) title = "PROJECT_SAVE";
+        TextWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectTitle")).SetText(IOTL.T(title));
+        ResetProjectConfirm();
+        m_ProjectRoot.Show(true);
+        PositionProjectDialog();
+        SetFocus(m_ProjectName);
+        UpdateGizmo();
+    }
+
+    protected void CloseProjectDialog()
+    {
+        m_ProjectRoot.Show(false);
+        SetFocus(null);
+        m_ProjectConfirm = "";
+        ClearError();
+        UpdateGizmo();
+    }
+
+    protected void ProjectAction()
+    {
+        string name = m_ProjectName.GetText();
+        name.TrimInPlace();
+        if (!m_ProjectSaving && IOTProjectFiles.ValidName(name))
+        {
+            IOTProjectData check;
+            string error;
+            if (!IOTProjectFiles.Load(name,check,error) || !ValidateProject(check))
+            {
+                if (error == "") error = m_LastError;
+                MultilineTextWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectInfo")).SetText(error);
+                return;
+            }
+        }
+        string info;
+        if (!IOTProjectFiles.ValidName(name)) info = IOTL.T("PROJECT_NAME_INVALID");
+        else if (m_ProjectConfirm != name && ((!m_ProjectSaving && ExistingSceneAnchor()) || (m_ProjectSaving && FileExist(IOTProjectFiles.Path(name)))))
+        {
+            m_ProjectConfirm = name;
+            info = IOTL.T("PROJECT_OPEN_WARNING");
+            string action = "PROJECT_OPEN_REPLACE";
+            if (m_ProjectSaving) { info = IOTL.T("PROJECT_OVERWRITE"); action = "PROJECT_SAVE_REPLACE"; }
+            ButtonWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectAction")).SetText(IOTL.T(action));
+        }
+        else if (m_ProjectSaving)
+        {
+            if (SaveProject(name)) { CloseProjectDialog(); return; }
+            info = m_LastError;
+        }
+        else
+        {
+            CloseProjectDialog();
+            LoadProject(name,true);
+            return;
+        }
+        MultilineTextWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectInfo")).SetText(info);
+    }
+
+    protected bool HistoryTargetValid(Object target)
+    {
+        if (!target) return false;
+        if (target == GetGame().GetPlayer()) return true;
+        ItemBase item = ItemBase.Cast(target);
+        if (item)
+        {
+            IOTSceneEntry owner = ItemScene(item);
+            return owner && owner.Anchor && !item.GetHierarchyParent() && !item.IsHologram();
+        }
+        foreach (IOTSceneEntry scene : m_Scenes)
+            if (scene.Anchor == target) return true;
+        return false;
+    }
+
+    protected bool HistoryChanged(IOTTransformEdit change)
+    {
+        if (!change || !change.Target) return false;
+        vector current[4];
+        change.Target.GetTransform(current);
+        for (int i = 0; i < 4; i++)
+            if (vector.Distance(change.Before[i],current[i]) > 0.000001) return true;
+        return false;
+    }
+
+    protected bool HistoryAvailable(array<ref IOTTransformEdit> entries)
+    {
+        foreach (IOTTransformEdit entry : entries)
+            if (HistoryTargetValid(entry.Target)) return true;
+        return false;
+    }
+
+    protected bool HistoryInputAllowed()
+    {
+        return m_Booted && !m_PlayerMode && m_Pointer && !m_CameraHeld && !EditorModalPending() && !m_CatalogPressed && !m_HeldButton && (!m_ClickPending || m_ClickReleased) && GetGame().IsAppActive() && !GetGame().GetUIManager().GetMenu();
+    }
+
+    protected void UpdateHistoryButtons()
+    {
+        if (!m_Toolbar) return;
+        bool allowed = HistoryInputAllowed();
+        m_Toolbar.FindAnyWidget("Undo").Enable(allowed && (HistoryAvailable(m_Undo) || HistoryChanged(m_HistoryPending)));
+        m_Toolbar.FindAnyWidget("Redo").Enable(allowed && !HistoryChanged(m_HistoryPending) && HistoryAvailable(m_Redo));
+    }
+
+    protected void BeginHistory(string group)
+    {
+        if (m_ApplyingHistory || m_PlayerMode || !SelectedObject()) return;
+        if (m_HistoryPending && m_HistoryPending.Target == SelectedObject() && m_HistoryGroup == group) return;
+        FinishHistory();
+        m_HistoryPending = new IOTTransformEdit;
+        m_HistoryPending.Target = SelectedObject();
+        vector before[4];
+        SelectedObject().GetTransform(before);
+        copyarray(m_HistoryPending.Before,before);
+        m_HistoryGroup = group;
+    }
+
+    protected void FinishHistory()
+    {
+        if (m_ApplyingHistory || !m_HistoryPending) return;
+        IOTTransformEdit change = m_HistoryPending;
+        m_HistoryPending = null;
+        m_HistoryGroup = "";
+        if (HistoryTargetValid(change.Target) && HistoryChanged(change))
+        {
+            vector after[4];
+            change.Target.GetTransform(after);
+            copyarray(change.After,after);
+            m_Undo.Insert(change);
+            if (m_Undo.Count() > 100) m_Undo.Remove(0);
+            m_Redo.Clear();
+        }
+        UpdateHistoryButtons();
+    }
+
+    protected void ClearHistory()
+    {
+        m_HistoryPending = null;
+        m_HistoryGroup = "";
+        m_Undo.Clear();
+        m_Redo.Clear();
+        UpdateHistoryButtons();
+    }
+
+    bool StepHistory(bool redo)
+    {
+        if (!HistoryInputAllowed()) return false;
+        FinishHistory();
+        array<ref IOTTransformEdit> source = m_Undo;
+        array<ref IOTTransformEdit> destination = m_Redo;
+        if (redo) { source = m_Redo; destination = m_Undo; }
+        while (source.Count() > 0)
+        {
+            int last = source.Count() - 1;
+            IOTTransformEdit change = source[last];
+            if (!HistoryTargetValid(change.Target)) { source.Remove(last); continue; }
+            m_ApplyingHistory = true;
+            CancelWorldGesture();
+            SetFocus(null);
+            ItemBase item = ItemBase.Cast(change.Target);
+            bool selected;
+            if (item) selected = SelectItem(item);
+            else selected = SelectMoveTarget(change.Target,change.Target == GetGame().GetPlayer());
+            if (selected)
+            {
+                vector pose[4];
+                if (redo) copyarray(pose,change.After);
+                else copyarray(pose,change.Before);
+                if (item) item.SetTransform(pose);
+                else change.Target.SetPosition(pose[3]);
+                source.Remove(last);
+                destination.Insert(change);
+                m_DirtyInputs = false;
+                SyncFields();
+                RefreshCreatedItems(true);
+                UpdateGizmo();
+            }
+            m_ApplyingHistory = false;
+            UpdateHistoryButtons();
+            return selected;
+        }
+        UpdateHistoryButtons();
+        return false;
+    }
+
+    bool HandleHistoryKey(int key)
+    {
+        if (m_PlayerMode || EditBoxWidget.Cast(GetFocus())) return false;
+        if (!KeyState(KeyCode.KC_LCONTROL) && !KeyState(KeyCode.KC_RCONTROL)) return false;
+        if (key != KeyCode.KC_Z && key != KeyCode.KC_Y) return false;
+        bool redo = key == KeyCode.KC_Y || KeyState(KeyCode.KC_LSHIFT) || KeyState(KeyCode.KC_RSHIFT);
+        StepHistory(redo);
+        return true;
+    }
 
     void IOTProxyTool()
     {
+        IOTEditorTheme.Load();
+        IOTLootCache.Clear();
         string argument;
         m_SelfTest = GetGame().CommandlineGetParam("proxyToolSelfTest", argument);
         string path = "iot\\proxytool\\gui\\proxy_tool.layout";
@@ -1617,8 +3415,9 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_Root.SetHandler(this);
         m_Toolbar = GetGame().GetWorkspace().CreateWidgets("iot\\proxytool\\gui\\editor_toolbar.layout");
         m_Toolbar.SetHandler(this);
-        m_Toolbar.SetSort(1100);
+        m_Toolbar.SetSort(1740);
         m_Toolbar.Show(false);
+        m_ToolbarChrome = new IOTToolbarChrome(m_Toolbar);
         m_ErrorRoot = GetGame().GetWorkspace().CreateWidgets("iot\\proxytool\\gui\\error_notification.layout");
         m_ErrorText = MultilineTextWidget.Cast(m_ErrorRoot.FindAnyWidget("ErrorText"));
         TextWidget.Cast(m_ErrorRoot.FindAnyWidget("ErrorTitle")).SetText(IOTL.T("ERROR_TITLE"));
@@ -1629,6 +3428,14 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_ReplaceRoot.SetHandler(this);
         m_ReplaceRoot.SetSort(2500);
         m_ReplaceRoot.Show(false);
+        m_ProjectRoot = GetGame().GetWorkspace().CreateWidgets("iot\\proxytool\\gui\\project_dialog.layout");
+        m_ProjectRoot.SetHandler(this);
+        m_ProjectRoot.SetSort(2600);
+        m_ProjectRoot.Show(false);
+        m_ProjectName = EditBoxWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectName"));
+        m_ProjectList = TextListboxWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectList"));
+        TextWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectNameLabel")).SetText(IOTL.T("PROJECT_NAME"));
+        ButtonWidget.Cast(m_ProjectRoot.FindAnyWidget("ProjectCancel")).SetText(IOTL.T("REPLACE_CANCEL"));
         TextWidget.Cast(m_ReplaceRoot.FindAnyWidget("ReplaceTitle")).SetText(IOTL.T("REPLACE_TITLE"));
         MultilineTextWidget.Cast(m_ReplaceRoot.FindAnyWidget("ReplaceWarning")).SetText(IOTL.T("REPLACE_WARNING"));
         ButtonWidget.Cast(m_ReplaceRoot.FindAnyWidget("ReplaceConfirm")).SetText(IOTL.T("REPLACE_CONFIRM"));
@@ -1648,7 +3455,6 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_CatalogDragHint = TextWidget.Cast(m_CatalogDragRoot.FindAnyWidget("DragDropHint"));
         m_CatalogDragRoot.SetSort(2000);
         m_CatalogDragRoot.Show(false);
-        m_Status = TextWidget.Cast(m_Root.FindAnyWidget("Status"));
         m_NumberMeasure = TextWidget.Cast(m_Root.FindAnyWidget("NumberMeasure"));
         m_Debug = TextWidget.Cast(m_Root.FindAnyWidget("Debug"));
         m_Debug.Show(false);
@@ -1669,11 +3475,12 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_CreatedTray.Position(m_Browser.Root());
         m_Viewport = new IOTEditorViewport;
         GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(Tick, 50, true);
-        PrintToRPT("[PROXY TOOL V2] Panel loaded. Click item/empty space; F1 cursor/flight; F4 player/editor; F7/F8 move/rotate; F10 export.");
+        PrintToRPT("[PROXY TOOL V2] Panel loaded. Hold RMB in world for camera; F4 player/editor; F7/F8 move/rotate; F10 export.");
     }
 
     void ~IOTProxyTool()
     {
+        if (m_LootVolumes) m_LootVolumes.Reset();
         if (GetGame()) GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(Tick);
         SetPlayerHudHidden(false);
         if (m_ModeHint) m_ModeHint.Unlink();
@@ -1681,33 +3488,84 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (m_CatalogDragRoot) m_CatalogDragRoot.Unlink();
         if (m_ErrorRoot) m_ErrorRoot.Unlink();
         if (m_ReplaceRoot) m_ReplaceRoot.Unlink();
+        if (m_ProjectRoot) m_ProjectRoot.Unlink();
         m_Browser = null;
         m_CreatedTray = null;
         m_Viewport = null;
+        m_ToolbarChrome = null;
         if (m_Toolbar) m_Toolbar.Unlink();
         if (m_Root) m_Root.Unlink();
     }
 
-    protected void Status(string message)
+    protected void Notify(IOTNoticeKind kind, string message)
     {
-        ClearError();
-        if (m_Status) m_Status.SetText(message);
+        m_NoticeKind = kind;
+        m_NoticeMessage = message;
+        m_LastError = "";
+        m_NoticeUntil = 0;
+        string title = "ERROR_TITLE";
+        int accent = ARGB(255,242,90,90);
+        int background = ARGB(250,27,24,24);
+        if (kind == IOTNoticeKind.SUCCESS)
+        {
+            title = "SUCCESS_TITLE";
+            accent = ARGB(255,103,218,132);
+            background = ARGB(250,23,28,26);
+            m_NoticeUntil = GetGame().GetTime()+4000;
+        }
+        else if (kind == IOTNoticeKind.WARNING)
+        {
+            title = "WARNING_TITLE";
+            accent = ARGB(255,240,190,75);
+            background = ARGB(250,29,27,23);
+            m_NoticeUntil = GetGame().GetTime()+6000;
+        }
+        else m_LastError = message;
+        m_ErrorRoot.SetColor(background);
+        m_ErrorRoot.FindAnyWidget("ErrorAccent").SetColor(accent);
+        TextWidget.Cast(m_ErrorRoot.FindAnyWidget("ErrorTitle")).SetText(IOTL.T(title));
+        m_ErrorRoot.FindAnyWidget("ErrorTitle").SetColor(accent);
+        m_ErrorText.SetText(message);
+        m_ErrorRoot.Show(!m_PlayerMode && !m_GameMenuOpen);
+        PositionError();
+        m_ErrorRoot.Update();
     }
 
     void ReportError(string message)
     {
-        m_LastError = message;
-        m_ErrorText.SetText(message);
-        m_ErrorRoot.Show(!m_PlayerMode);
-        PositionError();
-        m_ErrorRoot.Update();
+        Notify(IOTNoticeKind.ERROR,message);
         PrintToRPT("[PROXY ERROR] "+message);
+    }
+
+    protected void ReportSuccess(string message)
+    {
+        Notify(IOTNoticeKind.SUCCESS,message);
+        PrintToRPT("[PROXY SUCCESS] "+message);
+    }
+
+    protected void ReportWarning(string message)
+    {
+        Notify(IOTNoticeKind.WARNING,message);
+        PrintToRPT("[PROXY WARNING] "+message);
     }
 
     protected void ClearError()
     {
         m_LastError = "";
-        if (m_ErrorRoot && m_ErrorRoot.IsVisible()) m_ErrorRoot.Show(false);
+        if (m_NoticeKind == IOTNoticeKind.ERROR) DismissNotification();
+    }
+
+    protected void DismissNotification()
+    {
+        m_LastError = "";
+        m_NoticeMessage = "";
+        m_NoticeUntil = 0;
+        if (m_ErrorRoot) m_ErrorRoot.Show(false);
+    }
+
+    protected void UpdateNotificationAt(int now)
+    {
+        if (m_NoticeUntil > 0 && now >= m_NoticeUntil) DismissNotification();
     }
 
     protected bool ErrorContains(vector point)
@@ -1932,13 +3790,13 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         UpdateGizmo();
         SyncFields();
         RefreshCreatedItems(true);
-        Status("");
+        ClearError();
         return true;
     }
 
     protected bool MoveSceneTarget(vector position)
     {
-        if (!m_MoveTarget || !m_Editing || m_PlayerMode || AnchorReplacementPending()) return false;
+        if (!m_MoveTarget || !m_Editing || m_PlayerMode || EditorModalPending()) return false;
         for (int axis = 0; axis < 3; axis++)
             if (Math.AbsFloat(position[axis]) > 100000) { ReportError(IOTL.T("WORLD_NUMBER_LIMIT")); return false; }
         m_MoveTarget.SetPosition(position);
@@ -1947,7 +3805,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     bool SelectSceneCharacter()
     {
-        if (AnchorReplacementPending()) return false;
+        if (EditorModalPending()) return false;
         Man player = GetGame().GetPlayer();
         if (m_PlayerMode || !player) return false;
         FreeDebugCamera camera = FreeDebugCamera.GetInstance();
@@ -1963,7 +3821,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     bool SelectSceneAnchor(Object anchor)
     {
-        if (AnchorReplacementPending()) return false;
+        if (EditorModalPending()) return false;
         if (m_PlayerMode || !anchor) return false;
         bool registered;
         foreach (IOTSceneEntry scene : m_Scenes)
@@ -1979,7 +3837,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     bool SelectCreatedItem(ItemBase item)
     {
-        if (AnchorReplacementPending()) return false;
+        if (EditorModalPending()) return false;
         if (m_PlayerMode || m_CreatedItems.Find(item) < 0) return false;
         IOTSceneEntry owner = ItemScene(item);
         bool changedAnchor = owner && owner.Anchor != m_Anchor;
@@ -1987,12 +3845,6 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (changedAnchor) FocusAnchor();
         RefreshObjects();
         return true;
-    }
-
-    protected void SceneStatus(string value)
-    {
-        Status(value);
-        if (m_Browser) m_Browser.SetStatus(value);
     }
 
     protected void SeparateAnchor(Object created)
@@ -2043,22 +3895,57 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     bool SpawnSceneClass(string classname, bool itemMode, bool atSurface = false, vector surfacePosition = "0 0 0", vector surfaceNormal = "0 1 0")
     {
-        if (m_PlayerMode || AnchorReplacementPending()) return false;
+        if (m_PlayerMode || EditorModalPending()) return false;
         classname = m_Browser.ResolveClass(classname,itemMode);
         if (classname == "") { ReportError(IOTL.T("UNKNOWN_CLASS")); return false; }
         if (itemMode && !m_Anchor) { ReportError(IOTL.T("ANCHOR_REQUIRED")); return false; }
         if (!itemMode && ExistingSceneAnchor())
         {
-            RequestAnchorReplacement(classname,atSurface,surfacePosition,surfaceNormal);
+            RequestAnchorReplacement(classname,atSurface,surfacePosition,surfaceNormal,m_Browser.MapForClass(classname));
             return false;
         }
-        return SpawnResolvedSceneClass(classname,itemMode,atSurface,surfacePosition,surfaceNormal,false);
+        return SpawnResolvedSceneClass(classname,itemMode,atSurface,surfacePosition,surfaceNormal,false,m_Browser.MapForClass(classname));
+    }
+
+    protected void PlaceCharacterByAnchor(Object anchor, vector viewPosition)
+    {
+        Man player = GetGame().GetPlayer();
+        if (!anchor || !player) return;
+        vector bounds[2];
+        anchor.ClippingInfo(bounds);
+        vector center = (bounds[0]+bounds[1])*0.5;
+        vector outward = anchor.WorldToModel(viewPosition) - center;
+        outward[1] = 0;
+        if (outward.Length() < 0.001) outward = "0 0 -1";
+        outward.Normalize();
+        float toX = 100000;
+        float toZ = 100000;
+        if (Math.AbsFloat(outward[0]) > 0.00001) toX = (bounds[1][0] - bounds[0][0])*0.5/Math.AbsFloat(outward[0]);
+        if (Math.AbsFloat(outward[2]) > 0.00001) toZ = (bounds[1][2] - bounds[0][2])*0.5/Math.AbsFloat(outward[2]);
+        vector normal = "0 0 1";
+        if (toX < toZ)
+        {
+            normal = "1 0 0";
+            if (outward[0] < 0) normal[0] = -1;
+        }
+        else if (outward[2] < 0) normal[2] = -1;
+        // Intersect the center-to-camera ray with the model's horizontal bounds,
+        // then step five metres out from that face, rather than from the pivot.
+        vector localPosition = center+outward*Math.Min(toX,toZ)+normal*5;
+        vector position = anchor.ModelToWorld(localPosition);
+        position[1] = GetGame().SurfaceY(position[0],position[2])+0.1;
+        vector facing = anchor.ModelToWorld(center) - position;
+        facing[1] = 0;
+        vector angles = facing.VectorToAngles();
+        player.SetPosition(position);
+        player.SetOrientation(Vector(angles[0],0,0));
     }
 
     // The only commit path: validate the candidate before clearing old entities.
-    protected bool SpawnResolvedSceneClass(string classname, bool itemMode, bool atSurface, vector surfacePosition, vector surfaceNormal, bool replacing)
+    protected bool SpawnResolvedSceneClass(string classname, bool itemMode, bool atSurface, vector surfacePosition, vector surfaceNormal, bool replacing, int lootMap = 0)
     {
         bool dropping = atSurface;
+        vector viewPosition = GetGame().GetCurrentCameraPosition();
         vector direction = GetGame().GetCurrentCameraDirection();
         direction[1] = 0;
         if (direction.Length() < 0.01) direction = "0 0 1";
@@ -2144,15 +4031,19 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             }
             if (replacing) ClearSceneLayout();
             SetAnchor(created);
+            m_LootMap = lootMap;
+            PlaceCharacterByAnchor(created,viewPosition);
             SelectSceneAnchor(created);
         }
         RefreshObjects();
-        SceneStatus("");
+        ClearError();
         PrintToRPT("[PROXY SCENE] Created " + classname + " at " + created.GetPosition().ToString(false));
         return true;
     }
 
     bool AnchorReplacementPending() { return m_ReplaceClass != ""; }
+    bool ProjectDialogOpen() { return m_ProjectRoot && m_ProjectRoot.IsVisible(); }
+    bool EditorModalPending() { return AnchorReplacementPending() || ProjectDialogOpen(); }
 
     protected Object ExistingSceneAnchor()
     {
@@ -2175,7 +4066,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         dialog.SetScreenPos((width-dialogWidth)*0.5,(height-dialogHeight)*0.5);
     }
 
-    protected void RequestAnchorReplacement(string classname, bool atSurface, vector position, vector normal)
+    protected void RequestAnchorReplacement(string classname, bool atSurface, vector position, vector normal, int lootMap = 0)
     {
         SetFocus(null);
         CancelWorldGesture();
@@ -2186,6 +4077,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         ClearError();
         m_ReplaceAnchor = ExistingSceneAnchor();
         m_ReplaceClass = classname;
+        m_ReplaceLootMap = lootMap;
         m_ReplaceAtSurface = atSurface;
         m_ReplacePosition = position;
         m_ReplaceNormal = normal;
@@ -2201,6 +4093,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     {
         if (!AnchorReplacementPending()) return false;
         string classname = m_ReplaceClass;
+        int lootMap = m_ReplaceLootMap;
         Object expected = m_ReplaceAnchor;
         bool atSurface = m_ReplaceAtSurface;
         vector position = m_ReplacePosition;
@@ -2217,14 +4110,18 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             ReportError(IOTL.T("REPLACE_SCENE_CHANGED"));
             return false;
         }
-        return SpawnResolvedSceneClass(classname,false,atSurface,position,normal,true);
+        return SpawnResolvedSceneClass(classname,false,atSurface,position,normal,true,lootMap);
     }
 
     protected void ClearSceneLayout()
     {
+        m_LootVolumes.Reset();
+        m_LootMap = 0;
+        ReleaseProjectItems();
         CancelWorldGesture();
         CancelCatalogDrag();
         DeselectItem();
+        ClearHistory();
         // Only tracked world entities belong to this layout. Picked-up items,
         // the character and its equipment survive anchor replacement.
         array<ItemBase> oldItems = new array<ItemBase>;
@@ -2247,10 +4144,12 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     bool SetAnchor(Object candidate)
     {
-        if (AnchorReplacementPending()) return false;
+        if (EditorModalPending()) return false;
         if (!candidate)
         {
             DeselectItem();
+            m_LootVolumes.Reset();
+            m_LootMap = 0;
             m_Anchor = null;
             m_ActiveScene = null;
             RefreshCreatedItems();
@@ -2264,6 +4163,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         }
         if (candidate != m_Anchor || (m_MoveTarget && m_MoveTarget != candidate)) DeselectItem();
         m_CharacterFocused = false;
+        if (m_Anchor != candidate) { m_LootVolumes.Reset(); m_LootMap = 0; }
         m_Anchor = candidate;
         m_ActiveScene = RegisterAnchor(candidate);
         if (m_Item) m_DirtyInputs = false;
@@ -2274,7 +4174,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     bool SelectItem(ItemBase item)
     {
-        if (m_PlayerMode || AnchorReplacementPending() || !item || item.GetHierarchyParent() || item.IsHologram()) return false;
+        if (m_PlayerMode || EditorModalPending() || !item || item.GetHierarchyParent() || item.IsHologram()) return false;
         if (m_MoveTarget) DeselectItem();
         m_CharacterFocused = false;
         IOTSceneEntry owner = ItemScene(item);
@@ -2282,6 +4182,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!m_Anchor) { ReportError(IOTL.T("ANCHOR_REQUIRED")); return false; }
         if (!owner && m_ActiveScene.Items.Find(item) < 0) m_ActiveScene.Items.Insert(item);
         if (item == m_Item && m_Editing) return true;
+        FinishHistory();
         if (m_Item && m_Editing)
         {
             GetGizmoApi().DeselectTracker(this);
@@ -2294,6 +4195,11 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_OriginalProxyPosition = ProxyPosition();
         m_OriginalProxyAngles = ProxyAngles();
         m_WasSimulationDisabled = m_Item.GetIsSimulationDisabled();
+        if (m_ProjectFrozen.Find(m_Item) >= 0)
+        {
+            m_WasSimulationDisabled = false;
+            m_ProjectFrozen.RemoveItem(m_Item);
+        }
         SetItemSimulation(m_Item,true);
         m_Editing = true;
         m_DirtyInputs = false;
@@ -2302,21 +4208,15 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         SyncFields();
         PrintToRPT("[PROXY SELECTION] Selected " + m_Item.GetType());
         RefreshCreatedItems(true);
-        Status(IOTL.T("GIZMO_HINT"));
+        ClearError();
         return true;
     }
 
     protected void SelectionControls(bool enabled)
     {
         bool itemMode = enabled && m_Item != null;
-        array<string> names = {"MoveStep","AngleStep","Ground"};
-        foreach (string name : names)
-        {
-            Widget control = m_Root.FindAnyWidget(name);
-            if (control) control.Enable(enabled);
-        }
-        array<string> itemControls = {"AngleStep","Ground"};
-        foreach (string itemControl : itemControls) m_Root.FindAnyWidget(itemControl).Enable(itemMode);
+        m_Root.FindAnyWidget("MoveStep").Enable(enabled);
+        m_Root.FindAnyWidget("AngleStep").Enable(itemMode);
         m_ItemsList.Show(false);
         m_AnchorsList.Show(false);
         for (int axis = 0; axis < 3; axis++)
@@ -2343,42 +4243,46 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         return point[0] >= x && point[0] < x+width && point[1] >= y && point[1] < y+height;
     }
 
+    protected void ToggleLootVolumes()
+    {
+        if (!m_Anchor || m_PlayerMode || EditorModalPending()) return;
+        m_LootVolumes.Enable(!m_LootVolumes.Enabled());
+        m_LootVolumes.Update(m_Anchor,m_LootMap,true);
+        if (m_LootVolumes.Enabled())
+        {
+            if (!m_LootVolumes.Readable() || !m_LootVolumes.Known()) ReportWarning(m_LootVolumes.Detail());
+            else if (m_LootVolumes.Count() == 0) ReportWarning(IOTL.T("LOOT_NO_POINTS"));
+            else if (m_LootVolumes.UsingSnapshot()) ReportWarning(IOTL.T("LOOT_FALLBACK_WARNING"));
+            else if (m_LootVolumes.IncompleteCount() > 0) ReportWarning(IOTL.T("LOOT_DIMENSIONS_UNSPECIFIED"));
+        }
+        UpdateToolbar();
+    }
+
     protected void UpdateToolbar()
     {
         if (!m_Toolbar) return;
+        UpdateHistoryButtons();
         bool selected = SelectedObject() != null && m_Editing && !m_PlayerMode;
         m_Toolbar.FindAnyWidget("MoveMode").Show(selected);
         m_Toolbar.FindAnyWidget("RotateMode").Show(selected);
         m_Toolbar.FindAnyWidget("MoveMode").Enable(selected);
         m_Toolbar.FindAnyWidget("RotateMode").Enable(selected && m_Item != null);
+        m_Toolbar.FindAnyWidget("PlaceOnSurface").Show(selected && m_Item != null);
         m_Toolbar.FindAnyWidget("Export").Enable(selected && m_Item != null);
         m_Toolbar.FindAnyWidget("SceneFocus").Enable(m_Anchor != null);
         m_Toolbar.FindAnyWidget("SceneExport").Enable(m_Anchor != null);
-        m_Toolbar.FindAnyWidget("CameraMode").Enable(m_Booted && !m_PlayerMode);
-        string cameraLabel = IOTL.T("CAMERA_FLIGHT");
-        if (!m_Pointer) cameraLabel = IOTL.T("CAMERA_CURSOR");
-        ButtonWidget.Cast(m_Toolbar.FindAnyWidget("CameraMode")).SetText(cameraLabel);
+        m_Toolbar.FindAnyWidget("LootVolumes").Enable(m_Anchor != null);
+        bool showLoot = m_Anchor && m_LootVolumes.Enabled();
+        m_ToolbarChrome.SetLootActive(showLoot);
+        if (showLoot) m_ToolbarChrome.SetLootDetail(m_LootVolumes.Detail());
+        else m_ToolbarChrome.SetLootDetail("");
         m_Toolbar.FindAnyWidget("MoveModeActive").Show(selected && !m_RotateMode);
         m_Toolbar.FindAnyWidget("RotateModeActive").Show(selected && m_RotateMode);
         int screenWidth,screenHeight;
         GetScreenSize(screenWidth,screenHeight);
         float margin = 20*m_PanelScale;
         float width = Math.Max(1,screenWidth - margin*2);
-        float available = width/m_PanelScale;
-        float x = 8;
-        float y = 8;
-        array<string> names = {"MoveMode","RotateMode","CameraMode","SceneFocus","PlayerMode","Export","SceneExport"};
-        array<float> widths = {156,156,160,160,156,184,160};
-        for (int i = 0; i < names.Count(); i++)
-        {
-            Widget control = m_Toolbar.FindAnyWidget(names[i]);
-            if (!control.IsVisible()) continue;
-            if (x > 8 && x+widths[i] > available - 8) { x = 8; y = y+40; }
-            control.SetPos(x*m_PanelScale,y*m_PanelScale);
-            control.SetScreenSize(widths[i]*m_PanelScale,32*m_PanelScale);
-            x = x+widths[i]+8;
-        }
-        float height = (y+40)*m_PanelScale;
+        float height = m_ToolbarChrome.Layout(width,m_PanelScale);
         m_Toolbar.SetScreenPos(margin,margin);
         m_Toolbar.SetScreenSize(width,height);
         if (!m_Browser || !m_CreatedTray) return;
@@ -2429,7 +4333,6 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         }
         m_Root.FindAnyWidget("MoveStep").Show(showPosition);
         m_Root.FindAnyWidget("AngleStep").Show(showAngles);
-        m_Root.FindAnyWidget("Ground").Show(showPosition && itemMode);
         float toggleY = 200;
         m_Root.FindAnyWidget("FineToggle").SetPos(16*m_PanelScale,toggleY*m_PanelScale);
         ButtonWidget.Cast(m_Root.FindAnyWidget("FineToggle")).SetState(m_FineOpen);
@@ -2439,17 +4342,15 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         Widget finePanel = m_Root.FindAnyWidget("FinePanel");
         finePanel.Show(selected && m_FineOpen);
         float fineHeight = 64;
-        if (showPosition && itemMode) fineHeight = 100;
         if (showAngles) fineHeight = 132;
         finePanel.SetPos(16*m_PanelScale,(toggleY+36)*m_PanelScale);
         finePanel.SetScreenSize(368*m_PanelScale,fineHeight*m_PanelScale);
         float footerY = toggleY+40;
         if (m_FineOpen) footerY = footerY+fineHeight+10;
         if (!selected) footerY = 44;
-        m_Status.SetPos(16*m_PanelScale,footerY*m_PanelScale);
-        m_Debug.SetPos(16*m_PanelScale,(footerY+64)*m_PanelScale);
+        m_Debug.SetPos(16*m_PanelScale,footerY*m_PanelScale);
         m_Debug.Show(m_ShowDebug);
-        float height = footerY+64;
+        float height = footerY+12;
         if (m_ShowDebug) height = height+72;
         m_Root.SetScreenSize(400*m_PanelScale,height*m_PanelScale);
         LayoutValueRows();
@@ -2503,6 +4404,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void DeselectItem()
     {
+        FinishHistory();
         m_CharacterFocused = false;
         GetGizmoApi().DeselectTracker(this);
         if (m_Item && m_Editing)
@@ -2525,7 +4427,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_UpdatingUI = false;
         SelectionControls(false);
         RefreshCreatedItems();
-        Status(IOTL.T("DESELECT_HINT"));
+        ClearError();
     }
 
     void RefreshObjects()
@@ -2598,14 +4500,15 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         RefreshObjects();
         DeselectItem();
         EnterEditor();
-        SceneStatus(IOTL.T("START_HINT"));
+        ClearError();
         PrintToRPT("[PROXY TOOL V2] Editor ready: camera active, no item selected; loose items=" + m_Items.Count().ToString());
         return true;
     }
 
     protected bool PanelPoint(vector point)
     {
-        if (AnchorReplacementPending()) return true;
+        if (EditorModalPending()) return true;
+        if (m_ToolbarChrome && m_ToolbarChrome.ContainsHint(point)) return true;
         if (ErrorContains(point)) return true;
         if (m_Browser && m_Browser.Contains(point)) return true;
         if (m_CreatedTray && m_CreatedTray.Contains(point)) return true;
@@ -2620,9 +4523,11 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     protected void UpdateViewport()
     {
         if (!m_Viewport || !m_Browser || !m_CreatedTray) return;
-        m_Viewport.Update(m_Browser.Root(),m_Root,m_CreatedTray.Root(),m_Toolbar,!m_PlayerMode);
+        m_Viewport.Update(m_Browser.Root(),m_Root,m_CreatedTray.Root(),m_Toolbar,!m_PlayerMode && !m_GameMenuOpen);
         PositionError();
         PositionReplacement();
+        PositionProjectDialog();
+        PositionProjectDialog();
     }
 
     protected bool WorldPoint(vector point)
@@ -2634,7 +4539,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     {
         while (widget)
         {
-            if (widget == m_Root || widget == m_Toolbar || widget == m_ErrorRoot || widget == m_ReplaceRoot || widget == m_Browser.Root() || widget == m_CreatedTray.Root()) return true;
+            if (widget == m_Root || widget == m_Toolbar || widget == m_ErrorRoot || widget == m_ReplaceRoot || widget == m_ProjectRoot || widget == m_Browser.Root() || widget == m_CreatedTray.Root() || (m_ToolbarChrome && widget == m_ToolbarChrome.HintRoot())) return true;
             widget = widget.GetParent();
         }
         return false;
@@ -2649,14 +4554,17 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     protected void CancelWorldGesture()
     {
+        if (m_HistoryGroup == "gizmo") FinishHistory();
         m_ClickPending = false;
         m_ClickReleased = false;
         m_WorldDragCancelled = true;
+        UpdateHistoryButtons();
     }
 
     protected bool BeginWorldGesture(vector point)
     {
         if (!WorldPoint(point)) { CancelWorldGesture(); return false; }
+        m_ToolbarChrome.HideHint();
         m_ClickStart = point;
         m_ClickPending = true;
         m_ClickReleased = false;
@@ -2667,7 +4575,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     protected bool BeginCatalogPress(vector point)
     {
-        if (m_PlayerMode || AnchorReplacementPending() || !m_Pointer || !m_Browser.CatalogListPoint(point)) return false;
+        if (m_PlayerMode || EditorModalPending() || !m_Pointer || !m_Browser.CatalogListPoint(point)) return false;
         if (m_Browser.ItemsMode() && !m_Anchor) { ReportError(IOTL.T("ANCHOR_REQUIRED")); return false; }
         CancelWorldGesture();
         m_Browser.HideHoverPreview();
@@ -2750,30 +4658,49 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         bool valid = dragged && worldTarget && DropSurface(point,hit,normal);
         CancelCatalogDrag();
         if (!dragged) return false;
-        if (!valid) { SceneStatus(IOTL.T("ITEM_DROP_CANCELLED")); return false; }
+        if (!valid) { ReportWarning(IOTL.T("ITEM_DROP_CANCELLED")); return false; }
         SetFocus(null);
         return SpawnSceneClass(classname,itemMode,true,hit,normal);
     }
 
-    protected bool TogglePointerAt(vector point)
+    protected bool CameraContextActive()
     {
-        if (m_Pointer && !WorldPoint(point))
-        {
-            Status(IOTL.T("WORLD_FLIGHT_HINT"));
-            return false;
-        }
-        SetPointer(!m_Pointer);
+        FreeDebugCamera camera = FreeDebugCamera.GetInstance();
+        return m_Booted && !m_PlayerMode && !EditorModalPending() && m_Viewport && m_Viewport.IsVisible() && camera && camera.IsActive() && GetGame().IsAppActive() && !GetGame().GetUIManager().GetMenu();
+    }
+
+    protected bool BeginCameraHold(vector point, bool leftDown = false)
+    {
+        if (!CameraContextActive() || !m_Pointer || m_CameraHeld || m_CameraBlockedUntilRelease || leftDown || m_MouseWasDown || m_ClickPending || m_CatalogPressed || m_HeldButton || !WorldPoint(point)) return false;
+        m_CameraHeld = true;
+        SetPointer(false);
         return true;
     }
 
-    protected bool ToggleToolbarCamera()
+    protected void EndCameraHold()
     {
-        if (!m_Booted || m_PlayerMode || !GetGame().IsAppActive() || GetGame().GetUIManager().GetMenu()) return false;
-        UpdateViewport();
-        if (!m_Viewport || !m_Viewport.IsVisible()) return false;
-        // This explicit action works from the toolbar; the F1 key keeps its
-        // existing requirement to start flight from inside the world area.
-        return TogglePointerAt(m_Viewport.Center());
+        if (!m_CameraHeld) return;
+        m_CameraHeld = false;
+        m_MouseWasDown = (GetMouseState(MouseState.LEFT) & MB_PRESSED_MASK) != 0;
+        SetPointer(true);
+    }
+
+    // Shared by mouse events and frame polling: consume each press once.
+    // Once captured, hidden cursor coordinates do not limit camera flight.
+    protected void UpdateCameraHold(bool down, bool contextActive, vector point, bool leftDown)
+    {
+        if (!contextActive)
+        {
+            EndCameraHold();
+            m_CameraBlockedUntilRelease = true;
+        }
+        else if (!down)
+        {
+            EndCameraHold();
+            m_CameraBlockedUntilRelease = false;
+        }
+        else if (!m_RightWasDown && !m_CameraBlockedUntilRelease) BeginCameraHold(point,leftDown);
+        m_RightWasDown = down;
     }
 
     vector PointerRay(vector point)
@@ -2805,7 +4732,14 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void MousePress(int button)
     {
-        if (button != MouseState.LEFT || !m_Booted || m_PlayerMode || AnchorReplacementPending() || !m_Pointer || m_ClickPending || m_CatalogPressed || !GetGame().IsAppActive() || GetGame().GetUIManager().GetMenu()) return;
+        if (button == MouseState.RIGHT)
+        {
+            int rightX,rightY;
+            GetMousePos(rightX,rightY);
+            UpdateCameraHold(true,CameraContextActive(),Vector(rightX,rightY,0),(GetMouseState(MouseState.LEFT) & MB_PRESSED_MASK) != 0);
+            return;
+        }
+        if (button != MouseState.LEFT || !m_Booted || m_PlayerMode || EditorModalPending() || !m_Pointer || m_ClickPending || m_CatalogPressed || !GetGame().IsAppActive() || GetGame().GetUIManager().GetMenu()) return;
         int x,y;
         GetMousePos(x,y);
         vector point = Vector(x,y,0);
@@ -2817,7 +4751,17 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void MouseRelease(int button)
     {
+        if (button == MouseState.RIGHT)
+        {
+            UpdateCameraHold(false,CameraContextActive(),vector.Zero,false);
+            return;
+        }
         if (button != MouseState.LEFT) return;
+        if (m_HeldButton)
+        {
+            m_HeldButton = null;
+            FinishHistory();
+        }
         if (m_CatalogPressed)
         {
             int dragX,dragY;
@@ -2888,7 +4832,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         FreeDebugCamera camera = FreeDebugCamera.GetInstance();
         // Freeze the native controller, keeping its camera and the native Gizmo.
         if (camera && camera.IsActive() && !m_PlayerMode) camera.SetFreezed(true);
-        bool flying = m_Booted && !m_PlayerMode && !m_Pointer && m_Viewport && m_Viewport.IsVisible() && camera && camera.IsActive() && GetGame().IsAppActive() && !GetGame().GetUIManager().GetMenu();
+        bool flying = m_CameraHeld && !m_Pointer && CameraContextActive();
         if (!flying)
         {
             m_SpeedRoot.Show(false);
@@ -2903,7 +4847,10 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (timeslice <= 0 || timeslice > 0.25) return;
         float forward = input.LocalValue("UAMoveForward") - input.LocalValue("UAMoveBack");
         float side = input.LocalValue("UAMoveRight") - input.LocalValue("UAMoveLeft");
-        float vertical = input.LocalValue("UABuldMoveUp") - input.LocalValue("UABuldMoveDown");
+        // Editor height controls do not depend on the Bulldozer bindings.
+        float vertical = 0;
+        if (KeyState(KeyCode.KC_Q)) vertical = vertical + 1;
+        if (KeyState(KeyCode.KC_Z)) vertical = vertical - 1;
         float yaw = input.LocalValue("UAAimLeft") - input.LocalValue("UAAimRight");
         float pitch = input.LocalValue("UAAimDown") - input.LocalValue("UAAimUp");
         if (m_SkipLookFrames > 0)
@@ -2920,15 +4867,27 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void FrameUpdate(float timeslice)
     {
+        bool menuOpen = GetGame().GetUIManager().GetMenu() != null;
+        UpdateGameMenuVisibility(menuOpen);
+        if (m_Browser) m_Browser.UpdateTheme();
+        m_LootVolumes.Update(m_Anchor,m_LootMap,m_Booted && !m_PlayerMode && GetGame().IsAppActive() && !menuOpen);
         UpdateViewport();
         // MissionGameplay can update HUD visibility while menus open or close.
         if (m_Booted && !m_PlayerMode) SetPlayerHudHidden(true);
+        int mouseX,mouseY;
+        GetMousePos(mouseX,mouseY);
+        bool down = (GetMouseState(MouseState.LEFT) & MB_PRESSED_MASK) != 0;
+        bool rightDown = (GetMouseState(MouseState.RIGHT) & MB_PRESSED_MASK) != 0;
+        UpdateCameraHold(rightDown,CameraContextActive(),Vector(mouseX,mouseY,0),down);
         UpdateFlightCamera(timeslice);
-        if (!m_Booted || m_PlayerMode || !GetGame().IsAppActive() || GetGame().GetUIManager().GetMenu())
+        if (!m_Booted || m_PlayerMode || !GetGame().IsAppActive() || menuOpen)
         {
+            m_ToolbarChrome.HideHint();
             CancelWorldGesture();
             CancelCatalogDrag();
-            m_MouseWasDown = false;
+            m_HeldButton = null;
+            FinishHistory();
+            m_MouseWasDown = down;
             return;
         }
         if (m_Pointer)
@@ -2941,7 +4900,6 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             else if (gameFocus && !GetGame().GetInput().HasGameFocus()) GetGame().GetInput().ResetGameFocus();
         }
         else m_Viewport.SetActive(true);
-        bool down = (GetMouseState(MouseState.LEFT) & MB_PRESSED_MASK) != 0;
         if (down && !m_MouseWasDown) MousePress(MouseState.LEFT);
         if (!down && m_MouseWasDown) MouseRelease(MouseState.LEFT);
         m_MouseWasDown = down;
@@ -2956,8 +4914,38 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             bool select = !m_NativeGesture && !m_WorldDragCancelled && WorldPoint(m_ClickStart) && WorldPoint(m_ClickEnd) && vector.Distance(m_ClickStart,m_ClickEnd) < 5;
             vector point = m_ClickEnd;
             m_ClickPending = false;
+            if (m_HistoryGroup == "gizmo") FinishHistory();
             if (select) PickPoint(point);
         }
+        UpdateHistoryButtons();
+        if (!m_Pointer || EditorModalPending() || m_CatalogPressed) m_ToolbarChrome.HideHint();
+        else m_ToolbarChrome.HoverAt(Vector(mouseX,mouseY,0),!m_MouseWasDown && !m_ClickPending);
+    }
+
+    protected void ShowEditorPanels(bool visible)
+    {
+        if (!visible) m_ToolbarChrome.HideHint();
+        m_Root.Show(visible);
+        m_Toolbar.Show(visible);
+        m_Browser.Show(visible);
+        m_CreatedTray.Show(visible);
+    }
+
+    protected void UpdateGameMenuVisibility(bool menuOpen)
+    {
+        if (!m_Booted || m_PlayerMode || m_GameMenuOpen == menuOpen) return;
+        if (menuOpen) m_ResumeProjectDialog = ProjectDialogOpen();
+        m_GameMenuOpen = menuOpen;
+        ShowEditorPanels(!menuOpen);
+        m_ProjectRoot.Show(!menuOpen && m_ResumeProjectDialog);
+        m_ReplaceRoot.Show(!menuOpen && AnchorReplacementPending());
+        m_ErrorRoot.Show(!menuOpen && m_NoticeMessage != "");
+        if (!menuOpen)
+        {
+            if (m_ResumeProjectDialog) SetFocus(m_ProjectName);
+            m_ResumeProjectDialog = false;
+        }
+        UpdateGizmo();
     }
 
     protected Widget PlayerHudRoot()
@@ -2990,6 +4978,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void EnterEditor()
     {
+        m_CameraHeld = false;
+        m_CameraBlockedUntilRelease = true;
         PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
         if (player)
         {
@@ -3010,11 +5000,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
                 camera.LookAt(player.GetPosition()+"0.2 0.3 3");
             }
         }
-        m_Root.Show(true);
-        m_Toolbar.Show(true);
-        m_Browser.Show(true);
+        ShowEditorPanels(true);
         m_CreatedTray.Position(m_Browser.Root());
-        m_CreatedTray.Show(true);
         UpdateToolbar();
         UpdateViewport();
         m_ModeHint.Show(false);
@@ -3026,9 +5013,13 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     void EnterPlayer()
     {
         if (m_PlayerMode) return;
-        ClearError();
+        m_LootVolumes.Update(m_Anchor,m_LootMap,false);
+        EndCameraHold();
+        m_CameraBlockedUntilRelease = true;
+        DismissNotification();
         CancelCatalogDrag();
         DeselectItem();
+        ReleaseProjectItems();
         FreeDebugCamera camera = FreeDebugCamera.GetInstance();
         if (camera)
         {
@@ -3044,10 +5035,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_PlayerMode = true;
         m_Pointer = false;
         m_ClickPending = false;
-        m_Root.Show(false);
-        m_Toolbar.Show(false);
-        m_Browser.Show(false);
-        m_CreatedTray.Show(false);
+        ShowEditorPanels(false);
         m_Viewport.Show(false);
         m_ModeHint.Show(true);
         m_SpeedRoot.Show(false);
@@ -3062,11 +5050,16 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     void SetPointer(bool pointer)
     {
         if (m_PlayerMode) return;
+        if (pointer && m_CameraHeld)
+        {
+            m_CameraHeld = false;
+            m_CameraBlockedUntilRelease = true;
+        }
         FreeDebugCamera camera = FreeDebugCamera.GetInstance();
         if (camera && !camera.IsActive()) camera.SetActive(true);
         if (pointer)
         {
-            GetGame().GetInput().ResetGameFocus();
+            if (GetGame().IsAppActive() && !GetGame().GetUIManager().GetMenu()) GetGame().GetInput().ResetGameFocus();
             GetGame().GetUIManager().ShowUICursor(true);
         }
         else
@@ -3083,7 +5076,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_SkipLookFrames = 2;
         if (pointer) m_SpeedRoot.Show(false);
         else { ShowCameraMultiplier(); if (m_Browser) m_Browser.HideHoverPreview(); }
-        UpdateToolbar();
+        UpdateGizmo();
     }
 
     protected void UpdateGizmo()
@@ -3091,7 +5084,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         GizmoApi api = GetGizmoApi();
         if (!api) return;
         api.DeselectTracker(this);
-        if (!m_PlayerMode && !AnchorReplacementPending() && !m_CatalogPressed && m_GizmoEnabled && SelectedObject() && m_Editing)
+        if (!m_PlayerMode && !m_GameMenuOpen && m_Pointer && !EditorModalPending() && !m_CatalogPressed && m_GizmoEnabled && SelectedObject() && m_Editing)
         {
             api.SelectUser(this);
             if (m_RotateMode) api.SetTransformMode(GizmoTransformMode.ROTATE);
@@ -3104,7 +5097,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         UpdateToolbar();
     }
 
-    bool Gizmo_IsSupported() { return !AnchorReplacementPending() && m_Editing && SelectedObject() != null; }
+    bool Gizmo_IsSupported() { return m_Pointer && !m_PlayerMode && !m_GameMenuOpen && !EditorModalPending() && m_Editing && SelectedObject() != null; }
     bool Gizmo_IsAllowedTransformMode(GizmoTransformMode mode) { return mode == GizmoTransformMode.MOVE || (m_Item != null && mode == GizmoTransformMode.ROTATE); }
     bool Gizmo_IsAllowedSpaceMode(GizmoSpaceMode mode) { return true; }
     void Gizmo_GetWorldTransform(vector transform[4]) { Object target = SelectedObject(); if (target) target.GetTransform(transform); }
@@ -3124,15 +5117,17 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     {
         if (m_PlayerMode || !m_Pointer || m_CatalogPressed || !SelectedObject() || !m_Editing || m_WorldDragCancelled) return false;
         if (!WorldPoint(point)) { CancelWorldGesture(); return false; }
+        BeginHistory("gizmo");
         if (m_ClickPending) m_NativeGesture = true;
         if (m_MoveTarget)
         {
             // Scene objects support translation only: preserve the original
             // rotation and scale even if a caller supplies another basis.
-            if (!MoveSceneTarget(transform[3])) return false;
+            if (!MoveSceneTarget(transform[3])) { FinishHistory(); return false; }
         }
         else m_Item.SetTransform(transform);
-        if (finalize) { m_DirtyInputs = false; SyncFields(); }
+        if (finalize) { m_DirtyInputs = false; SyncFields(); FinishHistory(); }
+        else UpdateHistoryButtons();
         return true;
     }
 
@@ -3153,6 +5148,10 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     void Nudge(bool rotate, int axis, int direction, bool fine = false)
     {
         if (!SelectedObject() || !m_Editing) return;
+        if (rotate && m_MoveTarget) return;
+        string group = "nudge";
+        if (m_HeldButton) group = group+":"+m_HeldButton.GetName();
+        BeginHistory(group);
         if (m_MoveTarget)
         {
             if (rotate) return;
@@ -3161,6 +5160,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             if (fine) worldFactor *= 0.1;
             worldPosition[axis] = worldPosition[axis]+MoveStep()*worldFactor;
             if (MoveSceneTarget(worldPosition)) { m_DirtyInputs = false; SyncFields(); }
+            if (!m_HeldButton) FinishHistory();
             return;
         }
         if (!m_Anchor) return;
@@ -3171,19 +5171,20 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (rotate) angles[axis] = angles[axis] + AngleStep() * factor;
         else position[axis] = position[axis] + MoveStep() * factor;
         SetProxyPose(position, angles);
+        if (!m_HeldButton) FinishHistory();
     }
 
-    protected bool NudgeButton(Widget widget)
+    protected bool NudgeButton(Widget widget, bool apply = true)
     {
         if (!widget) return false;
         string name = widget.GetName();
         for (int axis = 0; axis < 3; axis++)
         {
             string suffix = axis.ToString();
-            if (name == "PosMinus" + suffix) { Nudge(false, axis, -1); return true; }
-            if (name == "PosPlus" + suffix) { Nudge(false, axis, 1); return true; }
-            if (name == "RotMinus" + suffix) { Nudge(true, axis, -1); return true; }
-            if (name == "RotPlus" + suffix) { Nudge(true, axis, 1); return true; }
+            if (name == "PosMinus" + suffix) { if (apply) Nudge(false, axis, -1); return true; }
+            if (name == "PosPlus" + suffix) { if (apply) Nudge(false, axis, 1); return true; }
+            if (name == "RotMinus" + suffix) { if (apply) Nudge(true, axis, -1); return true; }
+            if (name == "RotPlus" + suffix) { if (apply) Nudge(true, axis, 1); return true; }
         }
         return false;
     }
@@ -3217,10 +5218,12 @@ class IOTProxyTool : ScriptedWidgetEventHandler
                 number.Replace(",", ".");
                 worldPosition[worldAxis] = number.ToFloat();
             }
-            if (!MoveSceneTarget(worldPosition)) return false;
+            BeginHistory("fields");
+            if (!MoveSceneTarget(worldPosition)) { FinishHistory(); return false; }
             m_DirtyInputs = false;
             SyncFields();
-            Status(IOTL.T("POSE_APPLIED"));
+            FinishHistory();
+            ClearError();
             return true;
         }
         if (!m_Item || !m_Anchor) return false;
@@ -3245,8 +5248,10 @@ class IOTProxyTool : ScriptedWidgetEventHandler
                 return false;
             }
         }
+        BeginHistory("fields");
         SetProxyPose(position, angles);
-        Status(IOTL.T("POSE_APPLIED"));
+        FinishHistory();
+        ClearError();
         return true;
     }
 
@@ -3272,6 +5277,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             else ReportError(IOTL.T("NUMBER_LIMIT"));
             return false;
         }
+        BeginHistory("field:"+field.GetName());
         if (m_MoveTarget)
         {
             vector worldPosition = m_MoveTarget.GetPosition();
@@ -3287,9 +5293,10 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             SetProxyPose(position,angles,false);
         }
         m_DirtyInputs = false;
-        if (finished) SyncFields();
+        if (finished) { SyncFields(); FinishHistory(); }
         else SyncFields(field);
-        Status(IOTL.T("POSE_APPLIED"));
+        UpdateHistoryButtons();
+        ClearError();
         return true;
     }
 
@@ -3325,34 +5332,99 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_UpdatingUI = false;
     }
 
-    void Ground()
+    protected bool FindPlacementSurface(vector position, out vector hit, out vector normal)
     {
-        if (!m_Item || !m_Anchor) return;
-        vector position = m_Anchor.GetPosition() + "1 0 -3.5";
-        position[1] = GetGame().SurfaceY(position[0], position[2]);
-        m_Item.SetOrientation("0 0 0");
+        // Start at the item's pivot with a small allowance for an intersecting floor.
+        // A ray cast from above the model could instead land on the wreck or roof above it.
+        vector from = position+"0 0.05 0";
+        vector to = position-"0 100 0";
+        Object surface;
+        float fraction;
+        bool found = DayZPhysics.RayCastBullet(from,to,PhxInteractionLayers.TERRAIN | PhxInteractionLayers.ROADWAY | PhxInteractionLayers.BUILDING,m_Item,surface,hit,normal,fraction);
+        if (!found || normal.Length() < 0.1) return false;
+        normal.Normalize();
+        // An almost vertical face offers little support and would amplify the height offset.
+        return normal[1] >= 0.5;
+    }
+
+    protected bool PlaceItemOnSurface()
+    {
+        if (!m_Item || !m_Editing || m_PlayerMode || m_CameraHeld || m_GameMenuOpen || EditorModalPending()) return false;
+        vector pose[4];
+        m_Item.GetTransform(pose);
+        vector hit,normal;
         vector bounds[2];
-        m_Item.ClippingInfo(bounds);
-        position[1] = position[1] - bounds[0][1] + 0.02;
-        m_Item.SetPosition(position);
+        // Clipping bounds can include parts outside the contact geometry, such
+        // as the hatchback wheel's oversized bounds along its axle.
+        if (!m_Item.GetCollisionBox(bounds)) m_Item.ClippingInfo(bounds);
+        vector size = bounds[1] - bounds[0];
+        if (size.Length() < 0.001)
+        {
+            ReportWarning(IOTL.T("PLACEMENT_NO_BOUNDS"));
+            return false;
+        }
+        if (!FindPlacementSurface(pose[3],hit,normal))
+        {
+            ReportWarning(IOTL.T("PLACEMENT_NO_SURFACE"));
+            return false;
+        }
+
+        // Put the broad face down. Keep the same side facing up when possible,
+        // and retain the in-plane direction by projecting a model axis.
+        int flatAxis = 0;
+        if (size[1] < size[flatAxis]) flatAxis = 1;
+        if (size[2] < size[flatAxis]) flatAxis = 2;
+        float side = 1;
+        if (vector.Dot(pose[flatAxis],normal) < -0.0001) side = -1;
+        int tangent = (flatAxis+1) % 3;
+        int other = (flatAxis+2) % 3;
+        vector basis[4];
+        if (Math.AbsFloat(vector.Dot(pose[tangent],normal)) < 0.95)
+        {
+            vector direction = pose[tangent] - normal*vector.Dot(pose[tangent],normal);
+            direction.Normalize();
+            Math3D.DirectionAndUpMatrix(direction,normal*side,basis);
+            pose[tangent] = basis[2];
+            pose[other] = basis[0];
+        }
+        else
+        {
+            vector fallback = pose[other] - normal*vector.Dot(pose[other],normal);
+            fallback.Normalize();
+            Math3D.DirectionAndUpMatrix(fallback,normal*side,basis);
+            pose[tangent] = -basis[0];
+            pose[other] = basis[2];
+        }
+        pose[flatAxis] = basis[1];
+        float support = Math.Min(bounds[0][flatAxis]*side,bounds[1][flatAxis]*side);
+        // The hit and origin share X/Z. Convert clearance along the normal into Y.
+        pose[3][1] = hit[1]+(0.003 - support)/normal[1];
+
+        BeginHistory("surface-placement");
+        m_Item.SetTransform(pose);
         m_DirtyInputs = false;
         SyncFields();
-        Status(IOTL.T("GROUNDED"));
+        FinishHistory();
+        ClearError();
+        return true;
     }
 
     void Reset()
     {
-        if (m_MoveTarget) { if (!MoveSceneTarget(m_Original[3])) return; }
+        BeginHistory("reset");
+        if (m_MoveTarget) { if (!MoveSceneTarget(m_Original[3])) { FinishHistory(); return; } }
         else if (m_Item) m_Item.SetTransform(m_Original);
         else return;
         m_DirtyInputs = false;
         SyncFields();
-        Status(IOTL.T("POSE_RESET"));
+        FinishHistory();
+        ClearError();
     }
 
     protected void ResetComponent(bool rotate, int axis)
     {
         if (!SelectedObject() || !m_Editing || m_PlayerMode || (rotate && !m_Item)) return;
+        BeginHistory("reset");
         if (m_MoveTarget)
         {
             vector worldPosition = m_MoveTarget.GetPosition();
@@ -3370,7 +5442,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         }
         m_DirtyInputs = false;
         SyncFields();
-        Status(IOTL.T("POSE_RESET"));
+        FinishHistory();
+        ClearError();
     }
 
     string ProxyLine()
@@ -3383,7 +5456,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         return "<proxy type=\"" + item.GetType() + "\" pos=\"" + Numbers(ItemProxyPosition(item)) + "\" rpy=\"" + Numbers(ItemProxyAngles(item)) + "\" />";
     }
 
-    bool ExportAnchor()
+    bool ExportAnchor(bool showNotification = true)
     {
         if (!m_Anchor || !m_ActiveScene) return false;
         if (SelectedObject() && m_DirtyInputs && !ApplyFields()) return false;
@@ -3408,7 +5481,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         FPrintln(file,"  </group>");
         FPrintln(file,"</prototype>");
         CloseFile(file);
-        SceneStatus(IOTL.F("ANCHOR_XML_SAVED",count.ToString()));
+        if (showNotification) ReportSuccess(IOTL.F("ANCHOR_XML_SAVED",count.ToString()));
         PrintToRPT("[PROXY SCENE EXPORT] " + path + " proxies=" + count.ToString());
         return true;
     }
@@ -3432,19 +5505,23 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         file = OpenFile(folder + "/" + m_Item.GetType() + ".proxy.xml", FileMode.WRITE);
         if (file) { FPrintln(file, ProxyLine()); CloseFile(file); }
         PrintToRPT("[PROXY TOOL V2] EXPORTED " + m_Anchor.GetType() + " / " + ProxyLine());
-        return ExportAnchor();
+        bool exported = ExportAnchor(false);
+        if (exported) ReportSuccess(IOTL.F("ITEM_XML_SAVED",m_Item.GetType()));
+        return exported;
     }
 
     override bool OnMouseButtonDown(Widget w, int x, int y, int button)
     {
-        if (AnchorReplacementPending()) return false;
+        if (EditorModalPending()) return false;
         Widget widget = w;
-        if (button == 0 && NudgeButton(widget))
+        if (button == 0 && NudgeButton(widget,false))
         {
+            FinishHistory();
             m_HeldButton = widget;
             m_SuppressClick = widget;
             m_HoldStart = GetGame().GetTime();
             m_LastRepeat = m_HoldStart;
+            NudgeButton(widget);
             return true;
         }
         return false;
@@ -3452,7 +5529,6 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     override bool OnMouseButtonUp(Widget w, int x, int y, int button)
     {
-        m_HeldButton = null;
         MouseRelease(button);
         return false;
     }
@@ -3460,13 +5536,19 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     override bool OnMouseLeave(Widget w, Widget enterW, int x, int y)
     {
         Widget widget = w;
-        if (widget == m_HeldButton) m_HeldButton = null;
+        if (widget == m_HeldButton) { m_HeldButton = null; FinishHistory(); }
         return false;
     }
 
     override bool OnClick(Widget w, int x, int y, int button)
     {
-        if (AnchorReplacementPending())
+        if (ProjectDialogOpen())
+        {
+            if (w.GetName() == "ProjectCancel") CloseProjectDialog();
+            else if (w.GetName() == "ProjectAction") ProjectAction();
+            return true;
+        }
+        if (EditorModalPending())
         {
             if (w.GetName() == "ReplaceCancel") FinishAnchorReplacement(false);
             else if (w.GetName() == "ReplaceConfirm") FinishAnchorReplacement(true);
@@ -3476,15 +5558,21 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (widget == m_SuppressClick) { m_SuppressClick = null; return true; }
         if (NudgeButton(widget)) return true;
         string name = widget.GetName();
-        if (name == "ErrorClose") { ClearError(); return true; }
+        if (name == "CameraHelp") { m_ToolbarChrome.ToggleCameraHelp(); return true; }
+        m_ToolbarChrome.HideHint();
+        if (name == "ProjectSave") { ShowProjectDialog(true); return true; }
+        if (name == "ProjectOpen") { ShowProjectDialog(false); return true; }
+        if (name == "LootVolumes") { ToggleLootVolumes(); return true; }
+        if (name == "Undo") { StepHistory(false); return true; }
+        if (name == "Redo") { StepHistory(true); return true; }
+        if (name == "ErrorClose") { DismissNotification(); return true; }
         if (name == "FineToggle") { ToggleFineSettings(); return true; }
         if (name == "PlayerMode") { EnterPlayer(); return true; }
-        if (name == "CameraMode") { ToggleToolbarCamera(); return true; }
         if (name == "SceneFocus") { FocusAnchor(); return true; }
         if (name == "SceneExport") { ExportAnchor(); return true; }
-        if (name == "MoveMode") { if (SelectedObject()) { m_RotateMode = false; UpdateGizmo(); } return true; }
-        if (name == "RotateMode") { if (m_Item) { m_RotateMode = true; UpdateGizmo(); } return true; }
-        if (name == "Ground") { Ground(); return true; }
+        if (name == "MoveMode") { if (SelectedObject()) { FinishHistory(); m_RotateMode = false; UpdateGizmo(); } return true; }
+        if (name == "RotateMode") { if (m_Item) { FinishHistory(); m_RotateMode = true; UpdateGizmo(); } return true; }
+        if (name == "PlaceOnSurface") { PlaceItemOnSurface(); return true; }
         for (int axis = 0; axis < 3; axis++)
         {
             if (name == "PosReset"+axis.ToString()) { ResetComponent(false,axis); return true; }
@@ -3511,6 +5599,16 @@ class IOTProxyTool : ScriptedWidgetEventHandler
     {
         Widget widget = w;
         if (m_UpdatingUI) return false;
+        if (ProjectDialogOpen())
+        {
+            if (w == m_ProjectList)
+            {
+                int row = m_ProjectList.GetSelectedRow();
+                if (row >= 0 && row < m_ProjectNames.Count()) m_ProjectName.SetText(m_ProjectNames[row]);
+            }
+            ResetProjectConfirm();
+            return true;
+        }
         if (widget == m_ItemsList)
         {
             int itemIndex = m_ItemsList.GetCurrentItem() - 1;
@@ -3537,7 +5635,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     override bool OnFocusLost(Widget w, int x, int y)
     {
-        if (m_UpdatingUI || AnchorReplacementPending() || !SelectedObject()) return false;
+        if (m_UpdatingUI || EditorModalPending() || !SelectedObject()) return false;
         for (int axis = 0; axis < 3; axis++)
         {
             if (w != m_PosFields[axis] && w != m_RotFields[axis]) continue;
@@ -3546,6 +5644,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             {
                 m_DirtyInputs = false;
                 SyncFields();
+                FinishHistory();
             }
             return true;
         }
@@ -3554,7 +5653,14 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void HandleKey(int key)
     {
-        if (AnchorReplacementPending())
+        if (ProjectDialogOpen())
+        {
+            if (key == KeyCode.KC_ESCAPE) CloseProjectDialog();
+            return;
+        }
+        if (HandleHistoryKey(key)) return;
+        if (!m_PlayerMode && key == KeyCode.KC_F1) return;
+        if (EditorModalPending())
         {
             if (key == KeyCode.KC_ESCAPE) FinishAnchorReplacement(false);
             return;
@@ -3568,14 +5674,6 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         }
         if (m_PlayerMode) return;
         if (m_CatalogPressed) { CancelCatalogDrag(); return; }
-        if (key == KeyCode.KC_F1)
-        {
-            int x,y;
-            GetMousePos(x,y);
-            if (!m_Pointer || !EditorWidget(GetWidgetUnderCursor())) TogglePointerAt(Vector(x,y,0));
-            else Status(IOTL.T("WORLD_FLIGHT_HINT"));
-            return;
-        }
         if (key == KeyCode.KC_F9) { Reset(); return; }
         if (key == KeyCode.KC_F10) { Export(); return; }
         if (key == KeyCode.KC_F11)
@@ -3588,18 +5686,20 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!SelectedObject() || EditBoxWidget.Cast(GetFocus())) return;
         if (key == KeyCode.KC_F7)
         {
+            FinishHistory();
             m_RotateMode = false;
             UpdateGizmo();
-            Status(IOTL.T("MOVE_KEYS")+"\n"+IOTL.T("MOVE_KEYS_HEIGHT")+"\n"+IOTL.T("FINE_KEYS"));
+            ClearError();
             return;
         }
         if (key == KeyCode.KC_F8)
         {
             if (m_Item)
             {
+                FinishHistory();
                 m_RotateMode = true;
                 UpdateGizmo();
-                Status(IOTL.T("ROTATE_KEYS")+"\n"+IOTL.T("ROTATE_KEYS_YAW")+"\n"+IOTL.T("FINE_KEYS"));
+                ClearError();
             }
             return;
         }
@@ -3627,6 +5727,20 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     protected void SelfTestStart()
     {
+        if (!GetGame().IsAppActive() || m_GameMenuOpen || GetGame().GetUIManager().GetMenu())
+        {
+            // DayZ may open its pause menu if a batch launch starts in the background.
+            if (!m_SelfTestStartupDeadline) m_SelfTestStartupDeadline = GetGame().GetTime()+45000;
+            if (GetGame().GetTime() >= m_SelfTestStartupDeadline)
+            {
+                TestCheck(false,"editor did not become active and unpaused for startup checks");
+                return;
+            }
+            Mission mission = GetGame().GetMission();
+            if (GetGame().IsAppActive() && mission && mission.IsPaused()) mission.Continue();
+            GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SelfTestStart,250,false);
+            return;
+        }
         if (!SelfTestLocalization()) return;
         PlayerBase testPlayer = PlayerBase.Cast(GetGame().GetPlayer());
         EntityAI boots = testPlayer.FindAttachmentBySlotName("Feet");
@@ -3638,7 +5752,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(!m_Anchor && !m_Item && m_Scenes.Count() == 0, "empty editor starts without predefined anchor")) return;
         if (!TestCheck(m_CreatedTray.RowCount() == 1 && m_CreatedTray.Count() == 0 && m_CreatedTray.AnchorCount() == 0 && m_CreatedTray.RowObject(m_CreatedTray.CharacterRow()) == testPlayer && m_CreatedTray.IsVisible(), "scene list initially contains the character without an anchor")) return;
         if (!SelfTestViewportLayout()) return;
-        if (!TestCheck(m_Toolbar.IsVisible() && !m_Toolbar.FindAnyWidget("MoveMode").IsVisible() && !m_Toolbar.FindAnyWidget("RotateMode").IsVisible() && !Export() && !ExportAnchor(), "toolbar hides manipulation modes without selection and rejects export without an anchor")) return;
+        if (!TestCheck(m_Toolbar.IsVisible() && !m_Toolbar.FindAnyWidget("MoveMode").IsVisible() && !m_Toolbar.FindAnyWidget("RotateMode").IsVisible() && !m_Toolbar.FindAnyWidget("PlaceOnSurface").IsVisible() && !Export() && !ExportAnchor(), "toolbar hides manipulation modes without selection and rejects export without an anchor")) return;
         float stepX,stepY,stepWidth,stepHeight,rowX,rowY;
         Widget stepButton = m_Root.FindAnyWidget("MoveStep");
         stepButton.GetScreenPos(stepX,stepY);
@@ -3675,14 +5789,79 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         vector hit,normal;
         if (!TestCheck(DropSurface(drop,hit,normal) && BeginCatalogPress(press), "anchor catalog can start a ground drag without an existing anchor")) return;
         bool created = FinishCatalogDrag(drop,true);
-        if (!TestCheck(created && m_Scenes.Count() == 1 && m_Anchor && !AnchorReplacementPending(), "first anchor drop creates one anchor without a replacement dialog")) return;
+        if (!TestCheck(created && m_Scenes.Count() == 1 && m_Anchor && !EditorModalPending(), "first anchor drop creates one anchor without a replacement dialog")) return;
         vector actual = m_Anchor.GetPosition();
         PrintToRPT("[PROXY ANCHOR DROP] hit="+hit.ToString(false)+" actual="+actual.ToString(false)+" orientation="+m_Anchor.GetOrientation().ToString(false)+" scale="+m_Anchor.GetScale().ToString());
         if (!TestCheck(Math.AbsFloat(actual[0]-hit[0]) < 0.05 && Math.AbsFloat(actual[2]-hit[2]) < 0.05 && m_Anchor.GetOrientation().Length() < 0.001 && m_Anchor.GetScale() == 1, "anchor drop preserves horizontal hit coordinates and the CE transform constraints")) return;
+        if (!TestCheck(CharacterReadyAtAnchor(m_Anchor), "first anchor creation positions the character on the ground five metres away facing the model")) return;
+        if (!SelfTestCharacterStart()) return;
+        vector playerPosition = GetGame().GetPlayer().GetPosition();
+        vector playerOrientation = GetGame().GetPlayer().GetOrientation();
         if (!TestCheck(SpawnSceneClass("HatchbackWheel",true), "runtime creation of wreck and wheel")) return;
+        if (!TestCheck(vector.Distance(GetGame().GetPlayer().GetPosition(),playerPosition) < 0.001 && vector.Distance(GetGame().GetPlayer().GetOrientation(),playerOrientation) < 0.001, "creating an item preserves the character placement and facing")) return;
         DeselectItem();
         RefreshObjects();
         GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SelfTest,1000,false);
+    }
+
+    protected bool CharacterReadyAtAnchor(Object anchor)
+    {
+        Man player = GetGame().GetPlayer();
+        vector bounds[2];
+        anchor.ClippingInfo(bounds);
+        vector position = player.GetPosition();
+        vector modelPosition = anchor.WorldToModel(position);
+        float dx = Math.Max(Math.Max(bounds[0][0] - modelPosition[0],modelPosition[0] - bounds[1][0]),0);
+        float dz = Math.Max(Math.Max(bounds[0][2] - modelPosition[2],modelPosition[2] - bounds[1][2]),0);
+        vector facing = anchor.ModelToWorld((bounds[0]+bounds[1])*0.5) - position;
+        facing[1] = 0;
+        facing.Normalize();
+        return Math.AbsFloat(Math.Sqrt(dx*dx+dz*dz) - 5) < 0.01 && Math.AbsFloat(position[1] - GetGame().SurfaceY(position[0],position[2]) - 0.1) < 0.01 && vector.Dot(player.GetDirection(),facing) > 0.999;
+    }
+
+    protected bool SelfTestCharacterStart()
+    {
+        Man player = GetGame().GetPlayer();
+        vector original[4];
+        player.GetTransform(original);
+        vector cameraPosition = FreeDebugCamera.GetInstance().GetPosition();
+        Object boots = player.FindAttachmentBySlotName("Feet");
+        vector bounds[2];
+        m_Anchor.ClippingInfo(bounds);
+        vector center = m_Anchor.ModelToWorld((bounds[0]+bounds[1])*0.5);
+        array<vector> views = {"50 10 0","-50 10 0","0 10 50","0 10 -50","50 10 50","0 50 0"};
+        bool placement = true;
+        foreach (vector view : views)
+        {
+            PlaceCharacterByAnchor(m_Anchor,center+view);
+            if (!CharacterReadyAtAnchor(m_Anchor)) placement = false;
+            if (view[0] != 0 && (player.GetPosition()[0] - center[0])*view[0] <= 0) placement = false;
+            if (view[2] != 0 && (player.GetPosition()[2] - center[2])*view[2] <= 0) placement = false;
+        }
+        player.SetTransform(original);
+        if (!TestCheck(placement, "character placement works from every camera side and directly overhead outside the model bounds")) return false;
+        if (!TestCheck(player == GetGame().GetPlayer() && boots == player.FindAttachmentBySlotName("Feet") && vector.Distance(FreeDebugCamera.GetInstance().GetPosition(),cameraPosition) < 0.001 && m_CreatedItems.Count() == 0 && m_Scenes.Count() == 1, "character placement preserves the existing survivor equipment camera and scene entities")) return false;
+        return true;
+    }
+
+    protected bool SelfTestBackdrop(bool visible)
+    {
+        array<string> names = {"MatteTop","MatteBottom","MatteLeft","MatteRight"};
+        for (int i = 0; i < names.Count(); i++)
+        {
+            Widget image = m_Viewport.BackdropPart(i);
+            if (!image || image.IsVisible() != visible) return false;
+            if (!visible) continue;
+            Widget matte = m_Viewport.MatteRoot().FindAnyWidget(names[i]);
+            float ix,iy,iw,ih,x,y,w,h;
+            image.GetScreenPos(ix,iy);
+            image.GetScreenSize(iw,ih);
+            matte.GetScreenPos(x,y);
+            matte.GetScreenSize(w,h);
+            if (Math.AbsFloat(ix-x) > 1 || Math.AbsFloat(iy-y) > 1 || Math.AbsFloat(iw-w) > 1 || Math.AbsFloat(ih-h) > 1) return false;
+            if (!(image.GetFlags() & WidgetFlags.IGNOREPOINTER) || image.GetSort() <= m_Viewport.MatteRoot().GetSort() || image.GetSort() >= m_Root.GetSort() || image.GetSort() >= m_ToolbarChrome.HintRoot().GetSort()) return false;
+        }
+        return true;
     }
 
     protected bool SelfTestViewportLayout()
@@ -3692,6 +5871,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         vector size = m_Viewport.Size();
         vector center = m_Viewport.Center();
         if (!TestCheck(m_Viewport.IsVisible() && size[0] > 64 && size[1] > 64 && WorldPoint(center), "world viewport has a visible usable center")) return false;
+        if (!TestCheck(SelfTestBackdrop(true), "landscape loads above the matte and covers only the frame margins")) return false;
         float leftX,leftY,leftWidth,leftHeight,rightX,rightY,trayX,trayY,trayWidth,trayHeight;
         m_Browser.Root().GetScreenPos(leftX,leftY);
         m_Browser.Root().GetScreenSize(leftWidth,leftHeight);
@@ -3710,10 +5890,12 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         vector movedOrigin = m_Viewport.Origin();
         vector movedSize = m_Viewport.Size();
         bool followsLayout = Math.AbsFloat(movedOrigin[0] - origin[0] - 16) < 1 && Math.AbsFloat(movedOrigin[1]+movedSize[1] - origin[1] - size[1]) < 1;
+        bool backdropFollowsLayout = SelfTestBackdrop(true);
         m_Browser.Root().SetScreenPos(leftX,leftY);
         m_CreatedTray.Root().SetScreenPos(trayX,trayY);
         UpdateViewport();
         if (!TestCheck(followsLayout, "world viewport follows live panel and tray geometry")) return false;
+        if (!TestCheck(backdropFollowsLayout && SelfTestBackdrop(true), "landscape stays aligned when the opening is resized")) return false;
         m_CreatedTray.Root().SetScreenPos(trayX+24,trayY);
         UpdateViewport();
         vector sceneOrigin = m_Viewport.Origin();
@@ -3723,13 +5905,15 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(followsScene, "world viewport includes the live width of the left scene list")) return false;
         m_Browser.Root().SetScreenPos(rightX+100,leftY);
         UpdateViewport();
-        bool overlapBlocked = !m_Viewport.IsVisible() && !WorldPoint(center);
+        bool overlapBlocked = !m_Viewport.IsVisible() && !WorldPoint(center) && SelfTestBackdrop(false);
         m_Browser.Root().SetScreenPos(leftX,leftY);
         UpdateViewport();
-        if (!TestCheck(overlapBlocked && WorldPoint(center), "overlapping panels disable world input and recover after layout restore")) return false;
-        if (!TestCheck(!TogglePointerAt(leftPanel) && m_Pointer, "F1 over editor panels does not enter flight")) return false;
-        if (!TestCheck(TogglePointerAt(center) && !m_Pointer, "F1 inside world viewport enters flight")) return false;
-        if (!TestCheck(TogglePointerAt(leftPanel) && m_Pointer, "F1 always returns from flight to cursor mode")) return false;
+        if (!TestCheck(overlapBlocked && WorldPoint(center) && SelfTestBackdrop(true), "overlapping panels disable world input and recover after layout restore")) return false;
+        UpdateCameraHold(false,true,center,false);
+        if (!TestCheck(!BeginCameraHold(leftPanel) && m_Pointer, "RMB over editor panels does not enter flight")) return false;
+        if (!TestCheck(BeginCameraHold(center) && !m_Pointer, "RMB inside world viewport enters flight")) return false;
+        UpdateCameraHold(false,true,leftPanel,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld, "RMB release outside world returns to cursor mode")) return false;
         return true;
     }
 
@@ -3799,6 +5983,9 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(m_Browser.RowCount() == 1 && m_Browser.ShownCount() == 0 && m_Browser.FirstClass() == "", "object root collapses without selecting a spawn class")) return false;
         m_Browser.ActivateRow("objects");
         if (!TestCheck(m_Browser.RowIndex("map:1/INDUSTRIAL/Land_Garage_Row_Small") >= 0, "object root restores previously open branches")) return false;
+        m_Browser.ActivateRow("map:1/INDUSTRIAL/Land_Garage_Row_Small");
+        if (!TestCheck(SelfTestCatalogWheel(), "Objects wheel scrolls two rows per step without changing selection")) return false;
+        m_Browser.SelectCatalogItemRow(m_Browser.RowIndex("map:1/INDUSTRIAL"));
         PrintToRPT("[PROXY TREE TEST] Other="+m_Browser.BranchCount(5).ToString());
         m_Browser.SetShowStaticObjects(false);
         return true;
@@ -3972,7 +6159,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         vector cameraPose[4];
         camera.GetTransform(cameraPose);
         vector cameraBefore = camera.GetPosition();
-        SetPointer(false);
+        UpdateCameraHold(false,true,m_Viewport.Center(),false);
+        BeginCameraHold(m_Viewport.Center());
         ChangeCameraSpeed(1);
         if (!TestCheck(m_SpeedRoot.IsVisible() && CameraMultiplierText() == "1.3x" && vector.Distance(camera.GetPosition(),cameraBefore) < 0.0001, "multiplier appears immediately while stationary")) return;
         MoveFlightCamera(0.2,1,0,0,0,0,1);
@@ -3989,7 +6177,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(m_CameraMultiplier == 0.1 && CameraMultiplierText() == "0.1x", "minimum coefficient and decimal label")) return;
         m_CameraMultiplier = 1;
         camera.SetTransform(cameraPose);
-        SetPointer(true);
+        EndCameraHold();
         if (!TestCheck(m_ActiveScene.Items.Count() == 1, "one runtime-created authoring wheel")) return;
         ItemBase wheel = m_ActiveScene.Items[0];
         if (!TestCheck(wheel && !wheel.GetHierarchyParent(), "runtime wheel is a loose inventory item")) return;
@@ -4020,8 +6208,11 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(m_Item == wheel && m_Editing && GetGizmoApi().GetCount() == 1, "cursor selection enables native gizmo")) return;
         if (!SelfTestViewportGesture(wheel)) return;
         if (!SelfTestErrors(wheel)) return;
+        if (!SelfTestNotifications(wheel)) return;
+        if (!SelfTestLootVolumes(wheel)) return;
         if (!SelfTestToolbar(wheel)) return;
         if (!SelfTestCompactProperties(wheel)) return;
+        if (!SelfTestHistory(wheel)) return;
         vector baseline = ProxyPosition();
         vector angles = ProxyAngles();
         Widget plus = m_Root.FindAnyWidget("PosPlus0");
@@ -4047,7 +6238,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(!m_Item && !m_Editing && GetGizmoApi().GetCount() == 0 && vector.Distance(beforeNudge,wheel.GetPosition()) < 0.0001, "empty click clears selection and blocks movement")) return;
         SelectItem(wheel);
         OnClick(m_Toolbar.FindAnyWidget("PlayerMode"),0,0,0);
-        if (!TestCheck(!m_Viewport.IsVisible() && !WorldPoint(m_Viewport.Center()), "character mode hides and disables world viewport")) return;
+        if (!TestCheck(!m_Viewport.IsVisible() && !WorldPoint(m_Viewport.Center()) && SelfTestBackdrop(false), "character mode hides and disables world viewport")) return;
         if (!TestCheck(m_PlayerMode && !camera.IsActive() && !m_Item && GetGizmoApi().GetCount() == 0 && !m_Root.IsVisible() && !m_Toolbar.IsVisible() && !m_Browser.IsVisible() && !m_CreatedTray.IsVisible() && GetGame().GetInput().HasGameFocus(), "player mode restores camera and input and hides all panels")) return;
         GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SelfTestPlayer,250,false,wheel,baseline,angles);
     }
@@ -4072,7 +6263,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
         if (!TestCheck(!m_PlayerMode && camera.IsActive() && !m_Item && GetGizmoApi().GetCount() == 0 && m_Root.IsVisible() && m_Toolbar.IsVisible() && m_Browser.IsVisible() && m_CreatedTray.IsVisible() && player.GetIsSimulationDisabled(), "return to editor without selection and restore all panels")) return;
         if (!TestCheck(PlayerHudRoot() && !PlayerHudRoot().IsVisible() && m_PlayerHudHidden, "return to editor hides character HUD again")) return;
-        if (!TestCheck(m_Viewport.IsVisible() && WorldPoint(m_Viewport.Center()), "return to editor restores world viewport")) return;
+        if (!TestCheck(m_Viewport.IsVisible() && WorldPoint(m_Viewport.Center()) && SelfTestBackdrop(true), "return to editor restores world viewport")) return;
         SelectItem(wheel);
         if (!TestCheck(vector.Distance(wheel.GetPosition(),placedPosition) < 0.001 && vector.Distance(wheel.GetOrientation(),placedOrientation) < 0.001, "editor return preserves current placement")) return;
         bool exported = Export();
@@ -4159,7 +6350,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         float browserX,browserY,browserWidth,browserHeight;
         m_Browser.Root().GetScreenPos(browserX,browserY);
         m_Browser.Root().GetScreenSize(browserWidth,browserHeight);
-        if (!TestCheck(Math.AbsFloat(trayX - browserX) < 1 && Math.AbsFloat(trayWidth - browserWidth) < 1 && trayY > browserY+browserHeight && trayY+trayHeight <= screenHeight && trayHeight < browserHeight*0.3, "compact scene list fits below the catalog in the left column")) return;
+        if (!TestCheck(Math.AbsFloat(trayX - browserX) < 1 && Math.AbsFloat(trayWidth - browserWidth) < 1 && trayY > browserY+browserHeight && trayY+trayHeight <= screenHeight && trayHeight <= 294*m_PanelScale+1, "expanded scene list fits below the catalog in the left column")) return;
         if (!TestCheck(PanelPoint(Vector(trayX+20,trayY+20,0)) && !WorldPoint(Vector(trayX+20,trayY+20,0)), "scene list clicks stay outside the world editing area")) return;
         DeselectItem();
         if (!TestCheck(m_CreatedTray.List().GetSelectedRow() == m_CreatedTray.AnchorRow(m_Anchor) && GetGizmoApi().GetCount() == 0, "world deselection returns scene indication to the active anchor")) return;
@@ -4205,6 +6396,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     protected void SelfTestAnchorDrag()
     {
+        vector oldCharacterPosition = GetGame().GetPlayer().GetPosition();
+        vector oldCharacterOrientation = GetGame().GetPlayer().GetOrientation();
         Object oldAnchor = m_Anchor;
         ItemBase oldItem = m_CreatedItems[0];
         SelectCreatedItem(oldItem);
@@ -4228,33 +6421,32 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         UpdateCatalogDrag(drop);
         if (!TestCheck(m_CatalogDragging && !m_CatalogItems && m_CatalogClass == "Land_Garage_Row_Small" && GetGizmoApi().GetCount() == 0, "object leaf drag uses its exact class and suspends the selected gizmo")) return;
         FinishCatalogDrag(drop,false);
-        if (!TestCheck(!AnchorReplacementPending() && m_Anchor == oldAnchor && m_CreatedItems.Count() == oldCount, "object drop outside the world cancels without prompting or changing the scene")) return;
+        if (!TestCheck(!EditorModalPending() && m_Anchor == oldAnchor && m_CreatedItems.Count() == oldCount, "object drop outside the world cancels without prompting or changing the scene")) return;
         m_Browser.SelectCatalogItemRow(0);
         BeginCatalogPress(CatalogRowPoint(0));
         UpdateCatalogDrag(drop);
-        if (!TestCheck(!m_CatalogPressed && !AnchorReplacementPending(), "object folders cannot create anchors or open the replacement dialog")) return;
+        if (!TestCheck(!m_CatalogPressed && !EditorModalPending(), "object folders cannot create anchors or open the replacement dialog")) return;
         m_Browser.SelectCatalogItemRow(row);
         BeginCatalogPress(press);
         FinishCatalogDrag(drop,true);
-        if (!TestCheck(AnchorReplacementPending() && m_ReplaceRoot.IsVisible() && m_Scenes.Count() == oldScenes && m_CreatedItems.Count() == oldCount && m_Item == oldItem, "existing anchor drop requests confirmation before creating or deleting entities")) return;
+        if (!TestCheck(EditorModalPending() && m_ReplaceRoot.IsVisible() && m_Scenes.Count() == oldScenes && m_CreatedItems.Count() == oldCount && m_Item == oldItem, "existing anchor drop requests confirmation before creating or deleting entities")) return;
         vector transform[4];
         oldItem.GetTransform(transform);
         transform[3] = transform[3]+"1 0 0";
         HandleKey(KeyCode.KC_F4);
-        OnClick(m_Toolbar.FindAnyWidget("CameraMode"),0,0,0);
-        bool blocked = !WorldPoint(drop) && PanelPoint(drop) && !ApplyGizmoTransformAt(transform,false,drop) && !SelectSceneCharacter() && !SpawnSceneClass("Hammer",true) && !SetAnchor(null);
+        bool blocked = !StepHistory(false) && !StepHistory(true) && !BeginCameraHold(drop) && !WorldPoint(drop) && PanelPoint(drop) && !ApplyGizmoTransformAt(transform,false,drop) && !SelectSceneCharacter() && !SpawnSceneClass("Hammer",true) && !SetAnchor(null);
         if (!TestCheck(blocked && !m_PlayerMode && m_Pointer && m_Item == oldItem && GetGizmoApi().GetCount() == 0, "replacement modal blocks world edits selection camera player mode and parallel creation")) return;
         OnClick(m_ReplaceRoot.FindAnyWidget("ReplaceCancel"),0,0,0);
-        if (!TestCheck(!AnchorReplacementPending() && !m_ReplaceRoot.IsVisible() && m_Anchor == oldAnchor && m_Item == oldItem && m_Scenes.Count() == oldScenes && m_CreatedItems.Count() == oldCount && vector.Distance(oldItem.GetPosition(),oldPosition) < 0.0001 && GetGizmoApi().GetCount() == 1, "cancelling replacement preserves the complete scene selection pose and gizmo")) return;
+        if (!TestCheck(!EditorModalPending() && !m_ReplaceRoot.IsVisible() && m_Anchor == oldAnchor && m_Item == oldItem && m_Scenes.Count() == oldScenes && m_CreatedItems.Count() == oldCount && vector.Distance(oldItem.GetPosition(),oldPosition) < 0.0001 && GetGizmoApi().GetCount() == 1, "cancelling replacement preserves the complete scene selection pose and gizmo")) return;
         SetAnchor(null);
         SpawnSceneClass("Land_Garage_Row_Small",false);
-        bool guarded = AnchorReplacementPending() && m_Scenes.Count() == oldScenes;
+        bool guarded = EditorModalPending() && m_Scenes.Count() == oldScenes;
         HandleKey(KeyCode.KC_ESCAPE);
-        if (!TestCheck(guarded && !AnchorReplacementPending(), "clearing active selection cannot bypass the single-anchor guard and Escape cancels")) return;
+        if (!TestCheck(guarded && !EditorModalPending(), "clearing active selection cannot bypass the single-anchor guard and Escape cancels")) return;
         SetAnchor(oldAnchor);
         SelectItem(oldItem);
         SpawnSceneClass("NotAnActualAnchorClass",false);
-        if (!TestCheck(!AnchorReplacementPending() && m_Anchor == oldAnchor && m_CreatedItems.Count() == oldCount && m_LastError == IOTL.T("UNKNOWN_CLASS"), "invalid anchor names report an error without requesting replacement")) return;
+        if (!TestCheck(!EditorModalPending() && m_Anchor == oldAnchor && m_CreatedItems.Count() == oldCount && m_LastError == IOTL.T("UNKNOWN_CLASS"), "invalid anchor names report an error without requesting replacement")) return;
         bool failed = !SpawnResolvedSceneClass("Hammer",false,true,hit,normal,true);
         if (!TestCheck(failed && m_Anchor == oldAnchor && m_Item == oldItem && m_Scenes.Count() == oldScenes && m_CreatedItems.Count() == oldCount && m_LastError == IOTL.T("NOT_ANCHOR"), "candidate validation failure preserves the old layout and selected item")) return;
         ClearError();
@@ -4270,9 +6462,10 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         foreach (IOTSceneEntry scene : m_Scenes) if (scene.Anchor) removed.Insert(scene.Anchor);
         foreach (ItemBase item : m_CreatedItems) if (item && !item.GetHierarchyParent()) removed.Insert(item);
         SpawnSceneClass("Land_Garage_Row_Small",false,true,hit,normal);
-        if (!TestCheck(AnchorReplacementPending(), "central creation API also requires replacement confirmation")) return;
+        if (!TestCheck(EditorModalPending(), "central creation API also requires replacement confirmation")) return;
+        if (!TestCheck(vector.Distance(GetGame().GetPlayer().GetPosition(),oldCharacterPosition) < 0.001 && vector.Distance(GetGame().GetPlayer().GetOrientation(),oldCharacterOrientation) < 0.001, "cancelled pending and invalid anchor replacements preserve the character pose")) return;
         OnClick(m_ReplaceRoot.FindAnyWidget("ReplaceConfirm"),0,0,0);
-        if (!TestCheck(!AnchorReplacementPending() && m_Scenes.Count() == 1 && m_Anchor && m_Anchor != oldAnchor && m_Anchor.GetType() == "Land_Garage_Row_Small" && m_ActiveScene.Items.Count() == 0 && m_CreatedItems.Count() == 0 && SelectedObject() == m_Anchor, "confirmed replacement commits one selected anchor and an empty layout")) return;
+        if (!TestCheck(!EditorModalPending() && m_Scenes.Count() == 1 && m_Anchor && m_Anchor != oldAnchor && m_Anchor.GetType() == "Land_Garage_Row_Small" && m_ActiveScene.Items.Count() == 0 && m_CreatedItems.Count() == 0 && SelectedObject() == m_Anchor, "confirmed replacement commits one selected anchor and an empty layout")) return;
         vector actual = m_Anchor.GetPosition();
         if (!TestCheck(Math.AbsFloat(actual[0]-hit[0]) < 0.05 && Math.AbsFloat(actual[2]-hit[2]) < 0.05 && m_ActiveScene.Id > previousId && FileExist(oldXml), "replacement keeps the drop location and never reuses exported scene filenames")) return;
         GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SelfTestAnchorCleanup,250,false,removed,carried,player,oldXml);
@@ -4280,14 +6473,60 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     protected void SelfTestAnchorCleanup(array<Object> removed, ItemBase carried, Man player, string oldXml)
     {
+        if (!TestCheck(m_Undo.Count() == 0 && m_Redo.Count() == 0 && !m_HistoryPending, "confirmed anchor replacement clears transform history")) return;
         bool cleared = true;
         foreach (Object oldEntity : removed) if (oldEntity) cleared = false;
         if (!TestCheck(cleared && m_Scenes.Count() == 1, "replacement removes every old tracked world item and anchor")) return;
         if (!TestCheck(player && player == GetGame().GetPlayer() && carried && carried.GetHierarchyRootPlayer() == player && player.FindAttachmentBySlotName("Feet"), "replacement preserves the character inventory and footwear")) return;
+        if (!TestCheck(CharacterReadyAtAnchor(m_Anchor), "confirmed anchor replacement positions and faces the character five metres from the new model")) return;
         if (!TestCheck(SpawnSceneClass("HatchbackWheel",true) && ItemScene(m_Item) == m_ActiveScene && ExportAnchor() && FileExist(oldXml), "new anchor accepts and exports items while the previous XML remains intact")) return;
         m_Browser.SetMode(false);
         m_Browser.Search("");
         RefreshObjects();
+        if (!SelfTestProjects()) return;
+        SelfTestToolbarHoverStart();
+    }
+
+    protected void SelfTestToolbarHoverStart()
+    {
+        float width,height;
+        m_Toolbar.GetScreenSize(width,height);
+        m_ToolbarHoverTest = new IOTToolbarChrome(m_Toolbar);
+        IOTToolbarChrome probe = m_ToolbarHoverTest;
+        probe.Layout(width,m_PanelScale);
+        Widget button = m_Toolbar.FindAnyWidget("ProjectSave");
+        float x,y,w,h;
+        button.GetScreenPos(x,y); button.GetScreenSize(w,h);
+        vector point = Vector(x+w*0.5,y+h*0.5,0);
+        int started = GetGame().GetTime();
+        probe.HoverAt(point,true);
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SelfTestToolbarHoverTick,50,false,probe,point,started,width);
+    }
+
+    protected void SelfTestToolbarHoverTick(IOTToolbarChrome probe, vector point, int started, float width)
+    {
+        // Exercise real elapsed time and the same refresh interval as Tick.
+        probe.Layout(width,m_PanelScale);
+        probe.HoverAt(point,true);
+        if (GetGame().GetTime() - started < 500)
+        {
+            GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(SelfTestToolbarHoverTick,50,false,probe,point,started,width);
+            return;
+        }
+        if (!TestCheck(probe.HintRoot().IsVisible(), "toolbar hints appear after real hover delay despite periodic layout refresh")) return;
+        probe.Layout(width,m_PanelScale);
+        if (!TestCheck(probe.HintRoot().IsVisible(), "unchanged toolbar refresh preserves an already visible hint")) return;
+        probe.HideHint();
+        m_ToolbarHoverTest = null;
+        SelfTestFinish();
+    }
+
+    protected void SelfTestFinish()
+    {
+        DismissNotification();
+        m_LootVolumes.Enable(true);
+        m_LootVolumes.Update(m_Anchor,m_LootMap,true);
+        UpdateToolbar();
         PrintToRPT("[PROXY TOOL V2 SELFTEST] PASS: independent character and anchor movement, unchanged loot, flat scene list, previews, item dragging and CE XML.");
         string keepOpen;
         if (GetGame().CommandlineGetParam("proxyToolKeepOpen",keepOpen))
@@ -4299,6 +6538,146 @@ class IOTProxyTool : ScriptedWidgetEventHandler
             GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(Tick);
             GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().RequestExit, 1500, false, 0);
         }
+    }
+
+    protected bool SelfTestProjects()
+    {
+        IOTProjectData original = CaptureProject();
+        string name = "__selftest_"+m_RunTag;
+        string currentName = m_CurrentProject;
+        Object oldAnchor = m_Anchor;
+        ItemBase first = m_Item;
+        SetProxyPose(ProxyPosition(),"15 10 25");
+        if (!SpawnSceneClass("HatchbackWheel",true) || !SpawnSceneClass("Hammer",true)) return false;
+        m_CameraMultiplier = 1.25;
+        IOTProjectData expected = CaptureProject();
+        if (!TestCheck(SaveProject(name) && FileExist(IOTProjectFiles.Path(name)) && IOTProjectFiles.Names().Find(name) >= 0, "projects save as discoverable JSON files in the profile")) return false;
+        if (!TestCheck(m_NoticeKind == IOTNoticeKind.SUCCESS && m_NoticeMessage == IOTL.F("PROJECT_SAVED",name+".json") && m_ErrorRoot.IsVisible(), "project saving reports success in the standalone notification")) return false;
+        IOTProjectData disk;
+        string error;
+        if (!TestCheck(IOTProjectFiles.Load(name,disk,error) && disk.Version == 1 && disk.WorldName == GetGame().GetWorldName() && disk.Items.Count() == 3 && disk.Items[0].Classname == disk.Items[1].Classname, "project JSON retains version world and duplicate item classes")) return false;
+        m_CameraMultiplier = 2;
+        if (!TestCheck(SaveProject(name) && JsonFileLoader<IOTProjectData>.LoadFile(IOTProjectFiles.Path(name)+".bak",disk,error) && disk.CameraSpeed == 1.25, "project overwrite retains the previous valid JSON as a backup")) return false;
+        if (!TestCheck(!SaveProject("../escape") && !SaveProject("D:\\escape") && !IOTProjectFiles.ValidName(""), "project names cannot escape the project directory")) return false;
+        ClearError();
+        int count = m_CreatedItems.Count();
+        IOTProjectData missing;
+        string missingName = name+"_missing";
+        if (!TestCheck(!IOTProjectFiles.Load(missingName,missing,error) && !missing && error == IOTL.F("PROJECT_NOT_FOUND",missingName+".json"), "missing project files return a localized message with the filename")) return false;
+        if (!TestCheck(!LoadProject(missingName,true) && m_LastError == IOTL.F("PROJECT_NOT_FOUND",missingName+".json") && m_Anchor == oldAnchor, "project error notifications retain localized file errors without replacing the scene")) return false;
+        if (!TestCheck(!LoadProject(name) && m_Anchor == oldAnchor && m_CreatedItems.Count() == count, "opening an existing scene requires explicit replacement confirmation")) return false;
+        ClearError();
+        ShowProjectDialog(false);
+        m_ProjectName.SetText(name);
+        ProjectAction();
+        bool modal = ProjectDialogOpen() && m_ProjectConfirm == name && !WorldPoint(m_Viewport.Center()) && !StepHistory(false) && !BeginCameraHold(m_Viewport.Center());
+        HandleKey(KeyCode.KC_F4);
+        HandleKey(KeyCode.KC_ESCAPE);
+        if (!TestCheck(modal && !ProjectDialogOpen() && !m_PlayerMode && m_Anchor == oldAnchor && m_CreatedItems.Count() == count, "project dialog blocks editor actions and Escape preserves the current scene")) return false;
+        ShowProjectDialog(true);
+        m_ProjectName.SetText(name);
+        ProjectAction();
+        bool overwrite = ProjectDialogOpen() && m_ProjectConfirm == name;
+        CloseProjectDialog();
+        if (!TestCheck(overwrite && IOTProjectFiles.Load(name,disk,error) && disk.CameraSpeed == 2, "save dialog requires confirmation before overwriting an existing project")) return false;
+        disk.Version = 999;
+        IOTProjectFiles.Save(name+"_future",disk,error);
+        if (!TestCheck(!LoadProject(name+"_future",true) && m_Anchor == oldAnchor && m_CreatedItems.Count() == count, "unsupported project versions leave the scene unchanged")) return false;
+        disk.Version = 1;
+        disk.WorldName = "unavailable_world";
+        IOTProjectFiles.Save(name+"_world",disk,error);
+        if (!TestCheck(!LoadProject(name+"_world",true) && m_Anchor == oldAnchor, "projects for another world cannot replace the scene")) return false;
+        disk.WorldName = GetGame().GetWorldName();
+        disk.Items[0].Classname = "IOT_Missing_Project_Class";
+        IOTProjectFiles.Save(name+"_class",disk,error);
+        if (!TestCheck(!LoadProject(name+"_class",true) && m_Anchor == oldAnchor && m_CreatedItems.Count() == count, "missing project classes cannot partially replace the scene")) return false;
+        disk.Items[0].Classname = oldAnchor.GetType();
+        IOTProjectFiles.Save(name+"_stage",disk,error);
+        if (!TestCheck(!LoadProject(name+"_stage",true) && m_Anchor == oldAnchor && m_CreatedItems.Count() == count && first, "failed native candidate validation preserves the complete old project")) return false;
+        FileHandle malformed = OpenFile(IOTProjectFiles.Path(name+"_broken"),FileMode.WRITE);
+        FPrint(malformed,"{broken");
+        CloseFile(malformed);
+        if (!TestCheck(!LoadProject(name+"_broken",true) && m_Anchor == oldAnchor, "malformed JSON reports failure without replacing the scene")) return false;
+        if (!TestCheck(!IOTProjectFiles.Load(name+"_broken",missing,error) && !missing && error == IOTL.F("PROJECT_JSON_INVALID",name+"_broken.json"), "malformed project JSON returns localized text while parser details stay in the log")) return false;
+        PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
+        EntityAI boots = player.FindAttachmentBySlotName("Feet");
+        if (!TestCheck(LoadProject(name,true) && m_Anchor != oldAnchor && m_CreatedItems.Count() == 3 && m_ActiveScene.Items.Count() == 3 && m_Undo.Count() == 0 && m_Redo.Count() == 0, "confirmed project opening replaces the scene and clears transform history")) return false;
+        if (!TestCheck(m_NoticeKind == IOTNoticeKind.SUCCESS && m_NoticeMessage == IOTL.F("PROJECT_OPENED",name+".json"), "project opening reports success after replacing the scene")) return false;
+        bool poses = vector.Distance(m_Anchor.GetPosition(),expected.Anchor.Position) < 0.001;
+        for (int i = 0; i < 3; i++)
+        {
+            ItemBase loaded = m_ActiveScene.Items[i];
+            if (loaded.GetType() != expected.Items[i].Classname || vector.Distance(loaded.GetPosition(),expected.Items[i].Position) > 0.001 || vector.Distance(loaded.GetOrientation(),expected.Items[i].Orientation) > 0.001) poses = false;
+        }
+        if (!TestCheck(poses && m_Anchor.GetOrientation().Length() < 0.001 && Math.AbsFloat(m_Anchor.GetScale() - 1) < 0.0001, "project loading restores item positions rotations and the anchor CE constraints")) return false;
+        FreeDebugCamera camera = FreeDebugCamera.GetInstance();
+        if (!TestCheck(vector.Distance(player.GetPosition(),expected.CharacterPosition) < 0.001 && player.FindAttachmentBySlotName("Feet") == boots && vector.Distance(camera.GetPosition(),expected.CameraPosition) < 0.001 && m_CameraMultiplier == 2, "project loading restores character camera and speed while preserving inventory")) return false;
+        if (!TestCheck(ExportAnchor() && m_Item && GetGizmoApi().GetCount() == 1 && m_CreatedTray.Count() == 3, "opened projects support CE export scene selection and native gizmo editing")) return false;
+        EnterPlayer();
+        bool released = m_ProjectFrozen.Count() == 0;
+        EnterEditor();
+        if (!TestCheck(released && player.FindAttachmentBySlotName("Feet") == boots, "character mode releases loaded item simulation without changing equipment")) return false;
+        IOTProjectData empty = CaptureProject();
+        empty.Anchor = null;
+        empty.Items.Clear();
+        if (!TestCheck(ApplyProject(empty) && !m_Anchor && m_CreatedItems.Count() == 0 && m_CreatedTray.RowCount() == 1, "empty projects restore a character-only editor scene")) return false;
+        if (!ApplyProject(original)) return false;
+        m_CurrentProject = currentName;
+        array<string> suffixes = {"","_future","_world","_class","_stage","_broken"};
+        foreach (string suffix : suffixes)
+        {
+            string path = IOTProjectFiles.Path(name+suffix);
+            if (FileExist(path)) DeleteFile(path);
+            if (FileExist(path+".bak")) DeleteFile(path+".bak");
+            if (FileExist(path+".tmp")) DeleteFile(path+".tmp");
+        }
+        ClearError();
+        return true;
+    }
+
+    protected bool SelfTestNotifications(ItemBase wheel)
+    {
+        vector position = wheel.GetPosition();
+        vector angles = wheel.GetOrientation();
+        if (!TestCheck(!m_Root.FindAnyWidget("Status") && !m_Browser.Root().FindAnyWidget("SceneStatus"), "properties and catalog omit persistent hints and action result footers")) return false;
+        ReportSuccess(IOTL.T("PROJECT_SAVE"));
+        int successAccent = m_ErrorRoot.FindAnyWidget("ErrorAccent").GetColor();
+        int until = m_NoticeUntil;
+        if (!TestCheck(m_ErrorRoot.IsVisible() && m_NoticeKind == IOTNoticeKind.SUCCESS && m_LastError == "" && until > GetGame().GetTime() && m_Item == wheel && vector.Distance(wheel.GetPosition(),position) < 0.001, "success notifications preserve selection and use a timed independent widget")) return false;
+        ClearError();
+        UpdateNotificationAt(until - 1);
+        bool stays = m_ErrorRoot.IsVisible();
+        UpdateNotificationAt(until);
+        if (!TestCheck(stays && !m_ErrorRoot.IsVisible(), "success notifications remain until their deadline and then disappear")) return false;
+        ReportWarning(IOTL.T("ITEM_DROP_CANCELLED"));
+        int warningAccent = m_ErrorRoot.FindAnyWidget("ErrorAccent").GetColor();
+        float x,y,w,h;
+        m_ErrorRoot.GetScreenPos(x,y); m_ErrorRoot.GetScreenSize(w,h);
+        vector center = Vector(x+w*0.5,y+h*0.5,0);
+        bool warning = warningAccent != successAccent && m_NoticeKind == IOTNoticeKind.WARNING && m_LastError == "" && ErrorContains(center) && !WorldPoint(center);
+        OnClick(m_ErrorRoot.FindAnyWidget("ErrorClose"),0,0,0);
+        if (!TestCheck(warning && !m_ErrorRoot.IsVisible() && m_Item == wheel, "warnings have a distinct accent block world clicks and close without deselecting")) return false;
+        ReportError(IOTL.T("XML_FAILED"));
+        int errorAccent = m_ErrorRoot.FindAnyWidget("ErrorAccent").GetColor();
+        UpdateNotificationAt(GetGame().GetTime()+100000);
+        bool persistent = m_ErrorRoot.IsVisible() && m_LastError == IOTL.T("XML_FAILED") && m_NoticeUntil == 0;
+        ReportSuccess(IOTL.T("PROJECT_SAVE"));
+        ClearError();
+        if (!TestCheck(persistent && errorAccent != successAccent && errorAccent != warningAccent && m_ErrorRoot.IsVisible() && m_NoticeKind == IOTNoticeKind.SUCCESS && m_LastError == "", "errors persist while genuine success replaces them and normal edits preserve success")) return false;
+        DismissNotification();
+        if (!TestCheck(ExportAnchor() && m_NoticeKind == IOTNoticeKind.SUCCESS && m_NoticeMessage.Contains("XML") && Export() && m_NoticeMessage == IOTL.F("ITEM_XML_SAVED",wheel.GetType()) && vector.Distance(wheel.GetPosition(),position) < 0.001 && vector.Distance(wheel.GetOrientation(),angles) < 0.001, "anchor and item XML export report success without changing scene entities")) return false;
+        DismissNotification();
+        float browserX,browserY,browserWidth,browserHeight,listWidth,listHeight;
+        m_Browser.Root().GetScreenPos(browserX,browserY); m_Browser.Root().GetScreenSize(browserWidth,browserHeight);
+        m_CreatedTray.List().GetScreenSize(listWidth,listHeight);
+        int screenWidth,screenHeight;
+        GetScreenSize(screenWidth,screenHeight);
+        float scale = browserWidth/360;
+        bool roomy = screenHeight - Math.Max(54,24*scale) - browserY >= 518*scale;
+        bool rows = m_CreatedTray.VisibleRows() >= 1 && m_CreatedTray.VisibleRows() <= 10 && listHeight >= m_CreatedTray.VisibleRows()*24*scale - 1;
+        if (roomy && m_CreatedTray.VisibleRows() < 8) rows = false;
+        if (!TestCheck(rows, "scene list expands beyond four rows when space allows without shrinking row text")) return false;
+        return true;
     }
 
     protected bool SelfTestErrors(ItemBase wheel)
@@ -4337,16 +6716,449 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         return true;
     }
 
+    protected bool SelfTestSurfaceFloor(ItemBase wheel, Widget button)
+    {
+        vector position = wheel.GetPosition()+"10 0 -10";
+        float terrainY = GetGame().SurfaceY(position[0],position[2]);
+        position[1] = terrainY+4;
+        Object garage = GetGame().CreateObjectEx("Land_Garage_Row_Small",position,ECE_SETUP | ECE_CREATEPHYSICS | ECE_NOSURFACEALIGN | ECE_NOPERSISTENCY_WORLD,RF_IGNORE);
+        if (!TestCheck(garage != null, "surface placement test creates an elevated garage")) return false;
+
+        // Place the wheel a metre above a vanilla lootFloor point inside a bay.
+        vector floorPoint = IOTLootVolumes.ModelPosition("-2.468829 -1.543565 -0.445114");
+        position = garage.ModelToWorld(floorPoint+"0 1 0");
+        wheel.SetPosition(position);
+        vector hit,normal;
+        bool found = FindPlacementSurface(position,hit,normal);
+        OnClick(button,0,0,MouseState.LEFT);
+        vector placed = wheel.GetPosition();
+        GetGame().ObjectDelete(garage);
+        if (!TestCheck(found && hit[1] > terrainY+1 && placed[1] < position[1] && placed[1] >= hit[1] && Math.AbsFloat(placed[0] - position[0]) < 0.001 && Math.AbsFloat(placed[2] - position[2]) < 0.001, "surface placement uses the floor below the item inside an elevated garage")) return false;
+
+        position[1] = terrainY+120;
+        wheel.SetPosition(position);
+        int historyCount = m_Undo.Count();
+        OnClick(button,0,0,MouseState.LEFT);
+        bool accepted = TestCheck(vector.Distance(wheel.GetPosition(),position) < 0.001 && m_Undo.Count() == historyCount && m_NoticeKind == IOTNoticeKind.WARNING && m_ErrorRoot.IsVisible(), "surface placement without a nearby surface preserves pose and history and shows a warning");
+        DismissNotification();
+        return accepted;
+    }
+
+    protected bool SelfTestHistory(ItemBase wheel)
+    {
+        FinishHistory();
+        CancelWorldGesture();
+        SetFocus(null);
+        DeselectItem();
+        SelectItem(wheel);
+        ClearHistory();
+        vector original[4];
+        wheel.GetTransform(original);
+        vector angles = wheel.GetOrientation();
+        vector proxyPosition = ProxyPosition();
+        vector proxyAngles = ProxyAngles();
+        string proxy = ProxyLine();
+        Object anchor = m_Anchor;
+        vector anchorPosition = anchor.GetPosition();
+        vector center = m_Viewport.Center();
+        if (!TestCheck(!StepHistory(false) && !StepHistory(true) && (m_Toolbar.FindAnyWidget("Undo").GetFlags() & WidgetFlags.DISABLED) && (m_Toolbar.FindAnyWidget("Redo").GetFlags() & WidgetFlags.DISABLED), "empty history disables Undo and Redo")) return false;
+        BeginWorldGesture(center);
+        ApplyGizmoTransformAt(original,true,center);
+        CancelWorldGesture();
+        if (!TestCheck(m_Undo.Count() == 0 && !m_HistoryPending, "unchanged gizmo transforms do not create history")) return false;
+        vector moved[4];
+        copyarray(moved,original);
+        BeginWorldGesture(center);
+        moved[3] = original[3]+"0.1 0 0";
+        ApplyGizmoTransformAt(moved,false,center);
+        bool blockedDuringDrag = !StepHistory(false);
+        moved[3] = original[3]+"0.2 0.1 0";
+        ApplyGizmoTransformAt(moved,false,center);
+        moved[3] = original[3]+"0.3 0.1 0";
+        ApplyGizmoTransformAt(moved,true,center);
+        CancelWorldGesture();
+        if (!TestCheck(blockedDuringDrag && m_Undo.Count() == 1 && !m_HistoryPending, "a complete multi-frame gizmo drag creates one undo action")) return false;
+        if (!TestCheck(StepHistory(false) && vector.Distance(wheel.GetPosition(),original[3]) < 0.001 && ProxyLine() == proxy && m_Redo.Count() == 1, "Undo restores the initial item pose and CE proxy output")) return false;
+        if (!TestCheck(StepHistory(true) && vector.Distance(wheel.GetPosition(),moved[3]) < 0.001 && m_Undo.Count() == 1, "Redo restores the full completed item move")) return false;
+        StepHistory(false);
+        Nudge(false,0,1);
+        if (!TestCheck(m_Redo.Count() == 0 && m_Undo.Count() == 1 && !StepHistory(true), "new edits after Undo discard the redo branch")) return false;
+        StepHistory(false);
+        ClearHistory();
+        m_PosFields[0].SetText(FieldNumber(proxyPosition[0]+0.1));
+        OnChange(m_PosFields[0],0,0,false);
+        m_PosFields[0].SetText(FieldNumber(proxyPosition[0]+0.3));
+        OnChange(m_PosFields[0],0,0,false);
+        vector typedPosition = wheel.GetPosition();
+        m_PosFields[0].SetText("-");
+        OnChange(m_PosFields[0],0,0,false);
+        OnFocusLost(m_PosFields[0],0,0);
+        if (!TestCheck(m_Undo.Count() == 1 && !m_HistoryPending && vector.Distance(wheel.GetPosition(),typedPosition) < 0.001 && StepHistory(false) && vector.Distance(wheel.GetPosition(),original[3]) < 0.001, "live numeric typing groups valid edits and reverts incomplete text before Undo")) return false;
+        ClearHistory();
+        Widget plus = m_Root.FindAnyWidget("PosPlus0");
+        OnMouseButtonDown(plus,0,0,MouseState.LEFT);
+        NudgeButton(plus);
+        NudgeButton(plus);
+        OnMouseButtonUp(plus,0,0,MouseState.LEFT);
+        OnClick(plus,0,0,MouseState.LEFT);
+        if (!TestCheck(m_Undo.Count() == 1 && StepHistory(false) && vector.Distance(wheel.GetPosition(),original[3]) < 0.001, "holding a fine adjustment button creates one undo action without a duplicate click")) return false;
+        ClearHistory();
+        m_RotFields[0].SetText(FieldNumber(proxyAngles[0]+15));
+        OnChange(m_RotFields[0],0,0,true);
+        vector rotated = wheel.GetOrientation();
+        if (!TestCheck(m_Undo.Count() == 1 && StepHistory(false) && vector.Distance(wheel.GetOrientation(),angles) < 0.001 && StepHistory(true) && vector.Distance(wheel.GetOrientation(),rotated) < 0.001 && vector.Distance(wheel.GetPosition(),original[3]) < 0.001, "Undo and Redo restore item rotation without moving it")) return false;
+        ClearHistory();
+        ResetComponent(true,0);
+        if (!TestCheck(m_Undo.Count() == 1 && StepHistory(false) && vector.Distance(wheel.GetOrientation(),rotated) < 0.001, "individual angle resets can be undone")) return false;
+        ClearHistory();
+        Reset();
+        if (!TestCheck(m_Undo.Count() == 1 && StepHistory(false) && vector.Distance(wheel.GetOrientation(),rotated) < 0.001 && StepHistory(true) && vector.Distance(wheel.GetPosition(),original[3]) < 0.001 && vector.Distance(wheel.GetOrientation(),angles) < 0.001, "F9 reset is an undoable transform rather than clearing history")) return false;
+        ClearHistory();
+        SetProxyPose(proxyPosition+"0 1 0",proxyAngles);
+        vector beforeGround = wheel.GetPosition();
+        Widget place = m_Toolbar.FindAnyWidget("PlaceOnSurface");
+        OnClick(place,0,0,MouseState.LEFT);
+        vector onGround[4];
+        wheel.GetTransform(onGround);
+        vector ground = beforeGround;
+        ground[1] = GetGame().SurfaceY(ground[0],ground[2]);
+        vector wheelBounds[2];
+        bool hasWheelCollision = wheel.GetCollisionBox(wheelBounds);
+        vector size = wheelBounds[1] - wheelBounds[0];
+        float lowest = Math.Min(wheel.ModelToWorld(wheelBounds[0])[1],wheel.ModelToWorld(wheelBounds[1])[1]);
+        if (!TestCheck(hasWheelCollision && size[0] < 0.5*Math.Min(size[1],size[2]) && Math.AbsFloat(onGround[3][0] - ground[0]) < 0.001 && Math.AbsFloat(onGround[3][2] - ground[2]) < 0.001 && Math.AbsFloat(onGround[0][1]) > 0.999 && Math.AbsFloat(lowest - ground[1] - 0.003) < 0.002, "surface placement lays the wheel flat on terrain without changing X/Z")) return false;
+        OnClick(place,0,0,MouseState.LEFT);
+        if (!TestCheck(m_Undo.Count() == 1 && StepHistory(false) && vector.Distance(wheel.GetPosition(),beforeGround) < 0.001 && vector.Distance(wheel.GetOrientation(),angles) < 0.001, "ground placement can be undone with its original orientation")) return false;
+        bool redone = StepHistory(true);
+        vector afterRedo[4];
+        wheel.GetTransform(afterRedo);
+        if (!TestCheck(redone && vector.Distance(afterRedo[3],onGround[3]) < 0.001 && vector.Dot(afterRedo[0],onGround[0]) > 0.9999 && vector.Dot(afterRedo[2],onGround[2]) > 0.9999, "surface placement supports Redo and repeated clicks do not add edits")) return false;
+        if (!SelfTestSurfaceFloor(wheel,place)) return false;
+        wheel.SetTransform(original);
+        ClearHistory();
+        BeginWorldGesture(center);
+        ApplyGizmoTransformAt(moved,false,center);
+        vector outside = m_Viewport.Origin() - "2 0 0";
+        ApplyGizmoTransformAt(original,false,outside);
+        if (!TestCheck(m_Undo.Count() == 1 && !m_HistoryPending && StepHistory(false) && vector.Distance(wheel.GetPosition(),original[3]) < 0.001, "boundary-cancelled gizmo drags retain one undoable final placement")) return false;
+        ClearHistory();
+        Nudge(false,0,1);
+        if (!SpawnSceneClass("Hammer",true)) return false;
+        ItemBase other = m_Item;
+        vector otherPosition = other.GetPosition();
+        Nudge(false,2,1);
+        DeselectItem();
+        if (!TestCheck(m_Undo.Count() == 2 && StepHistory(false) && m_Item == other && vector.Distance(other.GetPosition(),otherPosition) < 0.001 && StepHistory(false) && m_Item == wheel && vector.Distance(wheel.GetPosition(),original[3]) < 0.001 && GetGizmoApi().GetCount() == 1, "history spans selection changes and restores the exact affected entity")) return false;
+        ClearHistory();
+        SelectMoveTarget(anchor,false);
+        Nudge(false,0,1);
+        if (!TestCheck(StepHistory(false) && vector.Distance(anchor.GetPosition(),anchorPosition) < 0.001 && StepHistory(true) && vector.Distance(wheel.GetPosition(),original[3]) < 0.001 && vector.Distance(other.GetPosition(),otherPosition) < 0.001 && anchor.GetOrientation().Length() < 0.001, "anchor history moves only the anchor and leaves loot in place")) return false;
+        StepHistory(false);
+        ClearHistory();
+        Man player = GetGame().GetPlayer();
+        vector playerPosition = player.GetPosition();
+        SelectMoveTarget(player,true);
+        Nudge(false,1,1);
+        if (!TestCheck(StepHistory(false) && vector.Distance(player.GetPosition(),playerPosition) < 0.001 && StepHistory(true) && vector.Distance(anchor.GetPosition(),anchorPosition) < 0.001 && vector.Distance(wheel.GetPosition(),original[3]) < 0.001, "character history changes only character position")) return false;
+        StepHistory(false);
+        SelectItem(wheel);
+        ClearHistory();
+        Nudge(false,0,1);
+        UpdateCameraHold(false,true,center,false);
+        BeginCameraHold(center);
+        bool blockedInFlight = !StepHistory(false) && m_Undo.Count() == 1;
+        EndCameraHold();
+        EnterPlayer();
+        bool blockedAsPlayer = !StepHistory(false) && m_Undo.Count() == 1;
+        EnterEditor();
+        SelectItem(wheel);
+        if (!TestCheck(blockedInFlight && blockedAsPlayer && StepHistory(false) && vector.Distance(wheel.GetPosition(),original[3]) < 0.001, "camera and character modes block history without losing completed edits")) return false;
+        ClearHistory();
+        SelectItem(other);
+        Nudge(false,0,1);
+        DeselectItem();
+        m_ActiveScene.Items.RemoveItem(other);
+        m_CreatedItems.RemoveItem(other);
+        if (!TestCheck(!StepHistory(false) && m_Undo.Count() == 0 && vector.Distance(other.GetPosition(),otherPosition) > 0.001, "history discards entities that no longer belong to the editable scene")) return false;
+        GetGame().ObjectDelete(other);
+        SelectItem(wheel);
+        ClearHistory();
+        for (int step = 0; step < 105; step++) Nudge(false,0,1);
+        if (!TestCheck(m_Undo.Count() == 100, "transform history retains the most recent 100 completed actions")) return false;
+        for (int back = 0; back < 100; back++) if (!StepHistory(false)) return false;
+        if (!TestCheck(m_Undo.Count() == 0 && m_Redo.Count() == 100 && !StepHistory(false), "bounded history can undo every retained action without replay entries")) return false;
+        ClearHistory();
+        wheel.SetTransform(original);
+        DeselectItem();
+        SelectItem(wheel);
+        ClearHistory();
+        RefreshCreatedItems(true);
+        ClearError();
+        return true;
+    }
+
+    protected bool SelfTestCameraHold(ItemBase wheel)
+    {
+        vector center = m_Viewport.Center();
+        vector panel = m_Viewport.Origin() - "2 0 0";
+        vector savedPosition = wheel.GetPosition();
+        vector savedAngles = wheel.GetOrientation();
+        vector cameraPose[4];
+        FreeDebugCamera camera = FreeDebugCamera.GetInstance();
+        camera.GetTransform(cameraPose);
+        UpdateCameraHold(false,true,center,false);
+        HandleKey(KeyCode.KC_F1);
+        if (!TestCheck(m_Pointer && !m_CameraHeld && !m_Toolbar.FindAnyWidget("CameraMode"), "camera hold replaces the F1 toggle and toolbar camera button")) return false;
+        UpdateCameraHold(true,true,panel,false);
+        UpdateCameraHold(true,true,center,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld, "RMB pressed on a panel cannot start flight by moving into the world")) return false;
+        UpdateCameraHold(false,true,center,false);
+        UpdateCameraHold(true,true,center,false);
+        if (!TestCheck(m_CameraHeld && !m_Pointer && !Gizmo_IsSupported() && GetGizmoApi().GetCount() == 0 && m_Item == wheel && vector.Distance(wheel.GetPosition(),savedPosition) < 0.001 && vector.Distance(wheel.GetOrientation(),savedAngles) < 0.001, "camera hold suspends gizmo without changing selection or item pose")) return false;
+        vector transform[4];
+        wheel.GetTransform(transform);
+        transform[3] = transform[3]+"1 0 0";
+        UpdateCameraHold(true,true,panel,false);
+        HandleKey(KeyCode.KC_F1);
+        if (!TestCheck(m_CameraHeld && !m_Pointer && !ApplyGizmoTransformAt(transform,false,center) && vector.Distance(wheel.GetPosition(),savedPosition) < 0.001, "captured camera ignores hidden cursor bounds and blocks item transforms")) return false;
+        UpdateCameraHold(false,true,panel,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld && !m_SpeedRoot.IsVisible() && m_Item == wheel && GetGizmoApi().GetCount() == 1 && !m_ClickPending && vector.Distance(camera.GetPosition(),cameraPose[3]) < 0.001, "RMB release restores cursor gizmo and hides multiplier without a world click")) return false;
+        UpdateCameraHold(true,true,center,true);
+        UpdateCameraHold(true,true,center,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld, "held left mouse blocks camera capture until a fresh RMB press")) return false;
+        UpdateCameraHold(false,true,center,false);
+        BeginWorldGesture(center);
+        UpdateCameraHold(true,true,center,false);
+        CancelWorldGesture();
+        UpdateCameraHold(true,true,center,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld, "RMB cannot hijack a world selection or gizmo gesture")) return false;
+        UpdateCameraHold(false,true,center,false);
+        UpdateCameraHold(true,true,center,false);
+        UpdateCameraHold(true,false,center,false);
+        UpdateCameraHold(true,true,center,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld && m_CameraBlockedUntilRelease && GetGizmoApi().GetCount() == 1, "camera context loss cancels flight and requires release before recapture")) return false;
+        UpdateCameraHold(false,true,center,false);
+        UpdateCameraHold(true,true,center,false);
+        if (!TestCheck(m_CameraHeld && !m_Pointer, "fresh RMB press restores flight after context recovery")) return false;
+        m_Viewport.Show(false);
+        UpdateCameraHold(true,CameraContextActive(),center,false);
+        UpdateViewport();
+        UpdateCameraHold(true,CameraContextActive(),center,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld && m_Viewport.IsVisible(), "hiding the world viewport cancels capture without resuming on restore")) return false;
+        UpdateCameraHold(false,true,center,false);
+        UpdateCameraHold(true,true,center,false);
+        EnterPlayer();
+        UpdateCameraHold(true,CameraContextActive(),center,false);
+        if (!TestCheck(m_PlayerMode && !m_CameraHeld && !camera.IsActive(), "character mode cancels camera capture and leaves ordinary player controls")) return false;
+        EnterEditor();
+        SelectItem(wheel);
+        UpdateCameraHold(true,CameraContextActive(),center,false);
+        if (!TestCheck(m_Pointer && !m_CameraHeld && m_Item == wheel && GetGizmoApi().GetCount() == 1, "returning from character mode with held RMB cannot recapture camera")) return false;
+        UpdateCameraHold(false,true,center,false);
+        camera.SetTransform(cameraPose);
+        return true;
+    }
+
+    protected bool SelfTestLootVolumes(ItemBase wheel)
+    {
+        if (!TestCheck(!m_LootVolumes.Enabled() && m_LootVolumes.ShapeCount() == 0, "standard loot overlay starts hidden without creating scene objects")) return false;
+        int itemCount = m_CreatedItems.Count();
+        int sceneCount = m_Scenes.Count();
+        string proxy = ProxyLine();
+        OnClick(m_Toolbar.FindAnyWidget("LootVolumes"),0,0,0);
+        PrintToRPT("[PROXY LOOT TEST] enabled="+m_LootVolumes.Enabled().ToString()+" readable="+m_LootVolumes.Readable().ToString()+" known="+m_LootVolumes.Known().ToString()+" points="+m_LootVolumes.Count().ToString()+" shapes="+m_LootVolumes.ShapeCount().ToString());
+        if (!TestCheck(m_LootVolumes.Enabled() && m_LootVolumes.Known() && m_LootVolumes.Count() == 8 && m_LootVolumes.ShapeCount() == 64 && m_Toolbar.FindAnyWidget("LootVolumesActive").IsVisible(), "overlay toolbar toggle shows eight vanilla wreck points and translucent volumes")) return false;
+        IOTLootPoint point = m_LootVolumes.Point(0);
+        if (!TestCheck(vector.Distance(point.Position,"-0.514923 -0.683249 -0.580811") < 0.00001 && Math.AbsFloat(point.Range - 0.1) < 0.00001 && Math.AbsFloat(point.Height - 0.25) < 0.00001 && point.ContainerName == "lootFloor", "wreck point positions radius height and container match the official CE source")) return false;
+        vector model = IOTLootVolumes.ModelPosition("2 3 4");
+        if (!TestCheck(vector.Distance(model,"-4 3 2") < 0.00001 && vector.Distance(IOTLootVolumes.WorldPosition(m_Anchor,point.Position),m_Anchor.ModelToWorld(Vector(-point.Position[2],point.Position[1],point.Position[0]))) < 0.00001, "standard point coordinates use the calibrated CE to model basis")) return false;
+        vector anchorPosition = m_Anchor.GetPosition();
+        vector before = IOTLootVolumes.WorldPosition(m_Anchor,point.Position);
+        m_Anchor.SetPosition(anchorPosition+"2 1 -3");
+        m_LootVolumes.Update(m_Anchor,m_LootMap,true);
+        bool follows = vector.Distance(IOTLootVolumes.WorldPosition(m_Anchor,point.Position),before+"2 1 -3") < 0.0001 && m_LootVolumes.ShapeCount() == 64;
+        m_Anchor.SetPosition(anchorPosition);
+        m_LootVolumes.Update(m_Anchor,m_LootMap,true);
+        if (!TestCheck(follows && m_Item == wheel && proxy == ProxyLine() && itemCount == m_CreatedItems.Count() && sceneCount == m_Scenes.Count(), "overlay follows anchor translation while preserving items selection and proxy XML")) return false;
+        m_LootVolumes.Update(m_Anchor,m_LootMap,false);
+        bool hidden = m_LootVolumes.Enabled() && m_LootVolumes.ShapeCount() == 0;
+        m_LootVolumes.Update(m_Anchor,m_LootMap,true);
+        if (!TestCheck(hidden && m_LootVolumes.ShapeCount() == 64, "hidden editor contexts remove shapes and restore the same overlay preference")) return false;
+        ToggleLootVolumes();
+        if (!TestCheck(!m_LootVolumes.Enabled() && m_LootVolumes.ShapeCount() == 0 && m_Item == wheel && GetGizmoApi().GetCount() == 1, "disabling standard loot volumes destroys shapes without changing native gizmo selection")) return false;
+
+        Object garage = GetGame().CreateObjectEx("Land_Garage_Row_Small",anchorPosition+"30 0 0",ECE_SETUP | ECE_NOLIFETIME | ECE_NOPERSISTENCY_WORLD,RF_IGNORE);
+        Object office = GetGame().CreateObjectEx("Land_Office2",anchorPosition+"60 0 0",ECE_SETUP | ECE_NOLIFETIME | ECE_NOPERSISTENCY_WORLD,RF_IGNORE);
+        if (!TestCheck(garage && office, "official garage and office anchors are available for reference validation")) return false;
+        IOTLootVolumes sampleVolumes = new IOTLootVolumes;
+        sampleVolumes.Enable(true);
+        bool maps = true;
+        for (int mapIndex = 1; mapIndex <= 4; mapIndex++)
+        {
+            sampleVolumes.Update(garage,mapIndex,true);
+            if (!sampleVolumes.Known() || sampleVolumes.SourceMap() != mapIndex || sampleVolumes.Count() != 64 || sampleVolumes.IncompleteCount() != 0 || sampleVolumes.ShapeCount() != 512) maps = false;
+        }
+        if (!TestCheck(maps, "garage reference includes all 64 container points on each of the four maps")) return false;
+        sampleVolumes.Update(office,1,true);
+        bool chernarus = sampleVolumes.Count() == 122 && sampleVolumes.IncompleteCount() == 0;
+        sampleVolumes.Update(office,3,true);
+        if (!TestCheck(chernarus && sampleVolumes.Count() == 94 && sampleVolumes.IncompleteCount() == 1 && sampleVolumes.SourceMap() == 3, "different map prototypes remain separate and unspecified dimensions stay explicit")) return false;
+        if (!TestCheck(sampleVolumes.Detail().Contains(IOTL.T("LOOT_DIMENSIONS_UNSPECIFIED")) && !sampleVolumes.Detail().Contains("#STR_IOT_"), "reference source and incomplete dimension help use localized text")) return false;
+        sampleVolumes.Reset();
+        if (!TestCheck(sampleVolumes.ShapeCount() == 0 && sampleVolumes.Count() == 0 && !sampleVolumes.Known(), "replacing or clearing an anchor removes all previous reference geometry and data")) return false;
+        GetGame().ObjectDelete(garage);
+        GetGame().ObjectDelete(office);
+        int oldMap = m_LootMap;
+        m_LootMap = 3;
+        IOTProjectData data = CaptureProject();
+        string error;
+        bool saved = IOTProjectFiles.Save("__selftest_loot_source",data,error);
+        IOTProjectData loaded;
+        bool opened = IOTProjectFiles.Load("__selftest_loot_source",loaded,error);
+        m_LootMap = oldMap;
+        if (!TestCheck(saved && opened && loaded.LootMap == 3 && loaded.Items.Count() == data.Items.Count(), "projects retain the selected official loot map without serializing overlay shapes")) return false;
+        loaded.LootMap = 5;
+        bool rejected = !ValidateProject(loaded);
+        loaded.LootMap = 0;
+        if (!TestCheck(rejected && ValidateProject(loaded) && itemCount == m_CreatedItems.Count() && m_Item == wheel, "project loot map validation accepts legacy auto and rejects invalid sources without scene changes")) return false;
+        DismissNotification();
+        return true;
+    }
+
+    protected bool SelfTestIconToolbar(ItemBase wheel)
+    {
+        array<string> names = IOTToolbarChrome.Actions();
+        bool icons = true;
+        foreach (string name : names)
+        {
+            ButtonWidget button = ButtonWidget.Cast(m_Toolbar.FindAnyWidget(name));
+            CanvasWidget icon = CanvasWidget.Cast(button.FindAnyWidget(name+"Icon"));
+            string label;
+            button.GetText(label);
+            float iconButtonWidth,iconButtonHeight;
+            button.GetScreenSize(iconButtonWidth,iconButtonHeight);
+            if (!icon || !(icon.GetFlags() & WidgetFlags.IGNOREPOINTER) || label != "" || Math.AbsFloat(iconButtonWidth - 40*m_PanelScale) > 0.1 || Math.AbsFloat(iconButtonHeight - iconButtonWidth) > 0.1) icons = false;
+        }
+        if (!TestCheck(icons && names.Count() == 13, "toolbar actions use square vector icons without duplicate button labels")) return false;
+        int separators;
+        for (int i = 1; i < 5; i++) if (m_Toolbar.FindAnyWidget("ToolsSeparator"+i.ToString()).IsVisible()) separators++;
+        if (!TestCheck(separators == 4 && ToolbarHeadingsFit(), "toolbar categories have centered readable headings above their icons and four separators")) return false;
+        DeselectItem();
+        bool hiddenGroup = !m_Toolbar.FindAnyWidget("MoveMode").IsVisible() && !m_Toolbar.FindAnyWidget("RotateMode").IsVisible() && !m_Toolbar.FindAnyWidget("ToolsSeparator2").IsVisible() && !m_Toolbar.FindAnyWidget("ToolsHeading2").IsVisible();
+        SelectItem(wheel);
+        if (!TestCheck(hiddenGroup && m_Toolbar.FindAnyWidget("ToolsSeparator2").IsVisible() && m_Toolbar.FindAnyWidget("ToolsHeading2").IsVisible(), "hidden editing actions leave no orphan category heading or separator")) return false;
+        float narrowWidth = 230*m_PanelScale;
+        float narrowHeight = m_ToolbarChrome.Layout(narrowWidth,m_PanelScale);
+        m_Toolbar.SetScreenSize(narrowWidth,narrowHeight);
+        float rootX,rootY;
+        m_Toolbar.GetScreenPos(rootX,rootY);
+        bool wrapped = narrowHeight > 78*m_PanelScale && ToolbarHeadingsFit();
+        for (int group = 0; group < 5; group++)
+        {
+            float groupY = -1;
+            for (int entry = 0; entry < names.Count(); entry++)
+            {
+                if (IOTToolbarChrome.GroupIndex(entry) != group) continue;
+                Widget member = m_Toolbar.FindAnyWidget(names[entry]);
+                float ax,ay,aw,ah;
+                member.GetScreenPos(ax,ay); member.GetScreenSize(aw,ah);
+                if (groupY < 0) groupY = ay;
+                if (Math.AbsFloat(ay - groupY) > 0.1 || ax < rootX || ax+aw > rootX+narrowWidth+0.1 || ay+ah > rootY+narrowHeight+0.1) wrapped = false;
+                if (group > 0 && Math.AbsFloat(ax - rootX - 8*m_PanelScale) < 0.1 && m_Toolbar.FindAnyWidget("ToolsSeparator"+group.ToString()).IsVisible()) wrapped = false;
+            }
+        }
+        UpdateToolbar();
+        UpdateViewport();
+        if (!TestCheck(wrapped, "narrow toolbar layouts wrap whole categories without leading separators")) return false;
+        Widget move = m_Toolbar.FindAnyWidget("MoveMode");
+        float x,y,w,h;
+        move.GetScreenPos(x,y); move.GetScreenSize(w,h);
+        vector point = Vector(x+w*0.5,y+h*0.5,0);
+        vector position = wheel.GetPosition();
+        m_ToolbarChrome.HideHint();
+        m_ToolbarChrome.HoverAt(point,true);
+        bool delayed = !m_ToolbarChrome.HintRoot().IsVisible();
+        m_ToolbarChrome.HoverAt(point,true,true);
+        Widget hint = m_ToolbarChrome.HintRoot();
+        float hx,hy,hw,hh;
+        hint.GetScreenPos(hx,hy); hint.GetScreenSize(hw,hh);
+        int screenWidth,screenHeight;
+        GetScreenSize(screenWidth,screenHeight);
+        string moveHint = IOTToolbarChrome.HintText("MoveMode");
+        bool readable = delayed && hint.IsVisible() && hx >= 0 && hy >= 0 && hx+hw <= screenWidth && hy+hh <= screenHeight && moveHint == IOTL.T("MOVE") && !moveHint.Contains(IOTL.T("TOOLS_EDIT")) && moveHint.Contains("F7");
+        if (!TestCheck(readable && m_Item == wheel && vector.Distance(wheel.GetPosition(),position) < 0.001, "toolbar hover shows only the localized action and shortcut without duplicating its heading")) return false;
+        if (!TestCheck(m_ToolbarChrome.ContainsHint(Vector(hx+hw*0.5,hy+hh*0.5,0)) && PanelPoint(Vector(hx+hw*0.5,hy+hh*0.5,0)), "visible toolbar hints block world input through their bounds")) return false;
+        m_ToolbarChrome.HoverAt(point,false,true);
+        bool blocked = !hint.IsVisible();
+        Widget undo = m_Toolbar.FindAnyWidget("Undo");
+        undo.Enable(false);
+        undo.GetScreenPos(x,y); undo.GetScreenSize(w,h);
+        point = Vector(x+w*0.5,y+h*0.5,0);
+        m_ToolbarChrome.HoverAt(point,true,true);
+        bool disabledHint = hint.IsVisible() && m_ToolbarChrome.ActionAt(point) == "Undo" && IOTToolbarChrome.HintText("Undo").Contains("Ctrl+Z");
+        m_ToolbarChrome.HoverAt("-1 -1 0",true,true);
+        UpdateHistoryButtons();
+        if (!TestCheck(blocked && disabledHint && !hint.IsVisible(), "toolbar hints explain disabled actions and disappear when hover is disallowed or leaves")) return false;
+        Widget cameraHelp = m_Toolbar.FindAnyWidget("CameraHelp");
+        Widget cameraHelpActive = m_Toolbar.FindAnyWidget("CameraHelpActive");
+        OnClick(cameraHelp,0,0,MouseState.LEFT);
+        m_ToolbarChrome.HoverAt("-1 -1 0",true,true);
+        hint.GetScreenPos(hx,hy);
+        hint.GetScreenSize(hw,hh);
+        MultilineTextWidget cameraText = MultilineTextWidget.Cast(hint.FindAnyWidget("ToolbarHintText"));
+        int textWidth,textHeight;
+        cameraText.GetTextSize(textWidth,textHeight);
+        bool fits = hx >= 0 && hy >= 0 && hx+hw <= screenWidth && hy+hh <= screenHeight && textHeight > 80*m_PanelScale && textHeight <= hh;
+        if (!TestCheck(hint.IsVisible() && cameraHelpActive.IsVisible() && fits && !WorldPoint(Vector(hx+hw/2,hy+hh/2,0)) && m_Item == wheel && !m_CameraHeld && vector.Distance(wheel.GetPosition(),position) < 0.001, "camera help stays open after pointer departure and fits without changing the scene")) return false;
+        OnClick(cameraHelp,0,0,MouseState.LEFT);
+        if (!TestCheck(!hint.IsVisible() && !cameraHelpActive.IsVisible(), "camera help closes on the next click")) return false;
+        OnClick(cameraHelp,0,0,MouseState.LEFT);
+        bool worldGesture = BeginWorldGesture(m_Viewport.Center());
+        CancelWorldGesture();
+        if (!TestCheck(worldGesture && !hint.IsVisible() && !cameraHelpActive.IsVisible(), "returning to world editing closes camera help")) return false;
+        return true;
+    }
+
+    protected bool ToolbarHeadingsFit()
+    {
+        array<string> names = IOTToolbarChrome.Actions();
+        for (int group = 0; group < 5; group++)
+        {
+            TextWidget heading = TextWidget.Cast(m_Toolbar.FindAnyWidget("ToolsHeading"+group.ToString()));
+            float left = 100000;
+            float right = -100000;
+            float top = 100000;
+            foreach (int index, string name : names)
+            {
+                Widget button = m_Toolbar.FindAnyWidget(name);
+                if (IOTToolbarChrome.GroupIndex(index) != group || !button.IsVisible()) continue;
+                float bx,by,bw,bh;
+                button.GetScreenPos(bx,by); button.GetScreenSize(bw,bh);
+                left = Math.Min(left,bx);
+                right = Math.Max(right,bx+bw);
+                top = Math.Min(top,by);
+            }
+            if (left > right) { if (heading.IsVisible()) return false; continue; }
+            float x,y,w,h;
+            heading.GetScreenPos(x,y); heading.GetScreenSize(w,h);
+            int textWidth,textHeight;
+            heading.GetTextSize(textWidth,textHeight);
+            if (!heading.IsVisible() || !(heading.GetFlags() & WidgetFlags.IGNOREPOINTER) || textWidth <= 0 || textWidth > w || textHeight > h || y+h > top || Math.AbsFloat(x+w*0.5 - (left+right)*0.5) > 1) return false;
+        }
+        return true;
+    }
+
     protected bool SelfTestToolbar(ItemBase wheel)
     {
         UpdateToolbar();
         UpdateViewport();
+        if (!SelfTestIconToolbar(wheel)) return false;
         float toolbarX,toolbarY,toolbarWidth,toolbarHeight;
         m_Toolbar.GetScreenPos(toolbarX,toolbarY);
         m_Toolbar.GetScreenSize(toolbarWidth,toolbarHeight);
         vector worldOrigin = m_Viewport.Origin();
         bool fits = toolbarY+toolbarHeight < worldOrigin[1];
-        array<string> names = {"MoveMode","RotateMode","CameraMode","SceneFocus","PlayerMode","Export","SceneExport"};
+        array<string> names = IOTToolbarChrome.Actions();
         float previousRight = toolbarX;
         float previousY = toolbarY;
         foreach (string name : names)
@@ -4362,23 +7174,10 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(fits && !m_Root.FindAnyWidget("MoveMode") && !m_Root.FindAnyWidget("PlayerMode") && !m_Root.FindAnyWidget("Help") && !m_Browser.Root().FindAnyWidget("SceneExport"), "toolbar controls fit above the world without duplicate sidebar actions")) return false;
         vector point = Vector(toolbarX+toolbarWidth*0.5,toolbarY+toolbarHeight*0.5,0);
         PickPoint(point);
-        if (!TestCheck(ToolbarPoint(point) && PanelPoint(point) && !WorldPoint(point) && !TogglePointerAt(point) && m_Pointer && m_Item == wheel, "toolbar input preserves selection and cannot select the world or enter camera flight")) return false;
+        if (!TestCheck(ToolbarPoint(point) && PanelPoint(point) && !WorldPoint(point) && !BeginCameraHold(point) && m_Pointer && m_Item == wheel, "toolbar input preserves selection and cannot select the world or enter camera flight")) return false;
         vector savedPosition = wheel.GetPosition();
         vector savedAngles = wheel.GetOrientation();
-        ButtonWidget cameraButton = ButtonWidget.Cast(m_Toolbar.FindAnyWidget("CameraMode"));
-        string cameraText;
-        OnClick(cameraButton,0,0,0);
-        cameraButton.GetText(cameraText);
-        bool appActive = GetGame().IsAppActive();
-        bool menuOpen = GetGame().GetUIManager().GetMenu() != null;
-        bool cameraActive = FreeDebugCamera.GetInstance().IsActive();
-        float positionDelta = vector.Distance(wheel.GetPosition(),savedPosition);
-        float angleDelta = vector.Distance(wheel.GetOrientation(),savedAngles);
-        PrintToRPT("[PROXY TOOLBAR CAMERA] active="+appActive.ToString()+" menu="+menuOpen.ToString()+" pointer="+m_Pointer.ToString()+" camera="+cameraActive.ToString()+" label="+cameraText+" positionDelta="+positionDelta.ToString()+" angleDelta="+angleDelta.ToString());
-        if (!TestCheck(!m_Pointer && FreeDebugCamera.GetInstance().IsActive() && cameraText == IOTL.T("CAMERA_CURSOR") && m_Item == wheel && vector.Distance(wheel.GetPosition(),savedPosition) < 0.001 && vector.Distance(wheel.GetOrientation(),savedAngles) < 0.001, "toolbar flight button enters camera flight and preserves the selected item")) return false;
-        OnClick(cameraButton,0,0,0);
-        cameraButton.GetText(cameraText);
-        if (!TestCheck(m_Pointer && FreeDebugCamera.GetInstance().IsActive() && cameraText == IOTL.T("CAMERA_FLIGHT") && m_Item == wheel && GetGizmoApi().GetCount() == 1, "toolbar camera button restores cursor mode and its action label")) return false;
+        if (!SelfTestCameraHold(wheel)) return false;
         OnClick(m_Toolbar.FindAnyWidget("RotateMode"),0,0,0);
         bool rotating = m_RotateMode && GetGizmoApi().GetTransformMode() == GizmoTransformMode.ROTATE && m_Toolbar.FindAnyWidget("RotateModeActive").IsVisible();
         OnClick(m_Toolbar.FindAnyWidget("MoveMode"),0,0,0);
@@ -4443,9 +7242,9 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         float fineX,fineY,fineWidth,fineHeight,footerX,footerY,expandedWidth,expandedHeight;
         m_Root.FindAnyWidget("FinePanel").GetScreenPos(fineX,fineY);
         m_Root.FindAnyWidget("FinePanel").GetScreenSize(fineWidth,fineHeight);
-        m_Status.GetScreenPos(footerX,footerY);
+        m_Debug.GetScreenPos(footerX,footerY);
         m_Root.GetScreenSize(expandedWidth,expandedHeight);
-        if (!TestCheck(footerY >= fineY+fineHeight && expandedHeight > collapsedHeight, "expanded fine settings move footer actions below the controls")) return false;
+        if (!TestCheck(footerY >= fineY+fineHeight && expandedHeight > collapsedHeight, "expanded fine settings keep content inside the properties panel")) return false;
         OnClick(m_Root.FindAnyWidget("FineToggle"),0,0,0);
         m_Root.GetScreenSize(expandedWidth,expandedHeight);
         if (!TestCheck(!m_FineOpen && m_DirtyInputs && m_PosFields[0].GetText() == "1,23456" && Math.AbsFloat(expandedHeight - collapsedHeight) < 1, "closing fine settings preserves pending input and restores compact height")) return false;
@@ -4543,9 +7342,9 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         vector savedAngles = wheel.GetOrientation();
         OnClick(m_Toolbar.FindAnyWidget("MoveMode"),0,0,0);
         ToggleFineSettings();
-        if (!TestCheck(m_PosFields[0].IsVisible() && !m_RotFields[0].IsVisible() && m_Root.FindAnyWidget("PositionTitle").IsVisible() && !m_Root.FindAnyWidget("RotationTitle").IsVisible() && m_Root.FindAnyWidget("MoveStep").IsVisible() && !m_Root.FindAnyWidget("AngleStep").IsVisible() && m_Root.FindAnyWidget("PosPlus0").IsVisible() && !m_Root.FindAnyWidget("RotPlus0").IsVisible() && m_Root.FindAnyWidget("Ground").IsVisible(), "move mode shows only position and movement fine controls")) return false;
+        if (!TestCheck(m_PosFields[0].IsVisible() && !m_RotFields[0].IsVisible() && m_Root.FindAnyWidget("PositionTitle").IsVisible() && !m_Root.FindAnyWidget("RotationTitle").IsVisible() && m_Root.FindAnyWidget("MoveStep").IsVisible() && !m_Root.FindAnyWidget("AngleStep").IsVisible() && m_Root.FindAnyWidget("PosPlus0").IsVisible() && !m_Root.FindAnyWidget("RotPlus0").IsVisible() && m_Toolbar.FindAnyWidget("PlaceOnSurface").IsVisible(), "move mode shows only position and movement fine controls")) return false;
         OnClick(m_Toolbar.FindAnyWidget("RotateMode"),0,0,0);
-        if (!TestCheck(!m_PosFields[0].IsVisible() && m_RotFields[0].IsVisible() && !m_Root.FindAnyWidget("PositionTitle").IsVisible() && m_Root.FindAnyWidget("RotationTitle").IsVisible() && !m_Root.FindAnyWidget("MoveStep").IsVisible() && m_Root.FindAnyWidget("AngleStep").IsVisible() && !m_Root.FindAnyWidget("PosPlus0").IsVisible() && m_Root.FindAnyWidget("RotPlus0").IsVisible() && !m_Root.FindAnyWidget("Ground").IsVisible() && vector.Distance(wheel.GetPosition(),savedPosition) < 0.001 && vector.Distance(wheel.GetOrientation(),savedAngles) < 0.001, "rotate mode shows only angles and angular fine controls without moving the item")) return false;
+        if (!TestCheck(!m_PosFields[0].IsVisible() && m_RotFields[0].IsVisible() && !m_Root.FindAnyWidget("PositionTitle").IsVisible() && m_Root.FindAnyWidget("RotationTitle").IsVisible() && !m_Root.FindAnyWidget("MoveStep").IsVisible() && m_Root.FindAnyWidget("AngleStep").IsVisible() && !m_Root.FindAnyWidget("PosPlus0").IsVisible() && m_Root.FindAnyWidget("RotPlus0").IsVisible() && m_Toolbar.FindAnyWidget("PlaceOnSurface").IsVisible() && vector.Distance(wheel.GetPosition(),savedPosition) < 0.001 && vector.Distance(wheel.GetOrientation(),savedAngles) < 0.001, "rotate mode shows only angles and angular fine controls without moving the item")) return false;
         HandleKey(KeyCode.KC_F7);
         bool returned = !m_RotateMode && m_FineOpen && m_PosFields[0].IsVisible() && !m_RotFields[0].IsVisible() && m_Root.FindAnyWidget("MoveStep").IsVisible() && !m_Root.FindAnyWidget("AngleStep").IsVisible();
         HandleKey(KeyCode.KC_F8);
@@ -4558,6 +7357,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     protected bool SelfTestSceneMovement()
     {
+        vector characterBeforeMove = GetGame().GetPlayer().GetPosition();
+        vector characterFacingBeforeMove = GetGame().GetPlayer().GetOrientation();
         Object anchor = m_Anchor;
         ItemBase first = m_ActiveScene.Items[0];
         vector anchorPosition = anchor.GetPosition();
@@ -4579,6 +7380,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         vector expectedProxy = proxyPosition+Vector(-delta[2],-delta[1],delta[0]);
         if (!TestCheck(vector.Distance(first.GetPosition(),firstPosition) < 0.001 && vector.Distance(ItemProxyPosition(first),expectedProxy) < 0.001 && vector.Distance(ItemProxyAngles(first),proxyAngles) < 0.001, "moving an anchor leaves loot in place and recalculates its relative coordinates")) return false;
         if (!TestCheck(vector.Distance(m_Scenes[1].Anchor.GetPosition(),otherAnchorPosition) < 0.001, "moving an anchor leaves other scene anchors untouched")) return false;
+        if (!TestCheck(vector.Distance(GetGame().GetPlayer().GetPosition(),characterBeforeMove) < 0.001 && vector.Distance(GetGame().GetPlayer().GetOrientation(),characterFacingBeforeMove) < 0.001, "moving an existing anchor preserves the manually placed character pose")) return false;
         pose[0] = "2 0 0";
         pose[1] = "0 2 0";
         pose[2] = "0 0 2";
@@ -4680,6 +7482,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_Browser.HoverAt(point,true,true);
         EntityAI hover = m_Browser.HoverEntity();
         if (!TestCheck(hover && hover.GetType() == "SledgeHammer" && m_Browser.HoverView().GetItem() == hover && m_Browser.HoverBoundVisible() && m_Browser.FirstClass() == "Hammer" && !m_Anchor, "hover previews the pointed item independently of catalog selection without an anchor")) return false;
+        int previewLayer = m_Browser.HoverRoot().GetSort();
+        if (!TestCheck(previewLayer == 0 && m_Viewport.BackdropPart(0).GetSort() < previewLayer && m_ToolbarChrome.HintRoot().GetSort() > previewLayer, "item preview keeps its native render layer between the backdrop and toolbar hints")) return false;
         vector position = hover.GetPosition();
         if (!TestCheck(position[1] < -999 && !dBodyIsSet(hover) && !m_CreatedItems.Count() && !ItemScene(ItemBase.Cast(hover)), "hover models stay below the map without physics scene ownership or export membership")) return false;
         m_Browser.HoverAt(point,true,true);
@@ -4709,19 +7513,10 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_Browser.HoverAt(Vector(x+width - 1,y+20,0),true,true);
         if (!TestCheck(categoryCleared && !m_Browser.HoverEntity(), "catalog folders and the native scrollbar do not create hover previews")) return false;
         m_Browser.Search("AK");
-        string selectedClass = m_Browser.SelectedDragClass();
-        m_Browser.ItemScroll().VScrollToPos(0);
-        m_Browser.ItemScroll().Update();
-        Widget firstRow = m_Browser.ItemRowWidget(0);
-        float rowWidth,rowHeight,initialX,initialY,scrolledX,scrolledY,restoredX,restoredY;
-        firstRow.GetScreenSize(rowWidth,rowHeight);
-        firstRow.GetScreenPos(initialX,initialY);
-        bool wheelDown = m_Browser.OnMouseWheel(firstRow,0,0,-1);
-        firstRow.GetScreenPos(scrolledX,scrolledY);
-        bool wheelUp = m_Browser.OnMouseWheel(firstRow,0,0,1);
-        firstRow.GetScreenPos(restoredX,restoredY);
-        if (!TestCheck(wheelDown && wheelUp && Math.AbsFloat(initialY - scrolledY - rowHeight) < 1 && Math.AbsFloat(restoredY - initialY) < 1 && m_Browser.SelectedDragClass() == selectedClass, "catalog wheel scrolls one row per step without changing selection")) return false;
+        if (!TestCheck(SelfTestCatalogWheel(), "Items wheel scrolls two rows per step without changing selection")) return false;
         int akmRow = m_Browser.ClassRow("AKM");
+        float rowWidth,rowHeight;
+        m_Browser.ItemRowWidget(0).GetScreenSize(rowWidth,rowHeight);
         m_Browser.ItemScroll().VScrollToPos(rowHeight);
         m_Browser.ItemScroll().Update();
         point = CatalogRowPoint(akmRow);
@@ -4745,12 +7540,30 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         m_Browser.SetMode(true);
         m_Browser.Search("Hammer");
         m_Browser.HoverAt(CatalogRowPoint(m_Browser.ClassRow("SledgeHammer")),true,true);
-        SetPointer(false);
+        UpdateCameraHold(false,true,m_Viewport.Center(),false);
+        BeginCameraHold(m_Viewport.Center());
         bool flightCleared = !m_Browser.HoverEntity() && !m_Browser.HoverRoot().IsVisible();
-        SetPointer(true);
+        EndCameraHold();
         if (!TestCheck(flightCleared, "entering camera flight immediately releases the hover preview")) return false;
         m_Browser.SetMode(false);
         return true;
+    }
+
+    protected bool SelfTestCatalogWheel()
+    {
+        ScrollWidget scroll = m_Browser.ItemScroll();
+        string selectedClass = m_Browser.SelectedDragClass();
+        scroll.VScrollToPos(0);
+        scroll.Update();
+        Widget row = m_Browser.ItemRowWidget(0);
+        float width,height,x,startY,scrolledY,restoredY;
+        row.GetScreenSize(width,height);
+        row.GetScreenPos(x,startY);
+        bool down = m_Browser.OnMouseWheel(row,0,0,-1);
+        row.GetScreenPos(x,scrolledY);
+        bool up = m_Browser.OnMouseWheel(row,0,0,1);
+        row.GetScreenPos(x,restoredY);
+        return down && up && Math.AbsFloat(startY - scrolledY - 2*height) < 1 && Math.AbsFloat(restoredY - startY) < 1 && m_Browser.SelectedDragClass() == selectedClass;
     }
 
     protected bool SelfTestSceneHover(ItemBase wheel)
@@ -4840,9 +7653,8 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (!TestCheck(!FinishCatalogDrag(sky,true) && m_CreatedItems.Count() == before+1, "drop over sky creates nothing")) return false;
         BeginCatalogPress(press);
         UpdateCatalogDrag(drop);
-        SetPointer(false);
-        if (!TestCheck(!m_CatalogPressed && !m_CatalogDragRoot.IsVisible() && m_CreatedItems.Count() == before+1, "switching to camera flight cancels catalog drag")) return false;
-        SetPointer(true);
+        if (!TestCheck(!BeginCameraHold(drop) && m_Pointer && m_CatalogPressed && m_CatalogDragRoot.IsVisible() && m_CreatedItems.Count() == before+1, "RMB cannot hijack an active catalog drag")) return false;
+        CancelCatalogDrag();
         BeginCatalogPress(press);
         UpdateCatalogDrag(drop);
         EnterPlayer();
@@ -4881,6 +7693,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
 
     void Tick()
     {
+        UpdateNotificationAt(GetGame().GetTime());
         UpdateToolbar();
         Man simulationPlayer = GetGame().GetPlayer();
         if (m_PlayerSimulationPending && simulationPlayer)
@@ -4892,7 +7705,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         {
             int hoverX,hoverY;
             GetMousePos(hoverX,hoverY);
-            bool hoverEnabled = m_Booted && !m_PlayerMode && !AnchorReplacementPending() && m_Pointer && !m_CatalogPressed && GetGame().IsAppActive() && !GetGame().GetUIManager().GetMenu();
+            bool hoverEnabled = m_Booted && !m_PlayerMode && !EditorModalPending() && m_Pointer && !m_CatalogPressed && GetGame().IsAppActive() && !GetGame().GetUIManager().GetMenu();
             m_Browser.HoverAt(Vector(hoverX,hoverY,0),hoverEnabled);
         }
         if (m_CreatedTray && !m_PlayerMode)
@@ -4917,7 +7730,7 @@ class IOTProxyTool : ScriptedWidgetEventHandler
         if (m_Item && m_Item.GetHierarchyParent())
         {
             DeselectItem();
-            Status(IOTL.T("ITEM_PICKED_UP"));
+            ReportWarning(IOTL.T("ITEM_PICKED_UP"));
             return;
         }
         if (m_Item && m_Anchor)
@@ -4972,7 +7785,13 @@ class IOTProxyMission : MissionGameplay
 
     override void OnKeyPress(int key)
     {
-        if (g_IOTProxyTool && g_IOTProxyTool.AnchorReplacementPending())
+        if (GetGame().GetUIManager().GetMenu())
+        {
+            super.OnKeyPress(key);
+            return;
+        }
+        if (g_IOTProxyTool && g_IOTProxyTool.HandleHistoryKey(key)) return;
+        if (g_IOTProxyTool && g_IOTProxyTool.EditorModalPending())
         {
             g_IOTProxyTool.HandleKey(key);
             return;

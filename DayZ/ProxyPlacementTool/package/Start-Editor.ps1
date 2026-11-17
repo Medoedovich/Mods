@@ -79,12 +79,13 @@ try {
     if (-not $RuntimeRoot) { $RuntimeRoot = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'ProxyPlacementTool' }
     $RuntimeRoot = [IO.Path]::GetFullPath($RuntimeRoot)
     $taskProfiles = Join-Path $RuntimeRoot 'profiles'
-    Write-Host 'Proxy Placement Tool - Alpha 0.3.0 / Medoedovich'
+    $taskVersion = '0.4.0-alpha'
+    Write-Host ('Proxy Placement Tool - '+$taskVersion+' / Medoedovich')
     Write-Host ('DayZDiag: '+$taskExecutable)
     Write-Host ('Test Range: '+$TestRange)
     Write-Host ('Editor: '+$ModRoot)
     Write-Host ('Exports: '+(Join-Path $taskProfiles 'ProxyPlacement'))
-    Write-Host 'ALPHA: project save/load is not available. Export XML before exiting.'
+    Write-Host ('Projects: '+(Join-Path $taskProfiles 'ProxyPlacement\Projects'))
     if ($CheckOnly) { Write-Host 'Preflight OK. No files changed and no game started.'; exit 0 }
     $taskExisting = @(Get-CimInstance Win32_Process -Filter "Name='DayZDiag_x64.exe' OR Name='DayZ_x64.exe'" | Where-Object { $_.CommandLine -notmatch '(?i)(?:^|\s)-server(?:\s|$)' })
     if ($taskExisting.Count) { throw 'A DayZ client is already running. Close it before starting the editor.' }
@@ -107,7 +108,7 @@ try {
     if ($SelfTest -and $ExpectedLanguage) { $taskArguments += ('-proxyToolExpectedLanguage='+$ExpectedLanguage) }
     $taskStart.Arguments = $taskArguments -join ' '
     $taskProcess = [Diagnostics.Process]::Start($taskStart)
-    $taskLaunch = [ordered]@{Version='0.3.0-alpha';StartedAt=(Get-Date -Format o);PID=$taskProcess.Id;Game=$Game;Mod=$ModRoot;TestRange=$TestRange;Mission=$taskMission;Profiles=$taskProfiles;SelfTest=[bool]$SelfTest}
+    $taskLaunch = [ordered]@{Version=$taskVersion;StartedAt=(Get-Date -Format o);PID=$taskProcess.Id;Game=$Game;Mod=$ModRoot;TestRange=$TestRange;Mission=$taskMission;Profiles=$taskProfiles;SelfTest=[bool]$SelfTest}
     $taskLaunch | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $RuntimeRoot 'last-launch.json') -Encoding UTF8
     $taskLaunch | ConvertTo-Json
 } catch {

@@ -1,4 +1,5 @@
 WindowWidgetClass IOTProxyPanel {
+ color 0.035 0.055 0.075 0.54
  Name "IOTProxyPanel"
  position 20 20
  size 400 286
@@ -7,9 +8,21 @@ WindowWidgetClass IOTProxyPanel {
  vexactpos 1
  hexactsize 1
  vexactsize 1
- style rover_sim_black_2
+ style IOT_Window
  "title visible" 0
  {
+  PanelWidgetClass ThemeRule {
+   Name "ThemeRule"
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   ignorepointer 1
+   color 0.65 0.68 0.69 0.22
+   style rover_sim_colorable
+  }
  TextWidgetClass Title {
   Name "Title"
   position 16 12
@@ -158,7 +171,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Edit
   font "gui/fonts/Metron22"
   "exact text" 1
  }
@@ -170,7 +183,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Edit
   font "gui/fonts/Metron22"
   "exact text" 1
  }
@@ -182,7 +195,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   {
    ImageWidgetClass PosReset0Icon {
     Name "PosReset0Icon"
@@ -208,7 +221,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   {
    ImageWidgetClass RotReset0Icon {
     Name "RotReset0Icon"
@@ -288,7 +301,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Edit
   font "gui/fonts/Metron22"
   "exact text" 1
  }
@@ -300,7 +313,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Edit
   font "gui/fonts/Metron22"
   "exact text" 1
  }
@@ -312,7 +325,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   {
    ImageWidgetClass PosReset1Icon {
     Name "PosReset1Icon"
@@ -338,7 +351,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   {
    ImageWidgetClass RotReset1Icon {
     Name "RotReset1Icon"
@@ -418,7 +431,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Edit
   font "gui/fonts/Metron22"
   "exact text" 1
  }
@@ -430,7 +443,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Edit
   font "gui/fonts/Metron22"
   "exact text" 1
  }
@@ -442,7 +455,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   {
    ImageWidgetClass PosReset2Icon {
     Name "PosReset2Icon"
@@ -468,7 +481,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   {
    ImageWidgetClass RotReset2Icon {
     Name "RotReset2Icon"
@@ -494,7 +507,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "#STR_IOT_FINE_SETTINGS"
@@ -519,7 +532,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "#STR_IOT_MOVE_STEP_DEFAULT"
@@ -532,7 +545,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "#STR_IOT_ANGLE_STEP_DEFAULT"
@@ -599,7 +612,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "−"
@@ -612,7 +625,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "+"
@@ -625,7 +638,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "−"
@@ -638,7 +651,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "+"
@@ -705,7 +718,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "−"
@@ -718,7 +731,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "+"
@@ -731,7 +744,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "−"
@@ -744,7 +757,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "+"
@@ -811,7 +824,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "−"
@@ -824,7 +837,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "+"
@@ -837,7 +850,7 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "−"
@@ -850,46 +863,14 @@ WindowWidgetClass IOTProxyPanel {
   vexactpos 1
   hexactsize 1
   vexactsize 1
-  style Default
+  style IOT_Button
   font "gui/fonts/sdf_MetronBook24"
   text_proportion 0.50
   text "+"
  }
- ButtonWidgetClass Ground {
-  Name "Ground"
-  position 0 68
-  size 368 26
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  style Default
-  font "gui/fonts/sdf_MetronBook24"
-  text_proportion 0.50
-  text "#STR_IOT_GROUND"
- }
   }
  }
 
-
-
-
- MultilineTextWidgetClass Status {
-  Name "Status"
-  position 16 438
-  size 368 60
-  hexactpos 1
-  vexactpos 1
-  hexactsize 1
-  vexactsize 1
-  ignorepointer 1
-  font "gui/fonts/sdf_MetronBook24"
-  "exact text" 1
-  "exact text size" 13
-  "text color" 1 1 1 1
-  text "#STR_IOT_SELECT_HINT"
-  wrap 1
- }
  MultilineTextWidgetClass Debug {
   Name "Debug"
   position 16 508

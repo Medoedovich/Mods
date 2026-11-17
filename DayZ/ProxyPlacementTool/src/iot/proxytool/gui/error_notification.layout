@@ -11,6 +11,7 @@ PanelWidgetClass ErrorNotification {
  style rover_sim_colorable
  {
   PanelWidgetClass ErrorAccent {
+   Name "ErrorAccent"
    position 0 0
    size 4 1
    hexactpos 1
@@ -44,7 +45,7 @@ PanelWidgetClass ErrorNotification {
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   style Default
+   style IOT_Button
    font "gui/fonts/sdf_MetronBook24"
    text_proportion 0.7
    text "×"
