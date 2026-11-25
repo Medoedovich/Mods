@@ -52,6 +52,16 @@
     "url": "https://discord.com/channels/452035973786632194/1575067129089228870/1575067129089228870",
     "publicLinkIndependentlyVerified": false
   },
+  "redditAnnouncementConfirmed": true,
+  "redditAnnouncement": {
+    "date": "2026-11-25",
+    "url": "https://www.reddit.com/r/dayz/comments/1y52lga/i_made_a_free_dayz_tool_for_placing_loot_at/",
+    "status": "AUTHOR_REPORTED_PUBLISHED",
+    "source": "AUTHOR_PROVIDED_LINK_AND_PUBLICATION_SCREENSHOTS",
+    "title": "I made a free DayZ tool for placing loot at custom angles — Proxy Placement Tool 1.0",
+    "publicAvailabilityIndependentlyVerified": false,
+    "postedByAssistant": false
+  },
   "discordAnnouncementConfirmed": true,
   "discordAnnouncement": {
     "date": "2026-11-25",

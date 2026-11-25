@@ -236,9 +236,9 @@
 
   **English:** Ensure vertical camera controls while holding RMB: **Q moves the camera up, Z moves it down**, following the world vertical and reading the keys directly rather than relying on Bulldozer bindings. Implemented for the next version; Russian technical checks passed and the author confirmed Q/Z operation in game on 2026-11-16. See [camera controls](docs/CAMERA-CONTROLS.md).
 
-- [ ] К выходу версии **1.0** написать пост на **Reddit** с примером использования инструмента.
+- [x] К выходу версии **1.0** написать пост на **Reddit** с примером использования инструмента. Автор опубликовал [анонс 1.0 в r/dayz](https://www.reddit.com/r/dayz/comments/1y52lga/i_made_a_free_dayz_tool_for_placing_loot_at/) 25 ноября 2026 и предоставил ссылку и скриншоты публикации с демонстрацией размещения в пабе.
 
-  **English:** Write a Reddit post for version **1.0**, including an example of using the tool.
+  **English:** Write a Reddit post for version **1.0**, including an example of using the tool. The author published the [r/dayz announcement](https://www.reddit.com/r/dayz/comments/1y52lga/i_made_a_free_dayz_tool_for_placing_loot_at/) on 25 November 2026 and supplied the link and publication screenshots, including a pub-placement demo link.
 
 - [x] Подготовить новое превью мода для 1.0: наглядно показать размещение лута под углом. Создана иллюстрированная обложка с колесом на водительском сиденье и Gizmo, без Alpha. Сохранены PNG, JPEG для Workshop и промпт; автор сообщил о релизе 25 ноября 2026, публичная обложка независимо не проверена. [Превью](workshop/1.0.0/preview-1.0.0-v2.jpg).
 
