@@ -53,7 +53,7 @@ Find XML exports and the Projects folder under:
 [b]%LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement[/b]
 
 [h2]Discussion[/h2]
-[url=https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158]DayZ Modders — discussion, feedback and placement examples[/url]
+[url=https://discord.com/channels/452035973786632194/1575067129089228870/1575067129089228870]DayZ Modders — discussion, feedback and placement examples[/url]
 
 [h2]Source code and instructions[/h2]
 [url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]GitHub — documentation, features, sources and build instructions[/url]

@@ -108,5 +108,5 @@ JSON-проекты находятся в `%LOCALAPPDATA%\ProxyPlacementTool\pro
 
 Опубликованная версия **0.2.0-alpha** прошла по **136 проверок на русском и английском** как в отдельных локальных установках, так и в скачанной Workshop-копии. Все **167 ключей локализации** получили переводы, все **17 файлов поставки** совпали с подготовленным пакетом. Подробности — в [отчёте](docs/VALIDATION.md).
 
-При ошибке укажите версию DayZDiag, classnames опоры и предмета, шаги воспроизведения, строки журнала RPT/script и XML. Для обращений — [GitHub Issues](https://github.com/Medoedovich/Mods/issues) и [комментарии Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464). Discord: **medoedovich**.
+При ошибке укажите версию DayZDiag, classnames опоры и предмета, шаги воспроизведения, строки журнала RPT/script и XML. Для обращений — [GitHub Issues](https://github.com/Medoedovich/Mods/issues), [обсуждение в DayZ Modders](https://discord.com/channels/452035973786632194/1575067129089228870/1575067129089228870) и [комментарии Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464). Discord: **medoedovich**.
 

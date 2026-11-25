@@ -45,5 +45,15 @@
     "verifiedPackageFiles": 17,
     "verification": "GitHub connector branch and recursive tree matched the local commit and all published file blobs"
   },
-  "discordAnnouncementConfirmed": false
+  "discordAnnouncementConfirmed": true,
+  "discordAnnouncement": {
+    "date": "2026-11-25",
+    "url": "https://discord.com/channels/452035973786632194/1575067129089228870/1575067129089228870",
+    "source": "AUTHOR_PROVIDED_LINK_AND_PUBLICATION_SCREENSHOTS",
+    "title": "Proxy Placement Tool — Custom loot positions and angles",
+    "coverAndVideoShownInAuthorScreenshot": true,
+    "previousAlphaThread": "https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158",
+    "previousThreadRedirectConfirmedByAuthor": true,
+    "postedByAssistant": false
+  }
 }
