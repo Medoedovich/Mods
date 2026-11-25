@@ -35,6 +35,15 @@
   "previewIndependentlyVerified": false,
   "expectedPreview": "1.0.0/preview-1.0.0-v2.jpg",
   "expectedPreviewSha256": "71FE89A3BEDD302791CC82CF2583C0E6B38B1FF95D104C8403F6BB1AE0E40408",
-  "githubPublicationPerformed": false,
+  "githubPublicationPerformed": true,
+  "githubPublication": {
+    "date": "2026-11-25",
+    "repository": "Medoedovich/Mods",
+    "branch": "main",
+    "releaseCommit": "f703caacb3ce5261a5e4e627c8252e0f5be6c913",
+    "verifiedGitBlobs": 155,
+    "verifiedPackageFiles": 17,
+    "verification": "GitHub connector branch and recursive tree matched the local commit and all published file blobs"
+  },
   "discordAnnouncementConfirmed": false
 }

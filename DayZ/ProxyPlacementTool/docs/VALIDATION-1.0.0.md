@@ -2,7 +2,7 @@
 
 **Published and delivery files verified:** the author released 1.0.0 on 25 November 2026. All 17 downloaded Workshop files match the package below by SHA-256. The bundled `dist` contains the same files. See the [publication record](workshop-1.0.0-publication.json) and [delivery verification](workshop-1.0.0-delivery-validation.json).
 
-Prepared on **24 November 2026**, published manually by the author and downloaded-file verified on **25 November 2026**. This is the first stable version number; runtime support remains **DayZDiag offline on Test Range**. GitHub publication and a Discord announcement have not been confirmed for 1.0.0.
+Prepared on **24 November 2026**, published manually by the author and downloaded-file verified on **25 November 2026**. This is the first stable version number; runtime support remains **DayZDiag offline on Test Range**. Sources, documentation, cover and the verified package were [published to GitHub](https://github.com/Medoedovich/Mods/commit/f703caacb3ce5261a5e4e627c8252e0f5be6c913) on 25 November. The GitHub connector confirmed the main-branch commit and all 155 file blobs, including all 17 package files. The Discord announcement remains with the author.
 
 ## Packaged runtime checks
 
@@ -37,7 +37,7 @@ Visual inspection remains with the author. Existing gallery images are from 0.4.
 3. Сверка скачанного обновления выполнена 25 ноября 2026: все 17 файлов совпали с проверенным пакетом. Записи публикации и поставляемая папка `dist` обновлены до сверенной 1.0.0; предыдущая поставка сохранена в резервной папке разработчика.
 4. Вручную сообщить о новой версии в Discord: номер версии, изменения, ссылка на Workshop и скриншоты, если есть.
 
-Подготовка исходников и документации GitHub выполнена локально; `dist` обновлён до сверенной 1.0.0, прежняя поставка сохранена в резервной папке разработчика. Предоставленные автору тексты описания и Change Notes сохранены как черновики; публичное описание и загруженная обложка независимо не проверены. Ассистент не изменял публичные страницы.
+Исходники, документация, обложка и сверенная папка `dist` версии 1.0.0 опубликованы в GitHub; совпадение файлов подтверждено через коннектор. Прежняя поставка сохранена в резервной папке разработчика. Предоставленные автору тексты описания и Change Notes сохранены как черновики; публичное описание Workshop и загруженная обложка независимо не проверены. Ассистент не изменял страницы Workshop и не отправлял объявление в Discord.
 
 ## Workshop delivery — 25 November 2026
 
