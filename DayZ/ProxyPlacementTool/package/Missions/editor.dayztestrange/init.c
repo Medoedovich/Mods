@@ -15,7 +15,7 @@ void main()
         player.GetInventory().CreateInInventory("HikingBoots_Black");
     }
     GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(IOT_StartProxyTool, 2000, false);
-    Print("[PROXY ALPHA] 0.4.0-alpha / Medoedovich / DayZDiag offline editor.");
+    Print("[PROXY TOOL] 1.0.0 / Medoedovich / DayZDiag offline editor.");
 }
 
 Mission CreateCustomMission(string path)

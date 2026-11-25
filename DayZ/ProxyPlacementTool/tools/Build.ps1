@@ -5,12 +5,15 @@ $taskProject = Split-Path -Parent $PSScriptRoot
 $taskSource = Join-Path $taskProject 'src\iot\proxytool'
 $taskMod = Get-Content -LiteralPath (Join-Path $taskProject 'package\mod.cpp') -Raw
 $taskVersion = [regex]::Match($taskMod,'(?m)^\s*version\s*=\s*"([^"]+)"\s*;').Groups[1].Value
+$taskDisplayName = [regex]::Match($taskMod,'(?m)^\s*name\s*=\s*"([^"]+)"\s*;').Groups[1].Value
 if (-not $taskVersion) { throw 'Missing package version in mod.cpp.' }
+if (-not $taskDisplayName) { throw 'Missing package name in mod.cpp.' }
 $taskBuildRoot = Join-Path $taskProject ('build\'+(Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
 $taskAddon = Join-Path $taskBuildRoot 'iot_proxy_tool'
 $taskPackage = Join-Path $taskBuildRoot '@ProxyPlacementTool'
 $taskRequired = @('config.cpp','stringtable.csv','scripts\5_Mission\IOTProxyTool.c','scripts\5_Mission\IOTMapCatalog.c','gui\proxy_tool.layout','gui\scene_browser.layout','gui\item_catalog_row.layout','gui\item_hover_preview.layout','gui\error_notification.layout','gui\anchor_replace.layout','gui\scene_items.layout','gui\player_mode.layout','gui\camera_speed.layout','gui\editor_viewport.layout','gui\editor_toolbar.layout','gui\catalog_drag.layout')
 $taskRequired += @('gui\project_dialog.layout','gui\toolbar_hint.layout','data\loot_volumes.txt')
+$taskRequired += @('gui\unsaved_project.layout')
 $taskRequired += @('gui\editor.styles','gui\editor_matte.layout','gui\editor_backdrop.edds')
 foreach ($taskName in $taskRequired) {
     if (-not (Test-Path -LiteralPath (Join-Path $taskSource $taskName) -PathType Leaf)) { throw ('Missing source: '+$taskName) }
@@ -50,7 +53,7 @@ if (-not $PrepareOnly) {
     $taskFiles = @(Get-ChildItem -LiteralPath $taskPackage -Recurse -File | ForEach-Object {
         [pscustomobject]@{Path=$_.FullName.Substring($taskPackage.Length+1).Replace('\','/');Bytes=$_.Length;SHA256=(Get-FileHash -LiteralPath $_.FullName).Hash}
     })
-    [ordered]@{Name='Proxy Placement Tool - Alpha';Author='Medoedovich';Version=$taskVersion;Runtime='DayZDiag offline';RequiredWorkshopItems=@('3826868718');EditorLanguages=@('Russian','English');Files=$taskFiles} | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $taskPackage 'release-manifest.json') -Encoding UTF8
+    [ordered]@{Name=$taskDisplayName;Author='Medoedovich';Version=$taskVersion;Runtime='DayZDiag offline';RequiredWorkshopItems=@('3826868718');EditorLanguages=@('Russian','English');Files=$taskFiles} | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $taskPackage 'release-manifest.json') -Encoding UTF8
     $taskRecord.Status = 'BUILT'
     $taskRecord.PBO = [ordered]@{Bytes=(Get-Item -LiteralPath $taskPbo).Length;SHA256=(Get-FileHash -LiteralPath $taskPbo).Hash}
 }

@@ -1,0 +1,22 @@
+{
+  "Status": "PASS_SPECIFIC_OBJECT_SUBGROUPS",
+  "Date": "2026-11-24",
+  "Language": "Russian",
+  "Packaging": "UNPACKED_MISSION",
+  "CatalogChecks": 329,
+  "SpecificSubgroupChecks": 24,
+  "LocalizationKeys": 374,
+  "AllMapCountsPreserved": true,
+  "ObjectClassCoveragePreserved": true,
+  "StaticObjDefaultPreserved": true,
+  "SearchAndExactClassSelection": "PASS",
+  "ClientRetainedAtValidation": true,
+  "PID": 10404,
+  "Runtime": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\item-maps\\20261124-163823-513-selftest",
+  "Log": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\item-maps\\20261124-163823-513-selftest\\profiles\\DayZDiag_x64_2026-11-24_16-38-24.RPT",
+  "SourceSHA256": "36290B166FDDAFA3E2D8CB98D35A50CC87D5B8DDFE84214258C60E09FAF079B8",
+  "EnglishValidation": "BEFORE_RELEASE",
+  "PBOBuilt": false,
+  "VisualReview": "AUTHOR_ON_REQUEST",
+  "Published": false
+}

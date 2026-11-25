@@ -12,9 +12,9 @@
 - Изменения исходников и документации в GitHub выполняются по запросу автора. Это не даёт разрешения загружать мод в Workshop, создавать GitHub Release или публиковать объявления.
 - При обычной разработке технические проверки выполняются на русском; английская версия проверяется перед релизом в Workshop. Визуальная проверка ассистентом — только по запросу автора; для самостоятельной проверки автор получает короткий чеклист. См. [порядок проверок](docs/VALIDATION.md).
 
-Для следующего ручного обновления описания подготовлен [текст в Steam BBCode](workshop/description-next.bbcode.txt): сначала ссылка на [русское описание и инструкцию](README-RU.md), затем английский текст без отдельного русского раздела. Это черновик; окончательный текст и его размещение остаются за автором.
+Для следующего ручного обновления описания подготовлен [текст в Steam BBCode](workshop/description-1.0.0-draft.bbcode.txt): сначала ссылка на [русское описание и инструкцию](README-RU.md), затем английский текст без отдельного русского раздела. Это черновик; окончательный текст и его размещение остаются за автором.
 
-`workshop/item.json` фиксирует опубликованную версию 0.4.0-alpha и совпадение всех 17 скачанных файлов с проверенной сборкой. Сохранение описания отмечено по подтверждению автора от 17 ноября 2026 года. `workshop/description-combined.bbcode.txt` остаётся историческим снимком описания 0.2.0-alpha; текущая редакция описания отдельно не сверена. Черновик следующего текста не считается точной копией опубликованного описания.
+`workshop/item.json` фиксирует публикацию 1.0.0 и совпадение всех 17 скачанных файлов с проверенным пакетом от 25 ноября 2026. [Запись публикации](workshop/publication-1.0.0.json) содержит результат сверки. `workshop/description-combined.bbcode.txt` остаётся историческим снимком 0.2.0-alpha. Тексты описания и Change Notes для 1.0.0, предоставленные автору в чате, сохранены как черновики; публичные тексты и обложка независимо не сверены.
 
 ## English
 
@@ -28,6 +28,6 @@
 - Source and documentation changes may be committed to GitHub at the author's request. This does not authorize a Workshop upload, a GitHub Release or a public announcement.
 - Routine technical checks use Russian; check English before a Workshop release. The assistant performs visual inspection only at the author's request and provides a short checklist for the author's own inspection. See the [validation workflow](docs/VALIDATION.md).
 
-The [next Workshop description draft](workshop/description-next.bbcode.txt) begins with a link to the Russian description and instructions, followed by English copy without a separate Russian section. The author controls the final text and posts it manually.
+The [next Workshop description draft](workshop/description-1.0.0-draft.bbcode.txt) begins with a link to the Russian description and instructions, followed by English copy without a separate Russian section. The author controls the final text and posts it manually.
 
-`workshop/item.json` records the published 0.4.0-alpha version and SHA-256 verification of all 17 downloaded package files. Saving the description is recorded from the author's confirmation on 17 November 2026. `workshop/description-combined.bbcode.txt` remains the historical 0.2.0-alpha description snapshot; the current description has not been independently checked. A draft must not be treated as an exact published-text snapshot.
+`workshop/item.json` records the published 1.0.0 release and all 17 downloaded files matching the validated package on 25 November 2026. See the [publication record](workshop/publication-1.0.0.json). `workshop/description-combined.bbcode.txt` remains a historical 0.2.0-alpha snapshot. The 1.0.0 description and Change Notes supplied to the author in chat are saved as drafts; public text and cover have not been independently checked.

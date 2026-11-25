@@ -1,7 +1,7 @@
 {
-  "title": "Proxy Placement Tool — Alpha",
+  "title": "Proxy Placement Tool",
   "author": "Medoedovich",
-  "version": "0.4.0-alpha",
+  "version": "1.0.0",
   "appId": 221100,
   "workshopItemId": "3839146464",
   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464",
@@ -15,49 +15,67 @@
   ],
   "runtime": "DayZDiag offline only",
   "sourceRepository": "https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool",
-  "preview": "preview.jpg",
+  "preview": "1.0.0/preview-1.0.0-v2.jpg",
   "previewKind": "AI-generated illustration; not an in-game screenshot",
-  "previewSha256": "8E422E06ED0126D8E696C2A6C6985B0C1E949432E25842B4D623A951F77AA72C",
+  "previewSha256": "71FE89A3BEDD302791CC82CF2583C0E6B38B1FF95D104C8403F6BB1AE0E40408",
   "description": "description-combined.bbcode.txt",
   "descriptionSha256": "AB17225BAD64CDA9E27666C6375EFD33E0B624E07B614226EB52115B38795713",
-  "publishedPboSha256": "874BB3248ED0CBD605E0FD550DFB898E29D6D0764CE69E75B9349291B23F1ED9",
+  "publishedPboSha256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E",
   "discussionUrl": "https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158",
   "discordContact": "medoedovich",
   "communityLinksUpdateDate": "2026-11-13",
   "communityLinksVerifiedInEnglishAndRussian": true,
-  "updatedDate": "2026-11-17",
-  "publishedContentManifestId": "7294150487483844695",
+  "updatedDate": "2026-11-25",
+  "publishedContentManifestId": "8375434699612165101",
   "descriptionBytes": 7785,
-  "workshopUploadStatus": "PUBLISHED",
+  "workshopUploadStatus": "PUBLISHED_FILES_VERIFIED",
   "downloadedCopyValidation": {
     "Status": "FILES_MATCH_PREPARED_PACKAGE",
+    "Version": "1.0.0",
     "VerifiedPackageFiles": 17,
-    "ValidatedDate": "2026-11-17",
+    "ValidatedDate": "2026-11-25",
+    "HostFilesystemChecked": true,
     "RuntimeRetested": false,
     "PreparedPackageRuntimeValidation": {
       "Languages": [
-        "English",
-        "Russian"
+        "Russian",
+        "English"
       ],
-      "ChecksPerLanguage": 395,
-      "LocalizationKeys": 255,
+      "ChecksPerLanguage": 658,
+      "LocalizationKeys": 410,
       "FilePatching": false
     }
   },
   "descriptionSnapshotVersion": "0.2.0-alpha",
   "descriptionSnapshotStatus": "HISTORICAL_SNAPSHOT_CURRENT_DESCRIPTION_NOT_VERIFIED",
-  "latestDescriptionDraft": "description-next.bbcode.txt",
+  "latestDescriptionDraft": "description-1.0.0-draft.bbcode.txt",
   "descriptionPublication": {
     "AuthorReportedSaved": true,
     "Date": "2026-11-17",
     "PublicTextIndependentlyVerified": false
   },
-  "changeNoteDraft": "changenote-0.4.0.bbcode.txt",
-  "changeNoteDraftVersion": "0.4.0-alpha",
+  "changeNoteDraft": "changenote-1.0.0.bbcode.txt",
+  "changeNoteDraftVersion": "1.0.0",
   "gallery": {
     "UploadedManuallyByAuthor": true,
     "Images": 3,
     "Date": "2026-11-16",
     "LocalSource": "../docs/screenshots/0.3.0-alpha/"
+  },
+  "latestAuthorReportedRelease": {
+    "version": "1.0.0",
+    "date": "2026-11-25",
+    "source": "AUTHOR_CONFIRMATION_IN_CHAT",
+    "downloadedCopyVerification": "FILES_MATCH_PREPARED_PACKAGE",
+    "record": "publication-1.0.0.json"
+  },
+  "previewSnapshotStatus": "PREPARED_1.0.0_COVER_PUBLIC_PAGE_NOT_VERIFIED",
+  "publicPageIndependentlyVerified": false,
+  "providedPublicationCopy": {
+    "Version": "1.0.0",
+    "Description": "description-1.0.0-draft.bbcode.txt",
+    "ChangeNotes": "changenote-1.0.0.bbcode.txt",
+    "Source": "TEXT_PROVIDED_TO_AUTHOR_IN_CHAT",
+    "PublicTextIndependentlyVerified": false
   }
 }

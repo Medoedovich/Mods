@@ -289,6 +289,29 @@ PanelWidgetClass IOTEditorToolbar {
     }
    }
   }
+  ButtonWidgetClass DeleteItem {
+   Name "DeleteItem"
+   position 8 8
+   size 40 40
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style IOT_Button
+   text ""
+   {
+    CanvasWidgetClass DeleteItemIcon {
+     Name "DeleteItemIcon"
+     position 6 6
+     size 28 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+    }
+   }
+  }
   ButtonWidgetClass SceneFocus {
    Name "SceneFocus"
    position 8 8

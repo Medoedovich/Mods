@@ -2,6 +2,8 @@
 
 Version 0.4.0-alpha includes transform history for the scene.
 
+The development version also records item creation and deletion. See [item operations](ITEM-OPERATIONS.md) for the additional behavior and checks.
+
 ## Controls
 
 - **Ctrl+Z** or **Undo** on the toolbar: undo the latest completed edit.
@@ -19,7 +21,7 @@ History is shared across selections. Undo/Redo selects the affected entity and r
 
 The most recent **100 completed edits** are retained in memory. A new transform edit after Undo clears the redo branch; unchanged transforms do not add entries. Switching between the editor and character mode preserves history. Entries for removed entities and items currently in inventory are discarded when replaying history, so Undo does not move inventory contents.
 
-Confirming anchor replacement clears history after validating the replacement. Cancelling replacement preserves it. Entity creation, deletion, anchor replacement, inventory actions and ordinary character gameplay are outside transform history. History is not saved across editor restarts.
+Confirming anchor replacement clears history after validating the replacement. Cancelling replacement preserves it. Anchor replacement, inventory actions and ordinary character gameplay are outside the history. Opening a project starts a new history. The development version records item creation and deletion as described in [item operations](ITEM-OPERATIONS.md).
 
 ## Validation
 

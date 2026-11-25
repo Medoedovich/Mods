@@ -1,6 +1,6 @@
-# Proxy Placement Tool — Alpha
+# Proxy Placement Tool
 
-By **Medoedovich**, version **0.4.0-alpha**.
+By **Medoedovich**, version **1.0.0**.
 
 An offline authoring tool for positioning items relative to buildings and wrecks, then exporting CE `dispatch` XML. **DayZDiag only.** Tested with DayZDiag **1.30.164289.70**.
 
@@ -20,19 +20,39 @@ Start-Editor.cmd -Game "X:\SteamLibrary\steamapps\common\DayZ" -TestRange "X:\St
 Start-Editor.cmd -ExtraMods "X:\Mods\@One;X:\Mods\@Two"
 ```
 
-`-CheckOnly` checks paths without writing files or starting the game. `-RuntimeRoot` selects a different data folder. The retail client, dedicated servers and multiplayer are not supported in this alpha. Enabling the mod in the regular DayZ Launcher alone does not open the editor; use the offline launcher above.
+`-CheckOnly` checks paths without writing files or starting the game. `-RuntimeRoot` selects a different data folder. The retail client, dedicated servers and multiplayer are not supported by this editor. Enabling the mod in the regular DayZ Launcher alone does not open the editor; use the offline launcher above.
+
+## Placement workflow
+
+1. **Add an anchor.** Choose a map and building/wreck in Objects, then drag it into the scene.
+2. **Show standard loot points.** Enable the cylinder icon in View. Account for the displayed volumes when choosing places for new proxies. This is a reference overlay; it does not spawn items at standard points.
+3. **Place items and check access.** Drag items from the catalog and adjust their positions and rotations. Use **F4 / Character** to inspect the placement against the checks below, then return to the editor.
+4. **Save the project and export XML.** The project keeps the scene editable. **Anchor XML** exports the placed items for CE integration; saving a project and exporting XML are separate actions.
+5. **Integrate the export into the target mission.** Merge `dispatch` into the appropriate `mapgroupproto.xml` group, preserving standard containers and other settings you need. Check the economy configuration, including `types.xml`. See [Export](#export) for paths and integration details.
+6. **Verify actual spawning.** Run the mission with CE and compare the spawned items' positions, rotations and accessibility with the editor. A separate DayZDiag offline mission with the relevant XML is sufficient for a control test. The economy must create the tested loot: **F4 in the editor checks the scripted preview and does not verify CE spawning**.
+
+An initial control run confirms the export works with the chosen mission configuration. Repeat the check particularly for a new item classname, a steep angle, a tight shelf or placement inside a wreck.
+
+### Placement checks
+
+- **Position and rotation:** after CE creates the item, it occupies the intended place and retains the chosen orientation.
+- **Intersections:** there is no unwanted clipping into walls, floors, furniture or other items. Account for standard loot volumes and possible nearby ordinary loot.
+- **Take action:** approaching the item offers the action and allows the item to be picked up in its usual way.
+- **Vicinity:** the item appears in the open inventory's Vicinity panel when the character is nearby.
+
+The editor checks preview geometry and accessibility. After integrating the XML, apply the same checks to items created by CE in the target mission.
 
 ## Work
 
 - In **Objects**, open a map/category or search by classname. Drag an actual building/wreck row onto a surface inside the world frame. The editor creates and frames the anchor; a normal click only selects a catalog entry.
-- The scene has **one anchor**. Dropping another opens **Replace / Cancel**; Escape cancels. Confirming removes the old anchor and its placed world items after validating the replacement. The character, inventory and existing XML exports remain. Export any layout you need before replacing it.
+- The scene has **one anchor**. Dropping another opens **Replace / Cancel**; Escape cancels. Confirming removes the old anchor and its placed world items after validating the replacement. The character, inventory and existing XML exports remain. Save the project or export any layout you need before replacing it; unsaved changes offer Save / Don't save / Cancel.
 - **Show StaticObj** is off by default. Residential buildings and wrecks have further subcategories; both catalog trees preserve folder expansion.
 - Open **Items**, search by the localized name or classname, then drag an item onto a surface in the world frame. Hover over a row for its 3D preview and full classname. Repeated drops create separate instances without a quantity limit. Drops outside the frame or over the sky cancel creation.
 - Select an item by clicking its model or its row in **Scene Objects**, below the catalog. Click empty world space to deselect. **F7 / Move** shows translation arrows; **F8 / Rotate** shows rotation rings. A drag stops when it leaves the world area and requires a new press to continue.
 - **Object Properties** shows Position in Move mode and Roll/Pitch/Yaw in Rotate mode. Valid numeric edits apply immediately. Each reset icon restores one component to its value at selection time; **F9** restores the full selection. Expand **Fine adjustments** for step controls.
 - Select the character or anchor in Scene Objects to move that entity with the native Gizmo or world position fields. Moving the anchor leaves items in place. Item coordinates are relative to the anchor; character and anchor positions are world coordinates. Only items can rotate.
 - Hold **RMB** over the scene to fly and release it to return to the cursor. WASD moves, Q rises and Z descends. The mouse wheel changes the 0.1–16× speed multiplier shown briefly below the crosshair. The camera icon in **View** lists all flight controls.
-- **Place on surface** lays the selected item flat on the ground or floor below it while preserving X and Z. Use **Undo** and **Redo** to restore or repeat completed transform edits.
+- **Place on surface** lays the selected item flat on the ground or floor below it while preserving X and Z. Use **Undo** and **Redo** to restore transforms and item creation/deletion.
 - Use the **standard loot overlay** to see existing spawn volumes and avoid placing proxies in the same space.
 - **F4 / Character** switches to the dressed test character for take-action and nearby-inventory checks. Close inventory and press F4 to return. Character HUD is hidden while editing.
 - The toolbar also focuses the anchor and exports XML. **Item XML / F10** exports the selected item and the full anchor; **Anchor XML** exports all associated ground items. **F11** toggles diagnostics. Errors appear in a separate dismissible notification.
@@ -57,9 +77,9 @@ Per-instance export files help authoring, but a CE prototype identified by one c
 
 The `profiles` folder contains logs and saved JSON projects under `ProxyPlacement\Projects`. The `sessions` folder contains startup mission copies.
 
-## Alpha limits
+## Scope and limits
 
-- Undo and Redo cover transforms. Entity creation and removal stay outside the transform history.
+- Undo and Redo cover transforms and item creation/deletion. Delete removes the selected item; normal text editing keeps its Delete key behavior.
 - Anchors use zero orientation and scale 1. Rotating the anchor itself is unsupported; transforms were calibrated for CE group `rpy="0 0 0" a="90"`.
 - Export requires integration and testing in the target CE mission.
 - Offline Test Range workflow, Russian/English UI, DayZDiag only; no retail or multiplayer support is claimed.

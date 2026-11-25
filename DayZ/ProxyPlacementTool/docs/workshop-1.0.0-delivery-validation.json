@@ -1,0 +1,111 @@
+{
+  "Status": "WORKSHOP_DELIVERY_FILES_VERIFIED",
+  "Version": "1.0.0",
+  "WorkshopItemId": "3839146464",
+  "WorkshopContentManifestId": "8375434699612165101",
+  "WorkshopInstall": "D:\\SteamLibrary\\steamapps\\workshop\\content\\221100\\3839146464",
+  "PreparedPackage": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\GitHubPublish\\Mods\\DayZ\\ProxyPlacementTool\\build\\20261124-173151-520\\@ProxyPlacementTool",
+  "VerifiedPackageFiles": 17,
+  "PboSHA256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E",
+  "Files": [
+    {
+      "Path": "CHANGELOG.md",
+      "Bytes": 15397,
+      "SHA256": "21B45BDD8B410F630D48FAABCB05D7F7345246762CBB14E626F544299A4C84AB"
+    },
+    {
+      "Path": "mod.cpp",
+      "Bytes": 293,
+      "SHA256": "F19A19A7DA00DA41F65C99716B4A680993561ABF63B0757594AE5AB5C3CB198F"
+    },
+    {
+      "Path": "README.en.md",
+      "Bytes": 8940,
+      "SHA256": "A8015DC6439CBAC970AC6C141B3DE1E69162B4516665F10496D4ECB2C3985E5F"
+    },
+    {
+      "Path": "README.ru.md",
+      "Bytes": 16629,
+      "SHA256": "DD98319D82AF6615B8430CF4512B7362C2CF5A3333EDB3A607710111036E9919"
+    },
+    {
+      "Path": "release-manifest.json",
+      "Bytes": 3002,
+      "SHA256": "7B152DBF0B7DC1F49160C1C47C2A8BCD8EAF14F8D7261B337EC04046720EEF2D"
+    },
+    {
+      "Path": "Start-Editor.cmd",
+      "Bytes": 124,
+      "SHA256": "1F87B881BBB2FBF5E65559B446532948A5101515BCA75609EA98458D34FA321F"
+    },
+    {
+      "Path": "Start-Editor.ps1",
+      "Bytes": 7334,
+      "SHA256": "7098DEC8EEDDA92FB210CA6CABDA2677A562C975128F4B54DE86A1EED0727BF8"
+    },
+    {
+      "Path": "addons/iot_proxy_tool.pbo",
+      "Bytes": 4158722,
+      "SHA256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/cfglimitsdefinition.xml",
+      "Bytes": 1283,
+      "SHA256": "BE989A40C63793BFA169E5F2B8AB1BD5DCE345E48ABC73BA6F5B751B324D0B88"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/cfglimitsdefinitionuser.xml",
+      "Bytes": 892,
+      "SHA256": "961E38A4D028C17EBC49FE8A21B56A632F4B90F5B282B253ED62083ECF362E0A"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/init.c",
+      "Bytes": 892,
+      "SHA256": "3615480C54109BB668C1259BD43C87D0EE535F9F61C4EC674D0463B2AF3C530C"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/mapgrouppos.xml",
+      "Bytes": 47,
+      "SHA256": "BF5AB390692608083F9B8D9EBC1BAA0CAEED08DCE59DA1F2E43DEDFD598A46AB"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/mapgroupproto.xml",
+      "Bytes": 53,
+      "SHA256": "EA8BF04AEE308DF3ECF52FA9D66475000D2FA1FE838AD7A03CDA8E65A3BA1CE5"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/economy.xml",
+      "Bytes": 476,
+      "SHA256": "C904E1EB7E0B4BC1A62D7B9BC73B9154AA1149CFBA9C8CC14FA4A91B650666B7"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/events.xml",
+      "Bytes": 50,
+      "SHA256": "6924CEFCA009AAD2440C03053AF47F95C70AE90D52D2532B365DC2F2691A96FE"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/globals.xml",
+      "Bytes": 1738,
+      "SHA256": "6E8643D841ADCC53198853010BDDFD1844F49037F3CE7571A9C8F79843D37415"
+    },
+    {
+      "Path": "Missions/editor.dayztestrange/db/types.xml",
+      "Bytes": 49,
+      "SHA256": "17715D6637713EE59FFBF40CBA5A02D0F72EDAAB7880C78B32B8588C7B457D9E"
+    }
+  ],
+  "RuntimeRetested": false,
+  "PreparedPackageRuntimeValidation": {
+    "Languages": [
+      "Russian",
+      "English"
+    ],
+    "ChecksPerLanguage": 658,
+    "LocalizationKeys": 410,
+    "FilePatching": false
+  },
+  "ValidatedAt": "2026-11-25T10:58:56.9535796+03:00",
+  "PublicationDate": "2026-11-25",
+  "HostFilesystemChecked": true,
+  "PublicPageIndependentlyVerified": false
+}

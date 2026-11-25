@@ -1,0 +1,36 @@
+{
+  "Date": "2026-11-24",
+  "Status": "PHYSICAL_F4_MODE_SWITCH_VERIFIED",
+  "Language": "Russian",
+  "Source": "Author physical keyboard; native mode_key_probe.c observer",
+  "AuthorConfirmed": true,
+  "ObservationSecondsPerEvent": 2,
+  "GestureDetected": false,
+  "Events": [
+    {
+      "Event": 1,
+      "Key": 62,
+      "Samples": 201,
+      "MenuOpen": 0,
+      "CameraBefore": 1,
+      "CameraAfter": 0,
+      "EmoteSeen": 0,
+      "KeyReleased": 1,
+      "SwitchLatchAfterRelease": 0
+    },
+    {
+      "Event": 2,
+      "Key": 62,
+      "Samples": 101,
+      "MenuOpen": 0,
+      "CameraBefore": 0,
+      "CameraAfter": 1,
+      "EmoteSeen": 0,
+      "KeyReleased": 1,
+      "SwitchLatchAfterRelease": 0
+    }
+  ],
+  "SourceSHA256": "F6E368B1597476C9216F837D875D4630A32795D1F317EC2E180DFDF33D8AEB03",
+  "FullEditorSuite": false,
+  "PBOBuilt": false
+}

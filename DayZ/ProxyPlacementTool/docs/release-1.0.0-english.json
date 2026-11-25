@@ -1,0 +1,53 @@
+{
+  "Status": "PACKAGED_RELEASE_CANDIDATE_VALIDATED",
+  "Version": "1.0.0",
+  "Package": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\GitHubPublish\\Mods\\DayZ\\ProxyPlacementTool\\build\\20261124-173151-520\\@ProxyPlacementTool",
+  "TestedInstallation": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\installed with spaces\\@ProxyPlacementTool",
+  "Runtime": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English",
+  "Language": "English",
+  "Log": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\script_2026-11-24_17-34-36.log",
+  "EngineLog": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\DayZDiag_x64_2026-11-24_17-34-36.RPT",
+  "PboSHA256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E",
+  "Checks": 658,
+  "FeatureAssertions": 266,
+  "LocalizationKeys": 410,
+  "PackageFiles": 17,
+  "InstalledCopy": true,
+  "FilePatching": false,
+  "WindowsPowerShellLauncherPreflight": "PASSED",
+  "Exports": [
+    {
+      "File": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\ProxyPlacement\\HatchbackWheel.proxy.xml",
+      "Proxies": 1
+    },
+    {
+      "File": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\ProxyPlacement\\selection.xml",
+      "Proxies": 1
+    },
+    {
+      "File": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\ProxyPlacement\\Land_Garage_Row_Small\\2026-11-24_14-34-59UTC_scene_2.xml",
+      "Proxies": 2
+    },
+    {
+      "File": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\ProxyPlacement\\Land_Garage_Row_Small\\2026-11-24_14-34-59UTC_scene_3.xml",
+      "Proxies": 1
+    },
+    {
+      "File": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\ProxyPlacement\\Land_Garage_Row_Small\\2026-11-24_14-34-59UTC_scene_4.xml",
+      "Proxies": 3
+    },
+    {
+      "File": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\release-1.0.0\\20261124-173435-405-English\\profiles\\ProxyPlacement\\Land_Wreck_hb01_aban1_blue\\2026-11-24_14-34-59UTC_scene_1.xml",
+      "Proxies": 9
+    }
+  ],
+  "PID": 23280,
+  "ClientKeptOpen": true,
+  "ShutdownValidated": false,
+  "CompilationErrors": 0,
+  "VirtualMachineExceptions": 0,
+  "UnsupportedGuiKeywords": 0,
+  "VisualReview": "AUTHOR_CHECK",
+  "Published": false,
+  "ValidatedAt": "2026-11-24T17:35:11.8502937+03:00"
+}

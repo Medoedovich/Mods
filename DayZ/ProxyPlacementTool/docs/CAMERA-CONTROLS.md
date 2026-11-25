@@ -25,3 +25,13 @@ On 2026-11-16 the Russian unpacked mission passed all 302 native checks, includi
 3. Press RMB over a panel and move into the world without releasing: the camera should remain stationary.
 4. During flight, open Escape or switch to another application. On return, flight should remain stopped until RMB is released and pressed again.
 5. Switch to the character with F4, check normal movement and RMB behavior, then return to the editor.
+
+## F4 mode switch (unreleased)
+
+F4 switches between the editor and normal character controls without starting the gesture normally bound to that key. The mission handler consumes F4 before the standard mission handler, suppresses `EmoteTaunt` and legacy `UAGestureSlot04`, and disables the raw key for the current frame before restoring gameplay focus. A held-key latch prevents repeated switching until release; losing application focus also clears the latch. Other gesture controls are not permanently disabled or rebound.
+
+**Verified on 24 November 2026:** the author pressed F4 on a physical keyboard, waited, and pressed it again. The native diagnostic recorded editor → character and character → editor, with no gesture detected in the two-second observation window after either press (201 and 101 sampled frames). Both key releases were received and the latch was cleared. The author also confirmed that both switches worked without a gesture. This is a targeted keyboard check, not a full editor regression. See [recorded results](MODE-SWITCH-VALIDATION.json).
+
+Developer review launch: `ProxyPlacementTool/release/Test-WorldViewport.ps1 -ModeSwitch -Preview -Demo -Language Russian`. It creates a loose mission, injects the diagnostic observer, opens a wreck/wheel scene and leaves the client running. No PBO is built. `mode-key-*.json` files in the runtime profile record actual input events; a synthetic key that the game does not receive is not treated as a successful check.
+
+По-русски: **F4 проверена 24 ноября 2026 обычной клавиатурой**. Переход к персонажу и обратно работает без жеста; отпускание клавиши зарегистрировано. Диагностика просмотрела по две секунды после каждого нажатия. Перехват уже был подготовлен в исходниках; этим прогоном закрыта его проверка в игре. Редактор оставлен открытым.

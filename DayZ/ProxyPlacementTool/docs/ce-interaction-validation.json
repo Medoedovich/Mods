@@ -1,0 +1,65 @@
+{
+  "Date": "2026-11-24",
+  "Status": "PASS_CE_EXPORT_PICKUP_AND_VICINITY",
+  "Mode": "DayZDiag offline",
+  "Language": "Russian",
+  "Anchor": "Land_Garage_Row_Small",
+  "ExportSHA256": "B9AAE0399D89CA69FBFEAA8592E73997D49E4CFE2E4B6297287842E22AF456A6",
+  "ProxyCount": 3,
+  "PositionAndOrientationResults": [
+    {
+      "Classname": "HatchbackWheel",
+      "ExpectedPosition": "511.183807 1.438158 509.421387",
+      "ActualPosition": "511.183807 1.438158 509.421387",
+      "PositionError": 0.0,
+      "BasisAgreement": 0.9999998807907104,
+      "Matched": 1
+    },
+    {
+      "Classname": "HatchbackWheel",
+      "ExpectedPosition": "511.883789 1.438158 509.421387",
+      "ActualPosition": "511.883789 1.438158 509.421387",
+      "PositionError": 0.0,
+      "BasisAgreement": 0.9999998807907104,
+      "Matched": 1
+    },
+    {
+      "Classname": "Hammer",
+      "ExpectedPosition": "512.583679 1.098918 509.421387",
+      "ActualPosition": "512.583679 1.098918 509.421387",
+      "PositionError": 0.0,
+      "BasisAgreement": 0.9999998807907104,
+      "Matched": 1
+    }
+  ],
+  "StandardPoints": 64,
+  "StandardUniqueTypes": 34,
+  "StandardMaxRepeat": 2,
+  "AuthorConfirmedTakeAndVicinity": true,
+  "NativeInteractionObservations": [
+    {
+      "Classname": "HatchbackWheel",
+      "InitialPosition": "511.183807 1.438158 509.421387",
+      "SeenInVicinity": 1,
+      "TakenByPlayer": 1
+    },
+    {
+      "Classname": "HatchbackWheel",
+      "InitialPosition": "511.883789 1.438158 509.421387",
+      "SeenInVicinity": 1,
+      "TakenByPlayer": 1
+    },
+    {
+      "Classname": "Hammer",
+      "InitialPosition": "512.583679 1.098918 509.421387",
+      "SeenInVicinity": 1,
+      "TakenByPlayer": 1
+    }
+  ],
+  "ObservationSource": "Original CE instances, native inventory Vicinity list and player hierarchy",
+  "ObserverMutatesLoot": false,
+  "Fixture": "Maximum-density quotas, relaxed regional/usage filters, original standard point coordinates and exported proxy XML",
+  "SeparateServerStarted": false,
+  "MultiplayerTested": false,
+  "PBOBuilt": false
+}

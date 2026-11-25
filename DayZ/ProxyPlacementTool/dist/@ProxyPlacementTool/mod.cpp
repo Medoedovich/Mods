@@ -1,5 +1,5 @@
-name = "Proxy Placement Tool - Alpha";
+name = "Proxy Placement Tool";
 author = "Medoedovich";
-version = "0.4.0-alpha";
+version = "1.0.0";
 tooltip = "Offline CE proxy placement editor for DayZDiag";
-overview = "Alpha authoring tool: place items relative to buildings and wrecks, use native Gizmo controls and export CE dispatch XML. DayZDiag only. Projects cannot be saved or reopened yet.";
+overview = "Offline DayZDiag editor for placing loot proxies relative to buildings and wrecks. Save JSON projects, use Undo/Redo and export CE dispatch XML.";

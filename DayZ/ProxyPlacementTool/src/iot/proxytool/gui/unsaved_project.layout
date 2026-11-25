@@ -1,0 +1,95 @@
+PanelWidgetClass UnsavedOverlay {
+ Name "UnsavedOverlay"
+ visible 0
+ position 0 0
+ size 1280 720
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ color 0 0 0 0.72
+ style rover_sim_colorable
+ {
+  PanelWidgetClass UnsavedDialog {
+   Name "UnsavedDialog"
+   position 360 240
+   size 560 230
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   color 0.075 0.10 0.125 0.96
+   style rover_sim_colorable
+   {
+    TextWidgetClass UnsavedTitle {
+     Name "UnsavedTitle"
+     position 20 16
+     size 520 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 20
+     text "#STR_IOT_UNSAVED_TITLE"
+    }
+    MultilineTextWidgetClass UnsavedText {
+     Name "UnsavedText"
+     position 20 64
+     size 520 72
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     ignorepointer 1
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     wrap 1
+     text "#STR_IOT_UNSAVED_TEXT"
+    }
+    ButtonWidgetClass UnsavedSave {
+     Name "UnsavedSave"
+     position 20 172
+     size 168 38
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style IOT_Button
+     font "gui/fonts/sdf_MetronBook24"
+     text_proportion 0.47
+     text "#STR_IOT_UNSAVED_SAVE"
+    }
+    ButtonWidgetClass UnsavedDiscard {
+     Name "UnsavedDiscard"
+     position 196 172
+     size 168 38
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style IOT_Button
+     font "gui/fonts/sdf_MetronBook24"
+     text_proportion 0.47
+     text "#STR_IOT_UNSAVED_DISCARD"
+    }
+    ButtonWidgetClass UnsavedCancel {
+     Name "UnsavedCancel"
+     position 372 172
+     size 168 38
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style IOT_Button
+     font "gui/fonts/sdf_MetronBook24"
+     text_proportion 0.47
+     text "#STR_IOT_REPLACE_CANCEL"
+    }
+   }
+  }
+ }
+}

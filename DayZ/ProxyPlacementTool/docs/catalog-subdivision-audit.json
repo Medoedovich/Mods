@@ -1,0 +1,3421 @@
+{
+  "Metadata": {
+    "Date": "2026-11-23",
+    "Source": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\validation\\item-maps\\20261123-182059-635-selftest\\profiles\\catalog-audit.csv",
+    "Language": "Russian",
+    "VisibleItems": 2176,
+    "DistinctClasses": 2176,
+    "BooksUnchanged": 144,
+    "MapMembershipUnchanged": true,
+    "DisplayNamesUnchanged": true,
+    "BranchesWithMoreThan30DirectItems": 1,
+    "BranchesWithMoreThan30DirectRows": 1,
+    "Definition": "DirectRows = direct item entries plus populated immediate child folders. Counts exclude descendants of closed child folders.",
+    "NativeChecks": 285,
+    "SourceSHA256": "2E1B08AD3DF0ED46E74818B82203885CC8A2295739E6E6EE1104C6B8B6F951A5"
+  },
+  "OversizedBranches": [
+    {
+      "Path": "items/common/GEAR/BOOKS",
+      "Caption": "Общее > Снаряжение > Книги",
+      "DirectItems": 144,
+      "Folders": 0,
+      "DirectRows": 144,
+      "TotalItems": 144
+    }
+  ],
+  "AllBranches": [
+    {
+      "Path": "items/common",
+      "Caption": "Общее",
+      "DirectItems": 0,
+      "Folders": 8,
+      "DirectRows": 8,
+      "TotalItems": 1935
+    },
+    {
+      "Path": "items/common/AMMO",
+      "Caption": "Общее > Боеприпасы",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 122
+    },
+    {
+      "Path": "items/common/AMMO/BOXES",
+      "Caption": "Общее > Боеприпасы > Пачки патронов",
+      "DirectItems": 20,
+      "Folders": 0,
+      "DirectRows": 20,
+      "TotalItems": 20
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES",
+      "Caption": "Общее > Боеприпасы > Магазины",
+      "DirectItems": 0,
+      "Folders": 12,
+      "DirectRows": 12,
+      "TotalItems": 68
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_12GA",
+      "Caption": "Общее > Боеприпасы > Магазины > 12 калибр",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_22",
+      "Caption": "Общее > Боеприпасы > Магазины > .22 LR",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_308WIN",
+      "Caption": "Общее > Боеприпасы > Магазины > .308 Win",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_357",
+      "Caption": "Общее > Боеприпасы > Магазины > .357 Magnum",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_380",
+      "Caption": "Общее > Боеприпасы > Магазины > .380 ACP",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_45ACP",
+      "Caption": "Общее > Боеприпасы > Магазины > .45 ACP",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_545X39",
+      "Caption": "Общее > Боеприпасы > Магазины > 5.45x39 мм",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_556X45",
+      "Caption": "Общее > Боеприпасы > Магазины > 5.56x45 мм",
+      "DirectItems": 21,
+      "Folders": 0,
+      "DirectRows": 21,
+      "TotalItems": 21
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_762X39",
+      "Caption": "Общее > Боеприпасы > Магазины > 7.62x39 мм",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_762X54",
+      "Caption": "Общее > Боеприпасы > Магазины > 7.62x54 мм R",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_9X19",
+      "Caption": "Общее > Боеприпасы > Магазины > 9x19 мм",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/AMMO/MAGAZINES/CAL_9X39",
+      "Caption": "Общее > Боеприпасы > Магазины > 9x39 мм",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 34
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/BOLTS",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Болты",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны",
+      "DirectItems": 0,
+      "Folders": 12,
+      "DirectRows": 12,
+      "TotalItems": 20
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_12GA",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > 12 калибр",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_22",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > .22 LR",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_308WIN",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > .308 Win",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_357",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > .357 Magnum",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_380",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > .380 ACP",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_45ACP",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > .45 ACP",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_545X39",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > 5.45x39 мм",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_556X45",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > 5.56x45 мм",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_762X39",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > 7.62x39 мм",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_762X54",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > 7.62x54 мм R",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_9X19",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > 9x19 мм",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/CARTRIDGES/CAL_9X39",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Патроны > 9x39 мм",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/FLARES",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > Сигнальные ракеты",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/AMMO/ROUNDS/GRENADES",
+      "Caption": "Общее > Боеприпасы > Патроны и снаряды > 40-мм гранаты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/ATTACHMENTS",
+      "Caption": "Общее > Обвесы",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 90
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/LIGHT",
+      "Caption": "Общее > Обвесы > Оружейные фонари",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/MUZZLE",
+      "Caption": "Общее > Обвесы > Дульные устройства",
+      "DirectItems": 10,
+      "Folders": 0,
+      "DirectRows": 10,
+      "TotalItems": 10
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/OPTICS",
+      "Caption": "Общее > Обвесы > Прицелы",
+      "DirectItems": 24,
+      "Folders": 0,
+      "DirectRows": 24,
+      "TotalItems": 24
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT",
+      "Caption": "Общее > Обвесы > Приклады и цевья",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 54
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/CAMOUFLAGE",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Маскировка",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/HANDGUARDS",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Цевья",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 22
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/HANDGUARDS/SYSTEM_AK",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Цевья > Семейство КА",
+      "DirectItems": 11,
+      "Folders": 0,
+      "DirectRows": 11,
+      "TotalItems": 11
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/HANDGUARDS/SYSTEM_M4",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Цевья > Семейство M4",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/HANDGUARDS/SYSTEM_MP5",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Цевья > Семейство SG5",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/STOCKS",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Приклады",
+      "DirectItems": 0,
+      "Folders": 6,
+      "DirectRows": 6,
+      "TotalItems": 31
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/STOCKS/OTHER",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Приклады > Прочее",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/STOCKS/SYSTEM_AK",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Приклады > Семейство КА",
+      "DirectItems": 16,
+      "Folders": 0,
+      "DirectRows": 16,
+      "TotalItems": 16
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/STOCKS/SYSTEM_FAL",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Приклады > Семейство LAR",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/STOCKS/SYSTEM_M4",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Приклады > Семейство M4",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/STOCKS/SYSTEM_MP5",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Приклады > Семейство SG5",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/ATTACHMENTS/SUPPORT/STOCKS/SYSTEM_SCAR",
+      "Caption": "Общее > Обвесы > Приклады и цевья > Приклады > Семейство SCR",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/CLOTHING",
+      "Caption": "Общее > Одежда",
+      "DirectItems": 0,
+      "Folders": 10,
+      "DirectRows": 10,
+      "TotalItems": 747
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS",
+      "Caption": "Общее > Одежда > Рюкзаки",
+      "DirectItems": 10,
+      "Folders": 14,
+      "DirectRows": 24,
+      "TotalItems": 59
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_AliceBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Полевой рюкзак",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_ArmyPouch_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Армейская сумка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_AssaultBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Штурмовой рюкзак",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_Attack2Bag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Рюкзак для дальних походов",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_CanvasBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Холщовая сумка",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_ChildBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Школьный рюкзак",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_CoyoteBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Тактический рюкзак",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_DryBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Водонепроницаемый рюкзак",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_DrysackBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Гермомешок",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_DuffelBagSmall_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Кожаная сумка",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_LeatherSack_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Кожаный рюкзак",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_MountainBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Альпинистский рюкзак",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_SlingBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Сумка на ремне",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/BACKPACKS/MODEL_TaloonBag_ColorBase",
+      "Caption": "Общее > Одежда > Рюкзаки > Походный рюкзак",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/BELTS",
+      "Caption": "Общее > Одежда > Ремни",
+      "DirectItems": 16,
+      "Folders": 0,
+      "DirectRows": 16,
+      "TotalItems": 16
+    },
+    {
+      "Path": "items/common/CLOTHING/GLASSES",
+      "Caption": "Общее > Одежда > Очки",
+      "DirectItems": 20,
+      "Folders": 0,
+      "DirectRows": 20,
+      "TotalItems": 20
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES",
+      "Caption": "Общее > Одежда > Перчатки",
+      "DirectItems": 1,
+      "Folders": 9,
+      "DirectRows": 10,
+      "TotalItems": 35
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_LeatherGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Кожаные перчатки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_NBCGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Рукавицы химкостюма",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_OMNOGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Боевые перчатки",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_PaddedGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Утепленные перчатки",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_SurgicalGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Хирургические перчатки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_TacticalGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Тактические перчатки",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_WoolGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Шерстяные перчатки",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_WoolGlovesFingerless_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Перчатки без пальцев",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/GLOVES/MODEL_WorkingGloves_ColorBase",
+      "Caption": "Общее > Одежда > Перчатки > Рабочие перчатки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR",
+      "Caption": "Общее > Одежда > Головные уборы",
+      "DirectItems": 0,
+      "Folders": 7,
+      "DirectRows": 7,
+      "TotalItems": 188
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/CAPS_BERETS",
+      "Caption": "Общее > Одежда > Головные уборы > Кепки и береты",
+      "DirectItems": 9,
+      "Folders": 6,
+      "DirectRows": 15,
+      "TotalItems": 40
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/CAPS_BERETS/MODEL_BaseballCap_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Кепки и береты > Бейсболка",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/CAPS_BERETS/MODEL_FlatCap_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Кепки и береты > Кепка",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/CAPS_BERETS/MODEL_MilitaryCap_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Кепки и береты > Военная фуражка ",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/CAPS_BERETS/MODEL_OKZKCap_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Кепки и береты > Кепка от ОКЗК",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/CAPS_BERETS/MODEL_RadarCap_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Кепки и береты > Вязаная шапка с козырьком",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/CAPS_BERETS/MODEL_ZmijovkaCap_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Кепки и береты > Змеёвка",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения",
+      "DirectItems": 4,
+      "Folders": 7,
+      "DirectRows": 11,
+      "TotalItems": 37
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_BoonieHat_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения > Панама",
+      "DirectItems": 10,
+      "Folders": 0,
+      "DirectRows": 10,
+      "TotalItems": 10
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_ChristmasHeadband_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения > Праздничный ободок",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_CowboyHat_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения > Ковбойская шляпа",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_Headdress_Colorbase",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения > Шапка охотника",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_LeafCrown_Colorbase",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения > Венок из листьев",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_LeatherHat_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения > Кожаная шляпа",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_MedicalScrubsHat_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шляпы и украшения > Шапочка медика",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMET_ACCESSORIES",
+      "Caption": "Общее > Одежда > Головные уборы > Аксессуары шлемов",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы",
+      "DirectItems": 7,
+      "Folders": 11,
+      "DirectRows": 18,
+      "TotalItems": 59
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_BallisticHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Баллистический шлем",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_ConstructionHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Строительная каска",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_DarkMotoHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Мотоциклетный шлем",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_DirtBikeHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Кроссовый мотошлем",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_FirefightersHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Шлем пожарного",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_GorkaHelmet",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Штурмовой шлем",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_HockeyHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Хоккейный шлем",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_MotoHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Мотоциклетный шлем",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_SkateHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Скейтерский шлем",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_T56TankerHelmet_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Шлем T65",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HELMETS/MODEL_ZSh3PilotHelmet",
+      "Caption": "Общее > Одежда > Головные уборы > Шлемы > Летный шлем",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HOODS_WRAPS",
+      "Caption": "Общее > Одежда > Головные уборы > Капюшоны и повязки",
+      "DirectItems": 4,
+      "Folders": 5,
+      "DirectRows": 9,
+      "TotalItems": 25
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HOODS_WRAPS/MODEL_Bandana_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Капюшоны и повязки > Бандана",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HOODS_WRAPS/MODEL_NBCHoodBase",
+      "Caption": "Общее > Одежда > Головные уборы > Капюшоны и повязки > Капюшон химкостюма",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HOODS_WRAPS/MODEL_WinterCoif_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Капюшоны и повязки > Зимний подшлемник",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HOODS_WRAPS/MODEL_WitchHood_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Капюшоны и повязки > Ведьминский капюшон",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/HOODS_WRAPS/MODEL_WitchHoodCoif_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Капюшоны и повязки > Бронированный капюшон",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/OTHER",
+      "Caption": "Общее > Одежда > Головные уборы > Прочее",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/OTHER/MODEL_Headtorch_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Прочее > Налобный фонарик",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/OTHER/MODEL_Shemag_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Прочее > Шемаг",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/WARM_HATS",
+      "Caption": "Общее > Одежда > Головные уборы > Тёплые шапки",
+      "DirectItems": 1,
+      "Folders": 4,
+      "DirectRows": 5,
+      "TotalItems": 18
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/WARM_HATS/MODEL_BeanieHat_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Тёплые шапки > Вязаная шапка",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/WARM_HATS/MODEL_PetushokHat_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Тёплые шапки > Шапка «Петушок»",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/WARM_HATS/MODEL_SherpaHat_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Тёплые шапки > Шапочка Шерпа",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/HEADGEAR/WARM_HATS/MODEL_Ushanka_ColorBase",
+      "Caption": "Общее > Одежда > Головные уборы > Тёплые шапки > Шапка-ушанка",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/MASKS",
+      "Caption": "Общее > Одежда > Маски",
+      "DirectItems": 10,
+      "Folders": 4,
+      "DirectRows": 14,
+      "TotalItems": 31
+    },
+    {
+      "Path": "items/common/CLOTHING/MASKS/MODEL_Balaclava3Holes_ColorBase",
+      "Caption": "Общее > Одежда > Маски > Балаклава",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/MASKS/MODEL_BalaclavaMask_ColorBase",
+      "Caption": "Общее > Одежда > Маски > Лыжная маска",
+      "DirectItems": 10,
+      "Folders": 0,
+      "DirectRows": 10,
+      "TotalItems": 10
+    },
+    {
+      "Path": "items/common/CLOTHING/MASKS/MODEL_MimeMask_Male",
+      "Caption": "Общее > Одежда > Маски > Маска мима",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/MASKS/MODEL_PaydayMask_ColorBase",
+      "Caption": "Общее > Одежда > Маски > Маска Далласа",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS",
+      "Caption": "Общее > Одежда > Штаны",
+      "DirectItems": 8,
+      "Folders": 17,
+      "DirectRows": 25,
+      "TotalItems": 90
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_Breeches_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Брюки капри",
+      "DirectItems": 10,
+      "Folders": 0,
+      "DirectRows": 10,
+      "TotalItems": 10
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_CanvasPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Походные штаны",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_CanvasPantsMidi_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Укор. походные штаны",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_CargoPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Штаны карго",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_FirefightersPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Штаны пожарного",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_GorkaPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Патрульные штаны",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_HunterPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Охотничьи штаны",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_Jeans_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Джинсы",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_JumpsuitPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Штаны рабочего",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_LeatherPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Кожаные штаны",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_MedicalScrubsPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Штаны медика",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_NBCPantsBase",
+      "Caption": "Общее > Одежда > Штаны > Штаны химкостюма",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_ParamedicPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Штаны санитара",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_ShortJeans_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Джинсовые шорты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_Skirt_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Джинсовая юбка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_SlacksPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Брюки",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/PANTS/MODEL_TrackSuitPants_ColorBase",
+      "Caption": "Общее > Одежда > Штаны > Спортивные штаны",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES",
+      "Caption": "Общее > Одежда > Обувь",
+      "DirectItems": 3,
+      "Folders": 16,
+      "DirectRows": 19,
+      "TotalItems": 70
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_AthleticShoes_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Спортивные ботинки",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_Ballerinas_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Балетки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_CombatBoots_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Охотничьи ботинки",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_DressShoes_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Туфли",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_HikingBoots_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Походные ботинки",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_HikingBootsLow_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Треккинговые ботинки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_JoggingShoes_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Беговая обувь",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_JungleBoots_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Ботинки для джунглей",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_LeatherShoes_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Кожаные ботинки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_MilitaryBoots_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Штурмовые ботинки",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_NBCBootsBase",
+      "Caption": "Общее > Одежда > Обувь > Сапоги химкостюма",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_SandalsShoes_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Сандалии",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_Sneakers_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Кроссовки",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_TraditionalBoots_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Меховые сапоги",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_Wellies_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Резиновые сапоги",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/SHOES/MODEL_WorkingBoots_ColorBase",
+      "Caption": "Общее > Одежда > Обувь > Рабочие ботинки",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS",
+      "Caption": "Общее > Одежда > Верхняя одежда",
+      "DirectItems": 0,
+      "Folders": 8,
+      "DirectRows": 8,
+      "TotalItems": 199
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/ARMBANDS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Нарукавные повязки",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 41
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/ARMBANDS/MODEL_Armband_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Нарукавные повязки > Нарукавная повязка",
+      "DirectItems": 0,
+      "Folders": 5,
+      "DirectRows": 5,
+      "TotalItems": 41
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/ARMBANDS/MODEL_Armband_ColorBase/ANIMALS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Нарукавные повязки > Нарукавная повязка > Рисунки животных",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/ARMBANDS/MODEL_Armband_ColorBase/ORGANIZATIONS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Нарукавные повязки > Нарукавная повязка > Организации и фракции",
+      "DirectItems": 13,
+      "Folders": 0,
+      "DirectRows": 13,
+      "TotalItems": 13
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/ARMBANDS/MODEL_Armband_ColorBase/OTHER_SYMBOLS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Нарукавные повязки > Нарукавная повязка > Другие рисунки",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/ARMBANDS/MODEL_Armband_ColorBase/PLACES",
+      "Caption": "Общее > Одежда > Верхняя одежда > Нарукавные повязки > Нарукавная повязка > Территории",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/ARMBANDS/MODEL_Armband_ColorBase/PLAIN",
+      "Caption": "Общее > Одежда > Верхняя одежда > Нарукавные повязки > Нарукавная повязка > Однотонные",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/IMPROVISED",
+      "Caption": "Общее > Одежда > Верхняя одежда > Самодельная одежда",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто",
+      "DirectItems": 5,
+      "Folders": 10,
+      "DirectRows": 15,
+      "TotalItems": 62
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_BomberJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Бомбер",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_GorkaEJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Патрульная куртка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_HikingJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Походная куртка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_HuntingJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Охотничья куртка",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_JumpsuitJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Куртка рабочего",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_LeatherJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Кожаная куртка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_M65Jacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Полевая куртка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_QuiltedJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Телогрейка",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_Raincoat_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Дождевик",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/JACKETS/MODEL_WoolCoat_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Куртки и пальто > Бушлат",
+      "DirectItems": 10,
+      "Folders": 0,
+      "DirectRows": 10,
+      "TotalItems": 10
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/OTHER",
+      "Caption": "Общее > Одежда > Верхняя одежда > Прочее",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 26
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/OTHER/MODEL_ManSuit_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Прочее > Пиджак мужской",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/OTHER/MODEL_MiniDress_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Прочее > Платье с воротником",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/OTHER/MODEL_NurseDress_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Прочее > Платье медсестры",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/OTHER/MODEL_WomanSuit_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Прочее > Пиджак женский",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/PROTECTIVE",
+      "Caption": "Общее > Одежда > Верхняя одежда > Броня и защита",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SHIRTS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Рубашки и футболки",
+      "DirectItems": 2,
+      "Folders": 5,
+      "DirectRows": 7,
+      "TotalItems": 32
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SHIRTS/MODEL_Blouse_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Рубашки и футболки > Блузка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SHIRTS/MODEL_Shirt_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Рубашки и футболки > Рубашка",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SHIRTS/MODEL_ShortSleeveShirt_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Рубашки и футболки > Рубашка с коротким рукавом",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SHIRTS/MODEL_TacticalShirt_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Рубашки и футболки > Тактическая куртка",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SHIRTS/MODEL_TShirt_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Рубашки и футболки > Футболка",
+      "DirectItems": 10,
+      "Folders": 0,
+      "DirectRows": 10,
+      "TotalItems": 10
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SWEATERS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Свитеры и толстовки",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 18
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SWEATERS/MODEL_Hoodie_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Свитеры и толстовки > Толстовка",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SWEATERS/MODEL_Sweater_ChristmasColorbase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Свитеры и толстовки > Свитер",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SWEATERS/MODEL_Sweater_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Свитеры и толстовки > Свитер",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/SWEATERS/MODEL_TrackSuitJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Свитеры и толстовки > Спортивная куртка",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/UNIFORMS",
+      "Caption": "Общее > Одежда > Верхняя одежда > Форма и защитные костюмы",
+      "DirectItems": 5,
+      "Folders": 5,
+      "DirectRows": 10,
+      "TotalItems": 18
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/UNIFORMS/MODEL_FirefighterJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Форма и защитные костюмы > Куртка пожарного",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/UNIFORMS/MODEL_MedicalScrubsShirt_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Форма и защитные костюмы > Рубашка медика",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/UNIFORMS/MODEL_NBCJacketBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Форма и защитные костюмы > Куртка химкостюма",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/UNIFORMS/MODEL_ParamedicJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Форма и защитные костюмы > Куртка санитара",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/CLOTHING/TOPS/UNIFORMS/MODEL_USMCJacket_ColorBase",
+      "Caption": "Общее > Одежда > Верхняя одежда > Форма и защитные костюмы > Армейская куртка",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS",
+      "Caption": "Общее > Одежда > Жилеты",
+      "DirectItems": 6,
+      "Folders": 9,
+      "DirectRows": 15,
+      "TotalItems": 39
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_ChestRigVest_ColorBase",
+      "Caption": "Общее > Одежда > Жилеты > Разгрузочный жилет",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_HighCapacityVest_ColorBase",
+      "Caption": "Общее > Одежда > Жилеты > Тактический жилет",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_LeatherStorageVest_ColorBase",
+      "Caption": "Общее > Одежда > Жилеты > Кожаный жилет",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_LinenVest_ColorBase",
+      "Caption": "Общее > Одежда > Жилеты > Льняной жилет",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_PlateCarrierHolster",
+      "Caption": "Общее > Одежда > Жилеты > Кобура",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_PlateCarrierPouches",
+      "Caption": "Общее > Одежда > Жилеты > Съемные карманы",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_PlateCarrierVest",
+      "Caption": "Общее > Одежда > Жилеты > Бронежилет",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_PressVest_ColorBase",
+      "Caption": "Общее > Одежда > Жилеты > Баллистический жилет",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/CLOTHING/VESTS/MODEL_UKAssVest_ColorBase",
+      "Caption": "Общее > Одежда > Жилеты > Полевой жилет",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS",
+      "Caption": "Общее > Еда и напитки",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 119
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/DRINKS",
+      "Caption": "Общее > Еда и напитки > Напитки",
+      "DirectItems": 11,
+      "Folders": 0,
+      "DirectRows": 11,
+      "TotalItems": 11
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD",
+      "Caption": "Общее > Еда и напитки > Еда",
+      "DirectItems": 0,
+      "Folders": 11,
+      "DirectRows": 11,
+      "TotalItems": 108
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/CANNED",
+      "Caption": "Общее > Еда и напитки > Еда > Консервы",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 31
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/CANNED/OPENED",
+      "Caption": "Общее > Еда и напитки > Еда > Консервы > Открытые",
+      "DirectItems": 17,
+      "Folders": 0,
+      "DirectRows": 17,
+      "TotalItems": 17
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/CANNED/SEALED",
+      "Caption": "Общее > Еда и напитки > Еда > Консервы > Закрытые",
+      "DirectItems": 14,
+      "Folders": 0,
+      "DirectRows": 14,
+      "TotalItems": 14
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/CARCASSES",
+      "Caption": "Общее > Еда и напитки > Еда > Тушки животных",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/DRY_FOOD",
+      "Caption": "Общее > Еда и напитки > Еда > Сухие продукты",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/FISH",
+      "Caption": "Общее > Еда и напитки > Еда > Рыба и морепродукты",
+      "DirectItems": 13,
+      "Folders": 0,
+      "DirectRows": 13,
+      "TotalItems": 13
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/FISHING",
+      "Caption": "Общее > Еда и напитки > Еда > Рыбалка",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/FRUIT",
+      "Caption": "Общее > Еда и напитки > Еда > Фрукты и ягоды",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/MEAT",
+      "Caption": "Общее > Еда и напитки > Еда > Мясо и субпродукты",
+      "DirectItems": 17,
+      "Folders": 0,
+      "DirectRows": 17,
+      "TotalItems": 17
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/MUSHROOMS",
+      "Caption": "Общее > Еда и напитки > Еда > Грибы",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/OTHER",
+      "Caption": "Общее > Еда и напитки > Еда > Прочее",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/SNACKS",
+      "Caption": "Общее > Еда и напитки > Еда > Сладости и снеки",
+      "DirectItems": 10,
+      "Folders": 0,
+      "DirectRows": 10,
+      "TotalItems": 10
+    },
+    {
+      "Path": "items/common/FOOD_DRINKS/FOOD/VEGETABLES",
+      "Caption": "Общее > Еда и напитки > Еда > Овощи",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/GEAR",
+      "Caption": "Общее > Снаряжение",
+      "DirectItems": 0,
+      "Folders": 13,
+      "DirectRows": 13,
+      "TotalItems": 457
+    },
+    {
+      "Path": "items/common/GEAR/BOOKS",
+      "Caption": "Общее > Снаряжение > Книги",
+      "DirectItems": 144,
+      "Folders": 0,
+      "DirectRows": 144,
+      "TotalItems": 144
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING",
+      "Caption": "Общее > Снаряжение > Лагерь",
+      "DirectItems": 0,
+      "Folders": 7,
+      "DirectRows": 7,
+      "TotalItems": 70
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/BUILDING",
+      "Caption": "Общее > Снаряжение > Лагерь > Строительство",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 32
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS/FLAGPOLES",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки > Флагштоки и наборы",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS/FLAGS",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки > Флаги",
+      "DirectItems": 0,
+      "Folders": 5,
+      "DirectRows": 5,
+      "TotalItems": 29
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS/FLAGS/ANIMALS",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки > Флаги > Рисунки животных",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS/FLAGS/ORGANIZATIONS",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки > Флаги > Организации и фракции",
+      "DirectItems": 11,
+      "Folders": 0,
+      "DirectRows": 11,
+      "TotalItems": 11
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS/FLAGS/OTHER_SYMBOLS",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки > Флаги > Другие рисунки",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS/FLAGS/PLACES",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки > Флаги > Территории",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/FLAGS/FLAGS/PLAIN",
+      "Caption": "Общее > Снаряжение > Лагерь > Флаги и флагштоки > Флаги > Однотонные",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/LIGHTING",
+      "Caption": "Общее > Снаряжение > Лагерь > Освещение",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/LOCKS",
+      "Caption": "Общее > Снаряжение > Лагерь > Замки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/POWER",
+      "Caption": "Общее > Снаряжение > Лагерь > Электропитание",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/SHELTERS",
+      "Caption": "Общее > Снаряжение > Лагерь > Палатки и укрытия",
+      "DirectItems": 15,
+      "Folders": 0,
+      "DirectRows": 15,
+      "TotalItems": 15
+    },
+    {
+      "Path": "items/common/GEAR/CAMPING/STORAGE",
+      "Caption": "Общее > Снаряжение > Лагерь > Хранение",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES",
+      "Caption": "Общее > Снаряжение > Расходники",
+      "DirectItems": 0,
+      "Folders": 8,
+      "DirectRows": 8,
+      "TotalItems": 53
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/FIRE_STARTING",
+      "Caption": "Общее > Снаряжение > Расходники > Розжиг",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/FISHING",
+      "Caption": "Общее > Снаряжение > Расходники > Рыбалка",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/GAS",
+      "Caption": "Общее > Снаряжение > Расходники > Газовые баллоны",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/LIGHT_POWER",
+      "Caption": "Общее > Снаряжение > Расходники > Свет, обогрев и питание",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/MATERIALS",
+      "Caption": "Общее > Снаряжение > Расходники > Строительные материалы",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/OTHER",
+      "Caption": "Общее > Снаряжение > Расходники > Прочее",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/PELTS",
+      "Caption": "Общее > Снаряжение > Расходники > Шкуры и кожа",
+      "DirectItems": 16,
+      "Folders": 0,
+      "DirectRows": 16,
+      "TotalItems": 16
+    },
+    {
+      "Path": "items/common/GEAR/CONSUMABLES/TEXTILES",
+      "Caption": "Общее > Снаряжение > Расходники > Ткани и бумага",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/GEAR/CONTAINERS",
+      "Caption": "Общее > Снаряжение > Контейнеры",
+      "DirectItems": 0,
+      "Folders": 5,
+      "DirectRows": 5,
+      "TotalItems": 32
+    },
+    {
+      "Path": "items/common/GEAR/CONTAINERS/BAGS",
+      "Caption": "Общее > Снаряжение > Контейнеры > Сумки и мешки",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/GEAR/CONTAINERS/BARRELS",
+      "Caption": "Общее > Снаряжение > Контейнеры > Бочки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/GEAR/CONTAINERS/CASES",
+      "Caption": "Общее > Снаряжение > Контейнеры > Футляры и ящики",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/GEAR/CONTAINERS/GIFTS",
+      "Caption": "Общее > Снаряжение > Контейнеры > Подарки",
+      "DirectItems": 12,
+      "Folders": 0,
+      "DirectRows": 12,
+      "TotalItems": 12
+    },
+    {
+      "Path": "items/common/GEAR/CONTAINERS/TOYS",
+      "Caption": "Общее > Снаряжение > Контейнеры > Мягкие игрушки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/GEAR/COOKING",
+      "Caption": "Общее > Снаряжение > Приготовление еды",
+      "DirectItems": 17,
+      "Folders": 0,
+      "DirectRows": 17,
+      "TotalItems": 17
+    },
+    {
+      "Path": "items/common/GEAR/CRAFTING",
+      "Caption": "Общее > Снаряжение > Крафт",
+      "DirectItems": 19,
+      "Folders": 0,
+      "DirectRows": 19,
+      "TotalItems": 19
+    },
+    {
+      "Path": "items/common/GEAR/CULTIVATION",
+      "Caption": "Общее > Снаряжение > Огород",
+      "DirectItems": 19,
+      "Folders": 0,
+      "DirectRows": 19,
+      "TotalItems": 19
+    },
+    {
+      "Path": "items/common/GEAR/MEDICAL",
+      "Caption": "Общее > Снаряжение > Медицина",
+      "DirectItems": 28,
+      "Folders": 0,
+      "DirectRows": 28,
+      "TotalItems": 28
+    },
+    {
+      "Path": "items/common/GEAR/NAVIGATION",
+      "Caption": "Общее > Снаряжение > Навигация",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/GEAR/OPTICS",
+      "Caption": "Общее > Снаряжение > Бинокли и приборы",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/GEAR/RADIO",
+      "Caption": "Общее > Снаряжение > Радиосвязь",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS",
+      "Caption": "Общее > Снаряжение > Инструменты",
+      "DirectItems": 0,
+      "Folders": 5,
+      "DirectRows": 5,
+      "TotalItems": 59
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/CONSTRUCTION",
+      "Caption": "Общее > Снаряжение > Инструменты > Строительство",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/CUTTING",
+      "Caption": "Общее > Снаряжение > Инструменты > Резка и пиление",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/METALWORK",
+      "Caption": "Общее > Снаряжение > Инструменты > Слесарные инструменты",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты",
+      "DirectItems": 0,
+      "Folders": 7,
+      "DirectRows": 7,
+      "TotalItems": 35
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER/CLOCKS_WRITING",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты > Часы и канцелярия",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER/DETONATORS",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты > Детонаторы",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER/FISHING",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты > Рыбалка",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER/KEYS_RESTRAINTS",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты > Ключи и наручники",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER/LIGHT_POWER",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты > Свет, обогрев и питание",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER/OTHER",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты > Прочее",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/OTHER/TECHNICAL",
+      "Caption": "Общее > Снаряжение > Инструменты > Прочие инструменты > Служебные инструменты",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/GEAR/TOOLS/REPAIR",
+      "Caption": "Общее > Снаряжение > Инструменты > Ремонтные наборы и средства",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/GEAR/TRAPS",
+      "Caption": "Общее > Снаряжение > Ловушки",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/OTHER",
+      "Caption": "Общее > Прочие предметы",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 36
+    },
+    {
+      "Path": "items/common/OTHER/CHARACTER_HEADS",
+      "Caption": "Общее > Прочие предметы > Головы персонажей",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 34
+    },
+    {
+      "Path": "items/common/OTHER/CHARACTER_HEADS/FEMALE",
+      "Caption": "Общее > Прочие предметы > Головы персонажей > Женские персонажи",
+      "DirectItems": 11,
+      "Folders": 0,
+      "DirectRows": 11,
+      "TotalItems": 11
+    },
+    {
+      "Path": "items/common/OTHER/CHARACTER_HEADS/MALE",
+      "Caption": "Общее > Прочие предметы > Головы персонажей > Мужские персонажи",
+      "DirectItems": 22,
+      "Folders": 0,
+      "DirectRows": 22,
+      "TotalItems": 22
+    },
+    {
+      "Path": "items/common/OTHER/CHARACTER_HEADS/OTHER",
+      "Caption": "Общее > Прочие предметы > Головы персонажей > Прочее",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/OTHER/DEVICES",
+      "Caption": "Общее > Прочие предметы > Оборудование",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/OTHER/STORAGE",
+      "Caption": "Общее > Прочие предметы > Хранение",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS",
+      "Caption": "Общее > Запчасти",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 213
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали",
+      "DirectItems": 0,
+      "Folders": 6,
+      "DirectRows": 6,
+      "TotalItems": 168
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_ADA",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Ada 4x4",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 24
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_ADA/DOORS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Ada 4x4 > Двери",
+      "DirectItems": 12,
+      "Folders": 0,
+      "DirectRows": 12,
+      "TotalItems": 12
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_ADA/HOODS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Ada 4x4 > Капоты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_ADA/TRUNKS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Ada 4x4 > Крышки и двери багажника",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_GUNTER",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Gunter 2",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 36
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_GUNTER/DOORS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Gunter 2 > Двери",
+      "DirectItems": 24,
+      "Folders": 0,
+      "DirectRows": 24,
+      "TotalItems": 24
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_GUNTER/HOODS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Gunter 2 > Капоты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_GUNTER/TRUNKS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Gunter 2 > Крышки и двери багажника",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_M1025",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > M1025",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 18
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_M1025/DOORS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > M1025 > Двери",
+      "DirectItems": 12,
+      "Folders": 0,
+      "DirectRows": 12,
+      "TotalItems": 12
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_M1025/HOODS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > M1025 > Капоты",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_M1025/TRUNKS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > M1025 > Крышки и двери багажника",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_M3S",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > M3S",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 18
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_M3S/DOORS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > M3S > Двери",
+      "DirectItems": 12,
+      "Folders": 0,
+      "DirectRows": 12,
+      "TotalItems": 12
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_M3S/HOODS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > M3S > Капоты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_OLGA",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Olga 24",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 36
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_OLGA/DOORS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Olga 24 > Двери",
+      "DirectItems": 24,
+      "Folders": 0,
+      "DirectRows": 24,
+      "TotalItems": 24
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_OLGA/HOODS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Olga 24 > Капоты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_OLGA/TRUNKS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Olga 24 > Крышки и двери багажника",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_SARKA",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Sarka 120",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 36
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_SARKA/DOORS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Sarka 120 > Двери",
+      "DirectItems": 24,
+      "Folders": 0,
+      "DirectRows": 24,
+      "TotalItems": 24
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_SARKA/HOODS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Sarka 120 > Капоты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/BODY/CAR_SARKA/TRUNKS",
+      "Caption": "Общее > Запчасти > Двери и кузовные детали > Sarka 120 > Крышки и двери багажника",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/COMPONENTS",
+      "Caption": "Общее > Запчасти > Компоненты и принадлежности",
+      "DirectItems": 11,
+      "Folders": 0,
+      "DirectRows": 11,
+      "TotalItems": 11
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/OTHER",
+      "Caption": "Общее > Запчасти > Прочие запчасти",
+      "DirectItems": 12,
+      "Folders": 0,
+      "DirectRows": 12,
+      "TotalItems": 12
+    },
+    {
+      "Path": "items/common/VEHICLE_PARTS/WHEELS",
+      "Caption": "Общее > Запчасти > Колёса",
+      "DirectItems": 22,
+      "Folders": 0,
+      "DirectRows": 22,
+      "TotalItems": 22
+    },
+    {
+      "Path": "items/common/WEAPONS",
+      "Caption": "Общее > Оружие",
+      "DirectItems": 0,
+      "Folders": 7,
+      "DirectRows": 7,
+      "TotalItems": 151
+    },
+    {
+      "Path": "items/common/WEAPONS/ARCHERY",
+      "Caption": "Общее > Оружие > Луки и арбалеты",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/common/WEAPONS/EXPLOSIVES",
+      "Caption": "Общее > Оружие > Взрывчатка",
+      "DirectItems": 17,
+      "Folders": 0,
+      "DirectRows": 17,
+      "TotalItems": 17
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты",
+      "DirectItems": 0,
+      "Folders": 12,
+      "DirectRows": 12,
+      "TotalItems": 67
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_22",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > .22 LR",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_308WIN",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > .308 Win",
+      "DirectItems": 11,
+      "Folders": 0,
+      "DirectRows": 11,
+      "TotalItems": 11
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_357",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > .357 Magnum",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_380",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > .380 ACP",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_45ACP",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > .45 ACP",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_545X39",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > 5.45x39 мм",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_556X45",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > 5.56x45 мм",
+      "DirectItems": 12,
+      "Folders": 0,
+      "DirectRows": 12,
+      "TotalItems": 12
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_762X39",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > 7.62x39 мм",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_762X54",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > 7.62x54 мм R",
+      "DirectItems": 15,
+      "Folders": 0,
+      "DirectRows": 15,
+      "TotalItems": 15
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_9X19",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > 9x19 мм",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_9X39",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > 9x39 мм",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/WEAPONS/FIREARMS/CAL_OTHER",
+      "Caption": "Общее > Оружие > Винтовки и пистолеты-пулемёты > Прочие калибры",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/common/WEAPONS/LAUNCHERS",
+      "Caption": "Общее > Оружие > Гранатомёты",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/common/WEAPONS/MELEE",
+      "Caption": "Общее > Оружие > Холодное оружие",
+      "DirectItems": 26,
+      "Folders": 0,
+      "DirectRows": 26,
+      "TotalItems": 26
+    },
+    {
+      "Path": "items/common/WEAPONS/PISTOLS",
+      "Caption": "Общее > Оружие > Пистолеты",
+      "DirectItems": 25,
+      "Folders": 0,
+      "DirectRows": 25,
+      "TotalItems": 25
+    },
+    {
+      "Path": "items/common/WEAPONS/SHOTGUNS",
+      "Caption": "Общее > Оружие > Дробовики",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/map:1",
+      "Caption": "ChernarusPlus",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 14
+    },
+    {
+      "Path": "items/map:1/ATTACHMENTS",
+      "Caption": "ChernarusPlus > Обвесы",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:1/ATTACHMENTS/SUPPORT",
+      "Caption": "ChernarusPlus > Обвесы > Приклады и цевья",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:1/CLOTHING",
+      "Caption": "ChernarusPlus > Одежда",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/map:1/CLOTHING/BACKPACKS",
+      "Caption": "ChernarusPlus > Одежда > Рюкзаки",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:1/CLOTHING/HEADGEAR",
+      "Caption": "ChernarusPlus > Одежда > Головные уборы",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:1/CLOTHING/TOPS",
+      "Caption": "ChernarusPlus > Одежда > Верхняя одежда",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/map:1/GEAR",
+      "Caption": "ChernarusPlus > Снаряжение",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/map:1/GEAR/CAMPING",
+      "Caption": "ChernarusPlus > Снаряжение > Лагерь",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:1/GEAR/CONSUMABLES",
+      "Caption": "ChernarusPlus > Снаряжение > Расходники",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:1/WEAPONS",
+      "Caption": "ChernarusPlus > Оружие",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:1/WEAPONS/ARCHERY",
+      "Caption": "ChernarusPlus > Оружие > Луки и арбалеты",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:1/WEAPONS/FIREARMS",
+      "Caption": "ChernarusPlus > Оружие > Винтовки и пистолеты-пулемёты",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:2",
+      "Caption": "Livonia",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 20
+    },
+    {
+      "Path": "items/map:2/ATTACHMENTS",
+      "Caption": "Livonia > Обвесы",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/map:2/ATTACHMENTS/SUPPORT",
+      "Caption": "Livonia > Обвесы > Приклады и цевья",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/map:2/CLOTHING",
+      "Caption": "Livonia > Одежда",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/map:2/CLOTHING/BACKPACKS",
+      "Caption": "Livonia > Одежда > Рюкзаки",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:2/CLOTHING/HEADGEAR",
+      "Caption": "Livonia > Одежда > Головные уборы",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:2/CLOTHING/TOPS",
+      "Caption": "Livonia > Одежда > Верхняя одежда",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:2/GEAR",
+      "Caption": "Livonia > Снаряжение",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:2/GEAR/CAMPING",
+      "Caption": "Livonia > Снаряжение > Лагерь",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:2/GEAR/CONSUMABLES",
+      "Caption": "Livonia > Снаряжение > Расходники",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:2/GEAR/COOKING",
+      "Caption": "Livonia > Снаряжение > Приготовление еды",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:2/WEAPONS",
+      "Caption": "Livonia > Оружие",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:2/WEAPONS/EXPLOSIVES",
+      "Caption": "Livonia > Оружие > Взрывчатка",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:2/WEAPONS/FIREARMS",
+      "Caption": "Livonia > Оружие > Винтовки и пистолеты-пулемёты",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:3",
+      "Caption": "Sakhal",
+      "DirectItems": 0,
+      "Folders": 6,
+      "DirectRows": 6,
+      "TotalItems": 66
+    },
+    {
+      "Path": "items/map:3/AMMO",
+      "Caption": "Sakhal > Боеприпасы",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/AMMO/MAGAZINES",
+      "Caption": "Sakhal > Боеприпасы > Магазины",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/ATTACHMENTS",
+      "Caption": "Sakhal > Обвесы",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/ATTACHMENTS/SUPPORT",
+      "Caption": "Sakhal > Обвесы > Приклады и цевья",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/CLOTHING",
+      "Caption": "Sakhal > Одежда",
+      "DirectItems": 0,
+      "Folders": 8,
+      "DirectRows": 8,
+      "TotalItems": 50
+    },
+    {
+      "Path": "items/map:3/CLOTHING/BACKPACKS",
+      "Caption": "Sakhal > Одежда > Рюкзаки",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/map:3/CLOTHING/GLASSES",
+      "Caption": "Sakhal > Одежда > Очки",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:3/CLOTHING/GLOVES",
+      "Caption": "Sakhal > Одежда > Перчатки",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:3/CLOTHING/HEADGEAR",
+      "Caption": "Sakhal > Одежда > Головные уборы",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/map:3/CLOTHING/PANTS",
+      "Caption": "Sakhal > Одежда > Штаны",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:3/CLOTHING/SHOES",
+      "Caption": "Sakhal > Одежда > Обувь",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:3/CLOTHING/TOPS",
+      "Caption": "Sakhal > Одежда > Верхняя одежда",
+      "DirectItems": 15,
+      "Folders": 0,
+      "DirectRows": 15,
+      "TotalItems": 15
+    },
+    {
+      "Path": "items/map:3/CLOTHING/VESTS",
+      "Caption": "Sakhal > Одежда > Жилеты",
+      "DirectItems": 7,
+      "Folders": 0,
+      "DirectRows": 7,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/map:3/FOOD_DRINKS",
+      "Caption": "Sakhal > Еда и напитки",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:3/FOOD_DRINKS/DRINKS",
+      "Caption": "Sakhal > Еда и напитки > Напитки",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/FOOD_DRINKS/FOOD",
+      "Caption": "Sakhal > Еда и напитки > Еда",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/map:3/GEAR",
+      "Caption": "Sakhal > Снаряжение",
+      "DirectItems": 0,
+      "Folders": 4,
+      "DirectRows": 4,
+      "TotalItems": 7
+    },
+    {
+      "Path": "items/map:3/GEAR/CAMPING",
+      "Caption": "Sakhal > Снаряжение > Лагерь",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/GEAR/CONSUMABLES",
+      "Caption": "Sakhal > Снаряжение > Расходники",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/GEAR/MEDICAL",
+      "Caption": "Sakhal > Снаряжение > Медицина",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:3/GEAR/TOOLS",
+      "Caption": "Sakhal > Снаряжение > Инструменты",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:3/WEAPONS",
+      "Caption": "Sakhal > Оружие",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:3/WEAPONS/FIREARMS",
+      "Caption": "Sakhal > Оружие > Винтовки и пистолеты-пулемёты",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:4",
+      "Caption": "Nasdara",
+      "DirectItems": 0,
+      "Folders": 7,
+      "DirectRows": 7,
+      "TotalItems": 141
+    },
+    {
+      "Path": "items/map:4/AMMO",
+      "Caption": "Nasdara > Боеприпасы",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:4/AMMO/MAGAZINES",
+      "Caption": "Nasdara > Боеприпасы > Магазины",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:4/ATTACHMENTS",
+      "Caption": "Nasdara > Обвесы",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:4/ATTACHMENTS/MUZZLE",
+      "Caption": "Nasdara > Обвесы > Дульные устройства",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:4/ATTACHMENTS/SUPPORT",
+      "Caption": "Nasdara > Обвесы > Приклады и цевья",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:4/CLOTHING",
+      "Caption": "Nasdara > Одежда",
+      "DirectItems": 0,
+      "Folders": 7,
+      "DirectRows": 7,
+      "TotalItems": 94
+    },
+    {
+      "Path": "items/map:4/CLOTHING/BACKPACKS",
+      "Caption": "Nasdara > Одежда > Рюкзаки",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/map:4/CLOTHING/GLASSES",
+      "Caption": "Nasdara > Одежда > Очки",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR",
+      "Caption": "Nasdara > Одежда > Головные уборы",
+      "DirectItems": 0,
+      "Folders": 5,
+      "DirectRows": 5,
+      "TotalItems": 31
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/CAPS_BERETS",
+      "Caption": "Nasdara > Одежда > Головные уборы > Кепки и береты",
+      "DirectItems": 3,
+      "Folders": 0,
+      "DirectRows": 3,
+      "TotalItems": 3
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/HATS_HEADBANDS",
+      "Caption": "Nasdara > Одежда > Головные уборы > Шляпы и украшения",
+      "DirectItems": 1,
+      "Folders": 2,
+      "DirectRows": 3,
+      "TotalItems": 18
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_PakolHat_ColorBase",
+      "Caption": "Nasdara > Одежда > Головные уборы > Шляпы и украшения > Паколь",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/HATS_HEADBANDS/MODEL_TurbanHat_ColorBase",
+      "Caption": "Nasdara > Одежда > Головные уборы > Шляпы и украшения > Тюрбан",
+      "DirectItems": 12,
+      "Folders": 0,
+      "DirectRows": 12,
+      "TotalItems": 12
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/HELMETS",
+      "Caption": "Nasdara > Одежда > Головные уборы > Шлемы",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/HOODS_WRAPS",
+      "Caption": "Nasdara > Одежда > Головные уборы > Капюшоны и повязки",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/OTHER",
+      "Caption": "Nasdara > Одежда > Головные уборы > Прочее",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/map:4/CLOTHING/HEADGEAR/OTHER/MODEL_Keffiyeh_ColorBase",
+      "Caption": "Nasdara > Одежда > Головные уборы > Прочее > Куфия",
+      "DirectItems": 8,
+      "Folders": 0,
+      "DirectRows": 8,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/map:4/CLOTHING/PANTS",
+      "Caption": "Nasdara > Одежда > Штаны",
+      "DirectItems": 18,
+      "Folders": 0,
+      "DirectRows": 18,
+      "TotalItems": 18
+    },
+    {
+      "Path": "items/map:4/CLOTHING/SHOES",
+      "Caption": "Nasdara > Одежда > Обувь",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:4/CLOTHING/TOPS",
+      "Caption": "Nasdara > Одежда > Верхняя одежда",
+      "DirectItems": 24,
+      "Folders": 0,
+      "DirectRows": 24,
+      "TotalItems": 24
+    },
+    {
+      "Path": "items/map:4/CLOTHING/VESTS",
+      "Caption": "Nasdara > Одежда > Жилеты",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/map:4/FOOD_DRINKS",
+      "Caption": "Nasdara > Еда и напитки",
+      "DirectItems": 0,
+      "Folders": 2,
+      "DirectRows": 2,
+      "TotalItems": 14
+    },
+    {
+      "Path": "items/map:4/FOOD_DRINKS/DRINKS",
+      "Caption": "Nasdara > Еда и напитки > Напитки",
+      "DirectItems": 9,
+      "Folders": 0,
+      "DirectRows": 9,
+      "TotalItems": 9
+    },
+    {
+      "Path": "items/map:4/FOOD_DRINKS/FOOD",
+      "Caption": "Nasdara > Еда и напитки > Еда",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:4/GEAR",
+      "Caption": "Nasdara > Снаряжение",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 8
+    },
+    {
+      "Path": "items/map:4/GEAR/CONSUMABLES",
+      "Caption": "Nasdara > Снаряжение > Расходники",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:4/GEAR/CONTAINERS",
+      "Caption": "Nasdara > Снаряжение > Контейнеры",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    },
+    {
+      "Path": "items/map:4/GEAR/TOOLS",
+      "Caption": "Nasdara > Снаряжение > Инструменты",
+      "DirectItems": 2,
+      "Folders": 0,
+      "DirectRows": 2,
+      "TotalItems": 2
+    },
+    {
+      "Path": "items/map:4/VEHICLE_PARTS",
+      "Caption": "Nasdara > Запчасти",
+      "DirectItems": 0,
+      "Folders": 1,
+      "DirectRows": 1,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:4/VEHICLE_PARTS/BODY",
+      "Caption": "Nasdara > Запчасти > Двери и кузовные детали",
+      "DirectItems": 5,
+      "Folders": 0,
+      "DirectRows": 5,
+      "TotalItems": 5
+    },
+    {
+      "Path": "items/map:4/WEAPONS",
+      "Caption": "Nasdara > Оружие",
+      "DirectItems": 0,
+      "Folders": 3,
+      "DirectRows": 3,
+      "TotalItems": 11
+    },
+    {
+      "Path": "items/map:4/WEAPONS/FIREARMS",
+      "Caption": "Nasdara > Оружие > Винтовки и пистолеты-пулемёты",
+      "DirectItems": 6,
+      "Folders": 0,
+      "DirectRows": 6,
+      "TotalItems": 6
+    },
+    {
+      "Path": "items/map:4/WEAPONS/MELEE",
+      "Caption": "Nasdara > Оружие > Холодное оружие",
+      "DirectItems": 4,
+      "Folders": 0,
+      "DirectRows": 4,
+      "TotalItems": 4
+    },
+    {
+      "Path": "items/map:4/WEAPONS/PISTOLS",
+      "Caption": "Nasdara > Оружие > Пистолеты",
+      "DirectItems": 1,
+      "Folders": 0,
+      "DirectRows": 1,
+      "TotalItems": 1
+    }
+  ]
+}

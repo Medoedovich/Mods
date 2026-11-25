@@ -1,8 +1,54 @@
 # TODO
 
-- [ ] Добавить подкатегории для категорий предметов, содержащих **более 30 элементов**. Разбивать по смыслу также уже существующие подкатегории, если их конечный список предметов превышает этот порог. Сохранить поиск по всему каталогу, счётчики, доступность всех classnames и русские/английские подписи.
+- [x] Разбить Industrial на подгруппы контейнеров, амбаров, цементного завода и остальных семейств. В Residential → House/City добавить серии домов и группы городских учреждений. Сохранить все варианты, поиск, карты и счётчики. 24 ноября 2026 прошли 365 проверок каталога на русском, включая 36 новых. [Правила и результаты](docs/MAP-CATALOG.md#industrial-and-cityhouse-families-unreleased).
 
-  **English:** Add meaningful subcategories wherever an item category or existing subcategory contains more than 30 item entries. Preserve global search, counts, complete classname coverage and Russian/English labels.
+  **English:** Subdivide Industrial and add House/City families inside Residential. Preserve all variants, search, maps and counts. All 365 Russian catalog checks passed, including 36 new assertions. See [details](docs/MAP-CATALOG.md#industrial-and-cityhouse-families-unreleased).
+
+- [x] Разбить «Специальные объекты» (Specific) на подгруппы на всех картах: замки/дворцы, церкви/часовни, мечети, кладбища, памятники, аэродромы и другие семейства. Сохранить поиск, точные классы, карты, счётчики и фильтр StaticObj. 24 ноября 2026 пройдены 329 проверок каталога на русском, включая 24 новые. [Правила и результаты](docs/MAP-CATALOG.md#specific-subgroups-unreleased).
+
+  **English:** Subdivide Specific by purpose/model family across all maps, retaining search, classnames, map membership, counts and StaticObj filtering. All 329 Russian catalog assertions passed, including 24 new checks. See [details](docs/MAP-CATALOG.md#specific-subgroups-unreleased).
+
+- [x] Пересобрать и проверить пакет **1.0.0** после добавления подгрупп Specific/Industrial и семейств City/House. Финальный пакет от 24 ноября 2026 прошёл по 658 проверок на русском и английском, с 410 ключами локализации. Предыдущий архив сохранён отдельно. [Пакет и хеши](docs/VALIDATION-1.0.0.md).
+
+  **English:** Rebuild and validate **1.0.0** after the Specific/Industrial and City/House updates. The final 24 November 2026 package passed 658 assertions in each of Russian and English, resolving 410 localization keys. The older archive is preserved separately. See [handoff](docs/VALIDATION-1.0.0.md).
+
+- [x] Подготовить **1.0.0**, первый стабильный релиз: английский прогон, PBO и проверка установленного пакета на русском и английском. 24 ноября 2026 финальная сборка прошла по 658 проверок, разрешены 410 ключей локализации; 17 файлов обеих установок и архива совпали. 25 ноября 2026 автор опубликовал релиз; все 17 скачанных Workshop-файлов сверены по SHA-256, локальная поставка обновлена. [Результаты и передача](docs/VALIDATION-1.0.0.md).
+
+  **English:** Prepare the first stable **1.0.0** release. The final Russian and English packaged runs each passed 658 assertions and resolved 410 localization keys; all 17 installed/archive files match. Published by the author on 25 November 2026; all 17 downloaded files match by SHA-256 and the bundled distribution is updated. See [handoff](docs/VALIDATION-1.0.0.md).
+
+- [x] Защитить несохранённые изменения проекта: отмечать изменённую сцену и предлагать «Сохранить / Не сохранять / Отмена» перед открытием другого проекта, заменой опоры и выходом через меню Esc. Продолжать переход только после успешного сохранения. 18 ноября 2026 пройдены 425 проверок на русском, включая 13 новых проверок. [Поведение и ограничения](docs/UNSAVED-PROJECTS.md).
+
+  **English:** Protect unsaved scene changes with a marker and Save / Don't save / Cancel before opening another project, replacing the anchor or leaving through the in-game menu. Continue only after a successful save. See [behavior and limits](docs/UNSAVED-PROJECTS.md).
+
+- [x] Завершить операции с предметами: удаление выбранного предмета кнопкой и клавишей Delete, Undo/Redo создания и удаления. Восстанавливать classname, положение, углы, принадлежность опоре и порядок в списке. Сохранять обычный Delete в текстовых полях. 18 ноября 2026 пройдены 412 проверок на русском, включая 17 проверок операций с предметами. [Поведение и проверки](docs/ITEM-OPERATIONS.md).
+
+  **English:** Complete item operations with a Delete toolbar action and shortcut, plus Undo/Redo for creation and deletion. Restore the classname, transform, anchor membership and list order. Preserve Delete in text fields. See [behavior and validation](docs/ITEM-OPERATIONS.md).
+
+- [x] Добавить подкатегории для категорий предметов, содержащих **более 30 элементов**, кроме книг по решению автора. Разбивать по смыслу также уже существующие подкатегории, если их конечный список предметов превышает этот порог. Сохранить поиск по всему каталогу, счётчики, доступность всех classnames и русские/английские подписи.
+
+  **English:** Add meaningful subcategories wherever an item category or existing subcategory contains more than 30 item entries, except Books as requested by the author. Preserve global search, counts, complete classname coverage and Russian/English labels.
+
+  Первый этап подготовлен в исходниках: «Снаряжение → Инструменты» при количестве более 30 предметов разделяется на строительство, слесарные инструменты, резку и пиление, ремонтные наборы и средства, прочие инструменты. При 30 или менее предметах список остаётся плоским. 23 ноября 2026 пройдены 14 новых проверок в игре на русском; визуальная проверка — автором. Остальные крупные ветки остаются в плане. [Подробности](docs/ITEM-CATALOG.md#tool-subcategories-unreleased).
+
+  **English:** First stage prepared in source: Equipment → Tools splits into Construction, Hand tools, Cutting and sawing, Repair kits and supplies, and Other tools when it contains more than 30 items. Smaller tool lists remain flat. All 14 new Russian native checks passed on 23 November 2026; visual review is left to the author. Other large branches remain planned.
+
+  Второй этап реализован: большие ветки «Винтовки и пистолеты-пулемёты» и «Магазины» разделяются по калибру. Калибр магазина определяется по его подходящим патронам; магазин показан один раз независимо от набора оружия, к которому подходит. Порог более 30 элементов применяется отдельно внутри каждой карты и «Общего». 23 ноября 2026 прошли 180 проверок каталога на русском, включая 28 проверок оружия и магазинов. [Правила и проверки](docs/ITEM-CATALOG.md#weapon-and-magazine-subgroups-unreleased).
+
+  **English:** Second stage implemented: large Rifles and SMGs and Magazines lists split by cartridge. Magazine groups use their configured accepted rounds; each magazine appears once regardless of its compatible weapon set. Apply the >30 threshold independently in each map/Common branch. All 180 Russian catalog checks passed, including 28 weapon/magazine checks.
+
+  Третий этап реализован: категории одежды с более чем 30 вещами разделяются на семейства моделей — например «Перчатки → Кожаные перчатки», «Головные уборы → Баллистический шлем», «Штаны → Брюки капри», «Обувь → Спортивные ботинки». Применяется также к крупным веткам рюкзаков, жилетов, верха и масок. Семейство с одним предметом остаётся прямой строкой; маленькая категория не разбивается. Группы используют локализованные игровые названия, каждый вариант сохраняет точный classname. 23 ноября 2026 прошли 205 проверок каталога на русском, включая 25 новых для одежды. Остальные крупные списки остаются в плане. [Правила и проверки](docs/ITEM-CATALOG.md#clothing-model-families-unreleased).
+
+  **English:** Third stage implemented: clothing categories with more than 30 items gain model-family folders, including gloves, headgear, pants, footwear and other large clothing lists. A family with one member remains a direct row; small categories stay flat. Localized group labels preserve exact variant classnames. All 205 Russian catalog checks passed, including 25 new clothing checks. Other large item lists remain planned.
+
+  Четвёртый этап реализован: «Лагерь» разделён на палатки и укрытия, хранение, строительство, замки, электропитание, освещение, флаги и флагштоки. Неизвестные предметы сохраняются в «Прочем», пустые папки скрыты. В «Общем» сохранены все 70 лагерных предметов. 23 ноября 2026 прошли 234 проверки каталога на русском, включая 28 проверок лагерных групп и выгрузку каталога. [Поведение](docs/ITEM-CATALOG.md#camping-subgroups-unreleased).
+
+  **English:** Fourth stage implemented: large Camping lists gain purpose-based subgroups. Retain unknown items in Other and hide empty folders. All 70 Common camping items are retained. All 234 Russian catalog checks passed, including 28 camping checks and the catalog audit export.
+
+  Пятый этап реализован по результатам анализа всех 2176 видимых классов: кузовные детали разбиты по машинам и типу детали; еда, расходники, контейнеры и прочие инструменты — по назначению; приклады и цевья — по типу и семейству оружия; патроны — по калибру и типу снаряда. Для головных уборов и верха добавлен уровень типов одежды перед семействами; отдельно разбиты повязки, флаги и прочие предметы. Консервы разделены на открытые и закрытые. Книги намеренно оставлены без изменений, дополнительные служебные классы не скрывались. [Разбивка и проверки](docs/ITEM-CATALOG.md#expanded-subdivisions-unreleased).
+
+  **English:** Fifth stage implemented: subdivide all recommended sections except Books, including additional types above headgear/top model families and opened/unopened canned food. Keep all 2176 classnames, map branches and localized item names; do not introduce further technical-item filters. See [grouping and validation](docs/ITEM-CATALOG.md#expanded-subdivisions-unreleased).
+
+  23 ноября 2026 прошли **285 проверок каталога на русском** (51 новая). Полное сравнение выгрузок подтвердило сохранность 2176 предметов, названий и карт, включая все 144 книги без изменений. Единственный список выше порога — книги, оставленные по решению автора. Английская проверка — перед релизом; PBO не собирался.
 
 - [x] Создать [FEATURES.md](FEATURES.md) с описанием возможностей редактора, включая индикатор множителя скорости камеры под прицелом и подсказку управления.
 
@@ -20,10 +66,6 @@
 
   **English:** **Optional:** validate name search in the other game languages and adjust text handling if needed, while preserving classname search. Check the English interface before the Workshop release.
 
-- [ ] Добавить режим редактирования Proxy: включён по умолчанию, с отдельной кнопкой на панели инструментов.
-
-  **English:** Add a Proxy editing mode, enabled by default, with a dedicated toolbar button.
-
 - [x] Добавить отдельную кнопку показа штатных точек лута здания/остова и их полупрозрачных объёмов по данным `mapgroupproto.xml`. Использовать их как ориентир при размещении Proxy, чтобы видеть возможные пересечения с обычным лутом. Визуализация следует за опорой, не перехватывает выбор предметов и не попадает в экспорт Proxy. Создание/редактирование штатных точек и заполнение их предметами в эту задачу не входят. Реализовано в следующей версии: 376 технических проверок RU пройдены, включая 14 новых; визуальная проверка — автором. [Поведение, источники и проверки](docs/LOOT-VOLUMES.md).
 
   **English:** Add a toolbar toggle showing the building/wreck's existing loot points and translucent volumes from `mapgroupproto.xml`, as a placement guide for avoiding overlap between proxies and regular loot. The overlay follows the anchor, does not intercept item selection and stays out of proxy export. Creating/editing standard points and populating them with items are outside this task. Implemented for the next version: 376 Russian native checks passed, including 14 new checks; visual review pending author check. See [behavior, sources and validation](docs/LOOT-VOLUMES.md).
@@ -32,9 +74,13 @@
 
   **English:** Save and open projects as JSON with the anchor, item transforms, character position and camera state. Include a file list, overwrite/scene replacement confirmation, a backup of the previous save and validation before removing the current scene. Implemented for the next version; Russian technical checks passed, UI and reopening after restart pending author review. See [behavior and validation](docs/PROJECTS.md).
 
-- [ ] **Опционально:** разделить каталог «Предметы» по картам: ChernarusPlus, Livonia, Sakhal и Nasdara. Продумать выделение общих для нескольких карт предметов в раздел **Common**. Сохранить категории, подкатегории и поиск по всему каталогу.
+- [x] Разделить каталог «Предметы» на «Общее» (**Common**), ChernarusPlus, Livonia, Sakhal и Nasdara. Использовать ненулевой nominal из штатных `types.xml`, читаемых из установленной игры: подтверждённая уникальная карта — её ветка, остальные предметы — «Общее», включая прежнюю ветку «Без привязки к карте». Сохранить категории, поиск и точные classnames. 23 ноября 2026 прошли 152 проверки каталога на русском; визуальная проверка — автором. [Правила, ограничения и проверки](docs/ITEM-MAPS.md).
 
-  **English:** **Optional:** organize the Items catalog by map: ChernarusPlus, Livonia, Sakhal and Nasdara. Consider a **Common** section for items shared across maps. Preserve categories, subcategories and global catalog search.
+  **English:** Organize Items into Common, ChernarusPlus, Livonia, Sakhal and Nasdara using positive nominal values from the installed official types files. Confirmed exclusive records appear under their map; all others go to Common, including the former Unassigned branch. Preserve categories, global search and exact classnames. All 152 Russian catalog checks passed; author visual review remains. See [definitions and validation](docs/ITEM-MAPS.md).
+
+- [x] Скрывать в каталоге предметов и его поиске явные тестовые классы и записи с `$UNT$` / `TODO`. Сохранить BloodTestKit, обычные непереведённые названия и возможность работы со старыми сценами/проектами. 23 ноября 2026 проверены 2176 видимых и 86 скрытых классов; 9 новых проверок фильтра прошли в игре на русском. [Правила фильтрации](docs/ITEM-MAPS.md#catalog-cleanup).
+
+  **English:** Hide explicit technical classes and $UNT$ / TODO placeholders in Items and its search. Preserve BloodTestKit, ordinary missing translations and existing scene/project resolution. Validated 2176 visible and 86 hidden classes with 9 new Russian native checks.
 
 - [x] Пересмотреть описание в Workshop и описание изменений. Убрать из описания Workshop дублирующие название и строку автора/версии (`Proxy Placement Tool — Alpha`, `By Medoedovich · 0.2.0-alpha`). В описании изменений оставить английский текст и ссылку на GitHub вместо полного русского перевода. Окончательный текст и публикацию автор выполняет вручную по `PUBLICATION.md`. Автор подтвердил сохранение обновлённого описания при публикации 0.4.0-alpha 17 ноября 2026.
 
@@ -44,9 +90,9 @@
 
   **English:** Add real tool screenshots to the Workshop gallery. The author manually uploaded three images on 16 November 2026: the editor overview with catalog and hover preview, angled item placement, and character inspection. Originals and JPEG upload copies: [0.3.0-alpha screenshots](docs/screenshots/0.3.0-alpha/).
 
-- [ ] Ограничить отрисовку штатного Gizmo активной областью мира: его ручки не должны оставаться поверх панелей и внешних полей при выходе за рамку. Сохранять выбранный предмет и запрет возобновления отменённого перетаскивания. Это отдельная визуальная доработка; основная работа активной области от неё не зависит.
+- [ ] **Опционально:** ограничить отрисовку штатного Gizmo активной областью мира: его ручки не должны оставаться поверх панелей и внешних полей при выходе за рамку. Сохранять выбранный предмет и запрет возобновления отменённого перетаскивания. Это отдельная визуальная доработка; основная работа активной области от неё не зависит. Не является обязательным условием выпуска версии 1.0.
 
-  **English:** Restrict native Gizmo rendering to the world editing area so handles do not remain over panels or outer margins beyond the frame. Preserve item selection and cancellation of a drag on boundary exit. This is a separate visual improvement and does not block the main world input workflow.
+  **English:** **Optional:** restrict native Gizmo rendering to the world editing area so handles do not remain over panels or outer margins beyond the frame. Preserve item selection and cancellation of a drag on boundary exit. This is a separate visual improvement and does not block the main world input workflow. It is not a requirement for the 1.0 release.
 
 - [x] **Первый этап:** добавить создание предметов перетаскиванием из каталога в активную область мира. Создавать предмет в точке отпускания; за пределами области отменять создание. Не ограничивать количество предметов в сцене, сохраняя их привязку к активной опоре. Кнопка создания предмета убрана. [Поведение и проверки](docs/ITEM-DRAG.md).
 
@@ -68,9 +114,9 @@
 
   **English:** Show a native 3D hover preview for Items catalog entries before dragging them into the scene. Remove the lower card and click-preview creation path. See [behavior and validation](docs/ITEM-PREVIEW.md).
 
-- [ ] Добавить превью зданий и остовов при выделении соответствующего элемента в каталоге «Объекты».
+- [x] Добавить превью зданий и остовов в каталоге «Объекты»: то же всплывающее окно при наведении, что и у предметов, с задержкой 250 мс и точным classname. Не менять выбор, опору, предметы и Gizmo; освобождать модель при уходе, фильтрации, смене вкладки и начале перетаскивания. 23 ноября 2026 прошли 305 проверок каталога на русском, включая 20 новых проверок превью объектов. Визуальная проверка размера и видимости моделей — автором. [Поведение и проверка](docs/ITEM-HOVER.md#object-catalog-previews-unreleased).
 
-  **English:** Add previews of selected buildings and wrecks in the Objects catalog.
+  **English:** Add building/wreck hover previews in Objects using the existing delayed popup and exact classname. Preserve scene/catalog selection and release temporary models on leave, filtering, tab switch and drag start. All 305 Russian catalog checks passed, including 20 new object-preview checks; visual framing review is left to the author. See [behavior and validation](docs/ITEM-HOVER.md#object-catalog-previews-unreleased).
 
 - [ ] **Опционально:** автоматически поворачивать камеру, когда перемещаемый предмет достигает границы экрана / активной области мира, чтобы продолжать перемещение. Согласовать поведение с отменой перетаскивания при выходе за рамку.
 
@@ -182,9 +228,9 @@
 
   **English:** **Optional:** adjust coordinate and angle values by dragging over the numeric input like a slider, while retaining precise keyboard entry.
 
-- [x] Добавить Undo и Redo — отмену и повтор перемещений, поворотов, числового ввода и сбросов в редакторе. Общая история на 100 действий, кнопки на панели и Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z. Одно перетаскивание Gizmo и редактирование одного поля группируются в одно действие. Создание и удаление сущностей в эту историю не входят. Реализовано в следующей версии; технические проверки RU пройдены, работа Undo/Redo подтверждена автором в игре 16 ноября 2026. [Поведение и проверки](docs/UNDO-REDO.md).
+- [x] Добавить Undo и Redo — отмену и повтор перемещений, поворотов, числового ввода и сбросов в редакторе. Общая история на 100 действий, кнопки на панели и Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z. Одно перетаскивание Gizmo и редактирование одного поля группируются в одно действие. В 1.0.0 история также охватывает создание и удаление предметов. Реализовано в следующей версии; технические проверки RU пройдены, работа Undo/Redo подтверждена автором в игре 16 ноября 2026. [Поведение и проверки](docs/UNDO-REDO.md).
 
-  **English:** Add scene-wide Undo/Redo for transforms, numeric edits and resets, with a 100-action limit, toolbar buttons and Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z shortcuts. Group a complete Gizmo drag or numeric field edit as one action. Entity creation and deletion are outside this history. Implemented for the next version; Russian technical checks passed and the author confirmed Undo/Redo operation in game on 2026-11-16. See [behavior and validation](docs/UNDO-REDO.md).
+  **English:** Add scene-wide Undo/Redo for transforms, numeric edits and resets, with a 100-action limit, toolbar buttons and Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z shortcuts. Group a complete Gizmo drag or numeric field edit as one action. Version 1.0.0 also includes item creation and deletion in history. Implemented for the next version; Russian technical checks passed and the author confirmed Undo/Redo operation in game on 2026-11-16. See [behavior and validation](docs/UNDO-REDO.md).
 
 - [x] Обеспечить управление высотой камеры в режиме полёта: **Q — поднимать камеру, Z — опускать** при удержании ПКМ. Использовать мировую вертикаль и прямую обработку клавиш, независимо от привязок Bulldozer. Реализовано в следующей версии; технические проверки RU пройдены, работа Q/Z подтверждена автором в игре 16 ноября 2026. [Управление и проверка](docs/CAMERA-CONTROLS.md).
 
@@ -194,9 +240,9 @@
 
   **English:** Write a Reddit post for version **1.0**, including an example of using the tool.
 
-- [ ] Подумать над изменением картинки-превью мода, чтобы она наглядно показывала назначение инструмента — размещение лута под разными углами. Рассмотреть картинку от Китьки, где колесо лежит под углом на водительском сиденье.
+- [x] Подготовить новое превью мода для 1.0: наглядно показать размещение лута под углом. Создана иллюстрированная обложка с колесом на водительском сиденье и Gizmo, без Alpha. Сохранены PNG, JPEG для Workshop и промпт; автор сообщил о релизе 25 ноября 2026, публичная обложка независимо не проверена. [Превью](workshop/1.0.0/preview-1.0.0-v2.jpg).
 
-  **English:** Consider updating the mod's preview image to clearly show the tool's purpose: placing loot at different angles. Consider Kitka's image of a wheel resting at an angle on the driver's seat.
+  **English:** Prepare a 1.0 cover showing an angled wheel on the driver's seat with a Gizmo, without Alpha branding. The generated illustration, JPEG upload copy and prompt are saved; the author reported the release on 25 November 2026, while the public cover remains independently unverified. See [preview](workshop/1.0.0/preview-1.0.0-v2.jpg).
 
 - [x] Переработать панель инструментов: иконки кнопок, разделители между категориями «Проект», «История», «Редактирование», «Просмотр», «Экспорт» и локализованные подсказки с горячими клавишами. Группы переносятся целиком при нехватке ширины, скрытые действия не оставляют лишний разделитель. Реализовано в следующей версии; технические проверки RU пройдены, появление подсказок при обычном наведении подтверждено автором 16 ноября 2026. [Поведение и проверки](docs/ICON-TOOLBAR.md).
 
@@ -210,6 +256,18 @@
 
   **English:** Increase mouse-wheel scrolling in the Create panel from **1 to 2 entries per step** in both Objects and Items.
 
-- [ ] Убрать воспроизведение жеста персонажа при нажатии **F4** для переключения между редактором и режимом персонажа.
+- [x] Убрать воспроизведение жеста персонажа при нажатии **F4** для переключения между редактором и режимом персонажа. 24 ноября 2026 проверено обычной клавиатурой: оба направления переключения работают, жест не воспроизводится; автор подтвердил результат. Диагностика зафиксировала 201 и 101 кадр без жеста, отпускание клавиши и сброс её защёлки. [Поведение и проверка](docs/CAMERA-CONTROLS.md#f4-mode-switch-unreleased).
 
-  **English:** Prevent the character from playing a gesture when pressing **F4** to switch between the editor and character mode.
+  **English:** Prevent F4 from playing the character's gesture while switching editor/character mode. Verified with the author's physical keyboard on 2026-11-24 in both directions: no gesture over 201 and 101 sampled frames, with key release and latch reset recorded. See [behavior and validation](docs/CAMERA-CONTROLS.md#f4-mode-switch-unreleased).
+
+- [ ] **Опционально:** добавить действие **«Проверить в тестовой миссии»**. Подготавливать XML текущей раскладки и запускать отдельную офлайн-миссию DayZDiag, где проверяемый лут создаёт CE. Проверять позиции, углы, пересечения, действие «Взять» и раздел «Поблизости» по [критериям проверки точки](README-RU.md#критерии-проверки-точки).
+
+  **English:** **Optional:** add a **Test in a mission** action. Prepare XML for the current layout and launch a separate DayZDiag offline mission where CE creates the tested loot. Check positions, rotations, intersections, the Take action and Vicinity inventory using the [placement checks](README.md#placement-checks).
+
+- [x] Проверить фактический спавн CE с нашими данными и экспортированным XML в отдельной **офлайн-миссии DayZDiag**. 24 ноября 2026 повторно подтверждены позиции и углы обоих колёс (включая наклонённое) и молотка из экспорта `Land_Garage_Row_Small`: ошибка позиции 0, ориентация совпала. CE также заполнила все 64 штатные точки гаража (12 на полу, 39 на полках, 13 оружейных) 34 разными типами, максимум повторов — 2. В тесте повышены квоты и ослаблены региональные/usage-фильтры; координаты штатных точек и экспорт proxy сохранены. Автор проверил «Взять» и «Поблизости» для всех трёх proxy. Наблюдатель за исходными экземплярами CE независимо зарегистрировал их присутствие в штатном списке Vicinity при открытом инвентаре и попадание к персонажу. [Результат](docs/ce-interaction-validation.json). Отдельный сервер оставить для будущей проверки мультиплеера; кнопка запуска теста из редактора остаётся опциональной отдельной задачей.
+
+  **English:** Verified actual CE spawning in a separate **DayZDiag offline mission** on 2026-11-24. Both wheels and the hammer exactly match exported positions and rotations; all 64 standard garage points filled with 34 distinct types and at most two of each. This maximum-density fixture raises quotas and relaxes regional/usage filters while preserving point coordinates and proxy XML. The author confirmed Take and Vicinity for all three proxies; a read-only observer independently recorded the original CE instances in the native Vicinity list and the player's hierarchy. See [results](docs/ce-interaction-validation.json). Multiplayer testing and an optional in-editor test-launch action remain separate future work.
+
+- [x] Выделять цветом classname в окне превью: техническое имя показано тёплым песочным акцентом в разделах «Предметы» и «Объекты». Реализовано 24 ноября 2026 в общей разметке превью; обновлённые исходники и распакованная миссия подготовлены. Разметка включена в проверенный пакет 1.0.0; визуальная проверка — автором.
+
+  **English:** Highlight the technical classname with a warm sand accent in the shared Items/Objects preview. Implemented in the common layout on 2026-11-24; updated sources and an unpacked mission are prepared. The layout is included in the validated 1.0.0 package; visual review is left to the author.

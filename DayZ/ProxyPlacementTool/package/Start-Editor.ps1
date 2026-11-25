@@ -54,10 +54,10 @@ try {
             if (Test-Path -LiteralPath (Join-Path $taskCandidate 'DayZDiag_x64.exe') -PathType Leaf) { $Game = $taskCandidate; break }
         }
     }
-    if (-not $Game) { throw 'DayZDiag was not found. Install DayZ Tools, prepare DayZDiag, or pass -Game "path to DayZ". This alpha requires DayZDiag.' }
+    if (-not $Game) { throw 'DayZDiag was not found. Install DayZ Tools, prepare DayZDiag, or pass -Game "path to DayZ". This editor requires DayZDiag.' }
     $Game = (Resolve-Path -LiteralPath $Game).Path
     $taskExecutable = Join-Path $Game 'DayZDiag_x64.exe'
-    if (-not (Test-Path -LiteralPath $taskExecutable -PathType Leaf)) { throw 'The selected game folder does not contain DayZDiag_x64.exe. Retail DayZ is not supported by this alpha.' }
+    if (-not (Test-Path -LiteralPath $taskExecutable -PathType Leaf)) { throw 'The selected game folder does not contain DayZDiag_x64.exe. Retail DayZ is not supported by this editor.' }
 
     if (-not $TestRange) {
         $taskRangeCandidates = New-Object 'System.Collections.Generic.List[string]'
@@ -79,7 +79,7 @@ try {
     if (-not $RuntimeRoot) { $RuntimeRoot = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'ProxyPlacementTool' }
     $RuntimeRoot = [IO.Path]::GetFullPath($RuntimeRoot)
     $taskProfiles = Join-Path $RuntimeRoot 'profiles'
-    $taskVersion = '0.4.0-alpha'
+    $taskVersion = '1.0.0'
     Write-Host ('Proxy Placement Tool - '+$taskVersion+' / Medoedovich')
     Write-Host ('DayZDiag: '+$taskExecutable)
     Write-Host ('Test Range: '+$TestRange)

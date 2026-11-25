@@ -14,6 +14,26 @@ Ground vehicles have type folders: **Truck**, **Sedan**, **Offroad**, **Hatchbac
 
 Residential has subcategories **Sheds**, **Office**, **Misc**, **House**, **City**, **Tenements**, **Stores**, **Medical**, **Police**, **Schools**, **FireDep**, **Bus**, **Slums**, **Platforms**, **Terraces**, and **Other residential objects**. These use the model's Residential subfolder. City collects HouseBlocks/city folders and models whose filename starts with City_ (including City_ variants otherwise stored in Medical, Stores or FireDep). Unrecognized paths go to Other. Only populated subcategories are shown; counts, search, folder expansion and StaticObj filtering cover the extra level.
 
+## Industrial and City/House families (unreleased)
+
+Industrial now has purpose/model-family groups including Containers, Barns, Farm buildings, Cement works, Coal plants, Factories, Workshops and repair, Garages, Industrial buildings, Construction sites, Sheds, Sawmills, Mines, Quarries, Oil facilities, Power facilities, Harbours and piers, Stockyards, Dams, Irrigation, Water towers, Storage tanks, Pipes, Smokestacks, Miscellaneous and Other. Grouping follows the Industrial model subfolder; barns are separated from other Farms models, and factory/workshop stems are separated within Houses. Unknown models stay accessible in Other. A container whose model belongs to Military remains in Military.
+
+Residential retains its existing subcategories. **House** adds series groups 1W, 2W, 1B, 2B, 1C, 2C, 3C, 1M, 2M, 1S, 2S and 3S, plus Pubs and Other. **City** adds HouseBlock series 1F, 2F, 3F, 5F, 2C, 3C and 4C, plus Hospitals, Police stations, Schools, Fire stations, Stores, Kiosks and Other. Color, damage, snow and corner variants remain separate exact-classname leaves in their matching family. Other Residential categories keep their existing levels.
+
+Empty groups are hidden. Counts include all nested classes, global search opens every ancestor, and folder expansion survives tab switching. On 24 November 2026, **365 Russian native catalog assertions passed**, including **36 new building-family checks**, with all **410 localization keys** resolving. Coverage includes examples on all four maps, preserved variants, unchanged map/global counts and the Military container boundary. See [recorded results](building-families-validation.json). English runtime checking and a new PBO remain release-preparation steps.
+
+По-русски: «Промышленные объекты» разделены на контейнеры, амбары, фермерские постройки, цементный завод, фабрики, мастерские, гаражи и другие семейства. В «Дома» добавлены серии 1W/2W/2B и остальных типов, в «Городские здания» — серии HouseBlock и отдельные группы больниц, школ, магазинов, киосков и других учреждений. Варианты цветов и повреждений остаются самостоятельными classnames. Поиск, счётчики, карты и фильтр StaticObj сохранены; пустые ветки скрыты.
+
+## Specific subgroups (unreleased)
+
+**Specific** now adds a family level between the category and classname. Populated branches include Castles and palaces, Churches and chapels, Mosques and minarets, Cemeteries and crosses, Monuments and statues, Airfields, Cableways and ski lifts, Camps, Hotels and villas, Fuel stations, Prisons, Radio and TV facilities, Amusement parks, Sports facilities, Markets, Border crossings, Research facilities, Forest objects, Human remains, Map displays and Other specific objects.
+
+Grouping follows the normalized model path under `Specific`, across all four resource families. Livonia's Cultural folder is split by known church/chapel, statue/monument and wayside-cross model stems. Nasdara's castles/palaces, mosques/minarets and burial sites are separated. Sakhal's airport and volcano-laboratory models have their own matching groups. Unknown paths remain in Other; no classname is removed. Empty groups are hidden, counts include nested classes, search reveals the full path, and tab switching preserves expansion. Existing scene objects, classnames and map membership remain unchanged.
+
+24 November 2026: **329 Russian native catalog checks passed**, including **24 subgroup checks** and all 374 localization keys. The new checks cover loaded examples from all four maps, shared membership, independent collapse, tab restoration and unchanged branch/global counts. See [recorded results](specific-subgroups-validation.json). English runtime validation is deferred to release preparation; no PBO was built for this change.
+
+По-русски: в «Специальные объекты» добавлены подгруппы по назначению: замки и дворцы, церкви и часовни, мечети и минареты, кладбища и кресты, памятники, аэродромы, канатные дороги, лагеря, гостиницы, заправки и другие семейства. Показываются только заполненные ветки. Поиск раскрывает путь, точные classnames и принадлежность картам сохраняются. Незнакомые модели остаются в «Прочих специальных объектах».
+
 ## Map association and categories
 
 1. For known static CE groups, membership comes from each official terrain's `ce/mapgrouppos.xml`. Shared classes appear under every map that uses them.

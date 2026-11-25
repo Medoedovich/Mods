@@ -1,0 +1,20 @@
+[h1]1.0.0 — First stable release[/h1]
+
+[list]
+[*]Delete selected items with the toolbar button or Delete key.
+[*]Undo and redo item creation and deletion, preserving the exact item, position, rotation and scene-list order.
+[*]Protect unsaved changes with a Project marker and Save / Don't save / Cancel before opening another project, replacing the anchor or leaving through the in-game menu.
+[*]Browse Items under Common, ChernarusPlus, Livonia, Sakhal and Nasdara branches.
+[*]Group large rifle/SMG and magazine lists by caliber. Group clothing variants by model family, with folders shown before individual items.
+[*]Add more subgroups for tools, camping equipment, food, consumables, ammunition, attachments and vehicle parts. Preserve exact classnames and global search.
+[*]Subdivide Industrial into containers, barns, cement works, garages, workshops and other facilities.
+[*]Subdivide Specific into castles, churches, chapels, monuments, airfields and other families. Add House and City/HouseBlock families inside Residential.
+[*]Show 3D hover previews for buildings, wrecks and supported StaticObj entries. Highlight the exact classname in item and object previews.
+[*]Hide explicit placeholder and technical test/debug entries from the item catalog.
+[*]Fix F4 triggering a character gesture when switching between editor and character mode.
+[*]Introduce a new illustrated Workshop cover showing angled loot placement, without Alpha branding.
+[/list]
+
+DayZDiag offline only. Test Range is required.
+
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]Source code and documentation on GitHub[/url]

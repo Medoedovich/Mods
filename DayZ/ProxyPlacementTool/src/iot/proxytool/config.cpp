@@ -14,9 +14,9 @@ class CfgMods
     class IOT_ProxyPlacementTool
     {
         dir = "ProxyPlacementTool";
-        name = "Proxy Placement Tool - Alpha";
+        name = "Proxy Placement Tool";
         author = "Medoedovich";
-        version = "0.4.0-alpha";
+        version = "1.0.0";
         type = "mod";
         dependencies[] = {"Game", "World", "Mission"};
         class defs

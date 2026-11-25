@@ -1,0 +1,64 @@
+[url=https://github.com/Medoedovich/Mods/blob/main/DayZ/ProxyPlacementTool/README-RU.md]Описание и инструкция на русском[/url]
+
+An offline DayZ editor for placing loot at different angles relative to buildings and wrecks, then exporting CE dispatch XML.
+
+Lean a rifle against a wall, place a backpack inside a wardrobe, or position a wheel diagonally on a car seat. Use the native Gizmo or enter precise coordinates and angles to create your own loot arrangements.
+
+[h2]Features[/h2]
+[list]
+[*]Create buildings, wrecks and items by dragging catalog entries into the world editing area.
+[*]Browse objects by map and category. Find items under Common, ChernarusPlus, Livonia, Sakhal and Nasdara, with subgroups for weapon calibers, clothing families, equipment and more.
+[*]Search items by their localized name or classname. Hover over entries for 3D previews of items and supported buildings and wrecks.
+[*]Move and rotate items with the native Gizmo or precise numeric fields. Use Place on surface to lay an item flat on the ground or floor below it.
+[*]Save and reopen JSON projects containing the building or wreck, placed items, character position and camera view.
+[*]Delete selected items and use Undo/Redo for placement, rotation, numeric edits, item creation and deletion.
+[*]Protect unsaved changes with Save / Don't save / Cancel before opening another project, replacing the building or wreck, or leaving through the in-game menu.
+[*]Show standard loot points and their spawn volumes to help avoid overlapping existing loot. The editor reads the installed game's data when available.
+[*]Switch to the test character to inspect placement, the Take action and the Vicinity inventory panel.
+[*]Export CE dispatch XML for the selected item or the entire building/wreck layout.
+[/list]
+
+Interface design inspired by the World Editor in Arma Reforger.
+
+[h2]Start[/h2]
+Requires DayZ, DayZ Tools with a matching DayZDiag executable and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3826868718]Test Range[/url].
+
+[olist]
+[*]Subscribe to this tool and Test Range, and wait for both downloads.
+[*]Close any running DayZ client and keep Steam running.
+[*]Open [b]steamapps/workshop/content/221100/3839146464[/b] in your Steam library.
+[*]Run [b]Start-Editor.cmd[/b].
+[/olist]
+
+Enabling the mod in the regular Launcher alone does not open the editor.
+
+The interface supports English and Russian, following the DayZDiag client language. Other interface languages fall back to English.
+
+[h2]Controls[/h2]
+Hold the right mouse button over the scene to fly. Hover over toolbar buttons for shortcuts, or open [b]Camera controls[/b] in [b]View[/b] for navigation help.
+
+[h2]Scope and limitations[/h2]
+[list]
+[*]The editor runs offline in DayZDiag with Test Range.
+[*]Each scene has one building or wreck at zero orientation and scale 1. Rotation is available for placed items.
+[*]Standard loot volumes are a reference overlay; they do not create or edit standard loot points.
+[*]Projects preserve placement data. Item inventory contents, attachments, damage and quantities are outside the saved project data.
+[/list]
+
+Merge the exported dispatch into the appropriate group in the target mission's [b]mapgroupproto.xml[/b], configure the economy as needed, including [b]types.xml[/b], and test actual spawning through CE.
+
+Character mode checks the editor preview. After integrating the XML, verify the spawned items' positions, rotations, intersections, Take actions and Vicinity visibility in the target mission.
+
+Find XML exports and the Projects folder under:
+[b]%LOCALAPPDATA%\ProxyPlacementTool\profiles\ProxyPlacement[/b]
+
+[h2]Discussion[/h2]
+[url=https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158]DayZ Modders — discussion, feedback and placement examples[/url]
+
+[h2]Source code and instructions[/h2]
+[url=https://github.com/Medoedovich/Mods/tree/main/DayZ/ProxyPlacementTool]GitHub — documentation, features, sources and build instructions[/url]
+
+For bug reports, include the DayZDiag version, building/item classnames, reproduction steps and relevant log lines.
+
+[h2]Contact[/h2]
+Discord: [b]medoedovich[/b]

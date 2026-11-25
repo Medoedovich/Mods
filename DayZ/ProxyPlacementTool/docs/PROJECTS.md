@@ -2,6 +2,8 @@
 
 Save and open placement projects through **Save project** and **Open project** on the toolbar. Available in 0.4.0-alpha.
 
+The development version adds an unsaved-change marker and Save / Don't save / Cancel guards. See [unsaved projects](UNSAVED-PROJECTS.md).
+
 ## Save and open
 
 1. Click **Save project**, enter a name without `.json`, then save. Selecting a name from the list fills the name field. Saving an existing name requires a second confirmation.

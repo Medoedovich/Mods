@@ -1,4 +1,28 @@
-# 0.4.0-alpha release candidate
+# 1.0.0 — release candidate
+
+Prepared for manual publication; not yet published to Workshop.
+
+- Group Industrial objects by model family and purpose, including containers, barns, cement works, garages, workshops, power and oil facilities. Add House series and City/HouseBlock families inside Residential, keeping color/damage/snow variants separate. Preserve search, exact classnames, counts and map membership; Military containers retain their category.
+
+- Subdivide Specific objects by model family across all maps: castles/palaces, churches/chapels, mosques/minarets, cemeteries, monuments, airfields, cableways, camps, hotels, fuel stations and other facilities. Preserve exact classnames, map membership, aggregate counts, StaticObj filtering and global search. Hide empty groups and keep unknown models accessible in Other.
+
+- Highlight the technical classname with a warm sand accent in both item and object hover previews.
+- Prevent F4 from triggering the character's gesture when switching between the editor and character mode. Suppress the associated gesture input before restoring gameplay focus, and allow one switch per key press. Physical-keyboard verification passed in both directions on 24 November 2026.
+- Add hover previews for buildings, wrecks and supported StaticObj entries in Objects, using the same 250 ms popup and exact classname as Items. Keep temporary models below the world without collision or scene ownership; release them when leaving, filtering, switching tabs or starting a drag. Preserve the active scene anchor, selected item and Gizmo.
+- Subdivide the remaining recommended large catalog sections except Books: vehicle body parts by vehicle and part type, food and consumables by purpose, stocks/handguards by type and weapon family, loose ammunition by caliber or projectile type, containers, flags, armbands, Other tools and Other items. Add semantic types above model families for headgear and tops. Preserve all classnames, map membership, search and exact variant selection.
+- Split large Camping lists into Tents and shelters, Storage, Construction, Locks, Power supply, Lighting, Flags and flagpoles, and an unknown-item fallback. Preserve map membership, exact classnames and global search. Catalog-only developer runs export actual item groups for identifying further oversized lists.
+- Group clothing categories with more than 30 items by model family within each map/Common branch. Collect color variants under localized garment names, retain single-member families as direct rows, and keep separate configured families distinct even when they share a ground model. Show subfolders before direct item rows throughout Items. Preserve exact classnames, search and complete catalog coverage.
+- Split both Rifles and SMGs and Magazines by cartridge when their list exceeds 30 entries within a map/Common branch. Use accepted rounds from weapon chamberableFrom or magazine ammoItems, merging regular/tracer/AP variants of the same cartridge and resolving clip/speedloader contents. Keep each magazine once regardless of its compatible weapons. Preserve search, exact selection and visible catalog totals.
+- Group Items into Common, ChernarusPlus, Livonia, Sakhal and Nasdara based on positive nominal records read from the installed official types.xml files. Common includes shared items and items without a confirmed exclusive map. Keep each visible classname once and preserve nested categories, localized global search and exact selection. Do not infer exclusivity when a map source is unavailable. See [item map definitions](docs/ITEM-MAPS.md).
+- Hide explicit $UNT$ / TODO placeholders, technical Test_/Debug_ and _Test/_Debug classnames, DoorTestCamera and M79DummyOptics from the item catalog and search. Preserve BloodTestKit, ordinary untranslated item names and existing scene/project class resolution.
+- Split Equipment → Tools into Construction, Hand tools, Cutting and sawing, Repair kits and supplies, and Other tools when the loaded tool list exceeds 30 items. Keep smaller lists flat, retain unknown tools in Other tools, and reveal all ancestor folders when searching by localized name or classname. All 14 new Russian native catalog checks passed; visual review is pending.
+- Mark unsaved scene changes in the Project toolbar heading and offer Save, Don't save or Cancel before opening another project, replacing an anchor or leaving through the in-game menu. Resume the requested action only after a successful save. Returning to saved scene contents through Undo clears the marker.
+- Add a Delete item toolbar action and Delete shortcut for selected ground items. Keep text-field Delete behavior and block entity deletion in flight, dialogs and character mode.
+- Extend Undo/Redo to item creation and deletion. Restore the classname, transform, anchor ownership and list order, and retain earlier transform edits across native item recreation. Failed restoration keeps the history action available for retry.
+
+# 0.4.0-alpha — 2026-11-17
+
+Published manually by the author. All 17 downloaded Workshop files match the package tested in Russian and English.
 
 - Restore 3D models in catalog hover previews with the blurred backdrop enabled.
 - Scroll two rows per mouse-wheel step in both catalog tabs while preserving the selected entry.

@@ -1,0 +1,40 @@
+{
+  "status": "WORKSHOP_DELIVERY_FILES_VERIFIED",
+  "version": "1.0.0",
+  "publicationDate": "2026-11-25",
+  "publicationSource": "AUTHOR_CONFIRMATION_IN_CHAT",
+  "workshopItemId": "3839146464",
+  "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839146464",
+  "authorManualPublication": true,
+  "expectedPackage": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\GitHubPublish\\Mods\\DayZ\\ProxyPlacementTool\\build\\20261124-173151-520\\@ProxyPlacementTool",
+  "expectedPboSha256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E",
+  "preparedRuntimeValidation": {
+    "Languages": [
+      "Russian",
+      "English"
+    ],
+    "ChecksPerLanguage": 658,
+    "LocalizationKeys": 410,
+    "PackageFiles": 17,
+    "FilePatching": false
+  },
+  "downloadedCopy": {
+    "status": "FILES_MATCH_PREPARED_PACKAGE",
+    "installedFolder": "D:\\SteamLibrary\\steamapps\\workshop\\content\\221100\\3839146464",
+    "observedVersion": "1.0.0",
+    "observedPboSha256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E",
+    "observedContentManifestId": "8375434699612165101",
+    "verifiedPackageFiles": 17,
+    "verifiedAt": "2026-11-25T10:58:56.9535796+03:00",
+    "hostFilesystemChecked": true,
+    "newReleaseFilesVerified": true,
+    "runtimeRetested": false
+  },
+  "publicPageIndependentlyVerified": false,
+  "descriptionIndependentlyVerified": false,
+  "previewIndependentlyVerified": false,
+  "expectedPreview": "1.0.0/preview-1.0.0-v2.jpg",
+  "expectedPreviewSha256": "71FE89A3BEDD302791CC82CF2583C0E6B38B1FF95D104C8403F6BB1AE0E40408",
+  "githubPublicationPerformed": false,
+  "discordAnnouncementConfirmed": false
+}

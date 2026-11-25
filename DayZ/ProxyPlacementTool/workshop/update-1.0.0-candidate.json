@@ -1,0 +1,32 @@
+{
+  "status": "WORKSHOP_DELIVERY_FILES_VERIFIED",
+  "version": "1.0.0",
+  "title": "Proxy Placement Tool",
+  "author": "Medoedovich",
+  "workshopItemId": "3839146464",
+  "requiredItems": [
+    "3826868718"
+  ],
+  "updateExistingItem": true,
+  "published": true,
+  "authorManualPublication": true,
+  "package": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\GitHubPublish\\Mods\\DayZ\\ProxyPlacementTool\\build\\20261124-173151-520\\@ProxyPlacementTool",
+  "archive": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\artifacts\\ProxyPlacementTool-1.0.0-20261124-173151-520.zip",
+  "pboSha256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E",
+  "archiveSha256": "EBFC30115F68B0B04416D27D5055E31A9D0C7E1222964F5E1CAD6E4569ACB6B5",
+  "preview": "1.0.0/preview-1.0.0-v2.jpg",
+  "previewSha256": "71FE89A3BEDD302791CC82CF2583C0E6B38B1FF95D104C8403F6BB1AE0E40408",
+  "previewKind": "Generated illustration; not a game screenshot",
+  "previewBytes": 397618,
+  "validation": "../docs/VALIDATION-1.0.0.md",
+  "changelog": "../CHANGELOG.md",
+  "checksPerLanguage": 658,
+  "localizationKeys": 410,
+  "packageFiles": 17,
+  "publicationDate": "2026-11-25",
+  "publicationSource": "AUTHOR_CONFIRMATION_IN_CHAT",
+  "downloadedCopyVerified": true,
+  "publicationRecord": "publication-1.0.0.json",
+  "workshopContentManifestId": "8375434699612165101",
+  "verifiedPackageFiles": 17
+}

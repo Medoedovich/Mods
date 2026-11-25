@@ -1,0 +1,36 @@
+{
+  "Status": "READY_FOR_AUTHOR_PUBLICATION",
+  "Version": "1.0.0",
+  "PreparedAt": "2026-11-24T17:35:47.3429550+03:00",
+  "Package": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\GitHubPublish\\Mods\\DayZ\\ProxyPlacementTool\\build\\20261124-173151-520\\@ProxyPlacementTool",
+  "Archive": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\artifacts\\ProxyPlacementTool-1.0.0-20261124-173151-520.zip",
+  "ArchiveSHA256": "EBFC30115F68B0B04416D27D5055E31A9D0C7E1222964F5E1CAD6E4569ACB6B5",
+  "PboSHA256": "AC8A616160B47BB992F220563221F4FA7F974FE439DCD4B764A584A5F61D9D2E",
+  "PackageFiles": 17,
+  "ArchiveFilesVerified": 17,
+  "Validation": [
+    {
+      "Language": "Russian",
+      "Checks": 658,
+      "FeatureAssertions": 266,
+      "LocalizationKeys": 410,
+      "XmlExports": 6,
+      "Report": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\RELEASE-100-VALIDATION-Russian.json"
+    },
+    {
+      "Language": "English",
+      "Checks": 658,
+      "FeatureAssertions": 266,
+      "LocalizationKeys": 410,
+      "XmlExports": 6,
+      "Report": "C:\\Users\\Phil\\Documents\\ChatGPT\\DayZ\\ProxyPlacementTool\\release\\RELEASE-100-VALIDATION-English.json"
+    }
+  ],
+  "SourceMatchesBuild": true,
+  "InstalledCopiesMatch": true,
+  "LastPublishedVersion": "0.4.0-alpha",
+  "WorkshopItemId": "3839146464",
+  "RetainedPublishedDistribution": true,
+  "VisualReview": "AUTHOR_ON_REQUEST",
+  "Published": false
+}
