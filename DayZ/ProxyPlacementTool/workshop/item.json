@@ -24,7 +24,14 @@
   "discussionUrl": "https://discord.com/channels/452035973786632194/1575067129089228870/1575067129089228870",
   "alphaDiscussionUrl": "https://discord.com/channels/452035973786632194/1570899882439344158/1570899882439344158",
   "discussionUrlSource": "AUTHOR_PROVIDED_LINK_AND_PUBLICATION_SCREENSHOTS",
-  "workshopDiscussionLinkUpdatePending": true,
+  "workshopDiscussionLinkUpdatePending": false,
+  "workshopDiscussionLinkUpdate": {
+    "date": "2026-11-25",
+    "authorReportedSaved": true,
+    "confirmationSource": "AUTHOR_CONFIRMATION_IN_CHAT",
+    "url": "https://discord.com/channels/452035973786632194/1575067129089228870/1575067129089228870",
+    "publicLinkIndependentlyVerified": false
+  },
   "discordContact": "medoedovich",
   "communityLinksUpdateDate": "2026-11-25",
   "communityLinksVerifiedInEnglishAndRussian": false,

@@ -45,6 +45,13 @@
     "verifiedPackageFiles": 17,
     "verification": "GitHub connector branch and recursive tree matched the local commit and all published file blobs"
   },
+  "workshopDiscussionLinkUpdate": {
+    "date": "2026-11-25",
+    "authorReportedSaved": true,
+    "confirmationSource": "AUTHOR_CONFIRMATION_IN_CHAT",
+    "url": "https://discord.com/channels/452035973786632194/1575067129089228870/1575067129089228870",
+    "publicLinkIndependentlyVerified": false
+  },
   "discordAnnouncementConfirmed": true,
   "discordAnnouncement": {
     "date": "2026-11-25",
