@@ -12,7 +12,7 @@ Use **Save project** to keep an editable scene and **Open project** to resume it
 
 **1.0.0 was published manually by the author on 25 November 2026.** All 17 downloaded Workshop files match the tested package by SHA-256. The package includes Specific/Industrial subgroups and City/House families and passed 658 native checks in each of Russian and English, resolving 410 localization keys. See the [release record](docs/VALIDATION-1.0.0.md) and [new illustrated cover](workshop/1.0.0/preview-1.0.0-v2.jpg).
 
-[Editor features](FEATURES.md)
+[Editor features](FEATURES.md) · [Placement examples](examples/README.md)
 
 ## Start
 

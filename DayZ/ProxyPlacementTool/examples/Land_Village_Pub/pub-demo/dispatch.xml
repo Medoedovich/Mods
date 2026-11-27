@@ -1,0 +1,14 @@
+<prototype>
+  <group name="Land_Village_Pub">
+    <dispatch>
+      <proxy type="Izh18Shotgun" pos="-1.44421 0.449695 7.53049" rpy="180 -87.8368 180" />
+      <proxy type="Broom" pos="-2.58679 0.438541 2.64304" rpy="-90 76.076 90" />
+      <proxy type="HuntingKnife" pos="0.13446 0.501634 2.70895" rpy="0 0 -179.657" />
+      <proxy type="Repeater" pos="-2.16968 -3.10163 7.56296" rpy="-78.3493 13.7215 -72.3339" />
+      <proxy type="Ammo_357" pos="-1.02911 -2.30447 7.52094" rpy="0 0 0" />
+      <proxy type="CowboyHat_black" pos="1.08362 -2.70139 5.88721" rpy="36.3202 0 0" />
+      <proxy type="SodaCan_Kvass" pos="-2.22772 -2.87834 -0.423492" rpy="62.9835 0 0" />
+      <proxy type="WoodAxe" pos="-2.40039 -3.31802 1.3912" rpy="102.049 -45.966 -102.227" />
+    </dispatch>
+  </group>
+</prototype>
